@@ -1,0 +1,12 @@
+/* */
+/*Header*/
+
+/* Footer */
+
+.copyright{
+	font-size:1.2em;
+}
+.copyright__sign:after{ content:'\00a9'; }
+
+#copyright__year{
+}

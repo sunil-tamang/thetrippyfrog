@@ -1,1 +1,10 @@
- 
+img
+*.jpg
+*.png
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
