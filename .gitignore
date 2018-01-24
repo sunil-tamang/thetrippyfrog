@@ -1,6 +1,7 @@
 img
 *.jpg
 *.png
+*.db
 
 # Environments
 .env
