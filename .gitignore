@@ -2,6 +2,7 @@ img
 *.jpg
 *.png
 *.db
+Thumbs.db
 
 # Environments
 .env
