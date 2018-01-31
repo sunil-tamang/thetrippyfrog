@@ -110,10 +110,69 @@
 
 /* --------------------C-O-N-T-E-N-T--------------------- */
 
-.activities{
+.content{
     text-align: center;
 }
 
+.wrapper{
+    display: table;
+    width: 100%;
+    overflow: hidden;
+}
+
+.wopper{
+    display: table-cell;
+    vertical-align: middle;
+    background: url('img/rafting-883523_1280.jpg') center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    transition: all 1s ease;
+    position: relative;
+}
+
+.wopper:after{
+    content:'';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(0, 0, 0, 0.85);
+    opacity: 0;
+    transition: all 0.5s ease;
+    z-index: -1;
+}
+
+.wopper__title{
+    display: table; 
+    width: 100%;
+    height: 100%;
+}
+
+.wopper__title span{
+    display: table-cell; 
+    vertical-align: middle;
+    opacity: 0;
+    font-size: 1.8em;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.wrapper:hover > .wopper{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.wrapper:hover >.wopper:after{
+    opacity: 0.8;
+}
+
+.wrapper:hover > .wopper span{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
 
 /* --------------------F-O-O-T-E-R--------------------- */
 
@@ -166,7 +225,7 @@
 .copyright a:hover{
     color: #222;
 /*    text-decoration: underline;*/
-    transition: all 0.5s ease;
+    transition: all 0.2s ease;
     box-shadow: inset 0px -20px 0 0 #fff;
 }
 
@@ -174,6 +233,6 @@
 @media(min-width:48em)
 {
     .copyright{
-    text-align: left;
+        text-align: left;
     }
 }
