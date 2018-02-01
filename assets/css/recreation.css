@@ -114,21 +114,38 @@
     text-align: center;
 }
 
-.wrapper{
-    display: table;
+.content__title{
+    display: inline-block;
+    padding-bottom: 0.8em;
+    position: relative;
+}
+
+.content__title:after{
+    content: '';
+    position: absolute;
     width: 100%;
+    left: 0;
+    bottom: 0.4em;
+    height: 2px;
+    background: #333;
+}
+
+.wrapper{
+    position: relative;
+    display: table;
+/*    width: 100%;*/
     overflow: hidden;
 }
 
 .wopper{
     display: table-cell;
     vertical-align: middle;
-    background: url('img/rafting-883523_1280.jpg') center no-repeat;
-    background-size: cover;
     width: 100%;
-    height: 300px;
+    height: 100%;
     transition: all 1s ease;
     position: relative;
+    padding-bottom: 50%; /*Maintaining Aspect Ratio*/
+    overflow: hidden;
 }
 
 .wopper:after{
@@ -145,24 +162,35 @@
     z-index: -1;
 }
 
+.wopper--rafting{background: url(img/rafting-883523_1280.jpg) center no-repeat; background-size: 100%;}
+.wopper--paragliding{background: url(img/paragliding-2965247_1920.jpg) center no-repeat; background-size: 100%;}
+.wopper--trek{background: url(img/bonfire-1867275_1920.jpg) center no-repeat ; background-size: 100%;}
+.wopper--bike{background: url(img/cycling-1533270_1920.jpg) center no-repeat; background-size: 100%;}
+
 .wopper__title{
-    display: table; 
     width: 100%;
     height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .wopper__title span{
     display: table-cell; 
     vertical-align: middle;
     opacity: 0;
-    font-size: 1.8em;
+    font-size: 2em;
     color: #fff;
+    transform: scale(0.2);
     transition: all 0.5s ease;
 }
 
 .wrapper:hover > .wopper{
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 
 .wrapper:hover >.wopper:after{
