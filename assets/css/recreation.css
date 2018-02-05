@@ -17,7 +17,7 @@
     width: 100%;
     z-index: 1;
     background: #333;
-    background: rgba(0, 0, 0, 0.74);
+    background: rgba(0, 0, 0, 0.88);
     padding: 0.5em 0;
 }
 .header__logo, .header__nav{
@@ -27,6 +27,7 @@
 
 .header__nav{
     float: right;
+    overflow: visible;
 }
 
 .nav{
@@ -45,6 +46,28 @@
 
 .nav__li a{
     padding: 1em;
+    background: red;
+}
+
+.nav__dropdown{
+        position: absolute;
+    left: auto;
+    top: 3.4em;
+    /* width: 100%; */
+}
+
+li.nav__dropdown--item{
+/*    background: red;*/
+/*    padding: 1.2em 0;*/
+}
+li.nav__dropdown--item a{
+    background: rgba(0, 0, 0, 0.85);
+    display: block;
+    transition: all 0.3s ease;
+}
+
+li.nav__dropdown--item a:hover{
+    left: 2em;
     background: red;
 }
 
@@ -107,6 +130,7 @@
     top:12px;
     transform: rotate(45deg);
 }
+
 
 
 /* --------------------C-O-N-T-E-N-T--------------------- */
