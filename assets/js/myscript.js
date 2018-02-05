@@ -19,10 +19,30 @@ $(document).ready(function(){
             $('#trigger').addClass('expanded');
         }
     });
+    
+    // Dropdown Trigger
+    $('.dropdown__trigger').click(function(event){
+        event.stopPropagation(); //click on itself and simple toggle
+//        $('.nav__dropdown ').slideToggle();
+        if($('.dropdown__trigger').hasClass('dropdown--open')){
+            $('.dropdown__trigger.dropdown--open').removeClass('dropdown--open');
+            $('.nav__dropdown--item.item--open').removeClass('item--open');
+            $('.nav__dropdown ').slideUp("slow");
+        }
+        else{
+            $('.dropdown__trigger').addClass('dropdown--open');
+            $('.nav__dropdown--item').addClass('item--open');
+            $('.nav__dropdown ').slideDown("slow");
+        }
+    });
 });
 
 $(window).on('load', function(){
 	
+});
+
+$(document).on("click", function () {
+    $(".nav__dropdown").slideUp(); //click outside of ".nav__dropdown" class itself and slideUp() will fire
 });
 
 
