@@ -11,28 +11,41 @@ $(document).ready(function(){
     });
 
     // Menu Trigger
-    $('#trigger').click(function(){
+    $('#trigger').click(function(event){
+        event.stopPropagation();
         if($('#trigger').hasClass('expanded')){
             $('#trigger.expanded').removeClass('expanded');
+            $('.header__nav.nav--open').removeClass('nav--open');
         }
         else{
             $('#trigger').addClass('expanded');
+            $('.header__nav').addClass('nav--open');
         }
+    });
+    
+    $('.header__nav').click(function(event){
+       event.stopPropagation(); 
     });
     
     // Dropdown Trigger
     $('.dropdown__trigger').click(function(event){
+         var i;
         event.stopPropagation(); //click on itself and simple toggle
-//        $('.nav__dropdown ').slideToggle();
         if($('.dropdown__trigger').hasClass('dropdown--open')){
-            $('.dropdown__trigger.dropdown--open').removeClass('dropdown--open');
+            $('.dropdown__trigger.dropdown--open, .nav__dropdown').removeClass('dropdown--open');
             $('.nav__dropdown--item.item--open').removeClass('item--open');
-            $('.nav__dropdown ').slideUp("slow");
+            $(".nav__dropdown li").each(function(i){
+                    var t = $(this);
+                    setTimeout(function(){ t.removeClass('item--open'); }, (i+1) * 10); 
+            });
         }
         else{
-            $('.dropdown__trigger').addClass('dropdown--open');
+            $('.dropdown__trigger, .nav__dropdown').addClass('dropdown--open');
             $('.nav__dropdown--item').addClass('item--open');
-            $('.nav__dropdown ').slideDown("slow");
+            $(".nav__dropdown li").each(function(i){
+                var t = $(this);
+                setTimeout(function(){ t.addClass('item--open'); }, (i+1) * 200);
+            });
         }
     });
 });
@@ -42,7 +55,16 @@ $(window).on('load', function(){
 });
 
 $(document).on("click", function () {
-    $(".nav__dropdown").slideUp(); //click outside of ".nav__dropdown" class itself and slideUp() will fire
+    //click outside of ".nav__dropdown" class itself and menu will be hidden
+    var i;
+    $('.dropdown__trigger.dropdown--open, .nav__dropdown').removeClass('dropdown--open');
+    $('.nav__dropdown--item.item--open').removeClass('item--open');
+    $('#trigger.expanded').removeClass('expanded');
+    $('.header__nav.nav--open').removeClass('nav--open');
+    $(".nav__dropdown li").each(function(i){
+        var t = $(this);
+        setTimeout(function(){ t.removeClass('item--open'); }, (i+1) * 10);
+    });
 });
 
 
