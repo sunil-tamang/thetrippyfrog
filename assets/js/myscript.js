@@ -3,7 +3,7 @@ AOS.init({
 })
 
 $(document).ready(function(){
-    
+//    $("html, body").animate({ scrollTop: 0 }),0; 
     //Back To Top
     $(window).scroll(function(){ 
         if ($(this).scrollTop() > 500) { 
