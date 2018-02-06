@@ -297,7 +297,9 @@ li.nav__dropdown--item.item--open{
 
 
 .backToTop{
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
     position: fixed;
     background: rgba(0,0,0,0.85);
     width: 50px;
@@ -306,6 +308,8 @@ li.nav__dropdown--item.item--open{
     bottom: 1.8em;
     right: 1.8em;
     cursor: pointer;
+    transform: translate3d(0px, 20px ,0px);
+    transition:all 0.4s ease;
 }
 .backToTop:after{
     content: '\02c6';
@@ -314,10 +318,20 @@ li.nav__dropdown--item.item--open{
     top: 0.18em;
     color: #fff;
     font-size: 4em;
-/*
-    width: 50px;
-    height: 50px;
-*/
+}
+.backToTop:hover{
+    background: rgba(0,0,0,1);
+}
+
+.backToTop.show{
+    visibility: visible;
+    opacity: 1;
+    transform: translate3d(0px, 0px ,0px);
+}
+.backToTop.hide{
+    visibility: hidden;
+    opacity: 0;
+    transform: translate3d(0px, 20px ,0px);
 }
 
 @media(min-width:48em)

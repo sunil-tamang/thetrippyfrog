@@ -7,9 +7,11 @@ $(document).ready(function(){
     //Back To Top
     $(window).scroll(function(){ 
         if ($(this).scrollTop() > 500) { 
-            $('.backToTop').fadeIn(); 
+            $('.backToTop').removeClass("hide");
+            $('.backToTop').addClass("show"); 
         } else { 
-            $('.backToTop').fadeOut(); 
+            $('.backToTop').removeClass("show");
+            $('.backToTop').addClass("hide");
         } 
     }); 
     $('.backToTop').click(function(){ 
