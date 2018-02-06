@@ -1,4 +1,22 @@
+AOS.init({
+  duration: 800,
+})
+
 $(document).ready(function(){
+    
+    //Back To Top
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 500) { 
+            $('.backToTop').fadeIn(); 
+        } else { 
+            $('.backToTop').fadeOut(); 
+        } 
+    }); 
+    $('.backToTop').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+    
 	$('#copyright__year').html(function(){
 		var today = new Date();
 		return today.getFullYear();

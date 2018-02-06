@@ -9,7 +9,6 @@
     color: #da2525;
 }
 
-
 .header{
     position: fixed;
     top:0;
@@ -296,6 +295,30 @@ li.nav__dropdown--item.item--open{
     box-shadow: inset 0px -20px 0 0 #fff;
 }
 
+
+.backToTop{
+    display: none;
+    position: fixed;
+    background: rgba(0,0,0,0.85);
+    width: 50px;
+    height: 50px;
+    border-radius: 360px;
+    bottom: 1.8em;
+    right: 1.8em;
+    cursor: pointer;
+}
+.backToTop:after{
+    content: '\02c6';
+    position: absolute;
+    left: 0.1em;
+    top: 0.18em;
+    color: #fff;
+    font-size: 4em;
+/*
+    width: 50px;
+    height: 50px;
+*/
+}
 
 @media(min-width:48em)
 {
