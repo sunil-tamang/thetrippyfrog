@@ -173,6 +173,20 @@ li.nav__dropdown--item.item--open{
 
 /* --------------------C-O-N-T-E-N-T--------------------- */
 
+.welcome{
+    position: relative;
+    background: url(img/bg/journey-2406354_1280.jpg) center no-repeat;
+    background-size: cover;
+}
+.content__bg-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.68);
+    z-index: 0;
+}
 .content{ text-align: center; }
 
 .content__title{
@@ -180,8 +194,12 @@ li.nav__dropdown--item.item--open{
     padding-bottom: 0.8em;
     position: relative;    
     font-weight: bold;
-    color: #fb4a4a;
+    margin-bottom: 0.5em;
+/*    color: #fb4a4a;*/
 }
+
+.content__title-white{color:#fff;}
+.content__title-red{color:#fb4a4a;}
 
 .content__title:after{
     content: '';
@@ -189,9 +207,26 @@ li.nav__dropdown--item.item--open{
     width: 100%;
     left: 0;
     bottom: 0.4em;
-    height: 2px;
+    height: 8px;
+/*    background: #333;*/
+}
+
+.content__title-white:after{
+    background: #fb4a4a;
+}
+.content__title-red:after{
     background: #333;
 }
+
+.content__pg{
+    color:#fff;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    padding-bottom: 2em;
+}
+.content__pg-white{color:#fff;}
+.content__pg-black{color:#333;}
+
 
 .wrapper{
     position: relative;
@@ -336,7 +371,7 @@ li.nav__dropdown--item.item--open{
     bottom: 1.8em;
     right: 1.8em;
     cursor: pointer;
-    transform: translate3d(0px, 20px ,0px);
+    transform: translate3d(0px, 40px ,0px);
     transition:all 0.4s ease;
 }
 .backToTop:after{
