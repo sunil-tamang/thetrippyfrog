@@ -1,12 +1,24 @@
+// Animate-On-Scroll Effects
 AOS.init({
   duration: 800,
 })
 
+// Testimonials
+$(".testimonial").slick({
+    arrows: true,
+    dots: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    adaptiveHeight: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+});
+
 $(document).ready(function(){
-//    $("html, body").animate({ scrollTop: 0 }),0; 
     //Back To Top
     $(window).scroll(function(){ 
-        if ($(this).scrollTop() > 500) { 
+        if ($(this).scrollTop() > 200) { 
             $('.backToTop').removeClass("hide");
             $('.backToTop').addClass("show"); 
         } else { 
@@ -15,7 +27,7 @@ $(document).ready(function(){
         } 
     }); 
     $('.backToTop').click(function(){ 
-        $("html, body").animate({ scrollTop: 0 }, 600); 
+        $("html, body").animate({ scrollTop: 0 }, 'slow', "swing"); 
         return false; 
     }); 
     
