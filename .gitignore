@@ -13,3 +13,6 @@ ENV/
 
 # Temporary
 rafting.html
+
+# Except These
+!assets/css/img/bonfire.jpg

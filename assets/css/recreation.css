@@ -2,7 +2,7 @@
     height: 100%;
     padding:1em;
 /*    background-image: linear-gradient(0deg,#92257f,#5227bf);*/
-    background-image: url(https://lh5.googleusercontent.com/7x9NUjISu23kvoea8boUP-dfv9EEUonjRYYnm0OVwsC9MbFW_3zUQne48Azo-_KNqO-ghYhpdLVRZArKmjMT=w1366-h672-rw);
+    background-image: url(https://drive.google.com/file/d/17hKLHfNuLrcHXWfhhfhh8bWO4rTfl71a/view);
     background-size: cover;
     background-attachment:local;
 /*    opacity: 0.8;*/
@@ -205,6 +205,19 @@ li.nav__dropdown--item.item--open{
     font-weight: bold;
     margin-bottom: 0.5em;
 /*    color: #fb4a4a;*/
+}
+.col-three{
+    padding: 5em 0.5em;
+    height: 100%;
+}
+.col-three:nth-child(1){
+    background-color: #fb4a4a;
+}
+.col-three:nth-child(2){
+    background-color: #111;
+}
+.col-three:nth-child(3){
+    background-color: #333;
 }
 
 .content__title-white{color:#fff;}
