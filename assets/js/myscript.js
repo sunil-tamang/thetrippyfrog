@@ -106,12 +106,10 @@ $(document).on("click", function () {
 
 function checkScrollTop(){
     if ($(window).scrollTop() > 100) { 
-        $('.header').css({'background-color':'rgba(0,0,0,0.95)'});
         $('.header__logo').css({'color':'#fff'});
         $('.backToTop').removeClass("hide");
         $('.backToTop').addClass("show"); 
     } else { 
-        $('.header').css({'background-color':'rgba(0,0,0,0)'});
         $('.header__logo').css({'color':'#fff'});
         $('.backToTop').removeClass("show");
         $('.backToTop').addClass("hide");
@@ -120,9 +118,9 @@ function checkScrollTop(){
 
 
 // Mobile or Wide
-function menuWideOrMobile(event){
+function menuWideOrMobile(){
 	// It's Mobile
-	if($(window).width()<'768')
+	if($(window).width()<"768")
 	{ 
         $("#nav, #trigger__wrapper").addClass('mobile');
         $('#nav, #trigger__wrapper').removeClass('wide');
