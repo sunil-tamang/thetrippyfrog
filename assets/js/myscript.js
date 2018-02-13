@@ -106,11 +106,9 @@ $(document).on("click", function () {
 
 function checkScrollTop(){
     if ($(window).scrollTop() > 100) { 
-        $('.header__logo').css({'color':'#fff'});
         $('.backToTop').removeClass("hide");
         $('.backToTop').addClass("show"); 
     } else { 
-        $('.header__logo').css({'color':'#fff'});
         $('.backToTop').removeClass("show");
         $('.backToTop').addClass("hide");
     } 
@@ -122,12 +120,16 @@ function menuWideOrMobile(){
 	// It's Mobile
 	if($(window).width()<"768")
 	{ 
+        $('body').addClass('mobile');
+        $('body').removeClass('wide');
         $("#nav, #trigger__wrapper").addClass('mobile');
         $('#nav, #trigger__wrapper').removeClass('wide');
 	}
 	//It's Not Mobile
 	else
 	{
+        $('body').addClass('wide');
+        $('body').removeClass('mobile');
         $("#nav, #trigger__wrapper").addClass('wide');
         $('#nav, #trigger__wrapper').removeClass('mobile');
 	}
