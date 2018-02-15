@@ -190,7 +190,7 @@ li.nav__dropdown--item.item--open{
 
 .welcome{
     position: relative;
-    background: url('img/bg/pexels-photo-226721 (2).jpeg') center no-repeat;
+    background: url('images/welcome.bg.jpeg') center no-repeat;
     background-size: cover;
     background-attachment: fixed;
     padding-left: 0;padding-right: 0; max-width: 100%;
@@ -305,12 +305,12 @@ li.nav__dropdown--item.item--open{
     transition: all 0.5s ease;
     z-index: -1;
 }
-.wopper--rafting{background: url(img/rafting-883523_1280.jpg) center no-repeat; background-size: 100%;}
-.wopper--paragliding{background: url(img/paragliding-2965247_1920.jpg) center no-repeat; background-size: 100%;}
-.wopper--trek{background: url('img/bg/trekking-2264703_1280.jpg') center no-repeat ; background-size: 100%;}
-.wopper--camp{background: url('img/bg/camp%20(1).jpeg') center no-repeat ; background-size: 100%;}
-.wopper--bike{background: url('img/pexels-photo-207171 (2).jpeg') center no-repeat; background-size: 100%;}
-.wopper--gypsy{background: url('img/desert-2423177_1280.jpg') center no-repeat; background-size: 100%;}
+.wopper--rafting{background: url(images/rafting.jpg) center no-repeat; background-size: 100%;}
+.wopper--paragliding{background: url(images/paragliding.jpg) center no-repeat; background-size: 100%;}
+.wopper--trek{background: url('images/trek.jpg') center no-repeat ; background-size: 100%;}
+.wopper--camp{background: url('images/camp.jpeg') center no-repeat ; background-size: 100%;}
+.wopper--bike{background: url('images/bike.jpeg') center no-repeat; background-size: 100%;}
+.wopper--gypsy{background: url('images/4x4.jpg') center no-repeat; background-size: 100%;}
 
 .wopper__title{
     width: 100%;
