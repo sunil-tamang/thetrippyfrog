@@ -55,7 +55,6 @@
 .col-narrow,
 .col-narrow--right { margin-bottom: 1.5em; }
 .col-medium{width: 100%;}
-.col-three{width: 100%;}
 
 
 
@@ -84,7 +83,6 @@
 		padding-right: 2em;
 	}
 	
-    .col-three,
 	.col-narrow,
 	.col-medium,
 	.col-wide { float: left; }
@@ -95,7 +93,6 @@
 	.col-wide--right { width: 61%; }
 	
 	.col-medium { width: 50%; }
-	.col-three { width: 33.33%; }
 	
 	.col-narrow,
 	.col-narrow--right

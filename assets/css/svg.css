@@ -1,15 +1,19 @@
 .svg-inline--fa{
-    display: inline-block; 
+/*    display: inline-block; */
     display: none; 
+/*
     font-size: inherit; 
     height: 1em; 
     overflow: visible; 
     vertical-align: -.125em; 
+*/
 }
+/*
 .svg-inline--fa.fa-w-12 {
     fill: #fff;
     width: .75em;
 }
+*/
 
 .fa-man-walking{
 /*    font-size: 1.5em;*/
