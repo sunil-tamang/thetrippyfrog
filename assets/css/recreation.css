@@ -523,15 +523,6 @@ li.nav__dropdown--item.item--open{
         font-size: 1.4em;
         font-weight: 800;
     }
-    .col-three--wrapper{
-        display: table;
-    }
-    .col-three{
-        display: table-cell;
-        vertical-align: middle;
-        height: 100%;
-        padding: 5em 3em;
-    }
     .copyright{
         text-align: left;
     }
