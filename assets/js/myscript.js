@@ -43,6 +43,7 @@ $(document).ready(function(){
     $('#trigger').click(function(event){
         event.stopPropagation();
         if($('#trigger').hasClass('expanded')){
+            $('.nav-wrapper').fadeOut(500);
             $('#trigger.expanded').removeClass('expanded');
             $('.header__nav.nav--open').removeClass('nav--open');
             $('.dropdown__trigger.dropdown--open, .nav__dropdown').removeClass('dropdown--open');
@@ -53,6 +54,7 @@ $(document).ready(function(){
             });
         }
         else{
+            $('.nav-wrapper').fadeIn(500);
             $('#trigger').addClass('expanded');
             $('.header__nav').addClass('nav--open');
         }
@@ -67,6 +69,13 @@ $(document).ready(function(){
          var i;
         event.stopPropagation(); //click on itself and simple toggle
         if($('.dropdown__trigger').hasClass('dropdown--open')){
+            if($('#trigger').hasClass('expanded')){
+               $('.nav-wrapper').fadeIn(500);
+            }
+            else{
+               $('.nav-wrapper').fadeOut(500);
+            }
+//            $('.nav-wrapper').fadeOut(1000);
             $('.dropdown__trigger.dropdown--open, .nav__dropdown').removeClass('dropdown--open');
             $('.nav__dropdown--item.item--open').removeClass('item--open');
             $(".nav__dropdown li").each(function(i){
@@ -75,6 +84,7 @@ $(document).ready(function(){
             });
         }
         else{
+            $('.nav-wrapper').fadeIn(500);
             $('.dropdown__trigger, .nav__dropdown').addClass('dropdown--open');
             $('.nav__dropdown--item').addClass('item--open');
             $(".nav__dropdown li").each(function(i){
@@ -86,12 +96,13 @@ $(document).ready(function(){
 });
 
 $(window).on('load', function(){
-	
+    $('.banner__tagline').delay(500).animate({opacity:1, top: '40%'}, 1200, 'easeInOutQuad');
 });
 
 $(document).on("click", function () {
     //click outside of ".nav__dropdown" class itself and menu will be hidden
     var i;
+    $('.nav-wrapper').fadeOut(500);
     $('.dropdown__trigger.dropdown--open, .nav__dropdown').removeClass('dropdown--open');
     $('.nav__dropdown--item.item--open').removeClass('item--open');
     $('#trigger.expanded').removeClass('expanded');
