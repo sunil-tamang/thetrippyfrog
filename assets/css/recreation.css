@@ -56,7 +56,6 @@
     font-size: 1.2em;
 }
 
-
 .alternate-wrapper {
     position: relative;
     display: inline-block;
@@ -466,7 +465,7 @@ li.nav__dropdown--item.item--open{
 .copyright a:hover{
     color: #222;
 /*    text-decoration: underline;*/
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
     box-shadow: inset 0px -20px 0 0 #fff;
 }
 .social-icon{
