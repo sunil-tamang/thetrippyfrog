@@ -28,6 +28,12 @@ $(document).ready(function(){
         return false; 
     }); 
     
+    $('.banner__skip-trigger').click(function(){
+//        scrollTop: scrollTop + 
+        var scrollPosition = $('#content').offset().top;
+        $("html, body").animate({ scrollTop: scrollPosition }, 1000, "easeInOutQuint");
+    });
+    
 	$('#copyright__year').html(function(){
 		var today = new Date();
 		return today.getFullYear();
@@ -96,7 +102,11 @@ $(document).ready(function(){
 
 $(window).on('load', function(){
     $('.banner__tagline').delay(500).animate({opacity:1, top: '40%'}, 1200, 'easeInOutQuad', function(){
-        $('.banner__tagline .sub-tagline').fadeIn(1000);
+        $('.banner__tagline .sub-tagline .sub-tagline--part1').delay(1000).animate({opacity:1}, 1000, function(){
+			$('.banner__tagline .sub-tagline .sub-tagline--part2').delay(500).animate({opacity:1}, 1000, function(){
+				$('.banner__skip').delay(1000).animate({opacity:1, bottom: '.5em'}, 800)
+			});
+		});
     });
 });
 

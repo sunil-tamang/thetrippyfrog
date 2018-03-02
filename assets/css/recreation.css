@@ -55,6 +55,60 @@
 .sub-tagline{
     font-size: 1.2em;
 }
+.sub-tagline--part1{
+	padding: .2em .3em;
+	background:#cacaca;
+	color:#333;
+	opacity:0;
+}
+.sub-tagline--part2{
+	padding: .2em.3em;
+	background: #fb4a4a;
+	opacity:0;
+}
+
+.banner__skip{
+    position: absolute;
+    text-align: center;
+    left: 0;
+    bottom: 1em;
+    width: 100%;
+    height: 2em;
+    display: table;
+    vertical-align: middle;
+    opacity: 0;
+}
+
+.banner__skip-trigger{
+    position: relative;
+    background: #cacaca;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 360px;
+}
+
+.banner__skip-trigger:before,
+.banner__skip-trigger:after{
+    content: '';
+    position: absolute;
+    background: #333;
+    top:0;
+    width:2px;
+    height: 50%;
+}
+
+.banner__skip-trigger:before{
+    left: 25%;
+    transform: translate(150%, 50%) rotate(-45deg);
+}
+
+
+.banner__skip-trigger:after{
+    right: 25%;
+    transform: translate(-100%, 50%) rotate(45deg);
+}
+
 
 .alternate-wrapper {
     position: relative;
