@@ -133,6 +133,11 @@
     display: inline-block;    
 }
 
+.header__logo{
+    font-size: 1.5em;
+    margin: 0.4em auto;
+}
+
 .header__nav{
     display: inherit;
     width: 100%;
@@ -149,9 +154,10 @@
 .nav__li{ font-size: 1em; }
 
 .nav__li a{
-    letter-spacing: 0.2em;
+    font-size: .84em;
+    letter-spacing: 0.4em;
     text-transform: uppercase;
-    padding: 1em;
+    padding: 1.2em;
     background: transparent;
     padding-left: 0;
     cursor: pointer;
@@ -163,7 +169,7 @@
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     font-size: 0;
-    transform: rotate(180deg) translateY(-6px);
+    transform: rotate(180deg) translateY(-4px);
 }
 .nav__li a:hover{
     color:#fdfdfd;
@@ -306,6 +312,7 @@ li.nav__dropdown--item.item--open{
     text-transform: uppercase;
     display: inline-block;
     padding-bottom: 0.8em;
+    padding-top: 2em;
     position: relative;    
     font-size: 1.2em;
     font-weight: bold;
@@ -595,6 +602,7 @@ li.nav__dropdown--item.item--open{
     }
     .content__title{
         font-size: 1.8em;
+        padding-top: 0;
     }
     .header__nav{
         display: block;
@@ -608,7 +616,6 @@ li.nav__dropdown--item.item--open{
     }
     .nav__ul{margin-top:0; border-top: 0;}
     .nav__li{ display: inline-block; }
-    .nav__li a{ padding: 1em; }
     .wopper__title span{
         font-size: 1.4em;
         font-weight: 800;

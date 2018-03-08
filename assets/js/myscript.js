@@ -28,10 +28,11 @@ $(document).ready(function(){
         return false; 
     }); 
     
-    $('.banner__skip-trigger').click(function(){
+    $('.banner__skip-trigger').click(function(e){
 //        scrollTop: scrollTop + 
         var scrollPosition = $('#content').offset().top;
         $("html, body").animate({ scrollTop: scrollPosition }, 1000, "easeInOutQuint");
+        return false;
     });
     
 	$('#copyright__year').html(function(){
