@@ -11,9 +11,9 @@ venv/
 ENV/
 
 # Temporary
-rafting.html
 activities.html
 home.html
+niche.html
 
 # Except These
 !assets/css/img/bonfire.jpg

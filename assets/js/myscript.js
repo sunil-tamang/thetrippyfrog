@@ -102,10 +102,12 @@ $(document).ready(function(){
 });
 
 $(window).on('load', function(){
+    $("body").removeClass("preload");
     $('.banner__tagline').delay(500).animate({opacity:1, top: '40%'}, 1200, 'easeInOutQuad', function(){
         $('.banner__tagline .sub-tagline .sub-tagline--part1').delay(1000).animate({opacity:1}, 1000, function(){
 			$('.banner__tagline .sub-tagline .sub-tagline--part2').delay(500).animate({opacity:1}, 1000, function(){
-				$('.banner__skip').delay(1000).animate({opacity:1, bottom: '.5em'}, 800)
+				$('.banner__skip').delay(1000).animate({opacity:1, bottom: '.5em'}, 800);
+                $('.sub-tagline--videoTrigger').css({'-webkit-animation-play-state':'running','animation-play-state':'running'});
 			});
 		});
     });
@@ -159,7 +161,7 @@ function menuWideOrMobile(){
 //Parallax
 (function(){
   var parallax = document.querySelectorAll(".parallax"),
-      speed = 0.7;
+      speed = .50;
   window.onscroll = function(){
     [].slice.call(parallax).forEach(function(el,i){
         var parallaxJquery = $('.parallax');
@@ -167,7 +169,7 @@ function menuWideOrMobile(){
       var parentYoffset = $('html,body').scrollTop()-parallaxJquery.offset().top;
 //      var windowYOffset = parentYoffset.offset(0),
       var windowYOffset = parentYoffset,
-          elBackgrounPos = "0 " + (windowYOffset * speed) + "px";
+          elBackgrounPos = "center " + (windowYOffset * speed) + "px";
       el.style.backgroundPosition = elBackgrounPos;
     });
   };
