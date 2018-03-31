@@ -17,7 +17,7 @@ $(".testimonial").slick({
 
 $(document).ready(function(){
     
-    //Numeric validation
+    //----------------------Numeric validation----------------------------
     $("#id_phone").keydown(function (e) {
         // Allow: backspace, delete, tab, escape, enter and .
         if ($.inArray(e.keyCode, [127, 46, 8, 9, 27, 13, 110, 190]) !== -1 ||
@@ -65,7 +65,7 @@ $(document).ready(function(){
         menuWideOrMobile();
     });
 
-    // Menu Trigger
+    //--------------------- Menu-Trigger-----------------------
     $('#trigger').click(function(event){
         event.stopPropagation();
         if($('#trigger').hasClass('expanded')){
@@ -90,7 +90,7 @@ $(document).ready(function(){
        event.stopPropagation(); 
     });
     
-    // Dropdown Trigger
+    // ------------------Dropdown-Trigger-------------------
     $('.dropdown__trigger').click(function(event){
          var i;
         event.stopPropagation(); //click on itself and simple toggle
@@ -118,6 +118,31 @@ $(document).ready(function(){
             });
         }
     });
+    
+    //--------------------Popup YouTube Video------------------
+    
+    $('#popupTrigger').click(function(event){
+		showModal();
+		event.stopPropagation(); 
+	});
+	
+	// Load Video
+	$('#popupTrigger').click(function(){
+		var videoSrc = $(this).data('src');
+		$('#video').attr('src',videoSrc);
+	});
+	
+	// Close Modal
+	$('button.close, #myModal').click(function(){
+		$('#video').attr('src','');
+		hideModal();
+	});
+	
+	// Do nothing when clicking on the modal content
+	$('.modal-content').click(function(event){
+       event.stopPropagation(); 
+    });
+    
 });
 
 $(window).on('load', function(){
@@ -144,9 +169,27 @@ $(document).on("click", function () {
         var t = $(this);
         setTimeout(function(){ t.removeClass('item--open'); }, (i+1) * 10);
     });
+    
+    //hide modal
+    hideModal();
 });
 
-// scrollTop
+
+//--------------------Popup YouTube Video------------------ 
+function showModal(){
+	$('#myModal').fadeIn('slow');
+		(function fun(){
+			//$('.modal-content').css({'transform':'translateY(-50px)'});
+		})();
+}
+function hideModal(){
+	$('#myModal').fadeOut('fast');
+		(function fun2(){
+			//$('.modal-content').css({ 'transform':'translateY(0px)' });
+		})();
+}
+
+//--------------------scrollTop------------------
 function checkScrollTop(){
     if ($(window).scrollTop() > 100) { 
         $('.backToTop').removeClass("hide");
@@ -157,7 +200,7 @@ function checkScrollTop(){
     } 
 }
 
-// Mobile or Wide
+//------------------Mobile or Wide-------------------
 function menuWideOrMobile(){
 	// It's Mobile
 	if($(window).width()<"768")
@@ -177,7 +220,7 @@ function menuWideOrMobile(){
 	}
 }
 
-//Parallax
+//-------------------Parallax-----------------
 (function(){
   var parallax = document.querySelectorAll(".parallax"),
       speed = .50;

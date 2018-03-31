@@ -60,7 +60,7 @@
             <p class="tagline">The Trippy Frog</p>
             <p class="sub-tagline" style="display: inline;">
 				<span class="sub-tagline--part1">&nbsp;Travel More&nbsp;</span><span class="sub-tagline--part2">&nbsp;Live More&nbsp;</span><br />
-                <span class="sub-tagline--videoTrigger">
+                <span class="sub-tagline--videoTrigger no-select" id="popupTrigger" data-src="https://www.youtube.com/embed/mW6hFttt_KE?rel=0&amp;showinfo=0">
                     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="#fff"><path d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm-4 29V15l12 9-12 9z"/></svg>
                 </span>
 			</p>
@@ -70,6 +70,21 @@
         </span>
     </div>
     
+    <!----------------------P-O-P--U-P---Y-O-U-T-U-B-E---------------------->
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <!--<span id="modalClose" class="close no-select">&times;</span>-->
+        <button type="button" class="close"  data-toggle="tooltip" title="Close" data-dismiss="modal">&times;</button>
+        <!-- 16:9 aspect ratio -->
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen" class="embed-responsive-item" src="" id="video"  allowscriptaccess="always">></iframe>
+        </div>
+      </div>
+    </div>
+        
     <!----------W-h-o---W-e---A-r-e-------->
     
 <!--

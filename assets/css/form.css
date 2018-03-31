@@ -135,7 +135,7 @@ input:not(:focus):invalid ~ .ar-floating-label{
     top:39px;
     left: 14px;
     left: 50px;
-    z-index: 99999999;
+    z-index: 1;
     color: rgba(36, 41, 46, 0.63);
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
