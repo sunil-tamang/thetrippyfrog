@@ -134,7 +134,6 @@ $(document).ready(function(){
 	
 	// Close Modal
 	$('button.close, #myModal').click(function(){
-		$('#video').attr('src','');
 		hideModal();
 	});
 	
@@ -184,10 +183,13 @@ function showModal(){
 }
 function hideModal(){
 	$('#myModal').fadeOut('fast');
+    $('#video').attr('src','');
 		(function fun2(){
 			//$('.modal-content').css({ 'transform':'translateY(0px)' });
 		})();
 }
+
+
 
 //--------------------scrollTop------------------
 function checkScrollTop(){
