@@ -149,8 +149,8 @@ $(window).on('load', function(){
     $('.banner__tagline').delay(500).animate({opacity:1, top: '40%'}, 1200, 'easeInOutQuad', function(){
         $('.banner__tagline .sub-tagline .sub-tagline--part1').delay(200).animate({opacity:1}, 800, function(){
 			$('.banner__tagline .sub-tagline .sub-tagline--part2').delay(100).animate({opacity:1}, 800, function(){
-				$('.banner__skip').delay(500).animate({opacity:1, bottom: '.5em'}, 800);
-                $('.sub-tagline--videoTrigger').css({'-webkit-animation-play-state':'running','animation-play-state':'running'});
+				$('.banner__skip').delay(1000).animate({opacity:1, bottom: '.5em'}, 800);
+                 $('.sub-tagline--videoTrigger').css({'-webkit-animation-play-state':'running','animation-play-state':'running', 'transform':'scale(1)'});
 			});
 		});
     });

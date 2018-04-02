@@ -300,6 +300,7 @@ li.nav__dropdown--item.item--open{
 	width: 2em;
 	height: 2em;
 	cursor: pointer;
+    transform: scale(0);
 	-webkit-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 	-webkit-animation-name: linearZoom;
