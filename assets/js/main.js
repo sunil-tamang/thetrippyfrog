@@ -14,7 +14,7 @@ $(".testimonial").slick({
     autoplay: true,
     autoplaySpeed: 2000,
 });
-
+    
 $(document).ready(function(){
     
     //----------------------Numeric validation----------------------------
@@ -33,7 +33,21 @@ $(document).ready(function(){
             e.preventDefault();
         }
     }); 
+    
+    if( $('#id_email').length > 0 ) float();
 
+    function float(){
+        var email = $('#id_email');
+        checkVal(email);
+        email.on('change keyup', function(){
+            checkVal(email);
+        });
+    }
+    function checkVal(email) {
+        ( email.val() == '' ) ? email.parent('div').removeClass('floating-label') : email.parent('div').addClass('floating-label');
+    }    
+    
+    
     // Checking the position of scrolling in terms of Top position.
     checkScrollTop();
 
@@ -151,6 +165,7 @@ $(window).on('load', function(){
 			$('.banner__tagline .sub-tagline .sub-tagline--part2').delay(100).animate({opacity:1}, 800, function(){
 				$('.banner__skip').delay(1000).animate({opacity:1, bottom: '.5em'}, 800);
                  $('.sub-tagline--videoTrigger').css({'-webkit-animation-play-state':'running','animation-play-state':'running', 'transform':'scale(1)'});
+//                $('.sub-tagline--videoTrigger').css({});
 			});
 		});
     });

@@ -1,0 +1,26 @@
+---
+layout: 'default'
+---
+
+{% if page.custom_bg %}     
+    {% for img in page.custom_bg %}
+        {% assign path = 'assets/css/images/' | append: img | relative_url%}
+        <div class="banner parallax" style="background-image:url('{{ path }}');">
+    {% endfor %}    
+{% else %}
+    {% assign path = 'assets/css/images/welcome.jpeg' | relative_url%} 
+        <div class="banner parallax" style="background-image: url('{{ path }}')"> 
+{% endif %}
+    <span class="banner__overlay"></span>
+    <div class="banner__tagline" style="opacity: 0;">
+        <p class="tagline">{{ page.title }}</p>
+        <p class="sub-tagline" style="display: inline;">
+            <span class="sub-tagline--part1">&nbsp;{{ page.subtitle1 }}&nbsp;</span><span class="sub-tagline--part2">&nbsp;{{ page.subtitle2 }}&nbsp;</span><br />
+        </p>
+    </div>
+    <span class="banner__skip">
+        <a class="banner__skip-trigger" href="#content"></a>
+    </span>
+</div>
+        
+{{ content }}

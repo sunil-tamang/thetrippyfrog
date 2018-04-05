@@ -1,20 +1,4 @@
-img
-*.png
-*.db
-Thumbs.db
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-
-# Temporary
-activities.html
-home.html
-niche.html
-contact.php
-
-# Except These
-!assets/css/img/bonfire.jpg
+_site
+.sass-cache
+.jekyll-metadata
+about.html

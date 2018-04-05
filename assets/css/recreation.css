@@ -1,4 +1,14 @@
 
+.fa::before{
+    content: 'C';
+    height: 100%;
+    width: 100%;
+}
+
+.fa:after{
+    content: '';
+}
+
 .preload * {
     -webkit-transition: none !important;
     -moz-transition: none !important;
@@ -21,7 +31,7 @@
     padding:1em;
 /*    background-image: linear-gradient(0deg,#92257f,#5227bf);*/
     background-image: url(images/banner_bg.jpeg);
-    background-position: center;
+    background-position: center 0;
     background-size: cover;
     background-attachment:local;
 /*    opacity: 0.8;*/
@@ -58,6 +68,7 @@
 }
 
 .tagline{
+    text-transform: uppercase;
     font-size: 2em;
 }
 .sub-tagline{
@@ -70,6 +81,7 @@
 	opacity:0;
 }
 .sub-tagline--part2{
+    text-transform: uppercase;
 	padding: .2em.3em;
 	background: #fb4a4a;
 	opacity:0;

@@ -1,0 +1,156 @@
+<!-- DEVELOPED & DE$IGNED BY ARJUN THAKUR-->
+
+<!Doctype html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Arjun Thakur" />
+    {% capture description %}{% if page.description %}{{ page.description | strip_html }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+    <meta name="description" content="{{ description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:image" content="">
+    <meta name="x-build-time" content="{{ site.time | date_to_rfc822 }}">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    
+    <link rel="icon" href="{{ 'favicon.png' | relative_url }}" sizes="32x32">
+
+    <!-- External Stylesheets-->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" rel="stylesheet"/>
+    
+    <link rel="stylesheet" href="{{ 'assets/css/reset.min.css' | absolute_url }}">
+    <link rel="stylesheet" href="{{ 'assets/css/base.css' | absolute_url }}">
+    <link rel="stylesheet" href="{{ 'assets/css/layout.css' | absolute_url }}">
+    <link rel="stylesheet" href="{{ 'assets/css/recreation.css' | absolute_url }}">
+    {% if page.custom_css %}
+    {% for stylesheet in page.custom_css %}
+        {% assign path = 'assets/css/' | append: stylesheet | absolute_url%}
+        <link rel="stylesheet" href="{{ path }}" media="screen" type="text/css">
+    {% endfor %}
+    {% endif %}
+    
+	<meta name="google-site-verification" content="" />
+    <meta name="msvalidate.01" content="" />
+    <meta name="keywords" content="The trippy frog, himalayan, wanderer, adventure, Kullu, Manali, Rafting, Rafting in kullu manali, adventurous sports in kullu manali, kullu-manali adventures, babeli rafting point, rafting near kullu manali, rafting in himachal pradesh, rafting in india, rafting in north india, rafting in the himalayas, white water rafting, security gears, tour guide, Rafting, Kullu, Manali, Rafting in North India,  Kullu Manali Adventures ,   Rafting in Kullu , Rafting in Manali , White water rafting , Paragliding in North India , Adventurous sports in North India, Adventures in Kullu Manali, Himachal Pradesh, Adventures in Himachal Pradesh, Trekking in Himalayas" />
+</head>
+    
+<body class="preload">
+    <div class="header">
+        <div class="row container container-wide">
+            <h1 class="header__logo">The Trippy Frog</h1>
+            <div id="trigger__wrapper" class="nav">
+                <a id="trigger" class="bars">
+                    <span class="bars-top"></span>
+                    <span class="bars-bottom"></span>
+                </a>
+            </div>
+            <nav class="row header__nav" id="nav">
+                <ul class="nav__ul">
+                    <li class="nav__li"><a href="{% link index.html %}">HOME</a></li>
+                    <li class="nav__li"><a href="javascript:void(0);">ABOUT</a></li>
+                    <li class="nav__li dropdown"><a class="dropdown__trigger">Activities&nbsp;<span></span></a>
+                        <ul class="nav__dropdown">
+                            <li class="nav__dropdown--item"><a href="{% link _activities/rafting.html %}">Rafting</a></li>
+                            <li class="nav__dropdown--item"><a href="{% link _activities/paragliding.html %}">Paragliding</a></li>
+                            <li class="nav__dropdown--item"><a href="{% link _activities/trekking.html %}">Trekking+Camping</a></li>
+                            <li class="nav__dropdown--item"><a href="javascript:void(0);">Bike Tours</a></li>
+                            <li class="nav__dropdown--item"><a href="javascript:void(0);">4x4 Trails</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__li"><a href="{% link contact.html %}">Contact</a></li>
+                    <li class="nav__li"><a href="javascript:void(0);"><i class="fa fa-shopping-cart"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <span class="nav-wrapper" style="display: none;"></span>
+    
+    {{ content }}
+    
+    <!----------F-O-O-T-E-R---------->
+    <div class="row footer">
+        <div class="row container-wide">
+            <div class="col-wide">
+                <div class="col-medium footer__address row--padding-medium">
+                    <h1 class="footer__header">
+                        ADDRESS</h1>
+                        <ul class="footer__content">
+                            <li class="footer__content-item">The Trippy Frog</li>
+                            <li class="footer__content-item">Raison, Himachal Pradesh</li>
+                            <li class="footer__content-item">India &#40; Zip - 175128 &#41;</li>
+                        </ul>
+                </div>
+                <div class="col-medium row--padding-medium">
+                    <h1 class="footer__header">
+                        ACTIVITIES</h1>
+                    <ul class="footer__content no-select">
+                            <li class="footer__content-item"><a href="{% link _activities/rafting.html %}">Rafting</a></li>
+                            <li class="footer__content-item"><a href="{% link _activities/paragliding.html %}">Paragliding</a></li>
+                            <li class="footer__content-item"><a href="{% link _activities/trekking.html %}">Trekking + Camping</a></li>
+                            <li class="footer__content-item"><a href="javascript:void(0);">Bike Tours</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-narrow row--padding-medium">
+                 <h1 class="footer__header">                     
+                        CONTACT</h1>
+                    <ul class="footer__content no-select">
+                            <li class="footer__content-item">
+                                <a href="mailto:thetrippyfrog@gmail.com">thetrippyfrog@gmail.com</a>
+                            </li>
+<!--
+                            <li class="footer__content-item">
+                                <a href="mailto:enquiry@recreationalclub.com">enquiry@recreationalclub.com</a>
+                            </li>
+-->
+                            <li class="footer__content-item">
+                                <a href="tel:+919805281452">+91-9805281452</a>
+                            </li>
+                            <li class="footer__content-item">
+                                <a href="tel:+918219307306">+91-8219307306</a>
+                            </li>
+                    </ul>
+            </div>
+            <div class="row copyright">
+                <div class="col-wide row--padding-medium">
+                    <span class="copyright__sign"></span> 
+                    <span id="copyright__year"></span>
+                    <a href="{% link index.html %}">&nbsp;The Trippy Frog</a>&nbsp;|&nbsp;All Rights Reserved.
+                </div>
+                <div class="col-narrow row--padding-medium" style="padding-top: 3.3em;">
+                    <a class="social-icon" href="https://www.facebook.com/thetrippyfrog/" target="_blank" rel="noopener nofollow">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="social-icon" href="javascript:void(0);">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="social-icon" href="https://www.youtube.com/channel/UCyLuNMHVAWsZN4whXcuCLNA" target="_blank" rel="noopener nofollow">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a class="social-icon" href="javascript:void(0);">
+                        <i class="fab fa-google-plus-g"></i>
+                    </a>
+                    <br >
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="backToTop"></a>
+    
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" ></script>    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+<script src="{{ 'assets/js/main.js' | absolute_url }}"></script>
+</body>
+</html>
