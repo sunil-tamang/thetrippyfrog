@@ -1,6 +1,6 @@
 
 .fa::before{
-    content: 'C';
+    content: '[ ]';
     height: 100%;
     width: 100%;
 }

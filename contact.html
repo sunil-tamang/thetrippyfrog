@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Contact Us"
 custom_css: "form.css"
 permalink: /contact/
 ---
@@ -39,6 +40,7 @@ permalink: /contact/
 
                 </div>
                 <div class="ar-input-set" style="clear:both;">
+                  <!--<input type="email" name="email" required id="id_email" />-->
                   <input type="email" name="email" required id="id_email" />
                     <span class="ar-fixed-label"><i class="fa fa-envelope"></i></span>
                     <span class="ar-floating-label">E-Mail ID</span>
@@ -52,6 +54,8 @@ permalink: /contact/
                 </div>
 
                 <span class="ar-form-btn-span">
+                    <input type="hidden" name="_next" value="http://trippyfrog.com/thanks" />
+                    <input type="hidden" name="_subject" value="New Submission from The Trippy Frog!" />
                     <button type="submit" class="button"><i class="fa fa-paper-plane"></i>&nbsp;Send Message</button><br />
                 </span>
             </fieldset>
