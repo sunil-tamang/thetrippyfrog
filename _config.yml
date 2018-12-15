@@ -1,17 +1,26 @@
-title: The Trippy Frog | Himalayan Recreational Club
+title: The Trippy Frog | Adventures & Tours in the Himalayas
+name: The Trippy Frog
 email: thetrippyfrog@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The Trippy Frog is a company that deals with outdoor adventurous activities full of tremendous fun, thrill and for sure give you an adrenaline rush. A Himalayan recreational club that deals with outdoor adventurous sports like rafting, paragliding, trekking etc.
+  Outdoor Adventure Activities in the Himalayas full of fun, thrill and a rush of adrenaline | Rafting, Paragliding, Camping, Trekking, Bike-Tours, Trekking.
 baseurl: ''
-url: https://trippyfrog.com
+url: 'https://thetrippyfrog.com'
 
 permalink: slug
 
 collections:
-    activities:
-        output: true
-        permalink: /:title
-        include: app-assets
+  activities:
+    output: true
+    permalink: /:title
+    include: app-assets
+  treks:
+    output: true
+    permalink: /:title
+    include: app-assets
+  legal:
+    output: true
+    permalink: /:title
+    include: app-assets
 
 defaults:
   - scope:

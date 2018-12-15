@@ -2,14 +2,32 @@
 layout: default
 ---
 
-    <div class="banner" style="background-image: url('assets/css/images/mountains.jpeg')">
+<!--SEO-->
+<div style="display: none;">
+	<h1>Rafting in Kullu Manali</h1>
+	<h1>PARAGLIDING in Kullu Manali</h1>
+	<h1>Camping in Kullu Manali</h1>
+	<h1>Camping near Beas river</h1>
+	<h1>Trekking in the Kullu Valley</h1>
+	<h1>Trekking in Kullu Manali</h1>
+	<h1>Outdoor Adventures in Kullu Manali</h1>
+	<h1>Recreational Sports</h1>
+	<h1>White Water Rafting in Kullu Manali</h1>
+</div>
+
+    <div class="banner" style="background-image: url('assets/css/images/main_bg.jpg');">
         <span class="banner__overlay"></span>
-        <div class="banner__tagline" style="opacity: 0;">
-            <p class="tagline" style="text-transform: none;">The Trippy Frog</p>
+		<div class="banner_logo" style="position: absolute; left: 0; top:20%; width: 100%; text-align: center;">
+			<img class="banner_logo-img" src="{% link favicon.png%}" alt="The Trippy Frog Logo">
+		</div>
+        <div class="banner__tagline banner__home" style="opacity: 0;">
+            <p class="tagline" style="text-transform: none;"></p>
+			<br />
             <p class="sub-tagline" style="display: inline;">
 				<span class="sub-tagline--part1">&nbsp;Travel More&nbsp;</span><span class="sub-tagline--part2">&nbsp;Live More&nbsp;</span><br />
-                <span class="sub-tagline--videoTrigger no-select" id="popupTrigger" data-src="https://www.youtube.com/embed/mW6hFttt_KE?rel=0&amp;showinfo=0">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="#fff"><path d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm-4 29V15l12 9-12 9z"/></svg>
+                <!-- YouTube Code : iPhone X = mW6hFttt_KE, GoPro Ultra Slow = EILqvdxdc5c , GoPro Adventure of Life in 4K = wTcNtgA6gHs-->
+                <span class="sub-tagline--videoTrigger no-select" id="popupTrigger" data-src="https://www.youtube.com/embed/a6lQY393TNQ?rel=0&amp;showinfo=0;modestbranding=0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 48 48" fill="#fff"><path d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm-4 29V15l12 9-12 9z"/></svg>
                 </span>
 			</p>
         </div>
@@ -22,7 +40,8 @@ layout: default
 
     <div id="myModal" class="modal">
       <div class="modal-content">
-        <button type="button" class="close"  data-toggle="tooltip" title="Close" data-dismiss="modal">&times;</button>
+        <button type="button" class="close"  data-toggle="tooltip" title="Close" data-dismiss="modal">
+			<span>&times;</span></button>
         <div class="embed-responsive embed-responsive-16by9">
           <iframe allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen" class="embed-responsive-item" src="" id="video"  allowscriptaccess="always">></iframe>
         </div>
@@ -30,50 +49,68 @@ layout: default
     </div>
         
     <!----------A-C-T-I-V-I-T-I-E-S-------->
+    <div style="position: relative;">
+    <span style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url('{{ 'assets/css/images/static.gif' | absolute_url }}') repeat center; opacity: .05; z-index: -1;"></span>
     <div id='content' class="row row--padding-medium content">
-        <h1 class="content__title content__title-red" data-aos="zoom-out">ACTIVITIES</h1>
+        <h1 class="content__title content__title-white" data-aos="zoom-out">ACTIVITIES</h1>
         <br />
-        <div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
-            <div class="wopper wopper--rafting">
-                <a class="wopper__title" href="{% link _activities/rafting.html %}"><span>Rafting</span></a>
-                <p class="wopper__styler"></p>
-            </div>
-        </div>
-        <div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
-            <div class="wopper wopper--paragliding">
-                <a class="wopper__title" href="{% link _activities/paragliding.html %}"><span>Paragliding</span></a>
-                <p class="wopper__styler"></p>
-            </div>
-        </div>
-        <div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
-            <div class="wopper wopper--trek">
-                <a class="wopper__title" href="{% link _activities/trekking.html %}"><span>Trekking</span></a>
-                <p class="wopper__styler"></p>
-            </div>
-        </div>
-        <div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
-            <div class="wopper wopper--camp">
-                <a class="wopper__title" href="javascript:void(0);"><span>Camping</span></a>
-                <p class="wopper__styler"></p>
-            </div>
-        </div>
-        <div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
-            <div class="wopper wopper--bike">
-                <a class="wopper__title" href="javascript:void(0);"><span>Bike Tours</span></a>
-                <p class="wopper__styler"></p>
-            </div>
-        </div>
-        <div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
-            <div class="wopper wopper--gypsy">
-                <a class="wopper__title" href="javascript:void(0);"><span>4x4 Trails</span></a>
-                <p class="wopper__styler"></p>
-            </div>
-        </div>
+		<!--New-->
+		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
+			<a href="{% link _activities/rafting.html %}" class="wopper wopper--rafting"></a>
+			<div class="wopper__footer">
+				<div class="wopper__info" style="padding: 0;">
+					<a class="wopper__info-price wopper__act-name" href="{% link _activities/rafting.html %}"><span>Rafting</span></a>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
+			<a href="{% link _activities/paragliding.html %}" class="wopper wopper--paragliding"></a>
+			<div class="wopper__footer">
+				<div class="wopper__info" style="padding: 0;">
+					<a class="wopper__info-price wopper__act-name" href="{% link _activities/paragliding.html %}"><span>Paragliding</span></a>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
+			<a href="{% link _activities/trekking.html %}" class="wopper wopper--trek"></a>
+			<div class="wopper__footer">
+				<div class="wopper__info" style="padding: 0;">
+					<a class="wopper__info-price wopper__act-name" href="{% link _activities/trekking.html %}"><span>Trekking</span></a>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
+			<a href="{% link _activities/camping.html %}" class="wopper wopper--camp"></a>
+			<div class="wopper__footer">
+				<div class="wopper__info" style="padding: 0;">
+					<a class="wopper__info-price wopper__act-name" href="{% link _activities/camping.html %}"><span>Camping</span></a>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
+			<a href="{% link _activities/bike-tours.html %}" class="wopper wopper--bike"></a>
+			<div class="wopper__footer">
+				<div class="wopper__info" style="padding: 0;">
+					<a class="wopper__info-price wopper__act-name" href="{% link _activities/bike-tours.html %}"><span>Bike Tours</span></a>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
+			<a href="{% link _activities/4x4-trails.html %}" class="wopper wopper--gypsy"></a>
+			<div class="wopper__footer">
+				<div class="wopper__info" style="padding: 0;">
+					<a class="wopper__info-price wopper__act-name" href="{% link _activities/4x4-trails.html %}"><span>4x4 Trails</span></a>
+				</div>
+			</div>
+		</div>
     </div>
-    
+    </div>
+
     <!---------T-E-S-T-I-M-O-N-I-A-L-S-------->
+<!--
+    <div class="container--white">
     <div class="row row--padding-medium container-wide content">
-        <h1 class="content__title content__title-red" data-aos="zoom-out">TESTIMONIALS</h1>
+        <h1 class="content__title content__title-white" data-aos="zoom-out">TESTIMONIALS</h1>
         <div style="padding: 0 1em;">
             <section class="testimonial" data-aos="fade-in">
                 <div class="row--padding-medium ">
@@ -104,4 +141,13 @@ layout: default
             </section>
         </div>
     </div>     
+    </div>
+-->
  
+    <!---------Q-U-O-T-E---------->
+	<div class="banner banner_quote" style="background-image: url('assets/css/images/quote_bg.jpg'); background-attachment: fixed;">
+        <span class="banner__overlay"></span>
+		<div class="row row--padding-wide container-wide">
+			<h1 class="quote content__title-white" data-aos="fade-right" style="font-size: 3em;">&quot;Into The Himalayas&quot;</h1>
+		</div>
+    </div>

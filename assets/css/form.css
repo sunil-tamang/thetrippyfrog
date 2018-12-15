@@ -1,4 +1,7 @@
-/*  */
+/*-------------------------------------------- 
+Beautiful Form.css
+Copyright (C) https://www.github.com/arjun0108
+--------------------------------------------*/
 
 form{
     margin: 2em auto;
@@ -9,7 +12,7 @@ form{
 fieldset{
     width: 100%;
     border: 0px;
-    padding: 1em;
+    padding-top: 1em;
     margin: 1em auto;
     color: #333;
     text-align: justify;
@@ -26,6 +29,7 @@ legend{
     user-select: none;
     padding: 0 0 0.2em;
     border-bottom: 1px solid #dcdcdc;
+    color: #777;
 }
 
 legend i{
@@ -60,20 +64,22 @@ input[type='password'],
 input[type='email']{
     width: 100%;
     max-width: 100%;
-    border:1px solid #cacaca;
-    border-radius: 3px;
+    border:1px solid #cecece;
+/*    border-radius: 3px;*/
     padding: 0.8em;
     transition: all 0.5s ease;
     padding-left: 48px;
     background: #fbfbfb;
-    color: #303030;
+	background: rgba(248, 248, 248, 0.7);
+    color: #555;
 }
 
 textarea:focus,
 input:focus{
     outline: none;
     background: #ffffff;
-    border-color: #8e8e8e;
+    background: rgba(255, 255, 255, 0.75);
+    border-color: #acacac;
     box-shadow: 0 0 5px rgba(44, 151, 222, 0.2);
     box-shadow: 0 0 5px rgba(142, 142, 142, 0.3);
     box-shadow: 0 0 7px 0px rgba(142, 142, 142, 0.3);
@@ -127,8 +133,6 @@ input:not(:focus):invalid ~ .ar-floating-label{
 
 }
 
-
-
 .ar-floating-label{
     display: block;
     position: absolute;
@@ -137,6 +141,7 @@ input:not(:focus):invalid ~ .ar-floating-label{
     left: 50px;
     z-index: 1;
     color: rgba(36, 41, 46, 0.63);
+    color: #888;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 0.9rem;
@@ -172,118 +177,4 @@ input:not(:focus):valid ~ .ar-floating-label,
     background-color: rgba(216, 211, 211, 0);
     z-index: 1;
     pointer-events: none;
-
 }
-
-.ar-form-btn-span a.submit,
-.ar-form-btn-span button{
-    border:3px solid #151515;
-    align-content: center;
-    background: #fdfdfd;
-    color: #151515;
-    font-size: 1.1em;
-    border-radius: 5px;
-    transition: all 0.4s ease, color 0.5s ease;
-    cursor: pointer;
-    margin: 10px 10px 10px 10px;
-    padding: 0.5em 1em;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-.ar-form-btn-span a.submit:hover,
-.ar-form-btn-span button:hover{
-    background: #151515;
-    color: #fdfdfd;
-}
-.ar-form-btn-span a.submit:focus,
-.ar-form-btn-span a.submit:hover,
-.ar-form-btn-span button:focus,
-.ar-form-btn-span button:hover{
-    outline: 0;
-}
-
-.ar-form-btn-span a.submit:active,
-.ar-form-btn-span button:active{
-    -webkit-transform: scale(0.95);
-    -moz-transform: scale(0.95);
-    -ms-transform: scale(0.95);
-    -o-transform: scale(0.95);
-    transform: scale(0.95);
-}
-
-.ar-form-btn-span span,
-.ar-form-click{
-    letter-spacing: 0.05em;
-    color: #333;
-}
-
-.ar-form-click{
-    color:#8e8e8e;
-}
-
-.ar-form-click:hover{
-    text-decoration: underline;
-}
-
-.errorlist{
-  color: red;
-}
-
-
-/* o-auth */
-
-.oauth{
-    text-align: center;
-    box-sizing: border-box;
-}
-
-.oauth-link{
-    position: relative;
-	width: 240px;
-	display: inline-block;
-    box-sizing: border-box;
-    margin: 0.2em;
- }
-
-.oauth-icon{
-	color:#fff;
-	background-color: #3bb2d0;
-	display: inline-block;
-    padding: 10px;
-	margin: 2px;
-	border-radius: 5px;
-	width: 100%;
-	box-sizing: border-box;
-    text-align: left;
-    padding-left: 2em;
-}
-
-.oauth-google{
-	background-color: #df4a32;
-}
-.oauth-github{
-	background-color: #444444;
-}
-.oauth-twitter{
-	background-color: #50abf1;
-}
-.oauth-facebook{
-	background-color: #39579a;
-}
-
-.oauth-icon .fa{
-    position: absolute;
-    top: 0.75em;
-    left: 0.5em;
-	padding: 2px;
-/*	float: left;*/
-    width: 1.5em;
-    height: 1.3em;
-}
-
-
-
-/* Wide */

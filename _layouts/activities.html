@@ -22,5 +22,57 @@ layout: 'default'
         <a class="banner__skip-trigger" href="#content"></a>
     </span>
 </div>
-        
-{{ content }}
+
+<div style="position: relative;">
+<span style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url('{{ 'assets/css/images/static.gif' | absolute_url }}') repeat center; opacity: .05; z-index: -1;"></span>            
+    {{ content }}
+</div>
+<script>
+	
+	//Accordion - all open at a Time
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+	  acc[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var panel = this.nextElementSibling;
+		if (panel.style.maxHeight){
+		  panel.style.maxHeight = null;
+		} else {
+		  panel.style.maxHeight = panel.scrollHeight + "px";
+		} 
+	  });
+	}
+	
+	//Accordion - open one at a Time
+/*	var acc = document.getElementsByClassName("accordion");
+	var i;
+	openAccordion(acc[0]);
+	for (i = 0; i < acc.length; i++) {
+	  acc[i].addEventListener("click", function() {
+		var setClasses = !this.classList.contains('active');
+		for (var i = 0; i < acc.length; i++) {
+			var nextPanel;
+			if (setClasses) {
+				acc[i].classList.remove("active");
+				nextPanel = acc[i].nextElementSibling;
+				nextPanel.style.maxHeight = null;
+			}
+		}
+		if (setClasses) {
+			openAccordion(this);
+		}
+	  });
+	}
+
+	function openAccordion(el){
+		el.classList.toggle("active");
+		  var panel = el.nextElementSibling;
+		  if (panel.style.maxHeight){
+			panel.style.maxHeight = null;
+		  } else {
+			panel.style.maxHeight = panel.scrollHeight + "px";
+		  }
+	}*/
+</script>
