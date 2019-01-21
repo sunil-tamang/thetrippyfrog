@@ -13,12 +13,20 @@ collections:
     output: true
     permalink: /:title
     include: app-assets
+  packages:
+    output: true
+    permalink: /:title
+    include: app-assets
   treks:
     output: true
     permalink: /:title
     include: app-assets
   legal:
     output: true
+    permalink: /:title
+    include: app-assets
+  renting:
+    output: false
     permalink: /:title
     include: app-assets
 

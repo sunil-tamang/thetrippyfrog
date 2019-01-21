@@ -32,7 +32,8 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				id : 1,
 				name : '5 K.M. in 30 Minutes',
 				img : 'assets/css/thumbs/rafting_num/rafting1.jpg',
-				price : 600.00,
+				oldprice: 800.00,
+				price : 499.00,
 				prodType : 'rafting',
 				stock : 4,
 				location: 'Raison'
@@ -41,7 +42,8 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				id : 2,
 				name : '8 K.M. in 50 Minutes',
 				img : 'assets/css/thumbs/rafting_num/rafting2.jpg',
-				price : 800.00,
+				oldprice: 1000.00,
+				price : 699.00,
 				prodType : 'rafting',
 				stock : 2,
 				location: 'Babeli'
@@ -50,7 +52,8 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				id : 3,
 				name : '6400 FT. in 10 Minutes',
 				img : 'assets/css/thumbs/para_num/paragliding1.jpg',
-				price : 2800.00,
+				oldprice: 2799.00,
+				price : 1899.00,
 				prodType : 'paragliding',
 				stock : 1,
 				location: 'Dobhi'
@@ -59,7 +62,8 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				id : 4,
 				name : '8000 FT. in 20 Minutes',
 				img : 'assets/css/thumbs/para_num/paragliding2.jpg',
-				price : 3200.00,
+				oldprice: 3200.00,
+				price : 2099.00,
 				prodType : 'paragliding',
 				stock : 1,
 				location: 'Bir-Billing'
@@ -76,7 +80,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				stock : 1,
 				days : 5,
 				nights: 4,
-				urlName : 'hampta-pass'
+				urlName : 'hampta-pass-trek'
 			},
 			{
 				id : 6,
@@ -90,7 +94,58 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				stock : 1,
 				days : 3,
 				nights: 2,
-				urlName : 'lamadugh'
+				urlName : 'lamadugh-trek'
+			},
+			{
+				id : 7,
+				name : 'Bhrigu Lake Trek',
+				img : 'assets/css/thumbs/trek_num/trek3.jpg',
+				price : 5000.00,
+				prodType : 'trekking',
+				descShort : 'Bhrigu Lake trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and...',
+				descPartOne : 'Bhrigu Lake trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and special one climbing out across the lush green valleys of Kullu to reach the overhanging mountains. From the top, you will witness the magnificent view of a different world below, the beautiful yet deserted Lahaul. The panoramic sweep of the valley from the summit will be a sight that will not leave you forever.',
+				descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
+				stock : 1,
+				days : 3,
+				nights: 2,
+				urlName : 'bhrigu-lake-trek'
+			},
+			{
+				id : 8,
+				name : 'Kheerganga Trek',
+				img : 'assets/css/thumbs/trek_num/trek3.jpg',
+				price : 5000.00,
+				prodType : 'trekking',
+				descShort : 'Kheerganga trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and...',
+				descPartOne : 'Kheerganga trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and special one climbing out across the lush green valleys of Kullu to reach the overhanging mountains. From the top, you will witness the magnificent view of a different world below, the beautiful yet deserted Lahaul. The panoramic sweep of the valley from the summit will be a sight that will not leave you forever.',
+				descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
+				stock : 1,
+				days : 3,
+				nights: 2,
+				urlName : 'kheerganga-trek'
+			},
+			{
+				id : 8,
+				name : 'Beas Kund Trek',
+				img : 'assets/css/thumbs/trek_num/trek3.jpg',
+				price : 5000.00,
+				prodType : 'trekking',
+				descShort : 'Beas Kund trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and...',
+				descPartOne : 'Beas Kund trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and special one climbing out across the lush green valleys of Kullu to reach the overhanging mountains. From the top, you will witness the magnificent view of a different world below, the beautiful yet deserted Lahaul. The panoramic sweep of the valley from the summit will be a sight that will not leave you forever.',
+				descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
+				stock : 1,
+				days : 3,
+				nights: 2,
+				urlName : 'beas-kund-trek'
+			},
+			{
+				id : 9,
+				name : 'Shimla-Manali Tour',
+				img : 'assets/css/images/manali.jpg',
+				oldprice: 800.00,
+				price : 499.00,
+				prodType : 'packages',
+				stock : 100
 			}
 		],
 		wrapper = $('.productWrapper'),
@@ -104,8 +159,12 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			lowerLimit = 2
 			upperLimit = 3 
 		}
-		else{
+		else if(productName=='trekking'){
 			lowerLimit = 4
+			upperLimit = 8
+		}
+		else{
+			lowerLimit = 9
 			upperLimit = products.length - 1
 		}
 		
@@ -113,7 +172,6 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			if(upperLimit < 4){
 				if(products[i].stock > 0){
 					content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
-//					content+= '<a href="/activities/'+ products[i].prodType +'/" class="wopper wopper--'+ products[i].prodType +' '+ products[i].prodType +'-'+(i+1)+'" style="background-image: url(/'+products[i].img+')"></a>'
 					content+= '<a href="javascript:void(0);" class="wopper wopper--'+ products[i].prodType +' '+ products[i].prodType +'-'+(i+1)+'" style="background-image: url(/'+products[i].img+')">'
 					content+= '<div class="para__title"><i class="fa fa-map-marker-alt"></i>&nbsp;'+products[i].location
 					content+= '</div>'	
@@ -121,28 +179,24 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					content+= '<div class="wopper__footer">'
 					content+= '<div class="wopper__info">'
 					content+= '<div>'
-//					content+= '<a class="wopper__info-detail" style="" href="/activities/'+ products[i].prodType +'/">'+products[i].name+'</a>'
 					content+= '<a class="wopper__info-detail" href="javascript:void(0);">'+products[i].name+'</a>'
 					content+= '<button class="wopper__info-cart btn prod-'+products[i].id+'" data-style="zoom-out" onclick="app.addtoCart('+products[i].id+');" title="Add To Cart"><i class="fas fa-cart-plus"></i></button>'
 					content+= '</div>'
-					content+= '<a class="wopper__info-price prod-'+products[i].id+'"><span>₹ '+products[i].price+' /-</span></a>'
-//					if(upperLimit > 1){
-//						content+= '<div class="para__title"><i class="fa fa-map-marker-alt"></i>&nbsp;'+products[i].location
-//						content+= '</div>'						
-//					}
+					content+= '<a class="wopper__info-price prod-'+products[i].id+'"><span style="text-decoration: line-through;">₹ '+products[i].oldprice+' /-</span><span> ₹ '+products[i].price+' /-</span></a>'
 					content+= '</div>'
 					content+= '</div>'
 					content+= '</div>'
 				}
 			}
-			else{
+			else if((upperLimit >= 4)&&(upperLimit<9)){
 				if(products[i].stock > 0){
 					content+= '<div class="row row--padding-medium">'
 					content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
 					content+= '<a href="/activities/trekking/'+ products[i].urlName +'" class="wopper wopper--trek" style="display: flex; justify-content: center; background-image: url(/'+products[i].img+')">'
 					content+= '<span class="banner__overlay">'
 					content+= '</span>'
-					content+= '<span class="trek__title">'+ products[i].name +'</span>'
+					content+= '<span class="trek__title">'
+					content+= '<span>'+ products[i].name +'</span></span>'
 					content+= '</a>'
 					content+= '<div class="wopper__footer">'
 					content+= '<div class="wopper__info">'
@@ -163,6 +217,26 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					content+= '<a href="/activities/trekking/'+ products[i].urlName +'"><button class="trippy_btn"><span class="trippy_btn-left"></span>Learn More<span class="trippy_btn-right"></span></button>'
 					content+= '</a><br />'
 					content+= '</p>'
+					content+= '</div>'
+					content+= '</div>'
+				}
+			}
+			// Packages
+			else{
+				if(products[i].stock > 0){
+					content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
+					content+= '<a href="javascript:void(0);" class="wopper wopper--'+ products[i].prodType +' '+ products[i].prodType +'-'+(i+1)+'" style="background-image: url(/'+products[i].img+')">'
+					content+= '<div class="para__title"><i class="fa fa-map-marker-alt"></i>&nbsp;'+products[i].location
+					content+= '</div>'	
+					content+= '</a>'
+					content+= '<div class="wopper__footer">'
+					content+= '<div class="wopper__info">'
+					content+= '<div>'
+					content+= '<a class="wopper__info-detail" href="javascript:void(0);">'+products[i].name+'</a>'
+					content+= '<button class="wopper__info-cart btn prod-'+products[i].id+'" data-style="zoom-out" onclick="app.addtoCart('+products[i].id+');" title="Add To Cart"><i class="fas fa-cart-plus"></i></button>'
+					content+= '</div>'
+					content+= '<a class="wopper__info-price prod-'+products[i].id+'"><span style="text-decoration: line-through;">₹ '+products[i].oldprice+' /-</span><span> ₹ '+products[i].price+' /-</span></a>'
+					content+= '</div>'
 					content+= '</div>'
 					content+= '</div>'
 				}

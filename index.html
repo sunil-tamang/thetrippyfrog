@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: 'default'
+slick_css: 'Yes'
+slick_js: 'Yes'
 ---
 
 <!--SEO-->
@@ -14,19 +16,74 @@ layout: default
 	<h1>Recreational Sports</h1>
 	<h1>White Water Rafting in Kullu Manali</h1>
 </div>
+<!--- B-A-N-N-E-R -->
+<div class="slider-wrapper">
+  <button class="slide-prev"><i class="fas fa-chevron-left"></i></button>
+  <div class="slider">
+ 
+	  <div class="slide slide0">
+        <div class="slide-tagline">
+          <span class="tagline-text">
+			<h2 class="greeting">Welcome </h2><br />
+			<div class="banner_logo" style="position: absolute; left: 0; top:20%; width: 100%; text-align: center;">
+				<h1 class="trippy-name">THE TRIPPY FROG</h1>
+<!--				<img class="banner_logo-img" style="display: inline-block; transform: translateY(-3.2em);" src="{% link favicon.png%}" alt="The Trippy Frog Logo">-->
+			</div>
+			<h2 class="trippy-tagline">"TRAVEL MORE, LIVE MORE"</h2><br />
+          </span>
+        </div>
+      </div>
+      <div class="slide slide1">
+        <div class="slide-tagline">
+          <span class="tagline-text">
+            <h2>Rafting</h2>
+          </span>
+        </div>
+      </div>
 
+      <div class="slide slide2">
+        <div class="slide-tagline">
+          <span class="tagline-text">
+            <h2>Paragliding</h2>
+          </span>
+        </div>
+      </div>
+    
+      <div class="slide slide3">
+        <div class="slide-tagline">
+          <span class="tagline-text">
+            <h2>Trekking</h2>
+          </span>
+        </div>
+      </div>
+	  
+      <div class="slide slide4">
+        <div class="slide-tagline">
+          <span class="tagline-text">
+            <h2>Camping</h2>
+          </span>
+        </div>
+      </div>
+    </div>
+  
+	<button class="slide-next"><i class="fas fa-chevron-right"></i></button>
+	<span class="banner__skip">
+            <a class="banner__skip-trigger" href="#content"></a>
+	</span>
+</div>
+	<!--
     <div class="banner" style="background-image: url('assets/css/images/main_bg.jpg');">
         <span class="banner__overlay"></span>
 		<div class="banner_logo" style="position: absolute; left: 0; top:20%; width: 100%; text-align: center;">
 			<img class="banner_logo-img" src="{% link favicon.png%}" alt="The Trippy Frog Logo">
 		</div>
-        <div class="banner__tagline banner__home" style="opacity: 0;">
+        <div class="banner__tagline banner__home" style="opacity: 1;">
             <p class="tagline" style="text-transform: none;"></p>
 			<br />
             <p class="sub-tagline" style="display: inline;">
 				<span class="sub-tagline--part1">&nbsp;Travel More&nbsp;</span><span class="sub-tagline--part2">&nbsp;Live More&nbsp;</span><br />
                 <!-- YouTube Code : iPhone X = mW6hFttt_KE, GoPro Ultra Slow = EILqvdxdc5c , GoPro Adventure of Life in 4K = wTcNtgA6gHs-->
-                <span class="sub-tagline--videoTrigger no-select" id="popupTrigger" data-src="https://www.youtube.com/embed/a6lQY393TNQ?rel=0&amp;showinfo=0;modestbranding=0">
+       <!--         <span class="sub-tagline--videoTrigger no-select" id="popupTrigger" data-src="https://www.youtube.com/embed/a6lQY393TNQ?rel=0&amp;showinfo=0;modestbranding=0">
                     <svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 48 48" fill="#fff"><path d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm-4 29V15l12 9-12 9z"/></svg>
                 </span>
 			</p>
@@ -34,10 +91,11 @@ layout: default
         <span class="banner__skip">
             <a class="banner__skip-trigger" href="#content"></a>
         </span>
-    </div>
+    </div>-->
     
     <!----------------------P-O-P--U-P---Y-O-U-T-U-B-E---------------------->
 
+<!--
     <div id="myModal" class="modal">
       <div class="modal-content">
         <button type="button" class="close"  data-toggle="tooltip" title="Close" data-dismiss="modal">
@@ -47,19 +105,137 @@ layout: default
         </div>
       </div>
     </div>
-        
-    <!----------A-C-T-I-V-I-T-I-E-S-------->
+-->
+     
+		
+    <!------------Popular Treks-------->
     <div style="position: relative;">
     <span style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url('{{ 'assets/css/images/static.gif' | absolute_url }}') repeat center; opacity: .05; z-index: -1;"></span>
-    <div id='content' class="row row--padding-medium content">
-        <h1 class="content__title content__title-white" data-aos="zoom-out">ACTIVITIES</h1>
+    <div id='content' class="row row--padding-medium content container-wide">
+        <h1 class="content__title content__title-white" data-aos="zoom-out">POPULAR TREKS</h1>
         <br />
 		<!--New-->
 		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
-			<a href="{% link _activities/rafting.html %}" class="wopper wopper--rafting"></a>
+			<a href="{% link _packages/shimla-manali-tour.html %}" class="wopper wopper--shimla-manali">
+				<span class="offer-badge">15%<br />OFF</span>
+			</a>
 			<div class="wopper__footer">
 				<div class="wopper__info" style="padding: 0;">
-					<a class="wopper__info-price wopper__act-name" href="{% link _activities/rafting.html %}"><span>Rafting</span></a>
+					<a class="wopper__info-price wopper__act-name" href="{% link _packages/shimla-manali-tour.html %}"><span class="package-name">KUFRI TREK</span><br />
+					<span style="display: inline-block; padding: 0.5em 0.1em; background: #FF5722;font-size: 1em; color:#fbfbfb; margin-top: 0.4em;">
+						<span style="text-decoration:line-through;">Rs.8,000/-</span>
+						<span style="">Rs.5,999/-</span><br />
+					</span>
+					</a>
+					
+				</div>
+			</div>
+		</div>
+		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
+			<a href="{% link _packages/kasol-manali-tour.html %}" class="wopper wopper--kasol">
+				<span class="offer-badge">10%<br />OFF</span>
+			</a>
+			<div class="wopper__footer">
+				<div class="wopper__info" style="padding: 0;">
+					<a class="wopper__info-price wopper__act-name" href="{% link _packages/kasol-manali-tour.html %}"><span class="package-name">Kasol-Manali Tour</span><br />
+					<span style="display: inline-block; padding: 0.5em 0.1em; background: #FF5722;font-size: 1em; color:#fbfbfb; margin-top: 0.4em;">
+						<span style="text-decoration:line-through;">Rs.28,000</span>
+						<span style="">Rs.24,999</span><br />
+					</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
+			<a href="{% link _packages/spiti-kinnaur-tour.html %}" class="wopper wopper--spiti">
+				<span class="offer-badge">30%<br />OFF</span>
+			</a>
+			<div class="wopper__footer">
+				<div class="wopper__info" style="padding: 0;">
+					<a class="wopper__info-price wopper__act-name" href="{% link _packages/spiti-kinnaur-tour.html %}"><span class="package-name">Spiti-Kinnaur Tour</span><br />
+					<span style="display: inline-block; padding: 0.5em 0.1em; background: #FF5722;font-size: 1em; color:#fbfbfb; margin-top: 0.4em;">
+						<span style="text-decoration:line-through;">Rs.35,000</span>
+						<span style="">Rs.29,999</span><br />
+					</span>
+					</a>
+				</div>
+			</div>
+		</div>
+
+    </div>
+    </div>	
+	
+
+    <!------------P-A-C-K-A-G-E-S-------->
+    <div style="position: relative;">
+    <span style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url('{{ 'assets/css/images/static.gif' | absolute_url }}') repeat center; opacity: .05; z-index: -1;"></span>
+    <div id='content' class="row row--padding-medium content container-wide">
+        <h1 class="content__title content__title-white" data-aos="zoom-out">POPULAR PACKAGES</h1>
+        <br />
+		<!--New-->
+		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
+			<a href="{% link _packages/shimla-manali-tour.html %}" class="wopper wopper--shimla-manali">
+				<span class="offer-badge">15%<br />OFF</span>
+			</a>
+			<div class="wopper__footer">
+				<div class="wopper__info" style="padding: 0;">
+					<a class="wopper__info-price wopper__act-name" href="{% link _packages/shimla-manali-tour.html %}"><span class="package-name">Shimla-Manali Tour</span><br />
+					<span style="display: inline-block; padding: 0.5em 0.1em; background: #FF5722;font-size: 1em; color:#fbfbfb; margin-top: 0.4em;">
+						<span style="text-decoration:line-through;">Rs.25,000</span>
+						<span style="">Rs.21,999</span><br />
+					</span>
+					</a>
+					
+				</div>
+			</div>
+		</div>
+		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
+			<a href="{% link _packages/kasol-manali-tour.html %}" class="wopper wopper--kasol">
+				<span class="offer-badge">10%<br />OFF</span>
+			</a>
+			<div class="wopper__footer">
+				<div class="wopper__info" style="padding: 0;">
+					<a class="wopper__info-price wopper__act-name" href="{% link _packages/kasol-manali-tour.html %}"><span class="package-name">Kasol-Manali Tour</span><br />
+					<span style="display: inline-block; padding: 0.5em 0.1em; background: #FF5722;font-size: 1em; color:#fbfbfb; margin-top: 0.4em;">
+						<span style="text-decoration:line-through;">Rs.28,000</span>
+						<span style="">Rs.24,999</span><br />
+					</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
+			<a href="{% link _packages/spiti-kinnaur-tour.html %}" class="wopper wopper--spiti">
+				<span class="offer-badge">30%<br />OFF</span>
+			</a>
+			<div class="wopper__footer">
+				<div class="wopper__info" style="padding: 0;">
+					<a class="wopper__info-price wopper__act-name" href="{% link _packages/spiti-kinnaur-tour.html %}"><span class="package-name">Spiti-Kinnaur Tour</span><br />
+					<span style="display: inline-block; padding: 0.5em 0.1em; background: #FF5722;font-size: 1em; color:#fbfbfb; margin-top: 0.4em;">
+						<span style="text-decoration:line-through;">Rs.35,000</span>
+						<span style="">Rs.29,999</span><br />
+					</span>
+					</a>
+				</div>
+			</div>
+		</div>
+
+    </div>
+    </div>
+	
+
+    <!----------A-C-T-I-V-I-T-I-E-S-------->
+    <div style="position: relative;">
+    <span style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url('{{ 'assets/css/images/static.gif' | absolute_url }}') repeat center; opacity: .05; z-index: -1;"></span>
+    <div id='content' class="row row--padding-medium content container-wide">
+        <h1 class="content__title content__title-white" data-aos="zoom-out">ADVENTURE</h1>
+        <br />
+		<!--New-->
+		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
+			<a href="{% link _activities/trekking.html %}" class="wopper wopper--trek"></a>
+			<div class="wopper__footer">
+				<div class="wopper__info" style="padding: 0;">
+					<a class="wopper__info-price wopper__act-name" href="{% link _activities/trekking.html %}"><span>Trekking</span></a>
 				</div>
 			</div>
 		</div>
@@ -72,13 +248,14 @@ layout: default
 			</div>
 		</div>
 		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
-			<a href="{% link _activities/trekking.html %}" class="wopper wopper--trek"></a>
+			<a href="{% link _activities/rafting.html %}" class="wopper wopper--rafting"></a>
 			<div class="wopper__footer">
 				<div class="wopper__info" style="padding: 0;">
-					<a class="wopper__info-price wopper__act-name" href="{% link _activities/trekking.html %}"><span>Trekking</span></a>
+					<a class="wopper__info-price wopper__act-name" href="{% link _activities/rafting.html %}"><span>Rafting</span></a>
 				</div>
 			</div>
 		</div>
+
 		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
 			<a href="{% link _activities/camping.html %}" class="wopper wopper--camp"></a>
 			<div class="wopper__footer">
@@ -105,6 +282,52 @@ layout: default
 		</div>
     </div>
     </div>
+
+
+    <!----------R-E-N-T-I-N-G-------->
+<!--
+    <div style="position: relative;">
+
+    <div id='content' class="row row--padding-medium content container-wide">
+        <h1 class="content__title content__title-white" data-aos="zoom-out">RENTING / BOOKING</h1>
+        <br />
+		
+		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
+			<a href="" class="wopper wopper--hotel"></a>
+			<div class="wopper__footer">
+				<div class="wopper__info" style="padding: 0;">
+					<a class="wopper__info-price wopper__act-name" href=""><span>BOOK A HOTEL ROOM</span></a>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
+			<a href="" class="wopper wopper--bike-rental"></a>
+			<div class="wopper__footer">
+				<div class="wopper__info" style="padding: 0;">
+					<a class="wopper__info-price wopper__act-name" href=""><span>RENT A BIKE</span></a>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
+			<a href="" class="wopper wopper--bus"></a>
+			<div class="wopper__footer">
+				<div class="wopper__info" style="padding: 0;">
+					<a class="wopper__info-price wopper__act-name" href=""><span>BOOK A BUS/VOLVO</span></a>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
+			<a href="" class="wopper wopper--car"></a>
+			<div class="wopper__footer">
+				<div class="wopper__info" style="padding: 0;">
+					<a class="wopper__info-price wopper__act-name" href=""><span>CAR RENTAL</span></a>
+				</div>
+			</div>
+		</div>
+
+    </div>
+    </div>
+-->
 
     <!---------T-E-S-T-I-M-O-N-I-A-L-S-------->
 <!--

@@ -20,7 +20,7 @@
     <link rel="icon" href="{{ 'favicon.png' | relative_url }}" sizes="32x32">
 
     <!-- External Stylesheets-->
-    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Anton" rel="stylesheet" type="text/css">
 	<!-- Shopping Cart -->
 	<link defer href="https://cdnjs.cloudflare.com/ajax/libs/Ladda/1.0.6/ladda.min.css" rel="stylesheet"/>
 	<!-- End Shopping Cart -->
@@ -28,8 +28,10 @@
 <!--    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css" rel="stylesheet">-->
 	
 <!--	SLICK	 -->
-<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" rel="stylesheet"/> -->
+	{% if page.slick_css %}
+ 	<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" rel="stylesheet"/> 	
+	{% endif %}
     
 	
 <!--	DEVELOPMENT - Copy Every Time, each of the css's content to main.css   -->	
@@ -77,10 +79,12 @@
 	<!-- End Alexa Certify Javascript -->  
 </head>
     
-<body class="preload">
+<body>
     <div class="header">
-        <div class="row container container-wide">
-			<h1 class="header__logo"><a href="/">The Trippy Frog</a></h1>
+        <div class="row container container-wide" style="padding-left: 1em; padding-right: 1em;">
+			<h1 class="header__logo"><a href="/">
+<!--				<img src="{{ 'favicon.png' | absolute_url }}" style="width: 30px; height: 30px;"/> -->
+				THE TRIPPY FROG</a></h1>
             <div id="trigger__wrapper" class="nav">
                 <a id="trigger" class="bars">
                     <span class="bars-top"></span>
@@ -90,8 +94,8 @@
             <nav class="row header__nav" id="nav">
                 <ul class="nav__ul">
                     <li class="nav__li"><a href="{% link index.html %}">HOME</a></li>
-                    <li class="nav__li"><a href="{% link about.html %}">ABOUT</a></li>
-                    <li class="nav__li dropdown"><a class="dropdown__trigger">Activities&nbsp;<span></span></a>
+                    <li class="nav__li"><a href="{% link packages.html %}">PACKAGES</a></li>
+                    <li class="nav__li dropdown"><a class="dropdown__trigger">ADVENTURE&nbsp;<span></span></a>
                         <ul class="nav__dropdown">
                             <li class="nav__dropdown--item"><a href="{% link _activities/rafting.html %}">Rafting</a></li>
                             <li class="nav__dropdown--item"><a href="{% link _activities/paragliding.html %}">Paragliding</a></li>
@@ -101,7 +105,14 @@
                             <li class="nav__dropdown--item"><a href="{% link _activities/4x4-trails.html %}">4x4 Trails</a></li>
                         </ul>
                     </li>
-                    <li class="nav__li"><a href="{% link contact.html %}">Contact</a></li>
+					
+					<li class="nav__li dropdown"><a class="dropdown__trigger">MORE&nbsp;<span></span></a>
+                        <ul class="nav__dropdown">
+                            <li class="nav__dropdown--item"><a href="{% link about.html %}">Our Story</a></li>
+                            <li class="nav__dropdown--item"><a href="{% link contact.html %}">CONTACT</a></li>
+                        </ul>
+                    </li>
+					
                     <li class="nav__li"><a href="{% link cart.html %}"><i class="fa fa-shopping-cart"></i>&nbsp;<span class="totalItems">0</span></a></li>
                 </ul>
             </nav>
@@ -127,7 +138,7 @@
                 </div>
                 <div class="col-medium row--padding-medium">
                     <h1 class="footer__header">
-                        ACTIVITIES</h1>
+                        ADVENTURE</h1>
                     <ul class="footer__content no-select">
                             <li class="footer__content-item"><a href="{% link _activities/rafting.html %}">Rafting</a></li>
                             <li class="footer__content-item"><a href="{% link _activities/paragliding.html %}">Paragliding</a></li>
@@ -212,8 +223,11 @@
     
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!--<script defer src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>-->
+{% if page.slick_js %}
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+{% endif %}
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>-->
 <script src="{{ 'assets/js/main.js' | absolute_url }}"></script>
 
 <!--Handles the bug in IE for "background-attachment: fixed;" css property-->

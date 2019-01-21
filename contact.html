@@ -9,10 +9,10 @@ permalink: /contact/
 		display: none;
 	}
 </style>
-{% assign path = 'assets/css/images/dark.jpg' | relative_url%} 
+{% assign path = 'assets/css/images/contact.jpg' | relative_url%} 
     <div class="banner" style="background-image: url('{{ path }}')">
         <span class="banner__overlay"></span>
-        <div class="banner__tagline" style="opacity: 0;">
+        <div class="banner__tagline" style="opacity: 1;">
             <p class="tagline">CONTACT</p>
             <p class="sub-tagline" style="display: inline;">
 				<span class="sub-tagline--part1">&nbsp;Get&nbsp;</span><span class="sub-tagline--part2">&nbsp;In Touch&nbsp;</span><br />
@@ -25,9 +25,55 @@ permalink: /contact/
     
 
     <!----------C-O-N-T-A-C-T-------->
-    <div id="content" style="position: relative; padding-top: 3.5em;">
+	<div id="content" class="container--white" style="position: relative;">
+	<span style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url('{{ 'assets/css/images/static.gif' | absolute_url }}') repeat center; opacity: .04; z-index: 0;"></span>
+
+    <div class="row row--padding-medium content">
+        <h1 class="content__title content__title-white" data-aos="zoom-out">Say Hello!</h1>
+        <br />
+			
+        <form action="https://formspree.io/thetrippyfrog@gmail.com" method="POST" name="contact_form"  data-aos="fade-in">
+            <fieldset>
+                <legend style="font-size: 1.5em;">Keep it succinct</legend>
+                <div class="ar-input-set two-in-one_1">
+                    <input type="text" name="name" required id="id_name" />
+                    <span class="ar-fixed-label"><i class="far fa-user"></i></span>
+                    <span class="ar-floating-label">Name</span>
+
+                </div>
+                <div class="ar-input-set two-in-one_2">
+                    <input type="text" name="phone" required id="id_phone" />
+                    <span class="ar-fixed-label"><i class="fa fa-phone"></i></span>
+                    <span class="ar-floating-label">Mobile</span>
+
+                </div>
+                <div class="ar-input-set" style="clear:both;">
+                  <!--<input type="email" name="email" required id="id_email" />-->
+                  <input type="email" name="email" required id="id_email" />
+                    <span class="ar-fixed-label"><i class="fa fa-envelope"></i></span>
+                    <span class="ar-floating-label">E-Mail</span>
+
+                </div>
+                <div class="ar-input-set">
+                    <textarea rows="8" id="id_message" name="message" required="" style="height:120px;" type="text"></textarea>
+                    <span class="ar-fixed-label"><i class="fas fa-pencil-alt"></i></span>
+                    <span class="ar-floating-label">Message</span>
+
+                </div>
+
+                <span class="ar-form-btn-span">
+                    <input type="hidden" name="_next" value="http://trippyfrog.com/thanks" />
+                    <input type="hidden" name="_subject" value="New Submission from The Trippy Frog!" />
+                    <button class="trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>SEND<span class="trippy_btn-right"></span></button><br />
+                </span>
+            </fieldset>
+        </form>
+    </div>
+    </div>
+
+    <div style="position: relative;">
     <span style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url('{{ 'assets/css/images/static.gif' | absolute_url }}') repeat center; opacity: .05; z-index: -1;"></span>
-        <div class="row row--padding-wide content">
+        <div class="row row--padding-medium content">
             <h1 class="content__title content__title-white" data-aos="zoom-out" style="margin-bottom: 0;">SOCIAL MEDIA</h1>
             <br />
             <div class="container-wide row--padding-wide" style="padding-left: 0; padding-right: 0;">
@@ -46,7 +92,7 @@ permalink: /contact/
                 <br >
             </div>
         </div>
-		<div class="row row--padding-wide content">
+		<div class="row row--padding-medium content">
             <h1 class="content__title content__title-white" data-aos="zoom-out" style="margin-bottom: 0;">Reach Out</h1>
             <br />
             <div class="row container-wide row--padding-medium" style="padding-left: 0; padding-right: 0;">
@@ -105,50 +151,4 @@ permalink: /contact/
                 <br >
             </div>
         </div>
-    </div>
-
-    <div class="container--white" style="position: relative;">
-	<span style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url('{{ 'assets/css/images/static.gif' | absolute_url }}') repeat center; opacity: .04; z-index: 0;"></span>
-
-    <div class="row row--padding-medium content">
-        <h1 class="content__title content__title-white" data-aos="zoom-out">Say Hello!</h1>
-        <br />
-			
-        <form action="https://formspree.io/thetrippyfrog@gmail.com" method="POST" name="contact_form"  data-aos="fade-in">
-            <fieldset>
-                <legend style="font-size: 1.5em;">Keep it succinct</legend>
-                <div class="ar-input-set two-in-one_1">
-                    <input type="text" name="name" required id="id_name" />
-                    <span class="ar-fixed-label"><i class="far fa-user"></i></span>
-                    <span class="ar-floating-label">Name</span>
-
-                </div>
-                <div class="ar-input-set two-in-one_2">
-                    <input type="text" name="phone" required id="id_phone" />
-                    <span class="ar-fixed-label"><i class="fa fa-phone"></i></span>
-                    <span class="ar-floating-label">Mobile</span>
-
-                </div>
-                <div class="ar-input-set" style="clear:both;">
-                  <!--<input type="email" name="email" required id="id_email" />-->
-                  <input type="email" name="email" required id="id_email" />
-                    <span class="ar-fixed-label"><i class="fa fa-envelope"></i></span>
-                    <span class="ar-floating-label">E-Mail</span>
-
-                </div>
-                <div class="ar-input-set">
-                    <textarea rows="8" id="id_message" name="message" required="" style="height:120px;" type="text"></textarea>
-                    <span class="ar-fixed-label"><i class="fas fa-pencil-alt"></i></span>
-                    <span class="ar-floating-label">Message</span>
-
-                </div>
-
-                <span class="ar-form-btn-span">
-                    <input type="hidden" name="_next" value="http://trippyfrog.com/thanks" />
-                    <input type="hidden" name="_subject" value="New Submission from The Trippy Frog!" />
-                    <button class="trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>SEND<span class="trippy_btn-right"></span></button><br />
-                </span>
-            </fieldset>
-        </form>
-    </div>
     </div>
