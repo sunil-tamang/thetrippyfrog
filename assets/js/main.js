@@ -12,7 +12,65 @@
 
    
 $(document).ready(function(){
-	if($('.slider').length){  
+	if($('.trek-slider').length){
+			$('.trek-slider').slick({
+				autoplay:false,
+			   centerMode: true,
+			   centerPadding: '60px',
+			   slidesToShow: 3,
+			   prevArrow: $(".slide-center-prev"),
+			   nextArrow: $(".slide-center-next"),
+			   responsive: [
+				 {
+				   breakpoint: 1024,
+				   settings: {
+					 arrows: false,
+					 centerMode: true,
+					 centerPadding: '40px',
+					 slidesToShow: 2
+				   }
+				 },
+			     {
+				   breakpoint: 768,
+				   settings: {
+					 arrows: false,
+					 centerMode: true,
+					 centerPadding: '80px',
+					 slidesToShow: 1
+				   }
+				 },
+			     {
+				   breakpoint: 640,
+				   settings: {
+					 arrows: false,
+					 centerMode: true,
+					 centerPadding: '50px',
+					 slidesToShow: 1
+				   }
+				 },
+			     {
+				   breakpoint: 425,
+				   settings: {
+					 arrows: false,
+					 centerMode: true,
+					 centerPadding: '20px',
+					 slidesToShow: 1
+				   }
+				 },
+			     {
+				   breakpoint: 375,
+				   settings: {
+					 arrows: false,
+					 centerMode: true,
+					 centerPadding: '15px',
+					 slidesToShow: 1
+				   }
+				 }
+			   ]
+			 });
+	}
+	
+	if($('.slider').length){
 		$('.slider').slick({
 			dots:false,
 			infinite: true,
@@ -29,6 +87,10 @@ $(document).ready(function(){
 			adaptiveHeight: false
 		  });
 	}
+	
+	
+	
+	
 	
 	// Hide Call Now btn if the input is focused 
 	hideCallNow();
@@ -192,6 +254,7 @@ $(document).ready(function(){
 
 $(window).on('load', function(){
 	$(".slider").slick('slickPlay');
+	$('.trek-slider').slick('slickPause');
 });
 	
 /*

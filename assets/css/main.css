@@ -191,7 +191,27 @@ body{
 	font-size: 1.5em !important;
 	font-family: 'LATO',sans-serif !important;
 	text-shadow: 1px 1px 2px #eee;
+
 }
+
+.headline{
+	letter-spacing: normal !important;
+	font-family: "Montserrat", sans-serif !important;
+	font-size: 40px !important;
+	line-height: 40px !important;
+	text-transform: none !important;
+	color: #fff !important;
+}
+
+.headline--detail{
+	margin-top: 25px;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+    color: #f9f9f9;
+    font-weight: 300;
+}
+
 .trippy-name{
 	font-family: 'ANTON',sans-serif !important; 
 	letter-spacing: 0.08em !important; 
@@ -216,17 +236,19 @@ body{
 }
 
 .slider-wrapper {
+	position: relative;
     background-color: black;
     width: 100%;
     height:100%;
     display: flex;
+	overflow: hidden;
     justify-content: center;
 }
 
+.trek-slider,
 .slider {
     width: 100%;
     height: 100%;
-
 }
 .slick-list.draggable,
 .slick-track{
@@ -242,20 +264,83 @@ body{
     background-attachment: local;
 }
 
+.trek-slide{
+	background-color: #fdfdfd;
+	background-color: #111;
+	margin:0 10px;
+	box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.2);
+}
+.trek-slide--img{
+    cursor: pointer;
+/*    display: table-cell;*/
+    vertical-align: middle;
+    width: 100%;
+/*    height: 100%;*/
+    transition: all 1s ease;
+    position: relative;
+    padding-bottom:  66%; /*Maintaining Aspect Ratio*/
+    overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.trek-slide--text{
+	padding: 2em 1em;
+	color:#333;
+	color:#cdcdcd;
+}
+.trek-slide--meta,
+.trek-slide--title{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	border-bottom: 1px solid rgba(228, 228, 228, 0.2);
+	padding: 15px 0;
+}
+
+.trek-slide--meta{
+	font-size: 1.2em;
+	padding-top: 0;
+}
+.trek-slide--meta div{
+	padding: 0;
+	display: inline-block;
+	width: 33.33333333%;
+	width: 32%;
+}
+.trek-slide--meta div>span{
+	display: block;
+	padding-top: 10px;
+	line-height: 24px;
+	font-size: 19px;
+}
+
+.meta-type{
+	font-size: 14px !important;
+}
+
+.trek-slide--title{
+	font-size: 1.2em; 
+	text-transform: uppercase;
+}
+
+.trek-slide--info{
+	padding: 15px 0 0;
+}
+
 .slide0 {
-	background-image: url('images/home.jpg');
+	background-image: url('images/treks/kufri_min.jpg');
 }
 .slide1 {
-	background-image: url('images/rafting3.jpg');
+	background-image: url('images/treks/wild_min.jpg');
 }
 .slide2 {
-	background-image: url('images/paragliding.jpg');
+/*	background-image: url('images/paragliding.jpg');*/
+	background-image: url('images/treks/lamadugh-min.jpg');
 }
 .slide3 {
-	background-image: url('images/trek.jpg');
+	background-image: url('images/bhrigu-lake.jpg');
 }
 .slide4 {
-	background-image: url('images/camp.jpg');
+	background-image: url('images/treks/hampta_min.jpg');
 }
 
 i {
@@ -264,22 +349,57 @@ i {
 }
 
 /* Slide Navigations */
+.slide-center-prev,
+.slide-center-next,
 .slide-prev, .slide-next{
-	padding:0 1em;
+/*	padding:0 1em;*/
 	 height:100%;
-	 position: relative;
+	 position: absolute;
     border: 0;
     outline: none;
     z-index:2;
     background-color: transparent;
 	cursor: pointer;
 	color: #fff;
+	width: 10%;
 }
-.slide-prev {
+.slide-center-prev{
+	background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+	background-repeat: repeat-x;
+}
+.slide-center-next{
+	background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+	background-repeat: repeat-x;
+}
+.slide-center-prev,
+.slide-center-next{
+	width: 5%;
+}
+@media(max-width:480px)
+{
+	.slide-center-prev,
+	.slide-center-next{
+		width: 10%;
+	}
+	.trek-slide--meta div>span{
+		line-height: 24px;
+		font-size: 17px;
+	}
+	.meta-type{
+		font-size: 11px !important;
+	}
+	.trek-slide--title{
+		font-size: 1.1em; 
+		text-transform: uppercase;
+	}
+}
+.slide-center-prev,.slide-prev {
     left: 11%;
+    left: 0;
 }
-.slide-next {
+.slide-center-next,.slide-next {
     right: 11%;
+    right: 0;
 }
 /* End Slide Navigations */
 
@@ -289,6 +409,20 @@ i {
     width: 100%;
     height: 100%;
     padding: 2em;
+	z-index: 1;
+}
+
+.slide-text{
+	position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 3;
+    text-align: center;
+    padding: 50px 48px;
+	margin: auto;
+	max-width: 870px;
 }
 
 .tagline-text {
@@ -475,6 +609,9 @@ i {
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,.4);
+}
+.slide-overlay{
+	background: rgba(0,0,0,.1);
 }
 
 .banner__overlay-dark{
@@ -1012,6 +1149,9 @@ p.content__pg:not(:last-child){
     line-height: 2em;
     clear: both;
 }
+.sitemap-list{
+	text-align: left;
+}
 .content__list-item{
 	font-weight: bold;
     position: relative;
@@ -1084,6 +1224,7 @@ p.content__pg:not(:last-child){
     display: table;
     overflow: hidden;
     border: 1px solid #fff;
+	border-radius: .5em;
 }
 
 .wrapper-text-right{
@@ -1147,6 +1288,9 @@ p.content__pg:not(:last-child){
     padding-bottom:  56.25%; /*Maintaining Aspect Ratio*/
     overflow: hidden;
 }
+.wopper-trek{
+/*	border-radius: .5em;*/
+}
 
 .wopper:after{
     content:'';
@@ -1177,21 +1321,33 @@ p.content__pg:not(:last-child){
 .wopper--bus{background: url(images/volvo.jpg) center no-repeat; background-size: 100%;}
 .wopper--car{background: url(images/etioss.jpg) center no-repeat; background-size: 100%;}
 
+/* Treks */
+.wopper--kufri{background: url(images/treks/kufri_min.jpg) center no-repeat; background-size: 100%;}
+.wopper--shimla-manali{background: url(images/manali.jpg) center no-repeat; background-size: 100%;}
+
 .wopper--shimla-manali{background: url(images/manali.jpg) center no-repeat; background-size: 100%;}
 .wopper--kasol{background: url(images/manali2.jpg) center no-repeat; background-size: 100%;}
 .wopper--spiti{background: url(images/spiti-life.jpeg) center no-repeat; background-size: 100%;}
 
 
+.trek--offer-badge,
 .offer-badge{
 	position: absolute;
     top: 0;
     right: 0;
     font-weight: bolder;
     padding: 1em;
-    background: #ff5722;
-    color: #fbfbfb;
     border-radius: 360px;
-    font-size: 1.2em;
+	font-size: 1.2em;
+	color:#fff;
+}
+
+.offer-badge{
+    background: #ff5722;
+}
+
+.trek--offer-badge{
+	background: rgba(255, 214, 0, .75);
 }
 
 .wopper__title{
@@ -1591,6 +1747,14 @@ p.content__pg:not(:last-child){
 		transform: translateY(-1.2em)  !important;
 		font-size: 1.8em !important;
 	}
+	.headline{
+		font-size: 55px !important;
+		line-height: 60px !important;
+	}
+	.headline--detail{
+	    font-size: 16px;
+    	line-height: 26px;
+	}
 	.trippy-name{
 		letter-spacing: 0.08em !important; 
 		font-size: 2.4em !important; 
@@ -1800,7 +1964,10 @@ p.content__pg:not(:last-child){
 }
 
 @media(max-width:320px){
-    .wopper__info-detail {
+	.headline{
+		font-size: 30px !important;
+	}
+	.wopper__info-detail {
         font-size: 1.3em;
     }
 }

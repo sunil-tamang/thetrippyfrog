@@ -34,29 +34,43 @@ slick_js: 'Yes'
         </div>
       </div>
       <div class="slide slide1">
-        <div class="slide-tagline">
-          <span class="tagline-text">
-            <h2>Rafting</h2>
+        <div class="slide-text">
+          <span class="">
+			<h2 class="headline">Wild nature<br/>safe adventure</h2>
+			<p class="headline--detail">Hike in the wild, and be safe with our professional guides.</p><br />
+		  	<a href="{% link _activities/trekking.html %}">
+				<button class="trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>EXPLORE TREKS<span class="trippy_btn-right"></span></button>
+		  	</a>
           </span>
         </div>
       </div>
 
       <div class="slide slide2">
-        <div class="slide-tagline">
-          <span class="tagline-text">
-            <h2>Paragliding</h2>
+        <div class="slide-text">
+          <span class="">
+			<h2 class="headline">Wake your<br/>travel bug up!</h2>
+			<p class="headline--detail">Get our of your routine job, and choose adventure for yourself.</p><br />
+		  	<a href="{% link _activities/trekking.html %}">
+				<button class="trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>See More<span class="trippy_btn-right"></span></button>
+		  	</a>
           </span>
         </div>
       </div>
     
       <div class="slide slide3">
-        <div class="slide-tagline">
-          <span class="tagline-text">
-            <h2>Trekking</h2>
+	    <span class="banner__overlay slide-overlay"></span>
+        <div class="slide-text">
+          <span class="">
+			<h2 class="headline">Find true-self<br/>in the himalayas!</h2>
+			<p class="headline--detail">Lose yourself in the Himalayas and find your true-self.</p><br />
+		  	<a href="{% link _activities/trekking.html %}">
+				<button class="trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>Find More<span class="trippy_btn-right"></span></button>
+		  	</a>
           </span>
         </div>
       </div>
 	  
+<!--
       <div class="slide slide4">
         <div class="slide-tagline">
           <span class="tagline-text">
@@ -64,6 +78,7 @@ slick_js: 'Yes'
           </span>
         </div>
       </div>
+-->
     </div>
   
 	<button class="slide-next"><i class="fas fa-chevron-right"></i></button>
@@ -109,17 +124,18 @@ slick_js: 'Yes'
      
 		
     <!------------Popular Treks-------->
+<!--
     <div style="position: relative;">
     <span style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url('{{ 'assets/css/images/static.gif' | absolute_url }}') repeat center; opacity: .05; z-index: -1;"></span>
     <div id='content' class="row row--padding-medium content container-wide">
         <h1 class="content__title content__title-white" data-aos="zoom-out">POPULAR TREKS</h1>
         <br />
-		<!--New-->
+
 		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
-			<a href="{% link _packages/shimla-manali-tour.html %}" class="wopper wopper--shimla-manali">
-				<span class="offer-badge">15%<br />OFF</span>
+			<a href="{% link _treks/kufri.html %}" class="wopper wopper-trek wopper--kufri">
+				<span class="trek--offer-badge">15%<br />OFF</span>
 			</a>
-			<div class="wopper__footer">
+			<div class="wopper__footer wopper__footer-trek">
 				<div class="wopper__info" style="padding: 0;">
 					<a class="wopper__info-price wopper__act-name" href="{% link _packages/shimla-manali-tour.html %}"><span class="package-name">KUFRI TREK</span><br />
 					<span style="display: inline-block; padding: 0.5em 0.1em; background: #FF5722;font-size: 1em; color:#fbfbfb; margin-top: 0.4em;">
@@ -165,6 +181,7 @@ slick_js: 'Yes'
     </div>
     </div>	
 	
+-->
 
     <!------------P-A-C-K-A-G-E-S-------->
     <div style="position: relative;">
@@ -329,7 +346,154 @@ slick_js: 'Yes'
     </div>
 -->
 
-    <!---------T-E-S-T-I-M-O-N-I-A-L-S-------->
+
+
+    <!---------Choose Your Trek-------->
+
+	
+<div id='content' class="row row--padding-medium content" style="padding-left:0; padding-right: 0;">
+	<h1 class="content__title content__title-white" data-aos="zoom-out">BOOK TREKS</h1>
+	<br />
+	<div class="slider-wrapper" style="">
+	  <button class="slide-center-prev"><i class="fas fa-chevron-left"></i></button>
+	  <div class="trek-slider center">
+		 
+		  <div class="slide trek-slide">
+		  	<img class="trek-slide--img slide0">
+			<div class="trek-slide--text">
+				<div class="trek-slide--meta">
+					<div class="">
+						<span>2</span> 
+						<span class="meta-type"><i class="far fa-clock"></i> Days</span>
+					</div>
+					<div class="">
+						<span>8,000 ft</span> 
+						<span class="meta-type"><i class="fas fa-mountain"></i> Altitude</span>
+					</div>
+					<div class="">
+						<span>Easy</span> 
+						<span class="meta-type"><i class="fa fa-tachometer-alt"></i> Grade</span>
+					</div>
+				</div>
+				<h2 class="trek-slide--title"><i class="fa fa-map-marker-alt"></i> Kufri Trek</h2>
+				<div class="trek-slide--info">
+					<a href="{% link _treks/kufri.html %}">
+						<button class="trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>BOOK NOW<span class="trippy_btn-right"></span></button>
+					</a>
+				</div>
+			</div>
+		</div>
+		  
+		  <div class="slide trek-slide">
+		  	<img class="trek-slide--img slide1">
+			<div class="trek-slide--text">
+				<div class="trek-slide--meta">
+					<div class="">
+						<span>7</span> 
+						<span class="meta-type"><i class="far fa-clock"></i> Days</span>
+					</div>
+					<div class="">
+						<span>13,500 ft</span> 
+						<span class="meta-type"><i class="fas fa-mountain"></i> Altitude</span>
+					</div>
+					<div class="">
+						<span>Moderate</span> 
+						<span class="meta-type"><i class="fa fa-tachometer-alt"></i> Grade</span>
+					</div>
+				</div>
+				<h2 class="trek-slide--title"><i class="fa fa-map-marker-alt"></i> Mantalai Trek</h2>
+				<div class="trek-slide--info">
+					<a href="{% link _treks/kufri.html %}">
+						<button class="trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>BOOK NOW<span class="trippy_btn-right"></span></button>
+					</a>
+				</div>
+			</div>
+		</div>
+		  
+		  <div class="slide trek-slide">
+		  	<img class="trek-slide--img slide2">
+			<div class="trek-slide--text">
+				<div class="trek-slide--meta">
+					<div class="">
+						<span>3</span> 
+						<span class="meta-type"><i class="far fa-clock"></i> Days</span>
+					</div>
+					<div class="">
+						<span>9,900 ft</span> 
+						<span class="meta-type"><i class="fas fa-mountain"></i> Altitude</span>
+					</div>
+					<div class="">
+						<span>Easy</span> 
+						<span class="meta-type"><i class="fa fa-tachometer-alt"></i> Grade</span>
+					</div>
+				</div>
+				<h2 class="trek-slide--title"><i class="fa fa-map-marker-alt"></i> Lamadugh Trek</h2>
+				<div class="trek-slide--info">
+					<a href="{% link _treks/kufri.html %}">
+						<button class="trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>BOOK NOW<span class="trippy_btn-right"></span></button>
+					</a>
+				</div>
+			</div>
+		</div>
+		  
+		  <div class="slide trek-slide">
+		  	<img class="trek-slide--img slide3">
+			<div class="trek-slide--text">
+				<div class="trek-slide--meta">
+					<div class="">
+						<span>3</span> 
+						<span class="meta-type"><i class="far fa-clock"></i> Days</span>
+					</div>
+					<div class="">
+						<span>14,108 ft</span> 
+						<span class="meta-type"><i class="fas fa-mountain"></i> Altitude</span>
+					</div>
+					<div class="">
+						<span>Moderate</span> 
+						<span class="meta-type"><i class="fa fa-tachometer-alt"></i> Grade</span>
+					</div>
+				</div>
+				<h2 class="trek-slide--title"><i class="fa fa-map-marker-alt"></i> Bhrigu-Lake Trek</h2>
+				<div class="trek-slide--info">
+					<a href="{% link _treks/kufri.html %}">
+						<button class="trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>BOOK NOW<span class="trippy_btn-right"></span></button>
+					</a>
+				</div>
+			</div>
+		</div>
+		  
+		  <div class="slide trek-slide">
+		  	<img class="trek-slide--img slide4">
+			<div class="trek-slide--text">
+				<div class="trek-slide--meta">
+					<div class="">
+						<span>5</span> 
+						<span class="meta-type"><i class="far fa-clock"></i> Days</span>
+					</div>
+					<div class="">
+						<span>14,009 ft</span> 
+						<span class="meta-type"><i class="fas fa-mountain"></i> Altitude</span>
+					</div>
+					<div class="">
+						<span>Moderate</span> 
+						<span class="meta-type"><i class="fa fa-tachometer-alt"></i> Grade</span>
+					</div>
+				</div>
+				<h2 class="trek-slide--title"><i class="fa fa-map-marker-alt"></i> Hampta-Pass Trek</h2>
+				<div class="trek-slide--info">
+					<a href="{% link _treks/kufri.html %}">
+						<button class="trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>BOOK NOW<span class="trippy_btn-right"></span></button>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		</div>
+
+		<button class="slide-center-next"><i class="fas fa-chevron-right"></i></button>
+	</div>
+</div>
+<!---------T-E-S-T-I-M-O-N-I-A-L-S-------->
 <!--
     <div class="container--white">
     <div class="row row--padding-medium container-wide content">
