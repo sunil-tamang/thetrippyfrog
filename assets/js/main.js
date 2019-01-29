@@ -14,13 +14,20 @@
 $(document).ready(function(){
 	if($('.trek-slider').length){
 			$('.trek-slider').slick({
-				autoplay:false,
-			   centerMode: true,
-			   centerPadding: '60px',
-			   slidesToShow: 3,
-			   prevArrow: $(".slide-center-prev"),
-			   nextArrow: $(".slide-center-next"),
-			   responsive: [
+				touchMove:true,
+				adaptiveHeight: false,
+				loop:true,
+				swipe:true,
+				infinite: true,
+				autoplay:true,
+				autoplaySpeed:2000,
+				centerMode: true,
+				centerPadding: '40px',
+				responsive:true,
+				slidesToShow: 3,
+				prevArrow: $(".slide-center-prev"),
+				nextArrow: $(".slide-center-next"),
+				responsive: [
 				 {
 				   breakpoint: 1024,
 				   settings: {
@@ -254,7 +261,7 @@ $(document).ready(function(){
 
 $(window).on('load', function(){
 	$(".slider").slick('slickPlay');
-	$('.trek-slider').slick('slickPause');
+//	$('.trek-slider').slick('slickPause');
 });
 	
 /*
@@ -332,6 +339,7 @@ function checkScrollTop(){
     if ($(window).scrollTop() > 100) { 
 		hideCallNowAdd();
 		$('.header').css('background','rgba(0,0,0,0.9)');
+		$('.header').css('top','0px');
 	} 
 	else {
 		hideCallNowRemove();

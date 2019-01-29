@@ -86,6 +86,33 @@ slick_js: 'Yes'
             <a class="banner__skip-trigger" href="#content"></a>
 	</span>
 </div>
+
+<!---------Why Us? -------->
+<div style="background:#06080b; padding: 0;">
+<div id='content' class="row row--padding-medium content" style="padding-left:0; padding-right: 0; ">
+	<h1 class="content__sub-title content__title-white" style="color:#fff;"><i class="fas fa-hands"></i>  Why Us?</h1>
+	<br />
+	<div class="why-us" style="width: 100%;">
+		<div style="">
+			<i style="color: #ffd600;" class="fas fa-award"></i>
+			<span>Professional Guides
+				<p>All our guides are well-trained and certified</p>
+			</span>
+		</div>
+		<div style="">
+			<i style="color: #2196F3;" class="fas fa-money-bill-wave"></i>
+			<span>Best Price
+				<p>Every activity is carefully designed to minimise the cost and maximise the adventure.</p>
+			</span>
+		</div>
+		<div style=""><i style="color: #228b22;" class="fas fa-tree"></i><!--<i style="color: #228b22;" class="fas fa-seedling"></i>-->
+			<span>Eco-Friendly
+				<p>Zero-Waste Life we choose. <span style="font-style: italic;">"Reduce, Reuse &amp; Recycle"</span> is the Mantra we follow. </p>
+			</span>
+		</div>
+	</div>
+</div>
+</div>
 	<!--
     <div class="banner" style="background-image: url('assets/css/images/main_bg.jpg');">
         <span class="banner__overlay"></span>
@@ -184,12 +211,13 @@ slick_js: 'Yes'
 -->
 
     <!------------P-A-C-K-A-G-E-S-------->
+<!--
     <div style="position: relative;">
     <span style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url('{{ 'assets/css/images/static.gif' | absolute_url }}') repeat center; opacity: .05; z-index: -1;"></span>
     <div id='content' class="row row--padding-medium content container-wide">
         <h1 class="content__title content__title-white" data-aos="zoom-out">POPULAR PACKAGES</h1>
         <br />
-		<!--New-->
+		
 		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
 			<a href="{% link _packages/shimla-manali-tour.html %}" class="wopper wopper--shimla-manali">
 				<span class="offer-badge">15%<br />OFF</span>
@@ -239,15 +267,17 @@ slick_js: 'Yes'
 
     </div>
     </div>
+-->
 	
 
     <!----------A-C-T-I-V-I-T-I-E-S-------->
+<!--
     <div style="position: relative;">
     <span style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url('{{ 'assets/css/images/static.gif' | absolute_url }}') repeat center; opacity: .05; z-index: -1;"></span>
     <div id='content' class="row row--padding-medium content container-wide">
         <h1 class="content__title content__title-white" data-aos="zoom-out">ADVENTURE</h1>
         <br />
-		<!--New-->
+		
 		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
 			<a href="{% link _activities/trekking.html %}" class="wopper wopper--trek"></a>
 			<div class="wopper__footer">
@@ -299,6 +329,7 @@ slick_js: 'Yes'
 		</div>
     </div>
     </div>
+-->
 
 
     <!----------R-E-N-T-I-N-G-------->
@@ -350,16 +381,17 @@ slick_js: 'Yes'
 
     <!---------Choose Your Trek-------->
 
-	
-<div id='content' class="row row--padding-medium content" style="padding-left:0; padding-right: 0;">
-	<h1 class="content__title content__title-white" data-aos="zoom-out">BOOK TREKS</h1>
+<div style="background: url(assets/css/images/bg/trekbg.jpg) center no-repeat; padding: 0; background-size: cover; background-attachment: fixed;">
+<div id='content' class="row row--padding-wide content" style="padding-left:0; padding-right: 0; background-color: rgba(42, 43, 47, 0.50);">
+	<h1 class="content__title content__title-white" style="color:#fff;"><i class="far fa-heart"></i> Popular Treks</h1>
 	<br />
-	<div class="slider-wrapper" style="">
-	  <button class="slide-center-prev"><i class="fas fa-chevron-left"></i></button>
+	<div class="slider-wrapper trek" style="">
+	  <button class="slide-center-prev"><span><i class="fas fa-chevron-left"></i></span></button>
 	  <div class="trek-slider center">
 		 
 		  <div class="slide trek-slide">
-		  	<img class="trek-slide--img slide0">
+		  	<img class="trek-slide--img trek-slide0">
+			  <span class="trek-slide--price"><span style="font-size: 60%;">From</span> <i class="fa fa-rupee-sign"></i> 5,000/-</span>
 			<div class="trek-slide--text">
 				<div class="trek-slide--meta">
 					<div class="">
@@ -385,7 +417,8 @@ slick_js: 'Yes'
 		</div>
 		  
 		  <div class="slide trek-slide">
-		  	<img class="trek-slide--img slide1">
+		  	<img class="trek-slide--img trek-slide1">
+			  <span class="trek-slide--price"><span style="font-size: 60%;">From</span> <i class="fa fa-rupee-sign"></i> 8,000/-</span>
 			<div class="trek-slide--text">
 				<div class="trek-slide--meta">
 					<div class="">
@@ -411,7 +444,8 @@ slick_js: 'Yes'
 		</div>
 		  
 		  <div class="slide trek-slide">
-		  	<img class="trek-slide--img slide2">
+		  	<img class="trek-slide--img trek-slide2">
+			  <span class="trek-slide--price"><span style="font-size: 60%;">From</span> <i class="fa fa-rupee-sign"></i> 4,999/-</span>
 			<div class="trek-slide--text">
 				<div class="trek-slide--meta">
 					<div class="">
@@ -437,7 +471,8 @@ slick_js: 'Yes'
 		</div>
 		  
 		  <div class="slide trek-slide">
-		  	<img class="trek-slide--img slide3">
+		  	<img class="trek-slide--img trek-slide3">
+			  <span class="trek-slide--price"><span style="font-size: 60%;">From</span> <i class="fa fa-rupee-sign"></i> 5,500/-</span>
 			<div class="trek-slide--text">
 				<div class="trek-slide--meta">
 					<div class="">
@@ -463,7 +498,8 @@ slick_js: 'Yes'
 		</div>
 		  
 		  <div class="slide trek-slide">
-		  	<img class="trek-slide--img slide4">
+		  	<img class="trek-slide--img trek-slide4">
+			  <span class="trek-slide--price"><span style="font-size: 60%;">From</span> <i class="fa fa-rupee-sign"></i> 7,000/-</span>
 			<div class="trek-slide--text">
 				<div class="trek-slide--meta">
 					<div class="">
@@ -490,9 +526,78 @@ slick_js: 'Yes'
 
 		</div>
 
-		<button class="slide-center-next"><i class="fas fa-chevron-right"></i></button>
+		<button class="slide-center-next"><span><i class="fas fa-chevron-right"></i></span></button>
+	</div>
+	<a href="{% link _activities/trekking.html %}" style="display: block; margin-top: 3em;">
+		<button class="trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>View Treks<span class="trippy_btn-right"></span></button>
+	</a>
+</div>
+</div>
+
+
+<!---------Featured -------->
+<div style="background:#06080b; padding: 0;">
+<div id='content' class="row row--padding-wide content container--white" style="padding-left:0; padding-right: 0; ">
+	<h1 class="content__title content__title-white" style=""><i class="fas fa-hiking"></i>  Adventures</h1>
+	<br />
+	<div class="row container-wide">
+		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
+			<a href="{% link _activities/trekking.html %}" class="wopper wopper--trek">
+				<span class="trek-slide--price"><span style="font-size: 60%;">Starting From</span> <i class="fa fa-rupee-sign"></i> 5,000/-</span>
+			</a>
+			<div class="wopper__footer adventure">
+				<div class="wopper__info" style="padding: 0;">
+					<a class="wopper__info-price white wopper__act-name" href="{% link _activities/trekking.html %}"><span>Trekking</span></a>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
+			<a href="{% link _activities/paragliding.html %}" class="wopper wopper--paragliding">
+				<span class="trek-slide--price"><span style="font-size: 60%;">Starting From</span> <i class="fa fa-rupee-sign"></i> 2199/-</span>
+			</a>
+			<div class="wopper__footer adventure">
+				<div class="wopper__info" style="padding: 0;">
+					<a class="wopper__info-price white wopper__act-name" href="{% link _activities/paragliding.html %}"><span>Paragliding</span></a>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
+			<a href="{% link _activities/rafting.html %}" class="wopper wopper--rafting">
+				<span class="trek-slide--price"><span style="font-size: 60%;">Starting From</span> <i class="fa fa-rupee-sign"></i> 500/-</span>
+			</a>
+			<div class="wopper__footer adventure">
+				<div class="wopper__info" style="padding: 0;">
+					<a class="wopper__info-price white wopper__act-name" href="{% link _activities/rafting.html %}"><span>Rafting</span></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
+			<a href="{% link _activities/camping.html %}" class="wopper wopper--camp">
+				<span class="trek-slide--price"><span style="font-size: 60%;">Starting From</span> <i class="fa fa-rupee-sign"></i> 1200/-</span>
+			</a>
+			<div class="wopper__footer adventure">
+				<div class="wopper__info" style="padding: 0;">
+					<a class="wopper__info-price white wopper__act-name" href="{% link _activities/camping.html %}"><span>Camping</span></a>
+				</div>
+			</div>
+		</div>
+		
 	</div>
 </div>
+</div>
+<!---------Recomended Trips-------->
+<div style="background: url(assets/css/images/bg/tripbg.jpg) center no-repeat; padding: 0; background-size: cover; background-attachment: fixed;">
+<div id='content' class="row row--padding-wide content" style="padding-left:0; padding-right: 0; background-color: rgba(42, 43, 47, 0.50);">
+	<h1 class="content__title content__title-white" style="color:#fff;"><i class="fas fa-gift"></i> Recomended Trips</h1>
+	<br />
+	<a href="{% link _activities/trekking.html %}" style="display: block; margin-top: 3em;">
+		<button class="trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>View Trips<span class="trippy_btn-right"></span></button>
+	</a>
+</div>
+</div>
+
+
 <!---------T-E-S-T-I-M-O-N-I-A-L-S-------->
 <!--
     <div class="container--white">
@@ -532,9 +637,11 @@ slick_js: 'Yes'
 -->
  
     <!---------Q-U-O-T-E---------->
+<!--
 	<div class="banner banner_quote" style="background-image: url('assets/css/images/quote_bg.jpg'); background-attachment: fixed;">
         <span class="banner__overlay"></span>
 		<div class="row row--padding-wide container-wide">
 			<h1 class="quote content__title-white" data-aos="fade-right" style="font-size: 3em;">&quot;Into The Himalayas&quot;</h1>
 		</div>
     </div>
+-->

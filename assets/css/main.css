@@ -153,6 +153,7 @@ footer p{ padding-top: 1.152em;  padding-bottom: 1.152em; }
 body{
     background: #000;
     background: #080808;
+    background: #06080b;
 	color: #cacaca;
 }
 .fa::before{
@@ -245,6 +246,10 @@ body{
     justify-content: center;
 }
 
+.slider-wrapper.trek{
+	background: transparent;
+}
+
 .trek-slider,
 .slider {
     width: 100%;
@@ -267,8 +272,10 @@ body{
 .trek-slide{
 	background-color: #fdfdfd;
 	background-color: #111;
+	background-color: #06080b;
 	margin:0 10px;
 	box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.2);
+	position: relative; 
 }
 .trek-slide--img{
     cursor: pointer;
@@ -282,6 +289,16 @@ body{
     overflow: hidden;
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.trek-slide--price{
+	position: absolute;
+    top: 3%;
+    left: 3%;
+    background: rgba(0, 0, 0, 0.86);
+    padding: 10px;
+    border-radius: 3px;
+    color: #c7c7c7;
 }
 
 .trek-slide--text{
@@ -310,7 +327,7 @@ body{
 	display: block;
 	padding-top: 10px;
 	line-height: 24px;
-	font-size: 19px;
+	font-size: 17px;
 }
 
 .meta-type{
@@ -324,22 +341,40 @@ body{
 
 .trek-slide--info{
 	padding: 15px 0 0;
+	display: none;
 }
 
 .slide0 {
-	background-image: url('images/treks/kufri_min.jpg');
+	background-image: url('images/home.jpg');
 }
 .slide1 {
 	background-image: url('images/treks/wild_min.jpg');
 }
 .slide2 {
 /*	background-image: url('images/paragliding.jpg');*/
-	background-image: url('images/treks/lamadugh-min.jpg');
+	background-image: url('images/treks/hampta.jpg');
 }
 .slide3 {
-	background-image: url('images/bhrigu-lake.jpg');
+	background-image: url('images/trek.jpg');
 }
 .slide4 {
+	background-image: url('images/treks/hampta_min.jpg');
+}
+
+.trek-slide0 {
+	background-image: url('images/treks/kufri_min.jpg');
+}
+.trek-slide1 {
+	background-image: url('images/treks/wild_min.jpg');
+}
+.trek-slide2 {
+/*	background-image: url('images/paragliding.jpg');*/
+	background-image: url('images/treks/lamadugh-min.jpg');
+}
+.trek-slide3 {
+	background-image: url('images/bhrigu-lake.jpg');
+}
+.trek-slide4 {
 	background-image: url('images/treks/hampta_min.jpg');
 }
 
@@ -352,6 +387,7 @@ i {
 .slide-center-prev,
 .slide-center-next,
 .slide-prev, .slide-next{
+	display: block !important;
 /*	padding:0 1em;*/
 	 height:100%;
 	 position: absolute;
@@ -375,15 +411,31 @@ i {
 .slide-center-next{
 	width: 5%;
 }
+
+.slide-center-prev span,
+.slide-center-next span{
+	display: inline-block;
+	padding: 16px 20px;
+	border-radius: 360px;
+	background: rgba(255, 214, 0, .35);
+	position: absolute;
+	top: 45%;
+}
+.slide-center-prev span{left: 8px;}
+.slide-center-next span{right: 8px;}
 @media(max-width:480px)
 {
 	.slide-center-prev,
 	.slide-center-next{
 		width: 10%;
 	}
+	.slide-center-prev span,
+	.slide-center-next span{
+		padding: 11px 14px;
+	}
 	.trek-slide--meta div>span{
 		line-height: 24px;
-		font-size: 17px;
+		font-size: 15px;
 	}
 	.meta-type{
 		font-size: 11px !important;
@@ -470,7 +522,38 @@ i {
     position: relative;
 }
 
+/* Why Us */
 
+.why-us{
+	width: 100%;
+	padding: 0 1.2em;
+}
+.why-us div{
+	display: flex; 
+	width: 100%; 
+	margin-bottom: 3em;
+	text-transform: uppercase;
+	text-align: left;
+	align-items: center;
+}
+.why-us div > .svg-inline--fa{
+	font-size: 35px; margin-bottom: .3em; margin-top: .3em; 
+/*	vertical-align: middle;*/
+	width: 25%;display: inline-block; 
+}
+.why-us div > span{
+	width: 75%;
+	display: inline-block;
+	font-family: 'ANTON', sans-serif;
+	letter-spacing: 1.5px;
+}
+.why-us div > span > p{
+	text-transform: none;
+    font-family: Roboto;
+    font-size: smaller;
+    padding-top: 6px;
+    color: #5d5959;
+}
 
 /* Banner Quote */
 .banner_quote{
@@ -724,6 +807,11 @@ i {
     padding-bottom: 50px;
     background: rgba(0,0,0, 0.95);
     font-size: 1em;
+}
+
+.header-above{
+/*	padding: 1em 0;*/
+/*	font-size: 0.8em;*/
 }
 .header{
     position: fixed;
@@ -1070,11 +1158,12 @@ button.close span{
 
 .content__title,
 .content__sub-title{
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
+    text-transform: none;
     display: inline-block;
     padding-bottom: 0.8em;
-    padding-top: 2em;
+    padding-top: 20px;
     position: relative;
 /*    font-weight: bold;*/
     margin-bottom: 1em;
@@ -1223,8 +1312,11 @@ p.content__pg:not(:last-child){
     position: relative;
     display: table;
     overflow: hidden;
+	box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.5);
+/*
     border: 1px solid #fff;
 	border-radius: .5em;
+*/
 }
 
 .wrapper-text-right{
@@ -1305,7 +1397,7 @@ p.content__pg:not(:last-child){
     transition: all 0.5s ease;
     z-index: -1;
 }
-.wopper--rafting{background: url(thumbs/rafting-min.jpg) center no-repeat; background-size: 100%;}
+.wopper--rafting{background: url(thumbs/rafting.jpg) center no-repeat; background-size: 100%;}
 .wopper--paragliding{background: url(thumbs/paragliding-min.jpg) center no-repeat; background-size: 100%;}
 .wopper--trek{background: url('thumbs/trek-min.jpg') center no-repeat ; background-size: 100%;}
 .wopper--camp{background: url('thumbs/camp-min.jpg') center no-repeat ; background-size: 100%;}
@@ -1375,9 +1467,21 @@ p.content__pg:not(:last-child){
 
 /* Products */
 
+.wopper__footer.adventure{
+	display: flex;
+    justify-content: center;
+    text-align: left;
+    position: absolute;
+    bottom: 40%;
+    left: 0;
+    width: 100%;
+    background: transparent;
+}
 .wopper__footer{
     display: table-footer-group;
     text-align: left;
+    width: 100%;
+    background: white;
 }
 
 .wopper__info{
@@ -1385,8 +1489,9 @@ p.content__pg:not(:last-child){
     padding: 1.4em 1em;
     font-family: monospace;
     text-transform: uppercase;
-    background: #ffffff;
+    background: transparent;
     color: #333;
+	width: 100%;
 }
 
 .wopper__info-detail{
@@ -1407,7 +1512,10 @@ p.content__pg:not(:last-child){
     display: inline-block;
     font-size: 1.7em;
     color: #222;
-    font-weight: 800;
+/*    font-weight: 800;*/
+}
+.wopper__info-price.white{
+	color: #fff;
 }
 
 .wopper__act-name{
@@ -1415,9 +1523,15 @@ p.content__pg:not(:last-child){
 /*	background-color: #e6e6e6;*/
 /*	background-color: #2ad46e;*/
 	background-color: #ffd600;
+	background-color: #06080b;
+	background-color: #225b8b;
+	background-color: rgba(0, 0, 0, 0.35);
+	background-color: transparent;
+	border-radius: 5px;
 }
 .wopper__act-name span{
-	font-size: .8em; letter-spacing: 0.2em; font-family: 'ANTON',sans-serif; font-weight: lighter;
+	font-size: .8em; letter-spacing: 0.2em; font-family: 'ANTON',sans-serif; font-weight: lighter;    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 5px;padding: .5em;
 }
 .wopper__act-name span.package-name{
 /*	font-size: em;*/
@@ -1452,6 +1566,7 @@ p.content__pg:not(:last-child){
 .footer{
     color: #fdfdfd;
     background: #000;
+    background: #06080b;
     padding-top: 2em;
     padding-bottom: 5em;
 	text-transform: uppercase;
@@ -1768,7 +1883,26 @@ p.content__pg:not(:last-child){
 		font-size: 1.1em !important; 
 		letter-spacing: 0.15em !important; 
 	}
-	
+	.why-us div{
+		display: inline-flex;
+		width: 33%;
+		text-align: center;
+		flex-direction: column;
+	}
+	.why-us div > .svg-inline--fa{
+		font-size: 50px;
+		width: 100%;display: block; 
+	}
+	.why-us div > span{
+		font-size: 20px;
+		width: 100%;
+		display: block;
+		padding:0 8px; 
+	}
+	.why-us div > span > p{
+		padding-top:12px; 
+	}
+
 	button.close span{
 		width: 60px;
 		height: 60px;
