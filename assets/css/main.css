@@ -295,10 +295,11 @@ body{
 	position: absolute;
     top: 3%;
     left: 3%;
-    background: rgba(0, 0, 0, 0.86);
+    background: rgba(255, 214, 0, 0.8);
     padding: 10px;
     border-radius: 3px;
     color: #c7c7c7;
+    color: #414141;
 }
 
 .trek-slide--text{
