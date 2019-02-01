@@ -1531,7 +1531,7 @@ p.content__pg:not(:last-child){
 	border-radius: 5px;
 }
 .wopper__act-name span{
-	font-size: .8em; letter-spacing: 0.2em; font-family: 'ANTON',sans-serif; font-weight: lighter;    background-color: rgba(0, 0, 0, 0.45);
+	font-size: .7em; letter-spacing: 0.2em; font-family: 'ANTON',sans-serif; font-weight: lighter;    background-color: rgba(0, 0, 0, 0.45);
     border-radius: 5px;padding: .5em;
 }
 .wopper__act-name span.package-name{
@@ -2098,13 +2098,16 @@ p.content__pg:not(:last-child){
     }
 }
 
-@media(max-width:320px){
+@media(max-width:330px){
 	.headline{
 		font-size: 30px !important;
 	}
 	.wopper__info-detail {
         font-size: 1.3em;
     }
+	.trek-slide--meta div{
+		width: 31.8%;
+	}
 }
 
 /*+++++++++++++++++++++++++++++++++CART.CSS+++++++++++++++++++++++++++++++++*/
