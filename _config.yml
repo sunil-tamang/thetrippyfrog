@@ -13,8 +13,12 @@ collections:
     output: true
     permalink: /:title
     include: app-assets
-  packages:
+  escape:
     output: true
+    permalink: /:title
+    include: app-assets
+  packages:
+    output: false
     permalink: /:title
     include: app-assets
   treks:

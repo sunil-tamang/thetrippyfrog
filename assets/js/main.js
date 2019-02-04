@@ -359,7 +359,7 @@ function checkScrollTop(){
 //------------------Mobile or Wide-------------------
 function menuWideOrMobile(){
 	// It's Mobile
-	if($(window).width()<"768")
+	if($(window).width()<"1024")
 	{ 
         $('body').addClass('mobile');
         $('body').removeClass('wide');
@@ -374,7 +374,7 @@ function menuWideOrMobile(){
 		}
 	}
 	//It's Not Mobile
-	else if($(window).width()=="768")
+	else if($(window).width()=="1024")
 	{
 		$('body').addClass('wide');
         $('body').removeClass('mobile');

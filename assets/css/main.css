@@ -217,23 +217,28 @@ body{
 	font-family: 'ANTON',sans-serif !important; 
 	letter-spacing: 0.08em !important; 
 	font-size: 1.8em !important; 
-	background: rgba(0,0,0,0.5) !important; 
+/*	background: rgba(0,0,0,0.5) !important; */
 	display: inline-block; 
 	padding: 0.5em 0.6em !important; 
 	border-radius: 0.2em !important;
 	    font-variant: normal !important;
     text-transform: none !important;
     text-shadow: 1px 1px 4px #cacaca;
+	color: #fff;
 }
 .trippy-tagline{
-	background: #F44336 !important;
-	transform: translateY(3em) !important; 
+	background: #ffd600 !important;
+	transform: translateY(3.5em) !important; 
 	font-size: .9em !important; 
 	line-height: 1.5em !important; 
 	letter-spacing: 0.1em !important; 
 	text-transform: none !important; 
 	font-weight: lighter !important; 
 	font-style: italic !important;
+}
+
+.title-o:before{
+	content: 'O';
 }
 
 .slider-wrapper {
@@ -292,6 +297,7 @@ body{
 }
 
 .trek-slide--price{
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
 	position: absolute;
     top: 3%;
     left: 3%;
@@ -337,7 +343,8 @@ body{
 
 .trek-slide--title{
 	font-size: 1.2em; 
-	text-transform: uppercase;
+	text-transform: none;
+	font-family: 'Pacifico',sans-serif;
 }
 
 .trek-slide--info{
@@ -480,10 +487,10 @@ i {
 
 .tagline-text {
     position: absolute;
-    top: 50%;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #333;
     width:100%;
 	text-align: center;
 }
@@ -503,7 +510,7 @@ i {
 @media(min-width:48em) {
 	 .slide-tagline h2 {
         font-size:4em;
-        padding: .3em .5em;
+        padding: 0.8em 1.5em;
     }
 }
 /* End Banner */
@@ -854,7 +861,7 @@ i {
 .nav__li a{
     font-size: .84em;
 	font-weight: bold;
-    letter-spacing: 0.4em;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
     padding: 1.2em;
     background: transparent;
@@ -1473,7 +1480,7 @@ p.content__pg:not(:last-child){
     justify-content: center;
     text-align: left;
     position: absolute;
-    bottom: 40%;
+    bottom: 36%;
     left: 0;
     width: 100%;
     background: transparent;
@@ -1531,8 +1538,13 @@ p.content__pg:not(:last-child){
 	border-radius: 5px;
 }
 .wopper__act-name span{
-	font-size: .7em; letter-spacing: 0.2em; font-family: 'ANTON',sans-serif; font-weight: lighter;    background-color: rgba(0, 0, 0, 0.45);
-    border-radius: 5px;padding: .5em;
+	font-size: .75em; 
+	/*letter-spacing: 0.2em;*/
+	font-family: 'Pacifico','ANTON',sans-serif; 
+/*	font-weight: lighter;    */
+	background-color: rgba(0, 0, 0, 0.45); text-transform: none;
+    border-radius: 5px;
+	padding: .1em .5em;
 }
 .wopper__act-name span.package-name{
 /*	font-size: em;*/
@@ -1854,6 +1866,32 @@ p.content__pg:not(:last-child){
 	}
 }
 
+@media screen and (min-width:768px) and (max-width:1024px)
+{
+	.wopper__act-name span{
+		font-size: .95em !important; 
+	}
+}
+
+
+
+@media(min-width:1024px)
+{
+	.header__nav{
+        display: block;
+        width: auto;
+        float: right;
+        max-height: inherit;
+    }
+    .nav__dropdown{
+        position: absolute;
+        top: 4em;
+		padding-right: 3em;
+    }
+    .nav__ul{margin-top:0; border-top: 0;}
+    .nav__li{ display: inline-block; }
+}
+	
 @media(min-width:48em)
 {
 	.header__logo{
@@ -1872,9 +1910,11 @@ p.content__pg:not(:last-child){
     	line-height: 26px;
 	}
 	.trippy-name{
+		transform: translateY(-58px);
 		letter-spacing: 0.08em !important; 
-		font-size: 2.4em !important; 
-		background: rgba(0,0,0,0.5) !important; 
+/*		font-size: 2.4em !important; */
+		font-size: 3.4em !important; 
+/*		background: rgba(0,0,0,0.5) !important; */
 		display: inline-block; 
 		padding: 0.5em 0.6em !important; 
 		border-radius: 0.2em !important;
@@ -1978,19 +2018,7 @@ p.content__pg:not(:last-child){
 		font-size: 1.45em;
 	}
 	
-    .header__nav{
-        display: block;
-        width: auto;
-        float: right;
-        max-height: inherit;
-    }
-    .nav__dropdown{
-        position: absolute;
-        top: 4em;
-		padding-right: 3em;
-    }
-    .nav__ul{margin-top:0; border-top: 0;}
-    .nav__li{ display: inline-block; }
+    
     
     .wrapper{
         width: 48%;
@@ -2076,7 +2104,7 @@ p.content__pg:not(:last-child){
 		padding: 1em;
 	}
 	.wopper__act-name span{
-		font-size: 1em; 
+		font-size: 1.2em; 
 	}
 	.backToTop{
 		bottom: 4.4em;

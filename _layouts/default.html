@@ -20,7 +20,7 @@
     <link rel="icon" href="{{ 'favicon.png' | relative_url }}" sizes="32x32">
 
     <!-- External Stylesheets-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Lato|Montserrat|Anton" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Lato|Montserrat|Anton|Pacifico" rel="stylesheet" type="text/css">
 	<!-- Shopping Cart -->
 	<link defer href="https://cdnjs.cloudflare.com/ajax/libs/Ladda/1.0.6/ladda.min.css" rel="stylesheet"/>
 	<!-- End Shopping Cart -->
@@ -102,24 +102,23 @@
             <nav class="row header__nav" id="nav">
                 <ul class="nav__ul">
                     <li class="nav__li"><a href="{% link index.html %}">HOME</a></li>
-                    <li class="nav__li"><a href="{% link packages.html %}">PACKAGES</a></li>
+                    <li class="nav__li"><a href="{% link _activities/trekking.html %}">TREKS</a></li>
+                    <li class="nav__li"><a href="{% link escape-trips.html %}">ESCAPE TRIPS</a></li>
+<!--                    <li class="nav__li"><a href="{% link packages.html %}">PACKAGES</a></li>-->
+
                     <li class="nav__li dropdown"><a class="dropdown__trigger">ADVENTURE&nbsp;<span></span></a>
                         <ul class="nav__dropdown">
                             <li class="nav__dropdown--item"><a href="{% link _activities/rafting.html %}">Rafting</a></li>
                             <li class="nav__dropdown--item"><a href="{% link _activities/paragliding.html %}">Paragliding</a></li>
-                            <li class="nav__dropdown--item"><a href="{% link _activities/trekking.html %}">Trekking</a></li>
                             <li class="nav__dropdown--item"><a href="{% link _activities/camping.html %}">Camping</a></li>
                             <li class="nav__dropdown--item"><a href="{% link _activities/bike-tours.html %}">Bike Tours</a></li>
                             <li class="nav__dropdown--item"><a href="{% link _activities/4x4-trails.html %}">4x4 Trails</a></li>
                         </ul>
                     </li>
 					
-					<li class="nav__li dropdown"><a class="dropdown__trigger">MORE&nbsp;<span></span></a>
-                        <ul class="nav__dropdown">
-                            <li class="nav__dropdown--item"><a href="{% link about.html %}">Our Story</a></li>
-                            <li class="nav__dropdown--item"><a href="{% link contact.html %}">CONTACT</a></li>
-                        </ul>
-                    </li>
+                    <li class="nav__li"><a href="{% link contact.html %}">BLOG</a></li>
+                    <li class="nav__li"><a href="{% link about.html %}">OUR STORY</a></li>
+                    <li class="nav__li"><a href="{% link contact.html %}">CONTACT US</a></li>
 					
                     <li class="nav__li"><a href="{% link cart.html %}"><i class="fa fa-shopping-cart"></i>&nbsp;<span class="totalItems">0</span></a></li>
                 </ul>
