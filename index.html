@@ -21,98 +21,100 @@ slick_js: 'Yes'
   <button class="slide-prev"><i class="fas fa-chevron-left"></i></button>
   <div class="slider">
  
-	  <div class="slide slide0">
+	  <div class="slide banner-slide slide0">
         <div class="slide-tagline">
           <span class="tagline-text">
 <!--			<h2 class="greeting">Welcome </h2><br />-->
-			<div class="banner_logo" style="position: absolute; left: 0; top:0%; width: 100%; text-align: center;">
-				<h1 class="trippy-name">THE TRIPPY FR<i class="far fa-compass title-o"></i>G</h1>
+			<div class="banner_logo" style="position: absolute; left: 0; top:-75%; width: 100%; text-align: center;">
+				<h1 class="trippy-name">THE TRIPPY FR<i class="far fa-compass title-o"></i>G
+					<p class="headline--detail" style="padding: 0; margin: 0; font-style: oblique; letter-spacing: .05em;">Your Quest For Adventure Begins Here!</p>
+				</h1>
+				
 <!--				<img class="banner_logo-img" style="display: inline-block; transform: translateY(-3.2em);" src="{% link favicon.png%}" alt="The Trippy Frog Logo">-->
 			</div>
 			<h2 class="trippy-tagline">"TRAVEL MORE, LIVE MORE"</h2><br />
+
           </span>
+		  <span style="position: absolute;bottom: 18%; width: 100%; left: 0; text-align: center;">
+			  <a class="skipToContent-trigger" href="#content">
+					<button class="trippy_btn slide-trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>START NOW<span class="trippy_btn-right"></span></button>
+<!--				  <a class="banner__skip-trigger"></a>-->
+			  </a>			
+		  </span>
+
         </div>
       </div>
-      <div class="slide slide1">
+      <div class="slide banner-slide slide1">
         <div class="slide-text">
           <span class="">
 			<h2 class="headline">Wild nature<br/>safe adventure</h2>
 			<p class="headline--detail">Hike in the wild, and be safe with our professional guides.</p><br />
 		  	<a href="{% link _activities/trekking.html %}">
-				<button class="trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>EXPLORE TREKS<span class="trippy_btn-right"></span></button>
+				<button class="trippy_btn slide-trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>EXPLORE TREKS<span class="trippy_btn-right"></span></button>
 		  	</a>
           </span>
         </div>
       </div>
 
-      <div class="slide slide2">
+      <div class="slide banner-slide slide2">
         <div class="slide-text">
           <span class="">
 			<h2 class="headline">Wake your<br/>travel bug up!</h2>
 			<p class="headline--detail">Get our of your routine job, and choose adventure for yourself.</p><br />
 		  	<a href="{% link _activities/trekking.html %}">
-				<button class="trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>See More<span class="trippy_btn-right"></span></button>
+				<button class="trippy_btn slide-trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>See More<span class="trippy_btn-right"></span></button>
 		  	</a>
           </span>
         </div>
       </div>
     
-      <div class="slide slide3">
+      <div class="slide banner-slide slide3">
 	    <span class="banner__overlay slide-overlay"></span>
         <div class="slide-text">
           <span class="">
 			<h2 class="headline">Find true-self<br/>in the himalayas!</h2>
 			<p class="headline--detail">Lose yourself in the Himalayas and find your true-self.</p><br />
 		  	<a href="{% link _activities/trekking.html %}">
-				<button class="trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>Find More<span class="trippy_btn-right"></span></button>
+				<button class="trippy_btn slide-trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>Find More<span class="trippy_btn-right"></span></button>
 		  	</a>
           </span>
         </div>
       </div>
-	  
-<!--
-      <div class="slide slide4">
-        <div class="slide-tagline">
-          <span class="tagline-text">
-            <h2>Camping</h2>
-          </span>
-        </div>
-      </div>
--->
     </div>
   
 	<button class="slide-next"><i class="fas fa-chevron-right"></i></button>
+<!--
 	<span class="banner__skip">
             <a class="banner__skip-trigger" href="#content"></a>
 	</span>
+-->
 </div>
 
-<!---------Why Us? -------->
-<div style="background:#06080b; padding: 0;">
-<div id='content' class="row row--padding-medium content" style="padding-left:0; padding-right: 0; ">
-	<h1 class="content__sub-title content__title-white" style="color:#fff;"><i class="fas fa-hands"></i>  Why Us?</h1>
+<!---------Our Story-------->
+<div style="background:#f0f0f0; padding: 0;">
+<div id='content' class="row row--padding-medium content container--white" style="padding-left:0; padding-right: 0; ">
+<!--
+	<h1 class="content__sub-title content__title-white" style="margin-bottom: 0;">The Adventure Begins Here <i class="fas fa-map-marker-alt"></i></h1>
 	<br />
-	<div class="why-us" style="width: 100%;">
-		<div style="">
-			<i style="color: #ffd600;" class="fas fa-award"></i>
-			<span>Professional Guides
-				<p>All our guides are well-trained and certified</p>
-			</span>
+-->
+	<h1 class="content__title content__title-white no-underline" style="padding: 0; margin: 0;">
+		<i class="fas fa-map-marker-alt"></i> </h1><br />
+	<h1 class="content__sub-title content__title-white no-underline" style="padding-top: 0; margin-bottom: 0; padding-bottom: 0;">The Adventure Begins Here
+	<p class="headline--detail" style="padding: 0; margin: 0; font-style: oblique; letter-spacing: .05em; color: #333;">"Unleash the wandering soul inside you!"</p></h1>
+	<br />
+	
+	<div class="container-wide" style="width: 100%;">
+		<div style="width: 100%; display: inline-block; text-transform: none;">
+		<p class="headline--detail" style="text-align: left; color: #111;">Lose yourself in the Himalayas and find your true-self. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque, arcu nec vulputate malesuada, purus tellus pulvinar massa, eget iaculis lectus risus quis risus. Etiam sit amet metus id ipsum condimentum porttitor nec quis mauris. Nulla eu maximus dui. Nulla ultricies condimentum augue et malesuada. Aliquam fermentum pretium neque at ultricies. Curabitur pellentesque libero vel suscipit cursus. Etiam venenatis justo id felis viverra, vitae aliquam metus viverra. Praesent sed dolor orci. Nulla euismod nibh at ornare suscipit. Phasellus.</p>
+		<br />
 		</div>
-		<div style="">
-			<i style="color: #2196F3;" class="fas fa-money-bill-wave"></i>
-			<span>Best Price
-				<p>Every activity is carefully designed to minimise the cost and maximise the adventure.</p>
-			</span>
+<!--		<div style="background: url(assets/css/images/bg/ourstorybg.jpeg) no-repeat center; background-size: cover; width: 50%; display: inline-block; height: auto;">-->
+		
 		</div>
-		<div style=""><i style="color: #228b22;" class="fas fa-tree"></i><!--<i style="color: #228b22;" class="fas fa-seedling"></i>-->
-			<span>Eco-Friendly
-				<p>Zero-Waste Life we choose. <span style="font-style: italic;">"Reduce, Reuse &amp; Recycle"</span> is the Mantra we follow. </p>
-			</span>
-		</div>
-	</div>
 </div>
 </div>
+
+
 	<!--
     <div class="banner" style="background-image: url('assets/css/images/main_bg.jpg');">
         <span class="banner__overlay"></span>
@@ -124,7 +126,6 @@ slick_js: 'Yes'
 			<br />
             <p class="sub-tagline" style="display: inline;">
 				<span class="sub-tagline--part1">&nbsp;Travel More&nbsp;</span><span class="sub-tagline--part2">&nbsp;Live More&nbsp;</span><br />
-                <!-- YouTube Code : iPhone X = mW6hFttt_KE, GoPro Ultra Slow = EILqvdxdc5c , GoPro Adventure of Life in 4K = wTcNtgA6gHs-->
        <!--         <span class="sub-tagline--videoTrigger no-select" id="popupTrigger" data-src="https://www.youtube.com/embed/a6lQY393TNQ?rel=0&amp;showinfo=0;modestbranding=0">
                     <svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 48 48" fill="#fff"><path d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm-4 29V15l12 9-12 9z"/></svg>
                 </span>
@@ -148,67 +149,7 @@ slick_js: 'Yes'
       </div>
     </div>
 -->
-     
-		
-    <!------------Popular Treks-------->
-<!--
-    <div style="position: relative;">
-    <span style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url('{{ 'assets/css/images/static.gif' | absolute_url }}') repeat center; opacity: .05; z-index: -1;"></span>
-    <div id='content' class="row row--padding-medium content container-wide">
-        <h1 class="content__title content__title-white" data-aos="zoom-out">POPULAR TREKS</h1>
-        <br />
-
-		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
-			<a href="" class="wopper wopper-trek wopper--kufri">
-				<span class="trek--offer-badge">15%<br />OFF</span>
-			</a>
-			<div class="wopper__footer wopper__footer-trek">
-				<div class="wopper__info" style="padding: 0;">
-					<a class="wopper__info-price wopper__act-name" href=""><span class="package-name">KUFRI TREK</span><br />
-					<span style="display: inline-block; padding: 0.5em 0.1em; background: #FF5722;font-size: 1em; color:#fbfbfb; margin-top: 0.4em;">
-						<span style="text-decoration:line-through;">Rs.8,000/-</span>
-						<span style="">Rs.5,999/-</span><br />
-					</span>
-					</a>
-					
-				</div>
-			</div>
-		</div>
-		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
-			<a href="" class="wopper wopper--kasol">
-				<span class="offer-badge">10%<br />OFF</span>
-			</a>
-			<div class="wopper__footer">
-				<div class="wopper__info" style="padding: 0;">
-					<a class="wopper__info-price wopper__act-name" href=""><span class="package-name">Kasol-Manali Tour</span><br />
-					<span style="display: inline-block; padding: 0.5em 0.1em; background: #FF5722;font-size: 1em; color:#fbfbfb; margin-top: 0.4em;">
-						<span style="text-decoration:line-through;">Rs.28,000</span>
-						<span style="">Rs.24,999</span><br />
-					</span>
-					</a>
-				</div>
-			</div>
-		</div>
-		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
-			<a href="" class="wopper wopper--spiti">
-				<span class="offer-badge">30%<br />OFF</span>
-			</a>
-			<div class="wopper__footer">
-				<div class="wopper__info" style="padding: 0;">
-					<a class="wopper__info-price wopper__act-name" href=""><span class="package-name">Spiti-Kinnaur Tour</span><br />
-					<span style="display: inline-block; padding: 0.5em 0.1em; background: #FF5722;font-size: 1em; color:#fbfbfb; margin-top: 0.4em;">
-						<span style="text-decoration:line-through;">Rs.35,000</span>
-						<span style="">Rs.29,999</span><br />
-					</span>
-					</a>
-				</div>
-			</div>
-		</div>
-
-    </div>
-    </div>	
-	
--->
+  
 
     <!------------P-A-C-K-A-G-E-S-------->
 <!--
@@ -269,58 +210,14 @@ slick_js: 'Yes'
     </div>
 -->
 
-    <!----------R-E-N-T-I-N-G-------->
-<!--
-    <div style="position: relative;">
-
-    <div id='content' class="row row--padding-medium content container-wide">
-        <h1 class="content__title content__title-white" data-aos="zoom-out">RENTING / BOOKING</h1>
-        <br />
-		
-		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
-			<a href="" class="wopper wopper--hotel"></a>
-			<div class="wopper__footer">
-				<div class="wopper__info" style="padding: 0;">
-					<a class="wopper__info-price wopper__act-name" href=""><span>BOOK A HOTEL ROOM</span></a>
-				</div>
-			</div>
-		</div>
-		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
-			<a href="" class="wopper wopper--bike-rental"></a>
-			<div class="wopper__footer">
-				<div class="wopper__info" style="padding: 0;">
-					<a class="wopper__info-price wopper__act-name" href=""><span>RENT A BIKE</span></a>
-				</div>
-			</div>
-		</div>
-		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
-			<a href="" class="wopper wopper--bus"></a>
-			<div class="wopper__footer">
-				<div class="wopper__info" style="padding: 0;">
-					<a class="wopper__info-price wopper__act-name" href=""><span>BOOK A BUS/VOLVO</span></a>
-				</div>
-			</div>
-		</div>
-		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
-			<a href="" class="wopper wopper--car"></a>
-			<div class="wopper__footer">
-				<div class="wopper__info" style="padding: 0;">
-					<a class="wopper__info-price wopper__act-name" href=""><span>CAR RENTAL</span></a>
-				</div>
-			</div>
-		</div>
-
-    </div>
-    </div>
--->
-
-
-
-    <!---------Choose Your Trek-------->
+<!---------Choose Your Trek-------->
 
 <div style="background: url(assets/css/images/bg/trekbg.jpg) center no-repeat; padding: 0; background-size: cover; background-attachment: fixed;">
-<div id='content' class="row row--padding-wide content" style="padding-left:0; padding-right: 0; background-color: rgba(42, 43, 47, 0.50);">
-	<h1 class="content__title content__title-white" style="color:#fff;"><i class="far fa-heart"></i> Popular Treks</h1>
+<div class="row row--padding-wide content" style="padding-left:0; padding-right: 0; background-color: rgba(42, 43, 47, 0.50);">
+	<h1 class="content__title content__title-white no-underline" style="color:#fff; padding: 0; margin: 0;">
+		<i class="far fa-heart"></i> </h1><br />
+	<h1 class="content__title content__title-white no-underline" style="color:#fff; padding-top: 0;">Popular Treks
+	<p class="headline--detail" style="padding: 0; margin: 0; font-style: oblique; letter-spacing: .05em;">"Mountains are calling!"</p></h1>
 	<br />
 	<div class="slider-wrapper trek" style="">
 	  <button class="slide-center-prev"><span><i class="fas fa-chevron-left"></i></span></button>
@@ -466,7 +363,7 @@ slick_js: 'Yes'
 		<button class="slide-center-next"><span><i class="fas fa-chevron-right"></i></span></button>
 	</div>
 	<a href="{% link _activities/trekking.html %}" style="display: block; margin-top: 3em;">
-		<button class="trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>View Treks<span class="trippy_btn-right"></span></button>
+		<button class="trippy_btn more-trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>View Treks<span class="trippy_btn-right"></span></button>
 	</a>
 </div>
 </div>
@@ -474,8 +371,15 @@ slick_js: 'Yes'
 
 <!---------Featured -------->
 <div style="background:#06080b; padding: 0;">
-<div id='content' class="row row--padding-wide content container--white" style="padding-left:0; padding-right: 0; ">
-	<h1 class="content__title content__title-white" style=""><i class="fas fa-hiking"></i>  Adventures</h1>
+<div class="row row--padding-wide content container--white" style="padding-left:0; padding-right: 0; ">
+<!--
+	<h1 class="content__title content__title-white" style=""><i class="fas fa-hiking"></i>  Adventures we offer</h1>
+	<br />
+-->
+	<h1 class="content__title content__title-white no-underline" style="/*color:#fff;*/ padding: 0; margin: 0;">
+		<i class="fas fa-hiking"></i> </h1><br />
+	<h1 class="content__title content__title-white no-underline" style="/*color:#fff;*/ padding-top: 0;">Adventure in my Soul
+	<p class="headline--detail" style="padding: 0; margin: 0; font-style: oblique; letter-spacing: .05em; color: #333;">"Thrill your soul with these adventures!"</p></h1>
 	<br />
 	<div class="row container-wide">
 		<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">
@@ -523,10 +427,27 @@ slick_js: 'Yes'
 	</div>
 </div>
 </div>
+
+
+<!---------Motivation-------->
+<!--
+<div class="banner" style="background-image: url(assets/css/images/bg/quote.jpg);">
+
+</div>
+-->
+
+
 <!---------Recomended Trips-------->
 <div style="background: url(assets/css/images/bg/tripbg.jpg) center no-repeat; padding: 0; background-size: cover; background-attachment: fixed;">
-<div id='content' class="row row--padding-wide content" style="padding-left:0; padding-right: 0; background-color: rgba(42, 43, 47, 0.50);">
+<div class="row row--padding-wide content" style="padding-left:0; padding-right: 0; background-color: rgba(42, 43, 47, 0.50);">
+<!--
 	<h1 class="content__title content__title-white" style="color:#fff;"><i class="fas fa-gift"></i> Recomended Trips</h1>
+	<br />
+-->
+	<h1 class="content__title content__title-white no-underline" style="color:#fff; padding: 0; margin: 0;">
+		<i class="fas fa-gift"></i> </h1><br />
+	<h1 class="content__title content__title-white no-underline" style="color:#fff; padding-top: 0; margin-bottom: 0; padding-bottom: 0;">Escape Trips
+	<p class="headline--detail" style="padding: 0; margin: 0; font-style: oblique; letter-spacing: .05em;">"Escape to the Himalayas!"</p></h1>
 	<br />
 	
 	<div class="row container-wide">
@@ -646,10 +567,76 @@ slick_js: 'Yes'
 	</div>
 	
 	<a href="{% link _activities/trekking.html %}" style="display: block; margin-top: 3em;">
-		<button class="trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>View All Trips<span class="trippy_btn-right"></span></button>
+		<button class="trippy_btn more-trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>More Escape Trips<span class="trippy_btn-right"></span></button>
 	</a>
 </div>
 </div>
+
+<!---------From The Blog-------->
+<div style="background:#f0f0f0; padding: 0;">
+<div id='content' class="row row--padding-medium content container--white" style="padding-left:0; padding-right: 0; ">
+
+<!--
+	<h1 class="content__sub-title content__title-white" style="margin-bottom: 0;">FROM THE BLOG <i class="fas fa-blog"></i></h1>
+	<br />
+-->
+	<h1 class="content__title content__title-white no-underline" style="padding: 0; margin: 0;">
+		<i class="fas fa-blog"></i> </h1><br />
+	<h1 class="content__sub-title content__title-white no-underline" style="padding-top: 0; margin-bottom: 0; padding-bottom: 0;">FROM THE BLOG
+	<p class="headline--detail" style="padding: 0; margin: 0; font-style: oblique; letter-spacing: .05em; color: #333;">"Understand more about the Himalayas and Himachal Pradesh!"</p></h1>
+	<br />
+	
+	<div class="container-wide" style="width: 100%;">
+		<div style="width: 100%; display: inline-block; text-transform: none;">
+		<p class="headline--detail" style="text-align: left; color: #111;">Lose yourself in the Himalayas and find your true-self. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque, arcu nec vulputate malesuada, purus tellus pulvinar massa, eget iaculis lectus risus quis risus. Etiam sit amet metus id ipsum condimentum porttitor nec quis mauris. Nulla eu maximus dui. Nulla ultricies condimentum augue et malesuada. Aliquam fermentum pretium neque at ultricies. Curabitur pellentesque libero vel suscipit cursus. Etiam venenatis justo id felis viverra, vitae aliquam metus viverra. Praesent sed dolor orci. Nulla euismod nibh at ornare suscipit. Phasellus.</p>
+		<br />
+		</div>
+<!--		<div style="background: url(assets/css/images/bg/ourstorybg.jpeg) no-repeat center; background-size: cover; width: 50%; display: inline-block; height: auto;">-->
+		
+		</div>
+</div>
+</div>
+
+
+
+<!---------Why Us? -------->
+<div style="background:#06080b; padding: 0;">
+<div class="row row--padding-medium content" style="padding-left:0; padding-right: 0; ">
+<!--
+	<h1 class="content__sub-title content__title-white" style="color:#fff;"><i class="fas fa-hands"></i>  Why Us?</h1>
+	<br />
+-->
+	<h1 class="content__title content__title-white no-underline" style="color:#fff;padding: 0; margin: 0;">
+		<i class="fas fa-hands"></i> </h1><br />
+	<h1 class="content__sub-title content__title-white no-underline" style="color:#fff;padding-top: 0; margin-bottom: 0; padding-bottom: 0;">Why Us?
+	<p class="headline--detail" style="padding: 0; margin: 0; font-style: oblique; letter-spacing: .05em; color: #999;">"You need reasons? We'll surely give you."</p></h1>
+	<br /><br /><br /><br />
+
+	<div class="content--full-length" style="width: 100%;">
+		<div style="">
+			<i style="color: #ffd600;" class="fas fa-award"></i>
+			<span>Professional Guides
+				<p>All our guides are well-trained and certified</p>
+			</span>
+		</div>
+		<div style="">
+			<i style="color: #2196F3;" class="fas fa-money-bill-wave"></i>
+			<span>Best Price
+				<p>Every activity is carefully designed to minimise the cost and maximise the adventure.</p>
+			</span>
+		</div>
+		<div style=""><i style="color: #228b22;" class="fas fa-tree"></i><!--<i style="color: #228b22;" class="fas fa-seedling"></i>-->
+			<span>Eco-Friendly
+				<p>Zero-Waste Life we choose. <span style="font-style: italic;">"Reduce, Reuse &amp; Recycle"</span> is the Mantra we follow. </p>
+			</span>
+		</div>
+	</div>
+</div>
+</div>
+
+
+
+
 
 
 <!---------T-E-S-T-I-M-O-N-I-A-L-S-------->

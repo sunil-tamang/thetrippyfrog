@@ -160,7 +160,8 @@ $(document).ready(function(){
         return false; 
     }); 
     
-    $('.banner__skip-trigger').click(function(e){
+//    $('.banner__skip-trigger').click(function(e){
+    $('.skipToContent-trigger,.banner__skip-trigger').click(function(e){
 //        scrollTop: scrollTop + 
         var scrollPosition = $('#content').offset().top;
         $("html, body").animate({ scrollTop: scrollPosition }, 1000, "easeInOutQuint");
