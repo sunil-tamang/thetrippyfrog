@@ -1,0 +1,66 @@
+---
+layout: 'default'
+---
+<!--<div class="container--white">-->
+<div class="row row--padding-wide container-wide content__pg content__pg-black">
+	<!--Recent Posts-->
+	<div class="row--pading-medium col--post">		
+		{% if page.custom_bg %}     
+			{% for img in page.custom_bg %}
+				{% assign path = 'assets/css/images/' | append: img | relative_url%}
+				<img class="post-banner" src="{{ path }}" style="background-image:url('{{ path }}');">
+			{% endfor %}    
+		{% else %}
+			{% assign path = 'assets/css/images/welcome.jpeg' | relative_url%} 
+				<img class="post-banner" src="{{ path }}" style="background-image:url('{{ path }}');">
+		{% endif %}
+		
+		<div class="post">
+			<div class="post-categories-list">
+				{% if post %}
+					{% assign categories = post.categories %}
+				{% else %}
+					{% assign categories = page.categories %}
+				{% endif %}
+				{% for category in categories %}
+<!--					<a class="post-tags" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>-->
+					<a class="post-tags">{{category}}</a>
+				{% unless forloop.last %}&nbsp;{% endunless %}
+				{% endfor %}
+			</div>
+			
+			<h1 class="content__sub-title post-title">{{ page.title }}</h1>
+			<p class="post-meta">{{ page.date | date_to_string }} - {{ page.author }}</p>
+			<br />
+			<hr />
+			<div class="post-content row--padding-medium">
+				<p>{{ content }}</p>
+			</div>
+		</div>
+	</div>
+	
+	<!--Recent Posts-->
+	<div class="row--pading-medium col--recent-post">
+		Recent Post
+	</div>
+</div>
+
+<!--
+<script>
+jQuery(document).ready(function(){
+	chkScrollTop();
+	$(window).scroll(function(){ 
+		chkScrollTop();
+	});
+	function chkScrollTop(){
+		if ($(window).scrollTop() > 100) { 
+			$('.nav__li').children('a').css('color','white');
+		} 
+		else {
+			if(!$('body').hasClass('mobile')){
+				$('.nav__li').children('a').css('color','black');
+			}
+		 } 
+	}
+});
+</script>-->

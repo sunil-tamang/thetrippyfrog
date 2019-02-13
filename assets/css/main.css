@@ -78,8 +78,13 @@ a,.no-select{ -webkit-user-select: none; -khtml-user-select: none; -moz-user-sel
 /* --------------------C-O-L-O-U-M-N-S------------------- */
 .col--three{
 }
+
+
 .col-narrow,
 .col-narrow--right { margin-bottom: 1.5em; }
+.col--post,
+.col--recent-post,
+.col-wide,
 .col-narrow,
 .col-medium{width: 100%;}
 
@@ -110,6 +115,8 @@ a,.no-select{ -webkit-user-select: none; -khtml-user-select: none; -moz-user-sel
 		padding-right: 2em;
 	}
 	
+	.col--post,
+	.col--recent-post,
 	.col-narrow,
 	.col-medium,
 	.col-wide { float: left; }
@@ -127,6 +134,15 @@ a,.no-select{ -webkit-user-select: none; -khtml-user-select: none; -moz-user-sel
 		width: 25%;
 		margin-bottom: 0;
 	}
+	
+	.col--post{
+		width: 75%;
+		margin-bottom: 0;
+	}
+	.col--recent-post{
+		width: 25%;
+		margin-bottom: 0;
+	}
 }
 
 /* --------------------F-O-O-T-E-R--------------------- */
@@ -136,6 +152,72 @@ footer p{ padding-top: 1.152em;  padding-bottom: 1.152em; }
 
 
 
+/*+++++++++++++++++++++++++++++++++POST.CSS+++++++++++++++++++++++++++++++++*/
+
+.post-banner{width: 100%;
+	pointer-events: none;
+}
+
+.post-categories-list{margin: 1em auto 0;}
+.post-tags{
+	font-family: 'ANTON', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: 1em;
+	padding: .2em .4em;
+	background: #ffb300;
+	border-radius: .2em;
+	color: #f9f9f9;
+	color: #222;
+	display: inline-block;
+	margin-bottom: .8em;
+}
+.post-title{padding-bottom: .2em !important; margin-bottom: 0 !important;}
+.post-meta{font-size: 1em !important; color: #888;}
+.post-title,
+.post-meta{
+	text-align: left !important;
+	font-weight: bolder;
+}
+.post-content{
+	padding-top: 2em;
+}
+
+
+/* The Blog Page */
+
+.blogpost-meta{
+	padding-bottom: 2em;
+}
+
+.blogpost-title{
+	margin-bottom: 0 !important;
+}
+
+.blogpost-excerpt{
+	color: #333 !important;
+	margin-top: 0 !important;
+	margin-bottom: 1em !important;
+}
+.blogpost-read{
+	display: block; margin-top: 2em;
+	text-align: center;
+}
+
+
+@media(min-width:48em)
+{
+	.post-tags{
+		font-size: 1.1em;
+		padding: .6em .8em;
+		border-radius: .2em;
+		margin-bottom: .8em;
+	}
+}
+
+	
+	
+	
 /*+++++++++++++++++++++++++++++++++RECREATION.CSS+++++++++++++++++++++++++++++++++*/
 
 
@@ -145,6 +227,7 @@ body{
     background: #000;
     background: #080808;
     background: #06080b;
+    background: #f0f0f0;
 	color: #cacaca;
 }
 .fa::before{
@@ -197,11 +280,11 @@ body{
 
 .headline--detail{
 	margin-top: 25px;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 14px !important;
+    line-height: 24px !important;
     font-family: "Roboto", sans-serif;
     color: #f9f9f9;
-    font-weight: 300;
+    font-weight: 300 !important;
 }
 
 .trippy-name{
@@ -382,6 +465,10 @@ body{
 .slide4 {
 	background-image: url('images/treks/hampta_min.jpg');
 }
+.slideBlog {
+	background-image: url('images/bg/blogbg.jpg');
+}
+
 
 .trek-slide0 {
 	background-image: url('images/treks/kufri_min.jpg');
@@ -1500,13 +1587,14 @@ p.content__pg:not(:last-child){
 /* Products */
 
 .wopper__footer.adventure{
-	display: flex;
+/*	display: flex;*/
     justify-content: center;
     text-align: left;
     position: absolute;
-    bottom: 36%;
+    bottom: 0;
     left: 0;
     width: 100%;
+	height: 100%;
     background: transparent;
 }
 .wopper__footer{
@@ -1524,6 +1612,7 @@ p.content__pg:not(:last-child){
     background: transparent;
     color: #333;
 	width: 100%;
+	height: 100%;
 }
 
 .wopper__info-detail{
@@ -1551,7 +1640,7 @@ p.content__pg:not(:last-child){
 }
 
 .wopper__act-name{
-	padding: .5em; display: block; text-align: center; 
+	padding: .5em; display: flex; text-align: center; 
 /*	background-color: #e6e6e6;*/
 /*	background-color: #2ad46e;*/
 	background-color: #ffd600;
@@ -1560,6 +1649,9 @@ p.content__pg:not(:last-child){
 	background-color: rgba(0, 0, 0, 0.35);
 	background-color: transparent;
 	border-radius: 5px;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
 }
 .wopper__act-name span{
 	font-size: .75em; 
@@ -1568,7 +1660,7 @@ p.content__pg:not(:last-child){
 /*	font-weight: lighter;    */
 	background-color: rgba(0, 0, 0, 0.45); text-transform: none;
     border-radius: 5px;
-	padding: .1em .5em;
+	padding: .5em .5em;
 }
 .wopper__act-name span.package-name{
 /*	font-size: em;*/
@@ -1951,8 +2043,8 @@ p.content__pg:not(:last-child){
 		line-height: 60px !important;
 	}
 	.headline--detail{
-	    font-size: 16px;
-    	line-height: 26px;
+	    font-size: 16px !important;
+    	line-height: 26px !important;
 	}
 	.trippy-name{
 		transform: translateY(-20px);
