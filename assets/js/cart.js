@@ -71,7 +71,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			{
 				id : 5,
 				name : 'Hampta Pass Trek',
-				img : 'assets/css/thumbs/trek_num/trek1.jpg',
+				img : 'assets/css/images/treks/hampta_min.jpg',
 				price : 7000.00,
 				prodType : 'trekking',
 				descShort : 'Hampta Pass trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and...',
@@ -85,8 +85,8 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			{
 				id : 6,
 				name : 'Lamadugh Trek',
-				img : 'assets/css/thumbs/trek_num/trek2.jpg',
-				price : 5000.00,
+				img : 'assets/css/images/treks/lamadugh_min.jpg',
+				price : 4999.00,
 				prodType : 'trekking',
 				descShort : 'Lamadugh trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and...',
 				descPartOne : 'Lamadugh trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and special one climbing out across the lush green valleys of Kullu to reach the overhanging mountains. From the top, you will witness the magnificent view of a different world below, the beautiful yet deserted Lahaul. The panoramic sweep of the valley from the summit will be a sight that will not leave you forever.',
@@ -99,8 +99,8 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			{
 				id : 7,
 				name : 'Bhrigu Lake Trek',
-				img : 'assets/css/thumbs/trek_num/trek3.jpg',
-				price : 5000.00,
+				img : 'assets/css/images/treks/bhrigu.jpg',
+				price : 5500.00,
 				prodType : 'trekking',
 				descShort : 'Bhrigu Lake trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and...',
 				descPartOne : 'Bhrigu Lake trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and special one climbing out across the lush green valleys of Kullu to reach the overhanging mountains. From the top, you will witness the magnificent view of a different world below, the beautiful yet deserted Lahaul. The panoramic sweep of the valley from the summit will be a sight that will not leave you forever.',
@@ -112,34 +112,48 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 			{
 				id : 8,
+				name : 'Mantalai Lake Trek',
+				img : 'assets/css/images/treks/wild_min.jpg',
+				price : 8000.00,
+				prodType : 'trekking',
+				descShort : 'Mantalai Lake trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and...',
+				descPartOne : 'Mantalai Lake trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and special one climbing out across the lush green valleys of Kullu to reach the overhanging mountains. From the top, you will witness the magnificent view of a different world below, the beautiful yet deserted Lahaul. The panoramic sweep of the valley from the summit will be a sight that will not leave you forever.',
+				descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
+				stock : 1,
+				days : 7,
+				nights: 6,
+				urlName : 'mantalai-lake-trek'
+			},
+			{
+				id : 8,
+				name : 'Kufri Trek',
+				img : 'assets/css/images/treks/kufri_min.jpg',
+				price : 5000.00,
+				prodType : 'trekking',
+				descShort : 'Kufri trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and...',
+				descPartOne : 'Kufri trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and special one climbing out across the lush green valleys of Kullu to reach the overhanging mountains. From the top, you will witness the magnificent view of a different world below, the beautiful yet deserted Lahaul. The panoramic sweep of the valley from the summit will be a sight that will not leave you forever.',
+				descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
+				stock : 1,
+				days : 2,
+				nights: 1,
+				urlName : 'kufri-trek'
+			},
+			{
+				id : 9,
 				name : 'Kheerganga Trek',
-				img : 'assets/css/thumbs/trek_num/trek3.jpg',
+				img : 'assets/css/images/treks/kheerganga_min.jpg',
 				price : 5000.00,
 				prodType : 'trekking',
 				descShort : 'Kheerganga trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and...',
 				descPartOne : 'Kheerganga trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and special one climbing out across the lush green valleys of Kullu to reach the overhanging mountains. From the top, you will witness the magnificent view of a different world below, the beautiful yet deserted Lahaul. The panoramic sweep of the valley from the summit will be a sight that will not leave you forever.',
 				descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
 				stock : 1,
-				days : 3,
-				nights: 2,
+				days : 2,
+				nights: 1,
 				urlName : 'kheerganga-trek'
 			},
 			{
-				id : 8,
-				name : 'Beas Kund Trek',
-				img : 'assets/css/thumbs/trek_num/trek3.jpg',
-				price : 5000.00,
-				prodType : 'trekking',
-				descShort : 'Beas Kund trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and...',
-				descPartOne : 'Beas Kund trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and special one climbing out across the lush green valleys of Kullu to reach the overhanging mountains. From the top, you will witness the magnificent view of a different world below, the beautiful yet deserted Lahaul. The panoramic sweep of the valley from the summit will be a sight that will not leave you forever.',
-				descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
-				stock : 1,
-				days : 3,
-				nights: 2,
-				urlName : 'beas-kund-trek'
-			},
-			{
-				id : 9,
+				id : 10,
 				name : 'Shimla-Manali Tour',
 				img : 'assets/css/images/manali.jpg',
 				oldprice: 800.00,
@@ -161,10 +175,10 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 		}
 		else if(productName=='trekking'){
 			lowerLimit = 4
-			upperLimit = 8
+			upperLimit = 9
 		}
 		else{
-			lowerLimit = 9
+			lowerLimit = 10
 			upperLimit = products.length - 1
 		}
 		
@@ -188,7 +202,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					content+= '</div>'
 				}
 			}
-			else if((upperLimit >= 4)&&(upperLimit<9)){
+			else if((upperLimit >= 4)&&(upperLimit<=9)){
 				if(products[i].stock > 0){
 					content+= '<div class="row row--padding-medium">'
 					content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
@@ -210,7 +224,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					content+= '</div>'
 					content+= '<div class="col-medium wrapper-text-right" data-aos="fade-left" data-aos-easing="ease-in-out-quad">'
 					content+= '<h2 class="content__sub-title content__title-white" style="float: left; margin-left: 0; padding-top: 0; margin-bottom: .8em;">About</h2><br />'
-					content+= '<p class="content__pg">'
+					content+= '<p class="content__pg content--detail">'
 					content+= '<span>'+ products[i].descShort +' </span>'
 					content+= '</p>'
 					content+= '<p class="trippy_btn-wrapper">'

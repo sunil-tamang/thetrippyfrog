@@ -45,22 +45,7 @@ layout: 'default'
 	</div>
 </div>
 
-<!--
+
 <script>
-jQuery(document).ready(function(){
-	chkScrollTop();
-	$(window).scroll(function(){ 
-		chkScrollTop();
-	});
-	function chkScrollTop(){
-		if ($(window).scrollTop() > 100) { 
-			$('.nav__li').children('a').css('color','white');
-		} 
-		else {
-			if(!$('body').hasClass('mobile')){
-				$('.nav__li').children('a').css('color','black');
-			}
-		 } 
-	}
-});
-</script>-->
+ 		document.getElementById("header").className += ' headerBlack';
+</script>

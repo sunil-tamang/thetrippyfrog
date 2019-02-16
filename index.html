@@ -103,7 +103,7 @@ slick_js: 'Yes'
 	
 	<div class="container-wide" style="width: 100%;">
 		<div style="width: 100%; display: inline-block; text-transform: none;">
-		<p class="headline--detail" style="text-align: left; color: #111;">Lose yourself in the Himalayas and find your true-self. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque, arcu nec vulputate malesuada, purus tellus pulvinar massa, eget iaculis lectus risus quis risus. Etiam sit amet metus id ipsum condimentum porttitor nec quis mauris. Nulla eu maximus dui. Nulla ultricies condimentum augue et malesuada. Aliquam fermentum pretium neque at ultricies. Curabitur pellentesque libero vel suscipit cursus. Etiam venenatis justo id felis viverra, vitae aliquam metus viverra. Praesent sed dolor orci. Nulla euismod nibh at ornare suscipit. Phasellus.</p>
+		<p class="headline--detail" style="text-align: left; color: #111;">Lose yourself in the Himalayas and find your true-self. Don't stay inside the trap of routine. Whatever it is holding you back from travelling, and stopping you from enjoying the immense beauty of nature, let it go. Free the adventurer's soul trapped inside the body of a slave of routine, learn to escape and feel the magic of the himalayan landscape.Walking over the snowy track, with a stick in hand to balance ourselves, is just like when we have problems in our life and we try to find the balance with hope and efforts. Not a simple life, but "Adventurous life" teaches us everything.</p>
 		<br />
 		</div>
 <!--		<div style="background: url(assets/css/images/bg/ourstorybg.jpeg) no-repeat center; background-size: cover; width: 50%; display: inline-block; height: auto;">-->
@@ -586,8 +586,35 @@ slick_js: 'Yes'
 	
 	<div class="container-wide" style="width: 100%;">
 		<div style="width: 100%; display: inline-block; text-transform: none;">
-		<p class="headline--detail" style="text-align: left; color: #111;">Lose yourself in the Himalayas and find your true-self. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque, arcu nec vulputate malesuada, purus tellus pulvinar massa, eget iaculis lectus risus quis risus. Etiam sit amet metus id ipsum condimentum porttitor nec quis mauris. Nulla eu maximus dui. Nulla ultricies condimentum augue et malesuada. Aliquam fermentum pretium neque at ultricies. Curabitur pellentesque libero vel suscipit cursus. Etiam venenatis justo id felis viverra, vitae aliquam metus viverra. Praesent sed dolor orci. Nulla euismod nibh at ornare suscipit. Phasellus.</p>
+<!--		<p class="headline--detail" style="text-align: left; color: #111;">Lose yourself in the Himalayas and find your true-self. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque, arcu nec vulputate malesuada, purus tellus pulvinar massa, eget iaculis lectus risus quis risus. Etiam sit amet metus id ipsum condimentum porttitor nec quis mauris. Nulla eu maximus dui. Nulla ultricies condimentum augue et malesuada. Aliquam fermentum pretium neque at ultricies. Curabitur pellentesque libero vel suscipit cursus. Etiam venenatis justo id felis viverra, vitae aliquam metus viverra. Praesent sed dolor orci. Nulla euismod nibh at ornare suscipit. Phasellus.</p>-->
 		<br />
+			<ul>
+					  {% for post in site.posts %}
+						<li class="post-wrapper wrapper">
+							<a href="{{ post.url }}">
+								<img src="/assets/css/images/{{ post.custom_bg }}" style="width: 100%;">
+							</a>
+						  <div class="content blogpost-meta" style="text-align: left;">
+							  <h2 class="content__sub-title blogpost-title">
+								  <a href="{{ post.url }}">{{ post.title }}</a>
+							  </h2>
+							  
+						  		<div class="headline--detail blogpost-excerpt">
+									{{ post.excerpt }}.....
+							  	</div>
+							  
+								<div class="blogpost-read">
+								<a href="{{post.url}}" style="">
+									<button class="trippy_btn more-trippy_btn">
+										<span class="trippy_btn-left"></span>READ
+										<span class="trippy_btn-right"></span>
+									</button>
+								</a>
+								</div>
+						  </div>
+						</li>
+					  {% endfor %}
+					</ul>
 		</div>
 <!--		<div style="background: url(assets/css/images/bg/ourstorybg.jpeg) no-repeat center; background-size: cover; width: 50%; display: inline-block; height: auto;">-->
 		

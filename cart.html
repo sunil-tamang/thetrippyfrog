@@ -5,10 +5,14 @@ permalink: "/cart/"
 productScript: app.getProducts();
 ---
 <!-- Shopping Cart -->
-<div id='content' class="row row--padding-medium container-wide content">
+<div id='content' class="row row--padding-medium container-wide content container--white">
 	<div id='content' class="row row--padding-medium">
-		<h1 class="content__title content__title-white">Cart</h1>
-		<br />
+		<h1 class="content__title content__title-white no-underline" style="padding: 0; margin: 0;">
+			<i class="fas fa-shopping-cart"></i> </h1><br />
+		<h1 class="content__sub-title content__title-white no-underline" style="padding-top: 0; margin-bottom: 0; padding-bottom: 0;">CART
+<!--		<p class="headline--detail" style="padding: 0; margin: 0; font-style: oblique; letter-spacing: .05em; color: #333;">""</p>-->
+		</h1>
+		<br /><br /><br />
 		<div class="productWrapper">
 			<div class="row">
 				<span class="hr-line"></span>
@@ -23,3 +27,8 @@ productScript: app.getProducts();
 	</div>
 </div>
 <!-- End Shopping Cart -->
+
+
+<script>
+	document.getElementById("header").className += ' headerBlack';
+</script>

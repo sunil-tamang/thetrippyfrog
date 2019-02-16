@@ -228,7 +228,7 @@ body{
     background: #080808;
     background: #06080b;
     background: #f0f0f0;
-	color: #cacaca;
+	color: #333;
 }
 .fa::before{
     content: '[ ]';
@@ -278,13 +278,26 @@ body{
 	color: #fff !important;
 }
 
-.headline--detail{
+.headline--detail,.content--detail{
 	margin-top: 25px;
     font-size: 14px !important;
     line-height: 24px !important;
     font-family: "Roboto", sans-serif;
     color: #f9f9f9;
     font-weight: 300 !important;
+	font-style: oblique;
+}
+
+.content--detail{
+	padding: 0; 
+	margin: 0;
+	color: #333;
+	letter-spacing: .05em; 
+	font-style: normal;
+}
+
+.title-detail{
+	padding: 0; margin: 0; font-style: oblique; letter-spacing: .05em; color: #333;
 }
 
 .trippy-name{
@@ -468,6 +481,9 @@ body{
 .slideBlog {
 	background-image: url('images/bg/blogbg.jpg');
 }
+.slideEscape {
+	background-image: url('images/bg/escapebg.jpg');
+}
 
 
 .trek-slide0 {
@@ -478,10 +494,10 @@ body{
 }
 .trek-slide2 {
 /*	background-image: url('images/paragliding.jpg');*/
-	background-image: url('images/treks/lamadugh-min.jpg');
+	background-image: url('images/treks/lamadugh_min.jpg');
 }
 .trek-slide3 {
-	background-image: url('images/bhrigu-lake.jpg');
+	background-image: url('images/treks/bhrigu.jpg');
 }
 .trek-slide4 {
 	background-image: url('images/treks/hampta_min.jpg');
@@ -710,6 +726,7 @@ i {
 .trek-name{
 	display: inline-block;
 	text-transform: capitalize;
+	font-family: 'Pacifico', sans-serif;
 	font-size: 2.25em;
 	float: none;
 }
@@ -933,6 +950,10 @@ i {
     transition: all 0.4s ease;
     padding: 0.5em 0;
 }
+.headerBlack{
+	background: rgba(0, 0, 0, 0.9) !important;
+}
+
 .header__logo, .header__nav{
     color:#fbfbfb;
     display: inline-block;    
@@ -1363,7 +1384,7 @@ p.content__pg:not(:last-child){
 .content__list-item{
 	font-weight: bold;
     position: relative;
-/*    text-align: justify;*/
+    text-align: left;
     line-height: 2em;
 /*    text-indent: 1.2em;*/
     padding-left: 2em;
@@ -1478,10 +1499,11 @@ p.content__pg:not(:last-child){
     top: 44%;
 	left: 0;
 	width:100%;
+	font-family: 'Pacifico',sans-serif;
     color:#fff;
-    font-size: 2em;
+    font-size: 1.5em;
     z-index: 1;
-	font-weight: 600;
+	font-weight: 100;
 }
 .trek__title span{
 	padding: 0.2em 0.5em;
@@ -1632,7 +1654,7 @@ p.content__pg:not(:last-child){
     padding-top: .5em;
     display: inline-block;
     font-size: 1.7em;
-    color: #222;
+    color: #333;
 /*    font-weight: 800;*/
 }
 .wopper__info-price.white{
@@ -1733,7 +1755,7 @@ p.content__pg:not(:last-child){
 
 .footer__content-item{
     font-size: .8em;
-    color: #cacaca;
+/*    color: #cacaca;*/
     padding: 0.5em 0;
     letter-spacing: .12em;
     line-height: 1.8em;
@@ -1751,6 +1773,9 @@ p.content__pg:not(:last-child){
     text-align: center;
 }
 
+.footer .footer__content-item{
+	color: #ccc;
+}
 .footer .footer__content-item a {
     display: inline-block;
     padding-bottom: 0.4em;
@@ -1801,7 +1826,7 @@ p.content__pg:not(:last-child){
     height: 6em;
     margin: .8em;
     border-radius: 0;
-    border: 10px solid #777;
+    border: 10px solid #333;
 }
 
 .social-contact .svg-inline--fa{
@@ -1820,6 +1845,7 @@ p.content__pg:not(:last-child){
     overflow: hidden;
     position: fixed;
     background: rgba(76, 175, 80, .90);
+	color: #ddd;
     padding: 12px;
     border-radius: 360px;
     bottom: .8em;
@@ -1880,6 +1906,7 @@ p.content__pg:not(:last-child){
 .cart_mob{
 	opacity: .9;
     background: rgb(0, 0, 0);
+    color: #ddd;
     padding: .9rem .8rem;
     display: inline-block;
     position: fixed;
@@ -1966,7 +1993,7 @@ p.content__pg:not(:last-child){
 }
 
 .more-trippy_btn>.trippy_btn-left, .more-trippy_btn>.trippy_btn-right{
-	font-size: 38.5px;
+	font-size: 39px;
 }
 .trippy_btn-left{ left: -12px; }    .trippy_btn-right{ right: -12px; }
 .trippy_btn-left:after, .trippy_btn-right:after{ position: relative; content:''; }
@@ -2042,10 +2069,12 @@ p.content__pg:not(:last-child){
 		font-size: 55px !important;
 		line-height: 60px !important;
 	}
-	.headline--detail{
+	.headline--detail,.content--detail{
 	    font-size: 16px !important;
     	line-height: 26px !important;
 	}
+
+	
 	.trippy-name{
 		transform: translateY(-20px);
 		letter-spacing: 0.08em !important; 
@@ -2131,6 +2160,10 @@ p.content__pg:not(:last-child){
 	}
 	.trek-time--part1{margin-left: 0;}
 	.trek-time--part2{margin-right: 0;}
+	
+	.trek__title{
+		font-size: 2em;
+	}
 	.accordion{
 		font-size: 1.3em;
     	letter-spacing: .5em;
@@ -2306,7 +2339,7 @@ p.content__pg:not(:last-child){
 	line-height: 1.5em; 
 	font-size: 1em; 
 	background: none; 
-	color: #fff; 
+	color: #111; 
 	padding:0 0 1.4em 0; 
 	font-weight: 800; 
 	text-transform: uppercase; 
@@ -2333,7 +2366,7 @@ p.content__pg:not(:last-child){
 .product__detail-name :nth-child(2){
 	display: block;
 	padding-bottom:1em;
-	color:#cacaca;
+	color:#555;
 	width: 100%;
 }
 
@@ -2400,6 +2433,7 @@ p.content__pg:not(:last-child){
 	right: 0;
 	padding: 0.5em;
 	background: red;
+	color: #fff;
 	border-radius: 360px;
 	width: 32px;
 	height: 32px;
@@ -2590,8 +2624,6 @@ p.content__pg:not(:last-child){
 	}
 	.product__detail-name :nth-child(2){
 		display: inline-block;
-		padding-bottom:1em;
-		color:#cacaca;
 		width: 20%;
 	}
 	.product__detail-dynamic{
