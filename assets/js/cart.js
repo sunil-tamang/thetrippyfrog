@@ -10,9 +10,9 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 		//totalItems totalAmount
 		var total = 0,
 		items = 0
-		
+
 		var cart = (JSON.parse(localStorage.getItem('cart')) != null) ? JSON.parse(localStorage.getItem('cart')) : {items : []} ;
-		
+
 		if(undefined != cart.items && cart.items != null && cart.items != '' && cart.items.length > 0){
 			_.forEach(cart.items, function(n, key) {
 			   items = (items + n.cant)
@@ -22,11 +22,11 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 		$('.totalItems').text(items) 	// Custom Total Items
 		$('#totalItems').text(items)
 		$('.totalAmount').text('$ '+total+ ' INR')
-		
+
 	}
 
 	app.createProducts = function(productName){
-		
+
 		var products = [
 			{
 				id : 1,
@@ -154,6 +154,20 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 			{
 				id : 10,
+				name : 'Beas Kund Trek',
+				img : 'assets/css/images/treks/kheerganga_min.jpg',
+				price : 6500.00,
+				prodType : 'trekking',
+				descShort : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
+				descPartOne : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
+				descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
+				stock : 1,
+				days : 3,
+				nights: 2,
+				urlName : 'beas-kund-trek'
+			},
+			{
+				id : 11,
 				name : 'Shimla-Manali Tour',
 				img : 'assets/css/images/manali.jpg',
 				oldprice: 800.00,
@@ -167,28 +181,28 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 		var upperLimit, lowerLimit;
 		if(productName=='rafting'){
 			lowerLimit = 0
-			upperLimit = 1 
+			upperLimit = 1
 		}
 		else if(productName=='paragliding'){
 			lowerLimit = 2
-			upperLimit = 3 
+			upperLimit = 3
 		}
 		else if(productName=='trekking'){
 			lowerLimit = 4
-			upperLimit = 9
+			upperLimit = 10
 		}
 		else{
-			lowerLimit = 10
+			lowerLimit = 11
 			upperLimit = products.length - 1
 		}
-		
+
 		for(var i = lowerLimit; i <= upperLimit; i++){
 			if(upperLimit < 4){
 				if(products[i].stock > 0){
 					content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
 					content+= '<a href="javascript:void(0);" class="wopper wopper--'+ products[i].prodType +' '+ products[i].prodType +'-'+(i+1)+'" style="background-image: url(/'+products[i].img+')">'
 					content+= '<div class="para__title"><i class="fa fa-map-marker-alt"></i>&nbsp;'+products[i].location
-					content+= '</div>'	
+					content+= '</div>'
 					content+= '</a>'
 					content+= '<div class="wopper__footer">'
 					content+= '<div class="wopper__info">'
@@ -202,7 +216,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					content+= '</div>'
 				}
 			}
-			else if((upperLimit >= 4)&&(upperLimit<=9)){
+			else if((upperLimit >= 4)&&(upperLimit<=10)){
 				if(products[i].stock > 0){
 					content+= '<div class="row row--padding-medium">'
 					content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
@@ -241,7 +255,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
 					content+= '<a href="javascript:void(0);" class="wopper wopper--'+ products[i].prodType +' '+ products[i].prodType +'-'+(i+1)+'" style="background-image: url(/'+products[i].img+')">'
 					content+= '<div class="para__title"><i class="fa fa-map-marker-alt"></i>&nbsp;'+products[i].location
-					content+= '</div>'	
+					content+= '</div>'
 					content+= '</a>'
 					content+= '<div class="wopper__footer">'
 					content+= '<div class="wopper__info">'
@@ -255,7 +269,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					content+= '</div>'
 				}
 			}
-			
+
 		}
 
 		wrapper.html(content)
@@ -310,7 +324,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			//}else{
 			//	alert('Can not add more than this product')
 			//}
-			
+
 		}else{
 			//if not, we add it to the cart
 			var prod = {
@@ -359,11 +373,11 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				var totalCart=0;
 				var items = '';
 				_.forEach(cart.items, function(n, key) {
-					var counter = 0; 
+					var counter = 0;
 				   total = (n.cant * n.price);
 				   totalCart = totalCart+total;
 				   items += '<input type="text" name="activity-'+n.id+'" value="'+ n.prodType +'  |  '+ n.name +'  |  '+ n.cant +'  |  Rs.'+ n.price +'/-  |  Rs.'+ total + '">'
-					counter = counter + 1; 
+					counter = counter + 1;
 				});
 
 				wrapper.html(items)
@@ -386,15 +400,15 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					if(n.id < 5){
 						items += '		<a href="/activities/'+n.prodType+'/" class="wopper wopper--'+n.prodType+'" style="background: url(/'+n.img+') center no-repeat; background-size:cover;">'
 						items+= '<span class="para__title para__title-cart"><i class="fa fa-map-marker-alt"></i>&nbsp;'+n.location
-						items+= '</span>'	
+						items+= '</span>'
 						items+= '</a>'
 					}
 					else{
-						items += '		<a href="/activities/'+n.prodType+'/'+n.urlName+'" class="wopper wopper--'+n.prodType+'" style="background: url(/'+n.img+') center no-repeat; background-size:cover;">'	
+						items += '		<a href="/activities/'+n.prodType+'/'+n.urlName+'" class="wopper wopper--'+n.prodType+'" style="background: url(/'+n.img+') center no-repeat; background-size:cover;">'
 						items+= '</a>'
-	
+
 					}
-					
+
 				   items += '	</div>'
 				   items += '	<div class="col-wide product__detail-wrapper">'
 				   items += '		<div class="product__detail">'
@@ -415,7 +429,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				   items += '			<a class="product__action-remove productRemove" onclick="app.deleteProd('+n.id+')">x</a>'
 				   items += '		</div>'
 				   items += '	</div>'
-				   items += '</div>'			   
+				   items += '</div>'
 
 				   /*items += '<li>'
 				   items += '<img src="'+n.img+'" />'
@@ -489,7 +503,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 	app.deleteProd = function(id,remove){
 
 		if(undefined != id && id > 0){
-			
+
 			if(remove == true){
 				app.delete(id)
 			}else{
@@ -499,13 +513,13 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				}
 			}
 
-			
+
 		}
 	}
 
 	// Add product quantity
-	
-	
+
+
 	//app.updatePayForm = function(){
 		//that will generate a dynamic form for paypal
 		//with the products and their prices
@@ -515,7 +529,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 		wrapper = $('#submitForm')
 
 		wrapper.html('')
-		
+
 		if(undefined != cart && null != cart && cart != ''){
 			var i = 1;
 			_.forEach(cart.items, function(prod, key) {
@@ -546,7 +560,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 //		alertContent += origHtml;
 //		alertContent = origHtml;
 //		alertWrapper.html('');
-		
+
 		alertContent += '<div class="cart-alert cart-alert--msg">',
 		alertContent += '	<span><i class="fa fa-check-circle"></i>&nbsp;'+msg+'!</span>',
 //		alertContent += '	<a class="cart-alert--close no-select">x</a>',
@@ -554,7 +568,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 		alertWrapper.html(alertContent);
 		msgSelfDestruct();
 	}
-	
+
 	function msgSelfDestruct(){
 			(function(){
 				setTimeout(function(){
