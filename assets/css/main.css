@@ -158,6 +158,16 @@ footer p{ padding-top: 1.152em;  padding-bottom: 1.152em; }
 	pointer-events: none;
 }
 
+.post-wrapper.wrapper {
+    display: inline-table;
+}
+.post-wrapper.wrapper:nth-child(odd){
+	float: left;
+}
+.post-wrapper.wrapper:nth-child(even){
+	float: right;
+}
+
 .post-categories-list{margin: 1em auto 0;}
 .post-tags{
 	font-family: 'ANTON', sans-serif;
@@ -1515,7 +1525,7 @@ p.content__pg:not(:last-child){
     position: relative;
     display: table;
     overflow: hidden;
-	box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
 /*
     border: 1px solid #fff;
 	border-radius: .5em;
