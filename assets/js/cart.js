@@ -88,8 +88,8 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				img : 'assets/css/images/treks/lamadugh_min.jpg',
 				price : 4999.00,
 				prodType : 'trekking',
-				descShort : 'Lamadugh trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and...',
-				descPartOne : 'Lamadugh trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and special one climbing out across the lush green valleys of Kullu to reach the overhanging mountains. From the top, you will witness the magnificent view of a different world below, the beautiful yet deserted Lahaul. The panoramic sweep of the valley from the summit will be a sight that will not leave you forever.',
+				descShort : '  LamaDugh is The Perfect Location For Chill Out And Be Out Of The Hustle Bustle Of Crowded Manali Town . This Place Is 7Km Above Manali And Can be Easily Reached ....',
+				descPartOne : '   LamaDugh is The Perfect Location For Chill Out And Be Out Of The Hustle Bustle Of Crowded Manali Town . This Place Is 7Km Above Manali And Can be Easily Reached ...',
 				descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
 				stock : 1,
 				days : 3,
@@ -100,14 +100,14 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				id : 7,
 				name : 'Bhrigu Lake Trek',
 				img : 'assets/css/images/treks/bhrigu.jpg',
-				price : 5500.00,
+				price : 7000.00,
 				prodType : 'trekking',
 				descShort : 'Bhrigu Lake trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and...',
 				descPartOne : 'Bhrigu Lake trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and special one climbing out across the lush green valleys of Kullu to reach the overhanging mountains. From the top, you will witness the magnificent view of a different world below, the beautiful yet deserted Lahaul. The panoramic sweep of the valley from the summit will be a sight that will not leave you forever.',
 				descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
 				stock : 1,
-				days : 3,
-				nights: 2,
+				days : 4,
+				nights: 3,
 				urlName : 'bhrigu-lake-trek'
 			},
 			{
@@ -168,6 +168,131 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 			{
 				id : 11,
+				name : 'Deo Tibba Base Camp Trek',
+				img : 'assets/css/images/treks/kheerganga_min.jpg',
+				price : 6500.00,
+				prodType : 'trekking',
+				descShort : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
+				descPartOne : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
+				descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
+				stock : 1,
+				days : 3,
+				nights: 2,
+				urlName : 'deo-tibba-base-camp-trek'
+			},	{
+					id : 12,
+					name : 'Pin Parvati Trek',
+					img : 'assets/css/images/treks/kheerganga_min.jpg',
+					price : 6500.00,
+					prodType : 'trekking',
+					descShort : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
+					descPartOne : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
+					descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
+					stock : 1,
+					days : 3,
+					nights: 2,
+					urlName : 'pin-parvati-trek'
+				},
+				{
+						id : 13,
+						name : 'Malana Villae Trek',
+						img : 'assets/css/images/treks/kheerganga_min.jpg',
+						price : 6500.00,
+						prodType : 'trekking',
+						descShort : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
+						descPartOne : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
+						descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
+						stock : 1,
+						days : 3,
+						nights: 2,
+						urlName : 'malana-village-trek'
+					},
+					{
+							id : 14,
+							name : 'Sar Pass Trek',
+							img : 'assets/css/images/treks/kheerganga_min.jpg',
+							price : 6500.00,
+							prodType : 'trekking',
+							descShort : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
+							descPartOne : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
+							descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
+							stock : 1,
+							days : 3,
+							nights: 2,
+							urlName : 'sar-pass-trek'
+						},
+						{
+								id : 15,
+								name : 'Fungni Top Trek',
+								img : 'assets/css/images/treks/kheerganga_min.jpg',
+								price : 6500.00,
+								prodType : 'trekking',
+								descShort : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
+								descPartOne : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
+								descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
+								stock : 1,
+								days : 3,
+								nights: 2,
+								urlName : 'fungni-top-trek'
+							},
+							{
+									id : 16,
+									name : 'FriendShip Peak Trek',
+									img : 'assets/css/images/treks/kheerganga_min.jpg',
+									price : 6500.00,
+									prodType : 'trekking',
+									descShort : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
+									descPartOne : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
+									descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
+									stock : 1,
+									days : 3,
+									nights: 2,
+									urlName : 'friendShip-peak-trek'
+								},
+								{
+										id : 17,
+										name : 'Dehana Saar Lake Trek',
+										img : 'assets/css/images/treks/kheerganga_min.jpg',
+										price : 6500.00,
+										prodType : 'trekking',
+										descShort : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
+										descPartOne : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
+										descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
+										stock : 1,
+										days : 3,
+										nights: 2,
+										urlName : 'dehana-saar-lake-trek'
+									},
+									{
+											id : 18,
+											name : 'ChandraKhani Trek',
+											img : 'assets/css/images/treks/kheerganga_min.jpg',
+											price : 6500.00,
+											prodType : 'trekking',
+											descShort : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
+											descPartOne : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
+											descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
+											stock : 1,
+											days : 3,
+											nights: 2,
+											urlName : 'chandraKhani-trek'
+										},
+										{
+												id : 19,
+												name : 'Kais Dhar Trek',
+												img : 'assets/css/images/treks/kheerganga_min.jpg',
+												price : 6500.00,
+												prodType : 'trekking',
+												descShort : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
+												descPartOne : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
+												descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
+												stock : 1,
+												days : 3,
+												nights: 2,
+												urlName : 'kais-dhar-trek'
+											},
+			{
+				id : 20,
 				name : 'Shimla-Manali Tour',
 				img : 'assets/css/images/manali.jpg',
 				oldprice: 800.00,
@@ -189,7 +314,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 		}
 		else if(productName=='trekking'){
 			lowerLimit = 4
-			upperLimit = 10
+			upperLimit = 19
 		}
 		else{
 			lowerLimit = 11
@@ -216,7 +341,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					content+= '</div>'
 				}
 			}
-			else if((upperLimit >= 4)&&(upperLimit<=10)){
+			else if((upperLimit >= 4)&&(upperLimit<=20)){
 				if(products[i].stock > 0){
 					content+= '<div class="row row--padding-medium">'
 					content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
