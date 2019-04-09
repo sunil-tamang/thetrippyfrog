@@ -2,14 +2,14 @@
 layout: 'default'
 ---
 
-{% if page.custom_bg %}     
+{% if page.custom_bg %}
     {% for img in page.custom_bg %}
         {% assign path = 'assets/css/images/' | append: img | relative_url%}
         <div class="banner parallax" style="background-image:url('{{ path }}');">
-    {% endfor %}    
+    {% endfor %}
 {% else %}
-    {% assign path = 'assets/css/images/welcome.jpeg' | relative_url%} 
-        <div class="banner parallax" style="background-image: url('{{ path }}')"> 
+    {% assign path = 'assets/css/images/welcome.jpeg' | relative_url%}
+        <div class="banner parallax" style="background-image: url('{{ path }}')">
 {% endif %}
     <span class="banner__overlay"></span>
 	{% if page.title_img %}
@@ -29,11 +29,11 @@ layout: 'default'
 </div>
 
 <div style="position: relative;" class="row container--white" id="content">
-<span style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url('{{ 'assets/css/images/static.gif' | absolute_url }}') repeat center; opacity: .05; z-index: -1;"></span>            
+<span style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url('{{ 'assets/css/images/static.gif' | absolute_url }}') repeat center; opacity: .05; z-index: -1;"></span>
     {{ content }}
 </div>
 <script>
-	
+
 	//Accordion - all open at a Time
 	var acc = document.getElementsByClassName("accordion");
 	var i;
@@ -46,10 +46,10 @@ layout: 'default'
 		  panel.style.maxHeight = null;
 		} else {
 		  panel.style.maxHeight = panel.scrollHeight + "px";
-		} 
+		}
 	  });
 	}
-	
+
 	//Accordion - open one at a Time
 /*	var acc = document.getElementsByClassName("accordion");
 	var i;

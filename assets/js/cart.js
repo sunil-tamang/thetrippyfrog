@@ -211,7 +211,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				{
 				id : 14,
 				name : 'Sar Pass Trek',
-				img : 'assets/css/images/treks/kheerganga_min.jpg',
+				img : 'assets/css/images/treks/sar_min.jpg',
 				price : 6500.00,
 				prodType : 'trekking',
 				descShort : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
@@ -252,8 +252,8 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 			{
 				id : 17,
-				name : 'Dehana Saar Lake Trek',
-				img : 'assets/css/images/treks/kheerganga_min.jpg',
+				name : 'Dehana Sar Lake Trek',
+				img : 'assets/css/images/treks/dehana_sar_min.jpg',
 				price : 6500.00,
 				prodType : 'trekking',
 				descShort : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
@@ -262,12 +262,12 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				stock : 1,
 				days : 3,
 				nights: 2,
-				urlName : 'dehana-saar-lake-trek'
+				urlName : 'dehana-sar-lake-trek'
 			},
 			{
 				id : 18,
 				name : 'ChandraKhani Trek',
-				img : 'assets/css/images/treks/kheerganga_min.jpg',
+				img : 'assets/css/images/treks/chandrakhani_min.jpg',
 				price : 6500.00,
 				prodType : 'trekking',
 				descShort : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
@@ -281,7 +281,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			{
 				id : 19,
 				name : 'Kais Dhar Trek',
-				img : 'assets/css/images/treks/kheerganga_min.jpg',
+				img : 'assets/css/images/treks/kais_dhar_min.jpg',
 				price : 6500.00,
 				prodType : 'trekking',
 				descShort : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
@@ -294,20 +294,6 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 			{
 				id : 20,
-				name : 'Ghepan Ghat Trek',
-				img : 'assets/css/images/treks/kheerganga_min.jpg',
-				price : 11500.00,
-				prodType : 'trekking',
-				descShort : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
-				descPartOne : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
-				descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
-				stock : 1,
-				days : 5,
-				nights: 4,
-				urlName : 'ghepan-ghat-trek'
-			},
-			{
-				id : 21,
 				name : 'Shimla-Manali Tour',
 				img : 'assets/css/images/manali.jpg',
 				oldprice: 800.00,
@@ -329,7 +315,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 		}
 		else if(productName=='trekking'){
 			lowerLimit = 4
-			upperLimit = 20
+			upperLimit = 19
 		}
 		else{
 			lowerLimit = 11
@@ -356,7 +342,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					content+= '</div>'
 				}
 			}
-			else if((upperLimit >= 4)&&(upperLimit<=21)){
+			else if((upperLimit >= 4)&&(upperLimit<=20)){
 				if(products[i].stock > 0){
 					content+= '<div class="row row--padding-medium">'
 					content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'

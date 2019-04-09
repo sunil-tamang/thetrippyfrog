@@ -484,7 +484,7 @@ body{
 }
 .slide2 {
 /*	background-image: url('images/paragliding.jpg');*/
-	background-image: url('images/treks/hampta.jpg');
+	background-image: url('images/treks/hampta_min.jpg');
 }
 .slide3 {
 	background-image: url('images/trek.jpg');
@@ -927,7 +927,7 @@ i {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,.4);
+    background: rgba(0,0,0,.2);
 }
 .slide-overlay{
 	background: rgba(0,0,0,.1);
@@ -2179,7 +2179,7 @@ p.content__pg:not(:last-child){
 		bottom: 5em;
 	}
 }
-	
+
 @media(min-width:48em)
 {
 	.header__logo{
@@ -2268,7 +2268,7 @@ p.content__pg:not(:last-child){
 	.banner__trek-book{
 		bottom: 8em;
 	}
-	
+
 	.trek-name{
 		font-size: 2.8em;
 		float: left;

@@ -1,14 +1,14 @@
 ---
 layout: 'default'
 ---
-{% if page.custom_bg %}     
+{% if page.custom_bg %}
     {% for img in page.custom_bg %}
         {% assign path = 'assets/css/images/' | append: img | relative_url%}
         <div class="banner__trek parallax" style="background-image:url('{{ path }}');">
-    {% endfor %}    
+    {% endfor %}
 {% else %}
-    {% assign path = 'assets/css/images/welcome.jpeg' | relative_url%} 
-        <div class="banner__trek parallax" style="background-image: url('{{ path }}')"> 
+    {% assign path = 'assets/css/images/welcome.jpeg' | relative_url%}
+        <div class="banner__trek parallax" style="background-image: url('{{ path }}')">
 {% endif %}
 			<span class="banner__overlay"></span>
 			<div class="banner__trek-overview">
@@ -23,11 +23,11 @@ layout: 'default'
 <!--						<span class="counter">{{ page.nights }}</span><span>&nbsp;Nights</span>-->
 					</span><br />
 <!--					<span class="trek-price"><span style="font-size: 90%;">From</span> INR 7,000</span>-->
-					<span class="trek-slide--price trek-price"><span style="font-size: 60%;">From</span> <i class="fa fa-rupee-sign"></i> 7,000/-</span>
+					<span class="trek-slide--price trek-price"><span style="font-size: 60%;">From</span> <i class="fa fa-rupee-sign"></i> {{ page.price }}/-</span>
 				</p>
-				
+
 			</div>
-			
+
 			<div class="banner__trek-book">
 				<p class="trek-book">
 					<span class="trek-book--btn">
@@ -39,18 +39,18 @@ layout: 'default'
 					</span>
 				</p>
 			</div>
-			
+
 			<span class="banner__skip">
 					<a class="skipToContent-trigger" href="#content" style="padding: 1em 1.08em; background: rgba(0,0,0,.4); color:#39ff41; border-radius: 360px;"><i class="fas fa-leaf" style="transform: rotate(135deg); font-size: 1em;"></i></a>
 			</span>
 		</div>
 
 <div style="position: relative;" class="row row--padding-medium content container--white" id="content">
-<span style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url('{{ 'assets/css/images/static.gif' | absolute_url }}') repeat center; opacity: .05; z-index: -1;"></span>            
+<span style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url('{{ 'assets/css/images/static.gif' | absolute_url }}') repeat center; opacity: .05; z-index: -1;"></span>
     {{ content }}
 </div>
 <script>
-	
+
 	//Accordion - all open at a Time
 	var acc = document.getElementsByClassName("accordion");
 	var i;
@@ -63,10 +63,10 @@ layout: 'default'
 		  panel.style.maxHeight = null;
 		} else {
 		  panel.style.maxHeight = panel.scrollHeight + "px";
-		} 
+		}
 	  });
 	}
-	
+
 	//Accordion - open one at a Time
 	/*var acc = document.getElementsByClassName("accordion");
 	var i;
