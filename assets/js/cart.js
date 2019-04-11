@@ -130,9 +130,9 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				img : 'assets/css/images/treks/kufri_min.jpg',
 				price : 5000.00,
 				prodType : 'trekking',
-				descShort : 'Kufri trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and...',
-				descPartOne : 'Kufri trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and special one climbing out across the lush green valleys of Kullu to reach the overhanging mountains. From the top, you will witness the magnificent view of a different world below, the beautiful yet deserted Lahaul. The panoramic sweep of the valley from the summit will be a sight that will not leave you forever.',
-				descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
+				descShort : 'Kufri One Of The Most Beautiful And Virgin Place In the Lap Of Himalayas . Kufri Trek Was Also Our First Ever Trek 5 Friends On A Quest To Discover The Nature Beauty Which Lies At Top Of The Mountain ....',
+				descPartOne : 'Kufri One Of The Most Beautiful And Virgin Place In the Lap Of Himalayas . Kufri Trek Was Also Our First Ever Trek 5 Friends On A Quest To Discover The Natures Beauty Which Lies At Top Of The Mountain ..',
+				descPartTwo : 'Kufri Trek Is One Of The Best Short Trek Around Kullu Manali Valley With Breathtaking View . It Is Also The Best Place For Camping With 2 And Half Hour Short Trail Gives the View Of Parvati Valley And DhaulaDhar Range .',
 				stock : 1,
 				days : 2,
 				nights: 1,
@@ -280,8 +280,8 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 			{
 				id : 19,
-				name : 'Kais Dhar Trek',
-				img : 'assets/css/images/treks/kais_dhar_min.jpg',
+				name : 'Kaans Dhar Trek',
+				img : 'assets/css/images/treks/kaans_dhar_min.jpg',
 				price : 6500.00,
 				prodType : 'trekking',
 				descShort : 'Beas Kund Is The Origin Of Mighty Beas River Its A Beautiful Glacial Lake Forming The Beas River Which Gives Life To Millions Of People In the Himalayas ...',
@@ -290,7 +290,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				stock : 1,
 				days : 3,
 				nights: 2,
-				urlName : 'kais-dhar-trek'
+				urlName : 'kaans-dhar-trek'
 			},
 			{
 				id : 20,
