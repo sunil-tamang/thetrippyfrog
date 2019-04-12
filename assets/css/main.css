@@ -492,6 +492,8 @@ body{
 .slide4 {
 	background-image: url('images/treks/hampta_min.jpg');
 }
+
+
 .slideBlog {
 	background-image: url('images/bg/blogbg.jpg');
 }
@@ -514,8 +516,15 @@ body{
 	background-image: url('images/treks/bhrigu_min.jpg');
 }
 .trek-slide4 {
+	background-image: url('images/treks/kaans_dhar_min.jpg');
+}
+.trek-slide5 {
+	background-image: url('images/treks/pin_parvati_min.jpg');
+}
+.trek-slide6 {
 	background-image: url('images/treks/hampta_min.jpg');
 }
+
 
 i {
     color: white;
