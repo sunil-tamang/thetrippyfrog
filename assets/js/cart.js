@@ -236,7 +236,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				stock : 1,
 				days : 7,
 				nights: 8,
-				urlName : 'friendShip-peak-trek'
+				urlName : 'friendship-peak-trek'
 			},
 			{
 				id : 16,
@@ -264,7 +264,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				stock : 1,
 				days : 3,
 				nights: 2,
-				urlName : 'chandraKhani-trek'
+				urlName : 'chandrakhani-trek'
 			},
 
 			{
@@ -281,15 +281,42 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				nights: 5,
 				urlName : 'deo-tibba-base-camp-trek'
 			},
+			
+			// Camping Products
 			{
 				id : 19,
+				name : 'Camping In The Wild',
+				img : 'assets/css/images/camping/camp-in-wild.jpg',
+				price : 1200.00,
+				prodType : 'camping',
+				stock : 1,
+				days : 6,
+				nights: 5,
+				urlName : 'camping-in-the-wild'
+			},	
+			
+			{
+				id : 20,
+				name : 'Camping Near River',
+				img : 'assets/css/images/camping/camp-near-river.jpg',
+				price : 1000.00,
+				prodType : 'camping',
+				stock : 1,
+				days : 6,
+				nights: 5,
+				urlName : 'camping-near-river'
+			},
+					
+			{
+				id : 21,
 				name : 'Shimla-Manali Tour',
 				img : 'assets/css/images/manali.jpg',
 				oldprice: 800.00,
 				price : 499.00,
 				prodType : 'packages',
 				stock : 100
-			}
+			},
+			
 		],
 		wrapper = $('.productWrapper'),
 		content = ''
@@ -306,13 +333,17 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			lowerLimit = 4
 			upperLimit = 18
 		}
+		else if(productName=='camping'){
+			lowerLimit = 19
+			upperLimit = 20
+		}
 		else{
-			lowerLimit = 11
+			lowerLimit = 18
 			upperLimit = products.length - 1
 		}
 
 		for(var i = lowerLimit; i <= upperLimit; i++){
-			if(upperLimit < 4){
+			if((upperLimit < 4)){
 				if(products[i].stock > 0){
 					content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
 					content+= '<a href="javascript:void(0);" class="wopper wopper--'+ products[i].prodType +' '+ products[i].prodType +'-'+(i+1)+'" style="background-image: url(/'+products[i].img+')">'
@@ -364,6 +395,27 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					content+= '</div>'
 				}
 			}
+			
+			else if((upperLimit >= 18)&&(upperLimit<=20)){
+				if(products[i].stock > 0){
+					content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
+					content+= '<a href="/activities/camping/'+ products[i].urlName +'" class="wopper wopper--'+ products[i].prodType +' '+ products[i].prodType +'-'+(i+1)+'" style="background-image: url(/'+products[i].img+')">'
+//					content+= '<div class="para__title"><i class="fa fa-map-marker-alt"></i>&nbsp;'+products[i].location
+//					content+= '</div>'
+					content+= '</a>'
+					content+= '<div class="wopper__footer">'
+					content+= '<div class="wopper__info">'
+					content+= '<div>'
+					content+= '<a class="wopper__info-detail" href="javascript:void(0);">'+products[i].name+'</a>'
+					content+= '<button class="wopper__info-cart btn prod-'+products[i].id+'" data-style="zoom-out" onclick="app.addtoCart('+products[i].id+');" title="Add To Cart"><i class="fas fa-cart-plus"></i></button>'
+					content+= '</div>'
+					content+= '<a class="wopper__info-price prod-'+products[i].id+'"><span> ₹ '+products[i].price+' /-</span></a>'
+					content+= '</div>'
+					content+= '</div>'
+					content+= '</div>'
+				}
+			}
+			
 			// Packages
 			else{
 				if(products[i].stock > 0){

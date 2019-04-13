@@ -842,7 +842,7 @@ p.content__pg:not(:last-child){
 .wopper--rafting{background: url(thumbs/rafting-min.jpg) center no-repeat; background-size: 100%;}
 .wopper--paragliding{background: url(thumbs/paragliding-min.jpg) center no-repeat; background-size: 100%;}
 .wopper--trek{background: url('thumbs/trek-min.jpg') center no-repeat ; background-size: 100%;}
-.wopper--camp{background: url('thumbs/camp-min.jpg') center no-repeat ; background-size: 100%;}
+.wopper--camping{background: url('thumbs/camp-min.jpg') center no-repeat ; background-size: 100%;}
 .wopper--bike{background: url('thumbs/bikes-min.jpg') center no-repeat; background-size: 100%;}
 .wopper--gypsy{background: url('thumbs/4x4-min.jpg') center no-repeat; background-size: 100%;}
 

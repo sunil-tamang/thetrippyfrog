@@ -14,6 +14,7 @@ layout: 'default'
 			<div class="banner__trek-overview">
 				<p class="trek-name">{{ page.title }}</p>
 				<p class="trek-time">
+					{% if page.days %}
 					<span class="trek-time--part1">
 						<span class="trek-span"><span class="counter">{{ page.days }}</span><span>&nbsp;Days</span></span>
 					</span>
@@ -22,6 +23,7 @@ layout: 'default'
 <!--						<span><span class="counter">{{ page.days }}</span><span>&nbsp;Days</span></span>-->
 <!--						<span class="counter">{{ page.nights }}</span><span>&nbsp;Nights</span>-->
 					</span><br />
+					{% endif %}
 <!--					<span class="trek-price"><span style="font-size: 90%;">From</span> INR 7,000</span>-->
 					<span class="trek-slide--price trek-price"><span style="font-size: 60%;">From</span> <i class="fa fa-rupee-sign"></i> {{ page.price }}/-</span>
 				</p>

@@ -25,6 +25,10 @@ collections:
     output: true
     permalink: /:title
     include: app-assets
+  camping:
+    output: true
+    permalink: /:title
+    include: app-assets
   legal:
     output: true
     permalink: /:title
