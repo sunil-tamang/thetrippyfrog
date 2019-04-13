@@ -1519,11 +1519,33 @@ p.content__pg:not(:last-child){
     height: 2px;
 }
 
+
 .clearlist .content__list-item{
 	padding-left: 0;
 	text-transform: uppercase;
 	letter-spacing: 0.25em;
 }
+
+.sitemap-content .clearlist .content__list-item{
+    text-transform: none;
+    letter-spacing: 1.25px;
+    position: relative;
+    font-family: 'Roboto',sans-serif;
+    padding-left: 1.5em;
+    padding-bottom: 1em;
+}
+
+.sitemap-content .clearlist .content__list-item:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    height: 2px;
+    background: #333;
+    width: 10px;
+    top: 14px;
+}
+
+
 .trek--section .content__list-item{
 	padding-left: 0;
 }
