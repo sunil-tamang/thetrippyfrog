@@ -286,7 +286,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			{
 				id : 19,
 				name : 'Camping In The Wild',
-				img : 'assets/css/images/camping/camp-in-wild.jpg',
+				img : 'assets/css/images/camping/camp-in-wild-min.jpg',
 				price : 1200.00,
 				prodType : 'camping',
 				stock : 1,
@@ -298,7 +298,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			{
 				id : 20,
 				name : 'Camping Near River',
-				img : 'assets/css/images/camping/camp-near-river.jpg',
+				img : 'assets/css/images/camping/camp-near-river-min.jpg',
 				price : 1000.00,
 				prodType : 'camping',
 				stock : 1,
