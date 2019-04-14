@@ -1700,6 +1700,7 @@ p.content__pg:not(:last-child){
 .wopper--camping{background: url('thumbs/camp-min.jpg') center no-repeat ; background-size: 100%;}
 .wopper--bike{background: url('thumbs/bikes-min.jpg') center no-repeat; background-size: 100%;}
 .wopper--gypsy{background: url('thumbs/4x4-min.jpg') center no-repeat; background-size: 100%;}
+.wopper--escape-trips{background: url('thumbs/treks/lamadugh-min.jpg') center no-repeat; background-size: 100%;}
 
 .rafting-1{background: url(thumbs/rafting_num/rafting1.jpg) center no-repeat; background-size: 100%;}
 .rafting-2{background: url(thumbs/rafting_num/rafting2.jpg) center no-repeat; background-size: 100%;}
@@ -1805,6 +1806,7 @@ p.content__pg:not(:last-child){
     padding: .05em 0.3em;
 	cursor: pointer;
 }
+
 
 .wopper__info-price{
     padding-top: .5em;
@@ -2665,6 +2667,20 @@ p.content__pg:not(:last-child){
     color: #333;
 	border: 0;
     outline: 0;
+}
+
+.btn-escape.ladda-button:hover{
+    color: #FFEB3B;
+    background: #000;
+}
+.btn-escape{
+	position: absolute;
+    top: 3%;
+    right: 5%;
+    background: #FFEB3B;
+    border-radius: 5px;
+    padding: 5px 12px 5px 10px;
+    color: #111010;
 }
 
 /**LOADER**/

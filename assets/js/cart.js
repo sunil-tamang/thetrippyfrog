@@ -306,9 +306,54 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				nights: 5,
 				urlName : 'camping-near-river'
 			},
-					
+			
 			{
 				id : 21,
+				name : 'Himalayan Escape',
+				img : 'assets/css/images/escape-trips/himalayan-escape/himalayan-escape-min.jpg',
+				price : 9999,
+				prodType : 'escape-trips',
+				stock : 1,
+				act1: 'Long Trek',
+				act2: 'Camping',
+				act3: 'Short Rafting',
+				days : 7,
+				nights: 6,
+				urlName : 'himalayan-escape'
+			},
+			
+			{
+				id : 22,
+				name : 'Weekend Escape',
+				img : 'assets/css/images/escape-trips/weekend-escape/weekend-escape-min.jpg',
+				price : 7999,
+				prodType : 'escape-trips',
+				stock : 1,
+				act1: 'Short Trek',
+				act2: 'Camping',
+				act3: 'Short Rafting',
+				days : 6,
+				nights: 5,
+				urlName : 'weekend-escape'
+			},	
+			
+			{
+				id : 23,
+				name : 'Magic Valley Escape',
+				img : 'assets/css/images/escape-trips/magic-valley-escape/magic-valley-escape-min.jpg',
+				price : 12999,
+				prodType : 'escape-trips',
+				stock : 1,
+				act1: 'Moderate Trek',
+				act2: 'Camping',
+				act3: 'Short Rafting',
+				days : 6,
+				nights: 5,
+				urlName : 'magic-valley-escape'
+			},
+					
+			{
+				id : 24,
 				name : 'Shimla-Manali Tour',
 				img : 'assets/css/images/manali.jpg',
 				oldprice: 800.00,
@@ -336,6 +381,10 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 		else if(productName=='camping'){
 			lowerLimit = 19
 			upperLimit = 20
+		}
+		else if(productName=='escape-trips'){
+			lowerLimit = 21
+			upperLimit = 23
 		}
 		else{
 			lowerLimit = 18
@@ -413,6 +462,58 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					content+= '</div>'
 					content+= '</div>'
 					content+= '</div>'
+				}
+			}
+			
+			else if((upperLimit >= 20)&&(upperLimit<=23)){
+				if(products[i].stock > 0){
+					
+					
+					content+='<div class="row--padding-medium col-medium">'
+					content+='<div class="trek-slide">'
+					content+='	<div style="position: relative;">'
+					content+='		<img class="trek-slide--img trek-slide4" style="background-image:url(/'+ products[i].img +')">'
+					content+='		<div class="wopper__footer adventure">'
+					content+='			<div class="wopper__info" style="padding: 0;">'
+					content+='				<a class="wopper__info-price white wopper__act-name" href="/escape-trips/'+ products[i].urlName +'"><span>'+ products[i].name +'</span></a>'
+					content+='			</div>'
+					content+='		</div>'
+					content+='	</div>'
+					content+='	  <span class="trek-slide--price"><span style="font-size: 60%;">From</span> <i class="fa fa-rupee-sign"></i> '+ products[i].price +'/-</span>'
+					content+= '<button class="wopper__info-cart btn-escape btn prod-'+products[i].id+'" data-style="zoom-out" onclick="app.addtoCart('+products[i].id+');" title="Add To Cart"><i class="fas fa-cart-plus"></i></button>'
+					content+='	<div class="trek-slide--text">'
+					content+='		<div class="trek-slide--meta">'
+					content+='			<div class="">'
+					content+='				<span>'+ products[i].act1 +'</span>'
+					content+='				<span class="meta-type"><i class="fas fa-hiking"></i></span>'
+					content+='			</div>'
+					content+='			<div class="">'
+					content+='				<span>'+ products[i].act2 +'</span>'
+					content+='				<span class="meta-type"><i class="fas fa-campground"></i></span>'
+					content+='			</div>'
+					content+='			<div class="">'
+					content+='				<span>'+ products[i].act3 +'</span>'
+					content+='				<span class="meta-type"><i class="fas fa-water"></i></span>'
+					content+='			</div>'
+					content+='		</div>'
+					content+='	</div>'
+					content+='</div>'
+					content+='</div>'
+					
+					
+					
+//					content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
+//					content+= '<a href="/escape-trips/'+ products[i].urlName +'" class="wopper wopper--'+ products[i].prodType +' '+ products[i].prodType +'-'+(i+1)+'" style="background-image: url(/'+products[i].img+')">'
+//					content+= '</a>'
+//					content+= '<div class="wopper__footer">'
+//					content+= '<div class="wopper__info">'
+//					content+= '<div>'
+//					content+= '<a class="wopper__info-detail" href="javascript:void(0);">'+products[i].name+'</a>'
+//					content+= '</div>'
+//					content+= '<a class="wopper__info-price prod-'+products[i].id+'"><span> ₹ '+products[i].price+' /-</span></a>'
+//					content+= '</div>'
+//					content+= '</div>'
+//					content+= '</div>'
 				}
 			}
 			

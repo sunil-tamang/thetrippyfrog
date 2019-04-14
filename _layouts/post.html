@@ -42,7 +42,7 @@ layout: 'default'
 	<!--Recent Posts-->
 	<div class="row--pading-medium col--recent-post" style="padding: 0 1em; text-align: justify;">
 		<h1 class="content__sub-title" style="padding-top: 0; padding-bottom: 0; margin-bottom: 0; color: #333;">RECENT POSTS</h1>
-		{% for post in site.posts offset:0 limit:2 %}
+		{% for post in site.posts offset:0 limit:5 %}
 			{% if post.url != page.url %}
 				{% if post %}
 				<h2 class="content__sub-title blogpost-title" style="font-size: 1em;font-weight: lighter; font-family: 'OSWALD', sans-serif; color: #333; opacity: .85;">
