@@ -218,6 +218,13 @@ footer p{ padding-top: 1.152em;  padding-bottom: 1.152em; }
 	text-align: center;
 }
 
+.blog-read-btn{
+	color: greenyellow;
+    font-weight: normal;
+    background: #333;
+    padding: 0 8px;
+	font-family: 'ANTON',sans-serif;
+}
 
 @media(min-width:48em)
 {
