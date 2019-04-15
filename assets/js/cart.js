@@ -227,7 +227,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			{
 				id : 15,
 				name : 'FriendShip Peak Trek',
-				img : 'assets/css/images/treks/kheerganga_min.jpg',
+				img : 'assets/css/images/treks/friendship-peak_min.jpg',
 				price : 25000.00,
 				prodType : 'trekking',
 				descShort : 'The FriendShip Peak Is The Most Famous Summit For Trekking In Country At Altitude Of 17,200 Ft . It Is Located In The Pir Panjal Range Of Himachal Pradesh ',
