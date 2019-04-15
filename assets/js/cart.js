@@ -202,9 +202,9 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					img : 'assets/css/images/treks/malana_min.jpg',
 					price : 6500.00,
 					prodType : 'trekking',
-					descShort : '',
-					descPartOne : '',
-					descPartTwo : '',
+					descShort : 'Malana - The mysterious and beautiful ancient village located in the mountains of Parvati Valley, is famous for its unique culture and...',
+					descPartOne : 'Malana - The mysterious and beautiful ancient village located in the mountains of Parvati Valley, is famous for its unique culture and the Marijuana it produces, popularly known as the  Malana Cream. Marijuana (or weed) can be used for medical purposes and can treat a number of different conditions such as posttraumatic stress disorder (PTSD, Nausea, Anorexia, Pain. It can also cure one of the deadly disease - Cancer. The purity of Marijuana it produces, has made it famous in all around the world.',
+					descPartTwo : 'The villager&#39;s Of Malana are said to be the descendants of <a style="color:#40c279;font-weight: bold;" href="https://en.wikipedia.org/wiki/Alexander_the_Great" target="_blank">Alexander the Great</a>. The valley of Malana is over-shadowed by the <a style="color:#40c279;font-weight: bold;" href="{% link _treks/chandrakhani.html %}">Chandrakhani</a> And <a style="color:#40c279;font-weight: bold;" href="{% link _treks/deo-tibba-base-camp.html %}">Deo Tibba</a> Peaks.',
 					stock : 1,
 					days : 4,
 					nights: 3,
@@ -315,8 +315,11 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				prodType : 'escape-trips',
 				stock : 1,
 				act1: 'Long Trek',
+				act1Icon: 'fas fa-hiking',
 				act2: 'Camping',
+				act2Icon: 'fas fa-campground',
 				act3: 'Short Rafting',
+				act3Icon: 'fas fa-water',
 				days : 7,
 				nights: 6,
 				urlName : 'himalayan-escape'
@@ -329,9 +332,12 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				price : 7999,
 				prodType : 'escape-trips',
 				stock : 1,
-				act1: 'Short Trek',
+				act1: 'Local Tour',
+				act1Icon: 'fas fa-binoculars',
 				act2: 'Camping',
+				act2Icon: 'fas fa-campground',
 				act3: 'Short Rafting',
+				act3Icon: 'fas fa-water',
 				days : 6,
 				nights: 5,
 				urlName : 'weekend-escape'
@@ -345,8 +351,11 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				prodType : 'escape-trips',
 				stock : 1,
 				act1: 'Moderate Trek',
+				act1Icon: 'fas fa-hiking',
 				act2: 'Camping',
+				act2Icon: 'fas fa-campground',
 				act3: 'Short Rafting',
+				act3Icon: 'fas fa-water',
 				days : 6,
 				nights: 5,
 				urlName : 'magic-valley-escape'
@@ -411,6 +420,8 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					content+= '</div>'
 				}
 			}
+			
+			// Treks
 			else if((upperLimit >= 4)&&(upperLimit<=19)){
 				if(products[i].stock > 0){
 					content+= '<div class="row row--padding-medium">'
@@ -445,6 +456,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				}
 			}
 			
+			// Camping
 			else if((upperLimit >= 18)&&(upperLimit<=20)){
 				if(products[i].stock > 0){
 					content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
@@ -465,9 +477,9 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				}
 			}
 			
+			// Escape Trips
 			else if((upperLimit >= 20)&&(upperLimit<=23)){
 				if(products[i].stock > 0){
-					
 					
 					content+='<div class="row--padding-medium col-medium">'
 					content+='<div class="trek-slide">'
@@ -485,15 +497,15 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					content+='		<div class="trek-slide--meta">'
 					content+='			<div class="">'
 					content+='				<span>'+ products[i].act1 +'</span>'
-					content+='				<span class="meta-type"><i class="fas fa-hiking"></i></span>'
+					content+='				<span class="meta-type"><i class="'+ products[i].act1Icon +'"></i></span>'
 					content+='			</div>'
 					content+='			<div class="">'
 					content+='				<span>'+ products[i].act2 +'</span>'
-					content+='				<span class="meta-type"><i class="fas fa-campground"></i></span>'
+					content+='				<span class="meta-type"><i class="'+ products[i].act2Icon +'"></i></span>'
 					content+='			</div>'
 					content+='			<div class="">'
 					content+='				<span>'+ products[i].act3 +'</span>'
-					content+='				<span class="meta-type"><i class="fas fa-water"></i></span>'
+					content+='				<span class="meta-type"><i class="'+ products[i].act3Icon +'"></i></span>'
 					content+='			</div>'
 					content+='		</div>'
 					content+='	</div>'
