@@ -11,6 +11,8 @@ counter: Yes
 excerpt: The FriendShip Peak Is The Most Famous Summit For Trekking In Country At Altitude Of 17,200 Ft . It Is Located In The Pir Panjal Range Of Himachal Pradesh
 custom_css: gallery.css
 custom_js: gallery.js
+altitude : " 17,200 Ft."
+grade : " Moderate"
 ---
 
     <!----------H-A-M-P-T-A---P-A-S-S---T-R-E-K-------->
@@ -24,12 +26,13 @@ custom_js: gallery.js
             </div>
             <div class="col-medium">
                 <p class="trek-overview">
-                    <i class="fa fa-mountain"></i>&nbsp; Altitude : 17,200 Ft.
+                    <i class="fa fa-mountain"></i>&nbsp; Altitude : {{ page.altitude }}
+
                 </p>
             </div>
             <div class="col-medium">
                 <p class="trek-overview">
-                    <i class="fa fa-tachometer-alt"></i>&nbsp; Easy To Moderate
+                    <i class="fa fa-tachometer-alt"></i>&nbsp; Grades : {{ page.grade }}
                 </p>
             </div>
             <div class="col-medium">

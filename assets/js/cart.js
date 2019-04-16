@@ -281,7 +281,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				nights: 5,
 				urlName : 'deo-tibba-base-camp-trek'
 			},
-			
+
 			// Camping Products
 			{
 				id : 19,
@@ -293,8 +293,8 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				days : 6,
 				nights: 5,
 				urlName : 'camping-in-the-wild'
-			},	
-			
+			},
+
 			{
 				id : 20,
 				name : 'Camping Near River',
@@ -306,7 +306,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				nights: 5,
 				urlName : 'camping-near-river'
 			},
-			
+
 			{
 				id : 21,
 				name : 'Himalayan Escape',
@@ -324,7 +324,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				nights: 6,
 				urlName : 'himalayan-escape'
 			},
-			
+
 			{
 				id : 22,
 				name : 'Weekend Escape',
@@ -341,8 +341,8 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				days : 6,
 				nights: 5,
 				urlName : 'weekend-escape'
-			},	
-			
+			},
+
 			{
 				id : 23,
 				name : 'Magic Valley Escape',
@@ -360,7 +360,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				nights: 5,
 				urlName : 'magic-valley-escape'
 			},
-					
+
 			{
 				id : 24,
 				name : 'Shimla-Manali Tour',
@@ -370,7 +370,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				prodType : 'packages',
 				stock : 100
 			},
-			
+
 		],
 		wrapper = $('.productWrapper'),
 		content = ''
@@ -420,7 +420,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					content+= '</div>'
 				}
 			}
-			
+
 			// Treks
 			else if((upperLimit >= 4)&&(upperLimit<=19)){
 				if(products[i].stock > 0){
@@ -455,7 +455,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					content+= '</div>'
 				}
 			}
-			
+
 			// Camping
 			else if((upperLimit >= 18)&&(upperLimit<=20)){
 				if(products[i].stock > 0){
@@ -476,11 +476,11 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					content+= '</div>'
 				}
 			}
-			
+
 			// Escape Trips
 			else if((upperLimit >= 20)&&(upperLimit<=23)){
 				if(products[i].stock > 0){
-					
+
 					content+='<div class="row--padding-medium col-medium">'
 					content+='<div class="trek-slide">'
 					content+='	<div style="position: relative;">'
@@ -511,9 +511,9 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					content+='	</div>'
 					content+='</div>'
 					content+='</div>'
-					
-					
-					
+
+
+
 //					content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
 //					content+= '<a href="/escape-trips/'+ products[i].urlName +'" class="wopper wopper--'+ products[i].prodType +' '+ products[i].prodType +'-'+(i+1)+'" style="background-image: url(/'+products[i].img+')">'
 //					content+= '</a>'
@@ -528,7 +528,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 //					content+= '</div>'
 				}
 			}
-			
+
 			// Packages
 			else{
 				if(products[i].stock > 0){
