@@ -30,7 +30,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 		var products = [
 			{
 				id : 1,
-				name : '5 K.M. in 30 Minutes',
+				name : '5 K.M. in 20 Minutes',
 				img : 'assets/css/thumbs/rafting_num/rafting1.jpg',
 				oldprice: 800.00,
 				price : 499.00,
@@ -40,7 +40,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 			{
 				id : 2,
-				name : '8 K.M. in 50 Minutes',
+				name : '8 K.M. in 30 Minutes',
 				img : 'assets/css/thumbs/rafting_num/rafting2.jpg',
 				oldprice: 1000.00,
 				price : 699.00,
@@ -86,7 +86,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				id : 6,
 				name : 'Lamadugh Trek',
 				img : 'assets/css/images/treks/lamadugh_min.jpg',
-				price : 4999.00,
+				price : 5000.00,
 				prodType : 'trekking',
 				descShort : '  LamaDugh is The Perfect Location For Chill Out And Be Out Of The Hustle Bustle Of Crowded Manali Town . This Place Is 7Km Above Manali And Can be Easily Reached ....',
 				descPartOne : '   LamaDugh is The Perfect Location For Chill Out And Be Out Of The Hustle Bustle Of Crowded Manali Town . This Place Is 7Km Above Manali And Can be Easily Reached ...',
@@ -114,7 +114,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				id : 8,
 				name : 'Mantalai Lake Trek',
 				img : 'assets/css/images/treks/wild_min.jpg',
-				price : 36000.00,
+				price : 12000.00,
 				prodType : 'trekking',
 				descShort : 'Mantalai Lake The Source Of Parvati River Is The Holy Lake Situated At Altitude Of 13,500 Ft . The Lake Is Situated Deep Inside Parvati Valley In The Middle Of White Snowy Mountains ...',
 				descPartOne : 'Mantalai Lake The Source Of Parvati River Is The Holy Lake Situated At Altitude Of 13,500 Ft . The Lake Is Situated Deep Inside Parvati Valley In The Middle Of White Snowy Mountains .',
