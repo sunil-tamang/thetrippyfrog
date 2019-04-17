@@ -1,0 +1,55 @@
+---
+layout: 'default'
+slick_css: 'Yes'
+slick_js: 'Yes'
+---
+{% if page.custom_bg %}
+    {% for img in page.custom_bg %}
+        {% assign path = 'assets/css/images/' | append: img | relative_url%}
+        <div class="banner__trek parallax" style="background-image:url('{{ path }}');">
+    {% endfor %}
+{% else %}
+    {% assign path = 'assets/css/images/welcome.jpeg' | relative_url%}
+        <div class="banner__trek parallax" style="background-image: url('{{ path }}')">
+{% endif %}
+			<span class="banner__overlay"></span>
+			<div class="banner__trek-overview">
+				<p class="trek-name">{{ page.title }}</p>
+				<p class="trek-time">
+					{% if page.days %}
+					<span class="trek-time--part1">
+						<span class="trek-span"><span class="counter">{{ page.days }}</span><span>&nbsp;Days</span></span>
+					</span>
+					<span class="trek-time--part2">
+						<span class="trek-span"><span class="counter">{{ page.nights }}</span><span>&nbsp;Nights</span></span>
+<!--						<span><span class="counter">{{ page.days }}</span><span>&nbsp;Days</span></span>-->
+<!--						<span class="counter">{{ page.nights }}</span><span>&nbsp;Nights</span>-->
+					</span><br />
+					{% endif %}
+<!--					<span class="trek-price"><span style="font-size: 90%;">From</span> INR 7,000</span>-->
+					<span class="trek-slide--price trek-price"><span style="font-size: 60%;">From</span> <i class="fa fa-rupee-sign"></i> {{ page.price }}/-</span>
+				</p>
+
+			</div>
+
+			<div class="banner__trek-book">
+				<p class="trek-book">
+					<span class="trek-book--btn">
+						<a href="javascript:void(0);" style="display: block; margin-top: 3em;">
+							<button class="trippy_btn more-trippy_btn" type="submit" name="sendMsg">
+								<span class="trippy_btn-left"></span>Book Now<span class="trippy_btn-right"></span>
+							</button>
+						</a>
+					</span>
+				</p>
+			</div>
+
+			<span class="banner__skip">
+					<a class="skipToContent-trigger" href="#content" style="padding: 1em 1.08em; background: rgba(0,0,0,.4); color:#39ff41; border-radius: 360px;"><i class="fas fa-leaf" style="transform: rotate(135deg); font-size: 1em;"></i></a>
+			</span>
+		</div>
+
+<div style="position: relative;" class="row row--padding-medium content container--white" id="content">
+<span style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url('{{ 'assets/css/images/static.gif' | absolute_url }}') repeat center; opacity: .05; z-index: -1;"></span>
+    {{ content }}
+</div>

@@ -1484,8 +1484,8 @@ button.close span{
 }
 
 p.content__pg{
-    color:#000;
-    color: #dcdcdc;
+    color:#333;
+/*    color: #dcdcdc;*/
     font-size: 1.2em;
 	font-weight: bold;
     line-height: 1.8em;

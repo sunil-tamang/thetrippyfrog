@@ -15,6 +15,9 @@
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% endif %}">
     <meta property="og:image" content="">
     <meta name="x-build-time" content="{{ site.time | date_to_rfc822 }}">
+	{% if page.no-index %}
+	<meta name="robots" content="noindex, follow">
+	{% endif %}
     <title>{% if page.title %}{{ page.title }}  | {{ site.name }} {% else %} {{ site.title }} {% endif %}</title>
     
     <link rel="icon" href="{{ 'favicon.png' | relative_url }}" sizes="32x32">
@@ -104,7 +107,7 @@
                     <li class="nav__li"><a href="{% link index.html %}">HOME</a></li>
                     <li class="nav__li"><a href="{% link _activities/trekking.html %}">TREKS</a></li>
                     <li class="nav__li"><a href="{% link escape-trips.html %}">ESCAPE TRIPS</a></li>
-<!--                    <li class="nav__li"><a href="{% link packages.html %}">PACKAGES</a></li>-->
+<!--                    <li class="nav__li"><a href="">PACKAGES</a></li>-->
 
                     <li class="nav__li dropdown"><a class="dropdown__trigger">ADVENTURE&nbsp;<span></span></a>
                         <ul class="nav__dropdown">

@@ -13,7 +13,7 @@ collections:
     output: true
     permalink: /:title
     include: app-assets
-  escape:
+  escape-trips:
     output: true
     permalink: /:title
     include: app-assets
@@ -53,6 +53,7 @@ exclude:
   - readme.md
   - license
   - CNAME
+  - packages.html
 plugins:
   - jekyll-sitemap
 strict_front_matter: true
