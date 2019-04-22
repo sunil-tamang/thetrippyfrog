@@ -860,6 +860,10 @@ i {
 	font-family: sans-serif;
 }
 
+.trip-itinerary .itinerary-subtitle{
+/*	font-family: 'ANTON', sans-serif;*/
+}
+
 .itinerary-subtitle:before{
 	content: "";
     position: absolute;
@@ -869,7 +873,7 @@ i {
     border-radius: 50%;
     height: 11px;
     width: 11px;
-    top: 3px;
+    top: 4px;
 }
 
 .itinerary-subtitle:last-child {
@@ -1719,6 +1723,13 @@ p.content__pg:not(:last-child){
 .wopper--kasol{background: url(images/manali2.jpg) center no-repeat; background-size: 100%;}
 .wopper--spiti{background: url(images/spiti-life.jpeg) center no-repeat; background-size: 100%;}
 
+/* Trip Activities */
+.wopper--trip-trekking{background: url(thumbs/trip_activities/trekking.jpg) center no-repeat; background-size: 100%;}
+.wopper--trip-camping{background: url(thumbs/trip_activities/camping.jpg) center no-repeat; background-size: 100%;}
+.wopper--trip-rafting{background: url(thumbs/trip_activities/rafting.jpg) center no-repeat; background-size: 100%;}
+.wopper--trip-bonfire{background: url(thumbs/trip_activities/bonfire.jpg) center no-repeat; background-size: 100%;}
+
+
 
 .trek--offer-badge,
 .offer-badge{
@@ -1781,6 +1792,31 @@ p.content__pg:not(:last-child){
     text-align: left;
     width: 100%;
     background: white;
+}
+
+.wopper__footer.trip-activity{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: none;
+}
+.wopper__footer.trip-activity .wopper__info{
+	
+}
+
+.wopper__footer.trip-activity a{
+	background: transparent;
+    padding: 0;
+    border-radius: 0;
+}
+.wopper__footer.trip-activity a span{
+    font-family: 'ANTON', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 90%;
+    background-color: rgba(0,0,0,.55);
 }
 
 .wopper__info{
