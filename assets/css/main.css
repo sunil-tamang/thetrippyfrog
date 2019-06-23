@@ -531,6 +531,27 @@ body{
 .trek-slide6 {
 	background-image: url('images/treks/hampta_min.jpg');
 }
+.blog-img{
+    cursor: pointer;
+/*    display: table-cell;*/
+    vertical-align: middle;
+    width: 100%;
+/*    height: 100%;*/
+    transition: all 1s ease;
+    position: relative;
+    padding-bottom: 66%; /*Maintaining Aspect Ratio*/
+    overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.blog-image1 {
+	background-image: url('images/blog/kufri_camp.jpg');
+}
+.blog-image2{
+    background-image: url('images/blog/kufri_snow_camp.jpg');
+}
+
+
 
 
 i {
@@ -1803,7 +1824,7 @@ p.content__pg:not(:last-child){
     background: none;
 }
 .wopper__footer.trip-activity .wopper__info{
-	
+
 }
 
 .wopper__footer.trip-activity a{
