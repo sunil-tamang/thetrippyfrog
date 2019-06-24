@@ -226,6 +226,7 @@ footer p{ padding-top: 1.152em;  padding-bottom: 1.152em; }
 	font-family: 'ANTON',sans-serif;
 }
 
+
 @media(min-width:48em)
 {
 	.post-tags{
@@ -539,16 +540,22 @@ body{
 /*    height: 100%;*/
     transition: all 1s ease;
     position: relative;
-    padding-bottom: 66%; /*Maintaining Aspect Ratio*/
+    padding-bottom: 66%; 
     overflow: hidden;
 	background-size: cover;
 	background-repeat: no-repeat;
+	padding-bottom: 56.25%;
+    transform: scale(.9);
+    border-radius: 3px; /*Maintaining Aspect Ratio*/
 }
-.blog-image1 {
-	background-image: url('images/blog/kufri_camp.jpg');
+
+
+/* KUFRI BLOG (Short Name - 'kufri-blog') */
+.kufri-blog-image1 {
+	background-image: url('images/blog/kufri-blog/kufri_camp.jpg');
 }
-.blog-image2{
-    background-image: url('images/blog/kufri_snow_camp.jpg');
+.kufri-blog-image2{
+    background-image: url('images/blog/kufri-blog/kufri_snow_camp.jpg');
 }
 
 
@@ -1619,6 +1626,18 @@ p.content__pg:not(:last-child){
 	font-weight: normal;
 }
 
+
+/* BLOGPOST CONTENT STYLING */
+
+.blogpost-subs{
+	padding-bottom: 0;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+
+
 .quote{
 	color: #fdfdfd;
 	border-top: 2px solid #cacaca;
@@ -2420,8 +2439,13 @@ p.content__pg:not(:last-child){
 		font-size: 1.45em;
 	}
 
+	/* BLOGPOST CONTENT STYLING */
+	.blogpost-subs{
+    	font-size: 1.5em;
+	}
 
-
+	
+	
     .wrapper{
         width: 48%;
         margin-bottom: 3em;
