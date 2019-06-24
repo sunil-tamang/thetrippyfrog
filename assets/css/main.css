@@ -540,7 +540,7 @@ body{
 /*    height: 100%;*/
     transition: all 1s ease;
     position: relative;
-    padding-bottom: 66%; 
+    padding-bottom: 66%;
     overflow: hidden;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -2444,8 +2444,8 @@ p.content__pg:not(:last-child){
     	font-size: 1.5em;
 	}
 
-	
-	
+
+
     .wrapper{
         width: 48%;
         margin-bottom: 3em;
