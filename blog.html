@@ -42,7 +42,7 @@ permalink: "/blog/"
 					  {% for post in site.posts %}
 						<li class="post-wrapper wrapper">
 							<a href="{{ post.url }}">
-								<img src="/assets/css/images/{{ post.custom_bg }}" style="width: 100%;">
+								<img src="/assets/css/images/{{ post.custom_bg }}" style="width: 100%;  background:url('/assets/css/images/{{ post.custom_bg }}') center no-repeat; padding-bottom: 56.25%; background-size: cover; height: 0;">
 							</a>
 						  <div class="content blogpost-meta" style="text-align: left;">
 							  <h2 class="content__sub-title blogpost-title">

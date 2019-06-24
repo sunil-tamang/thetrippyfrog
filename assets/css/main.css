@@ -163,6 +163,7 @@ footer p{ padding-top: 1.152em;  padding-bottom: 1.152em; }
 }
 .post-wrapper.wrapper:nth-child(odd){
 	float: left;
+	clear: both;
 }
 .post-wrapper.wrapper:nth-child(even){
 	float: right;
