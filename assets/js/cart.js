@@ -78,8 +78,8 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				descPartOne : 'Hampta Pass trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and special one climbing out across the lush green valleys of Kullu to reach the overhanging mountains. From the top, you will witness the magnificent view of a different world below, the beautiful yet deserted Lahaul. The panoramic sweep of the valley from the summit will be a sight that will not leave you forever.',
 				descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
 				stock : 1,
-				days : 5,
-				nights: 4,
+				days : 4,
+				nights: 3,
 				urlName : 'hampta-pass-trek'
 			},
 			{

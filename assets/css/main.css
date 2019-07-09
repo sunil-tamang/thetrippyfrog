@@ -558,10 +558,73 @@ body{
 .kufri-blog-image2{
     background-image: url('images/blog/kufri-blog/kufri_snow_camp.jpg');
 }
+.kufri-blog-image3{
+    background-image: url('images/blog/kufri-blog/skiing.jpg');
+}
+.kufri-blog-image4{
+    background-image: url('images/blog/kufri-blog/locals.jpg');
+}
 
 
+/* Top 5 Treks BLOG (Short Name - 'top-5-trek-blog') */
+.top-5-trek-blog-image1{
+    background-image: url('images/blog/top-5-trek/hampta_min.jpg');
+}
+.top-5-trek-blog-image2{
+    background-image: url('images/blog/top-5-trek/beas_min.jpg');
+}
+.top-5-trek-blog-image3{
+    background-image: url('images/blog/top-5-trek/bhrigu_min.jpg');
+}
+.top-5-trek-blog-image4{
+    background-image: url('images/blog/top-5-trek/fungni_min.jpg');
+}
+.top-5-trek-blog-image5{
+    background-image: url('images/blog/top-5-trek/dehana_sar_min.jpg');
+}
+
+/* Top 5 Things To Do BLOG (Short Name - 'things-to-do-blog') */
+.things-to-do-blog-image1{
+    background-image: url('images/blog/things-to-do/rafting.jpg');
+}
+.things-to-do-blog-image2{
+    background-image: url('images/blog/things-to-do/paragliding.jpg');
+}
+.things-to-do-blog-image3{
+    background-image: url('images/blog/things-to-do/camping.jpg');
+}
+.things-to-do-blog-image4{
+    background-image: url('images/blog/things-to-do/atv-bike.jpg');
+}
 
 
+/* Monastry BLOG (Short Name - 'Monastry-blog') */
+.monastry-blog-image1{
+    background-image: url('images/blog/monastry-blog/dechen-monastry.jpg');
+}
+.monastry-blog-image2{
+    background-image: url('images/blog/monastry-blog/dhankar-monastry.jpg');
+}
+.monastry-blog-image3{
+    background-image: url('images/blog/monastry-blog/key-monastry.jpg');
+}
+.monastry-blog-image4{
+    background-image: url('images/blog/monastry-blog/namgyal-monastry.jpg');
+}
+.monastry-blog-image5{
+    background-image: url('images/blog/monastry-blog/tayul-monastry.jpg');
+}
+
+/* rafting BLOG (Short Name - 'rafting-blog') */
+.rafting-blog-image1{
+    background-image: url('images/blog/rafting-blog/image1.jpg');
+}
+.rafting-blog-image2{
+    background-image: url('images/blog/rafting-blog/image2.jpg');
+}
+.rafting-blog-image3{
+    background-image: url('images/blog/rafting-blog/image1.jpg');
+}
 i {
     color: white;
     cursor: pointer;
