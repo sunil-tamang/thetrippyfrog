@@ -3,7 +3,7 @@
 <!Doctype html>
 <html lang="en">
 <head>
-    
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Arjun Thakur" />
@@ -19,7 +19,7 @@
 	<meta name="robots" content="noindex, follow">
 	{% endif %}
     <title>{% if page.title %}{{ page.title }}  | {{ site.name }} {% else %} {{ site.title }} {% endif %}</title>
-    
+
     <link rel="icon" href="{{ 'favicon.png' | relative_url }}" sizes="32x32">
 
     <!-- External Stylesheets-->
@@ -29,15 +29,15 @@
 	<!-- End Shopping Cart -->
 
 <!--    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css" rel="stylesheet">-->
-	
+
 <!--	SLICK	 -->
 	{% if page.slick_css or layout.slick_css %}
  	<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" rel="stylesheet"/> 	
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" rel="stylesheet"/>
 	{% endif %}
-    
-	
-<!--	DEVELOPMENT - Copy Every Time, each of the css's content to main.css   -->	
+
+
+<!--	DEVELOPMENT - Copy Every Time, each of the css's content to main.css   -->
 <!--
     <link rel="stylesheet" href="{{ 'assets/css/reset.min.css' | absolute_url }}">
     <link rel="stylesheet" href="{{ 'assets/css/base.css' | absolute_url }}">
@@ -45,19 +45,20 @@
     <link rel="stylesheet" href="{{ 'assets/css/cart.css' | absolute_url }}">
     <link rel="stylesheet" href="{{ 'assets/css/recreation.css' | absolute_url }}">
 -->
-	
-	
+
+
 <!--	PRODUCTION - Update Every Time   -->
 	<link rel="stylesheet" href="{{ 'assets/css/main.css' | absolute_url }}">
-	
+
     {% if page.custom_css %}
     {% for stylesheet in page.custom_css %}
         {% assign path = 'assets/css/' | append: stylesheet | absolute_url%}
         <link rel="stylesheet" href="{{ path }}" media="screen" type="text/css">
     {% endfor %}
     {% endif %}
-    
-    <meta name="keywords" content="The trippy frog, himalayan, wanderer, adventure, Trekking in Himalayas, trekkers of himachal, himachal pradesh trekking, hiking in himachal, trekking in manali, Kullu, Manali, Rafting, Rafting in kullu manali, adventurous sports in kullu manali, kullu-manali adventures, rafting in himachal pradesh, trekking in north india, rafting in the himalayas, white water rafting, tour guide, Kullu, Manali, White water rafting , Paragliding in North India , Adventurous sports in North India,paragliding trekking, rafting paragliding, activities rafting, tours 4x4 trails , activities rafting paragliding, rafting paragliding trekking, paragliding, trekking, camping,trekking camping, Adventures in Kullu Manali, Himachal Pradesh" />
+
+    <meta name="keywords" content="The trippy frog, himalayan, wanderer, adventure, Trekking in Himalayas, trekkers of himachal, himachal pradesh trekking, hiking in himachal, trekking in manali, Kullu, Manali, Rafting, Rafting in kullu manali, adventurous sports in kullu manali, kullu-manali adventures, rafting in himachal pradesh, trekking in north india, rafting in the himalayas, white water rafting, tour guide, Kullu, Manali, White water rafting , Paragliding in North India , Adventurous sports in North India, paragliding ,trekking, rafting paragliding, activities rafting, tours 4x4 trails , activities rafting paragliding, rafting paragliding trekking, paragliding, trekking, camping,trekking camping, Adventures in Kullu Manali, Himachal Pradesh, hampta pass trek, beas kund trek, bhrigu lake trek , pin parvati trek , fungni top trek ,
+    kufri trek, sar pass trek, kheerganga trek, kasol trip, mantalai lake trek, spiti valley trek , dehana sar lake trek , trekking In kullu manali ,beas river side camping, camping in kullu manali ," />
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script defer async src="https://www.googletagmanager.com/gtag/js?id=UA-118645201-1"></script>
 	<script>
@@ -72,20 +73,20 @@
 		<script src="{{ script }}"></script>
     {% endfor %}
     {% endif %}
-	
+
 	<!-- Start Alexa Certify Javascript -->
 	<script type="text/javascript">
 	_atrk_opts = { atrk_acct:"hvK6r1egId20o7", domain:"thetrippyfrog.com",dynamic: true};
 	(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
 	</script>
 	<noscript><img src="https://certify.alexametrics.com/atrk.gif?account=hvK6r1egId20o7" style="display:none" height="1" width="1" alt="" /></noscript>
-	<!-- End Alexa Certify Javascript -->  
+	<!-- End Alexa Certify Javascript -->
 </head>
-    
+
 <body>
-	
+
     <div class="header" id="header">
-		
+
         <div class="row container container-wide" style="padding-left: 1em; padding-right: 1em;">
 <!--
 			<div class="header-above">
@@ -118,21 +119,21 @@
                             <li class="nav__dropdown--item"><a href="{% link _activities/4x4-trails.html %}">4x4 Trails</a></li>
                         </ul>
                     </li>
-					
+
                     <li class="nav__li"><a href="{% link blog.html %}">BLOG</a></li>
                     <li class="nav__li"><a href="{% link about.html %}">OUR STORY</a></li>
                     <li class="nav__li"><a href="{% link contact.html %}">CONTACT US</a></li>
-					
+
                     <li class="nav__li"><a href="{% link cart.html %}"><i class="fa fa-shopping-cart"></i>&nbsp;<span class="totalItems">0</span></a></li>
                 </ul>
             </nav>
         </div>
     </div>
-    
+
     <span class="nav-wrapper" style="display: none;"></span>
-    
+
     {{ content }}
-    
+
     <!----------F-O-O-T-E-R---------->
     <div class="row footer">
 		<span class="banner__overlay" style="background:rgba(6, 8, 11, 0.91); z-index: 0;"></span>
@@ -161,7 +162,7 @@
                 </div>
             </div>
             <div class="col-narrow row--padding-medium">
-                 <h1 class="footer__header">                     
+                 <h1 class="footer__header">
                         CONTACT</h1>
                     <ul class="footer__content no-select">
                             <li class="footer__content-item">
@@ -210,13 +211,13 @@
                     <br >
                 </div>
 				<div class="row" style="font-size: .8em; letter-spacing: .12em; line-height: 1.3em; padding-top: 1em; padding-right: 1em;color: #555; border-top: .5px solid #333;">
-                    <span class="copyright__sign"></span> 
+                    <span class="copyright__sign"></span>
                     <span id="copyright__year"></span>
                     <a href="{% link index.html %}">&nbsp;The Trippy Frog</a>&nbsp;|&nbsp;All Rights Reserved.
 					<span></span>
 					<br />
 					<br />
-					
+
                 </div>
             </div>
         </div>
@@ -224,14 +225,14 @@
     <a class="backToTop"></a>
     <a class="cart_mob" href="{% link cart.html %}"><i class="fa fa-shopping-cart"></i>&nbsp;<span class="totalItems_wrapper"><span class="totalItems">0</span></span></a>
 <!--    <a class="call_now" href="tel:+919805281452"><i class="fa fa-phone" style="transform: rotate(90deg);"></i></a>-->
-    
+
 	<!----------CART MESSAGES ALERT---------->
 	<div class="cart-alert--wrapper">
 	</div>
 
-	
+
 <script defer async src="https://use.fontawesome.com/releases/v5.6.3/js/all.js"></script>
-    
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!--<script defer src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>-->
 {% if page.slick_js or layout.slick_js %}
@@ -245,7 +246,7 @@
 	<script src="{{ 'assets/js/gallery.js' | absolute_url }}"></script>
 {% endif %}
 
-	
+
 <!--Handles the bug in IE for "background-attachment: fixed;" css property-->
 <script>
 if(navigator.userAgent.match(/MSIE 10/i) || navigator.userAgent.match(/Trident\/7\./) || navigator.userAgent.match(/Edge\/12\./)) {
@@ -257,7 +258,7 @@ if(navigator.userAgent.match(/MSIE 10/i) || navigator.userAgent.match(/Trident\/
 	});
 }
 </script>
-	
+
 {% if page.counter %}
 <!--Counter-up-->
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
@@ -306,6 +307,6 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
-	
+
 </body>
 </html>
