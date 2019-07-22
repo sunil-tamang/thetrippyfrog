@@ -37,6 +37,10 @@ collections:
     output: false
     permalink: /:title
     include: app-assets
+  bike-tours:
+    output: true
+    permalink: /:title
+    include: app-assets
 
 defaults:
   - scope:

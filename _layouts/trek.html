@@ -53,14 +53,15 @@ slick_js: 'Yes'
 <span style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url('{{ 'assets/css/images/static.gif' | absolute_url }}') repeat center; opacity: .05; z-index: -1;"></span>
     {{ content }}
 </div>
-
+			
+{% if page.disableRelTrek != 'yes' %}
 <div class="row content" style="padding: 0 0 4em 0;">
 	<h1 class="content__sub-title content__title-white no-underline" style="margin-bottom: 0; color: #333;">Related Treks</h1>
 		
 	<div class="slider-wrapper trek" style="">
 	  <button class="slide-center-prev"><span><i class="fas fa-chevron-left"></i></span></button>
 	  <div class="trek-slider center">
-		  
+		
 		{% for trek in site.treks offset:0 limit:10 %}
 			{% if trek.url != page.url %}
 				{% if trek %}
@@ -91,11 +92,13 @@ slick_js: 'Yes'
 				{% endif %}
 			{% endif %}
 		{% endfor %}
-		  
+
 	  </div>
 	  <button class="slide-center-next"><span><i class="fas fa-chevron-right"></i></span></button>
 	</div>
 </div>
+{% endif %}			
+			
 			
 <script>
 
