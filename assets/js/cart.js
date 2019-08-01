@@ -311,7 +311,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				id : 21,
 				name : 'Himalayan Escape',
 				img : 'assets/css/images/escape-trips/himalayan-escape/himalayan-escape-min.jpg',
-				price : 9999,
+				price : 6500,
 				prodType : 'escape-trips',
 				stock : 1,
 				act1: 'Long Trek',
@@ -347,7 +347,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				id : 23,
 				name : 'Magic Valley Escape',
 				img : 'assets/css/images/escape-trips/magic-valley-escape/magic-valley-escape-min.jpg',
-				price : 12999,
+				price : 8000,
 				prodType : 'escape-trips',
 				stock : 1,
 				act1: 'Moderate Trek',
@@ -361,14 +361,32 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'magic-valley-escape'
 			},
 
-			
-			//Bike-Tours Products
-			
 			{
 				id : 24,
+				name : 'Tirthan Valley Escape',
+				img : 'assets/css/images/escape-trips/tirthan-valley/tirthan-valley.jpg"',
+				price : 9999,
+				prodType : 'escape-trips',
+				stock : 1,
+				act1: 'Moderate Trek',
+				act1Icon: 'fas fa-hiking',
+				act2: 'Camping',
+				act2Icon: 'fas fa-campground',
+				act3: 'Rafting',
+				act3Icon: 'fas fa-water',
+				days : 6,
+				nights: 5,
+				urlName : 'tirthan-valley-escape'
+			},
+
+
+			//Bike-Tours Products
+
+			{
+				id : 25,
 				name : 'Leh-Manali Bike Tour',
 				img : 'assets/css/images/bike-tours/leh-manali/leh-manali_min.jpg',
-				price : 50000.00,
+				price : 36000.00,
 				prodType : 'bike-tour',
 				stock : 1,
 				days : 10,
@@ -376,12 +394,12 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				fixedDate: '15 September',
 				urlName : 'leh-manali-bike-tour'
 			},
-			
+
 			{
-				id : 25,
+				id : 26,
 				name : 'Spiti Bike Tour',
 				img : 'assets/css/images/bike-tours/spiti/spiti_min.jpg',
-				price : 40000.00,
+				price : 33000.00,
 				prodType : 'bike-tour',
 				stock : 1,
 				days : 8,
@@ -390,9 +408,9 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'spiti-bike-tour'
 			},
 
-			
+
 			{
-				id : 24,
+				id : 27,
 				name : 'Shimla-Manali Tour',
 				img : 'assets/css/images/manali.jpg',
 				oldprice: 800.00,
@@ -423,11 +441,11 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 		}
 		else if(productName=='escape-trips'){
 			lowerLimit = 21
-			upperLimit = 23
+			upperLimit = 24
 		}
 		else if(productName=='bike-tours'){
-			lowerLimit = 24
-			upperLimit = 25
+			lowerLimit = 25
+			upperLimit = 26
 		}
 		else{
 			lowerLimit = 18
@@ -512,7 +530,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			}
 
 			// Escape Trips
-			else if((upperLimit >= 20)&&(upperLimit<=23)){
+			else if((upperLimit >= 20)&&(upperLimit<=24)){
 				if(products[i].stock > 0){
 
 					content+='<div class="row--padding-medium col-medium">'
@@ -562,9 +580,9 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 //					content+= '</div>'
 				}
 			}
-			
+
 			// Bike-Tours
-			else if((upperLimit >= 23)&&(upperLimit<=25)){
+			else if((upperLimit >= 24)&&(upperLimit<=26)){
 				if(products[i].stock > 0){
 
 					content+='<div class="row--padding-medium col-medium">'

@@ -489,14 +489,14 @@ body{
 	background-image: url('images/home.jpg');
 }
 .slide1 {
-	background-image: url('images/treks/wild_min.jpg');
+	background-image: url('images/bg/trek_min.jpg');
 }
 .slide2 {
 /*	background-image: url('images/paragliding.jpg');*/
 	background-image: url('images/treks/hampta_min.jpg');
 }
 .slide3 {
-	background-image: url('images/trek.jpg');
+	background-image: url('images/bg/camp_bg.jpg');
 }
 .slide4 {
 	background-image: url('images/treks/hampta_min.jpg');
@@ -510,7 +510,7 @@ body{
 	background-image: url('images/bg/escapebg.jpg');
 }
 .slideBikeTours {
-	background-image: url('images/bg/bikeToursbg.jpg');
+	background-image: url('images/bg/bike_bg.jpg');
 }
 
 
