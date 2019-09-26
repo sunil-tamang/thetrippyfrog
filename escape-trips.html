@@ -5,7 +5,55 @@ permalink: "/escape-trips/"
 description: "Offering the Escape Trips to the Himalayas. Find your real-self in the Himalayas."
 custom_bg: 'bg/escapebg.jpg'
 productScript: "app.createProducts('escape-trips');"
+author_name : " THE TRIPPY FROG "
+tags : "EscapeTrips,HimachalPradesh"
 ---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "url": "{{ site.url }}{{ page.url }}",
+  "name": {{ page.title | jsonify }},
+  "headline": {{ page.title | jsonify }},
+  "keywords": {{ page.tags | join: ',' | jsonify }},
+  "description": {{ page.excerpt | strip_newlines | strip | jsonify }},
+  "articleBody": {{ page.content | strip_html | jsonify }},
+  "datePublished": {{ page.date | jsonify }},
+  "dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
+  "author": {
+    "@type": "Person",
+    "name": {{ page.author_name | jsonify }},
+    "email": {{ site.email | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.title | jsonify }},
+    "url": "{{ site.url }}",
+    "logo": {
+      "@type": "ImageObject",
+      "width": 32,
+      "height": 32,
+      "url": "{{ site.url }}/icon/favicon.ico"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ site.url }}{{ page.custom_bg | default: site.img }}"
+},
+  "sameAs": [
+   "https://www.facebook.com/thetrippyfrog/",
+   "https://twitter.com/thetrippyfrog",
+   "https://www.instagram.com/thetrippyfrog/",
+   "https://www.linkedin.com/in/thetrippyfrog/",
+   "https://in.pinterest.com/thetrippyfrog/",
+   "https://thetrippyfrog.com/"
+]
+}
+</script>
 <!----------Blogposts -------->
 <div class="slider-wrapper">
 	  <div class="slide banner-slide slideEscape">
@@ -39,10 +87,10 @@ productScript: "app.createProducts('escape-trips');"
 <!--				<h1 class="content__title content__title-white" data-aos="zoom-out">Soon to be updated</h1>-->
 					<div class="productWrapper">
 					<!--Loader-->
-					<div class="loader__wrapper"><div></div><div></div></div>	
+					<div class="loader__wrapper"><div></div><div></div></div>
 				</div>
 				<br/>
 			</div>
 			<br />
-            
+
 </div>

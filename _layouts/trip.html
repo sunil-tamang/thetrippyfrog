@@ -1,6 +1,55 @@
 ---
 layout: 'default'
+author_name : " THE TRIPPY FROG "
+tags : "EscapePackages,HimachalPradesh"
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "url": "{{ site.url }}{{ page.url }}",
+  "name": {{ page.title | jsonify }},
+  "headline": {{ page.title | jsonify }},
+  "keywords": {{ page.tags | join: ',' | jsonify }},
+  "description": {{ page.excerpt | strip_newlines | strip | jsonify }},
+  "articleBody": {{ page.content | strip_html | jsonify }},
+  "datePublished": {{ page.date | jsonify }},
+  "dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
+  "author": {
+    "@type": "Person",
+    "name": {{ page.author_name | jsonify }},
+    "email": {{ site.email | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.title | jsonify }},
+    "url": "{{ site.url }}",
+    "logo": {
+      "@type": "ImageObject",
+      "width": 32,
+      "height": 32,
+      "url": "{{ site.url }}/icon/favicon.ico"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ site.url }}{{ page.custom_bg | default: site.img }}"
+},
+  "sameAs": [
+   "https://www.facebook.com/thetrippyfrog/",
+   "https://twitter.com/thetrippyfrog",
+   "https://www.instagram.com/thetrippyfrog/",
+   "https://www.linkedin.com/in/thetrippyfrog/",
+   "https://in.pinterest.com/thetrippyfrog/",
+   "https://thetrippyfrog.com/"
+]
+}
+</script>
 {% if page.custom_bg %}
     {% for img in page.custom_bg %}
         {% assign path = 'assets/css/images/' | append: img | relative_url%}
@@ -45,9 +94,9 @@ layout: 'default'
 		</div>
 
 <!--	CONTENT		-->
-	
+
 	<div class="row row--padding-medium" style="background: #000; color: #fff; padding-top: 4em;" id="content">
-		
+
 		<div class="row container-wide">
 			<div class="trek-slide--meta" style="text-align: center;">
 			{% for item in page.activity %}
@@ -58,9 +107,9 @@ layout: 'default'
 			{% endfor %}
 			</div>
 		</div>
-		
+
 	</div>
-			
+
 	<div style="position: relative;" class="row row--padding-medium content container--white">
 	<span style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url('{{ 'assets/css/images/static.gif' | absolute_url }}') repeat center; opacity: .05; z-index: -1;"></span>
 		{{ content }}

@@ -2,7 +2,56 @@
 layout: default
 title: Blog
 permalink: "/blog/"
+author_name : " THE TRIPPY FROG "
+tags : "Blogposts,HimachalPradesh"
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "url": "{{ site.url }}{{ page.url }}",
+  "name": {{ page.title | jsonify }},
+  "headline": {{ page.title | jsonify }},
+  "keywords": {{ page.tags | join: ',' | jsonify }},
+  "description": {{ page.excerpt | strip_newlines | strip | jsonify }},
+  "articleBody": {{ page.content | strip_html | jsonify }},
+  "datePublished": {{ page.date | jsonify }},
+  "dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
+  "author": {
+    "@type": "Person",
+    "name": {{ page.author_name | jsonify }},
+    "email": {{ site.email | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.title | jsonify }},
+    "url": "{{ site.url }}",
+    "logo": {
+      "@type": "ImageObject",
+      "width": 32,
+      "height": 32,
+      "url": "{{ site.url }}/icon/favicon.ico"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ site.url }}{{ page.custom_bg | default: site.img }}"
+},
+  "sameAs": [
+   "https://www.facebook.com/thetrippyfrog/",
+   "https://twitter.com/thetrippyfrog",
+   "https://www.instagram.com/thetrippyfrog/",
+   "https://www.linkedin.com/in/thetrippyfrog/",
+   "https://in.pinterest.com/thetrippyfrog/",
+   "https://thetrippyfrog.com/"
+]
+}
+</script>
 
 <!----------Blogposts -------->
 <div class="slider-wrapper">

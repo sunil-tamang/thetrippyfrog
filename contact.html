@@ -3,13 +3,63 @@ layout: default
 title: "Contact Us"
 custom_css: "form.css"
 permalink: /contact/
+author_name : " THE TRIPPY FROG "
+tags : "ContactPage,HimachalPradesh"
+
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "url": "{{ site.url }}{{ page.url }}",
+  "name": {{ page.title | jsonify }},
+  "headline": {{ page.title | jsonify }},
+  "keywords": {{ page.tags | join: ',' | jsonify }},
+  "description": {{ page.excerpt | strip_newlines | strip | jsonify }},
+  "articleBody": {{ page.content | strip_html | jsonify }},
+  "datePublished": {{ page.date | jsonify }},
+  "dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
+  "author": {
+    "@type": "Person",
+    "name": {{ page.author_name | jsonify }},
+    "email": {{ site.email | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.title | jsonify }},
+    "url": "{{ site.url }}",
+    "logo": {
+      "@type": "ImageObject",
+      "width": 32,
+      "height": 32,
+      "url": "{{ site.url }}/icon/favicon.ico"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ site.url }}{{ page.custom_bg | default: site.img }}"
+},
+  "sameAs": [
+   "https://www.facebook.com/thetrippyfrog/",
+   "https://twitter.com/thetrippyfrog",
+   "https://www.instagram.com/thetrippyfrog/",
+   "https://www.linkedin.com/in/thetrippyfrog/",
+   "https://in.pinterest.com/thetrippyfrog/",
+   "https://thetrippyfrog.com/"
+]
+}
+</script>
 <style>
 	.call_now{
 		display: none;
 	}
 </style>
-{% assign path = 'assets/css/images/contact.jpg' | relative_url%} 
+{% assign path = 'assets/css/images/contact.jpg' | relative_url%}
     <div class="banner" style="background-image: url('{{ path }}')">
         <span class="banner__overlay"></span>
         <div class="banner__tagline" style="opacity: 1;">
@@ -23,7 +73,7 @@ permalink: /contact/
 		</span>
 
     </div>
-    
+
 
     <!----------C-O-N-T-A-C-T-------->
 <div class="row row--padding-medium content container--white" id="content">
@@ -35,7 +85,7 @@ permalink: /contact/
 		<p class="headline--detail" style="padding: 0; margin: 0; font-style: oblique; letter-spacing: .05em; color: #333;">"Ask us anything about the adventures and tours in Himalayas!"</p>
 		</h1>
 		<br /><br /><br />
-			
+
         <form action="https://formspree.io/thetrippyfrog@gmail.com" method="POST" name="contact_form"  data-aos="fade-in">
             <fieldset>
                 <legend style="font-size: 1.2em;">Keep it succinct</legend>
@@ -113,7 +163,7 @@ permalink: /contact/
 					</ul>
 				</div>
 			</div>
-			
+
 			<div class="row container-wide row--padding-medium" style="padding-left: 0; padding-right: 0;">
 				<div class="col-medium">
 					<a class="social-icon social-contact" style="width: 8em; height: 8em;" target="_blank" rel="noopener nofollow" data-aos="zoom-in">
@@ -127,7 +177,7 @@ permalink: /contact/
 					</ul>
 				</div>
 			</div>
-			
+
 			<div class="row container-wide row--padding-medium" style="padding-left: 0; padding-right: 0;">
 				<div class="col-medium">
 					<a class="social-icon social-contact" style="width: 8em; height: 8em;" target="_blank" rel="noopener nofollow" data-aos="zoom-in">
@@ -140,8 +190,8 @@ permalink: /contact/
 					</ul>
 				</div>
 			</div>
-			
-			<div class="row container-wide row--padding-medium" style="padding-left: 0; padding-right: 0;">	
+
+			<div class="row container-wide row--padding-medium" style="padding-left: 0; padding-right: 0;">
 				<div class="col-medium">
 					<a class="social-icon social-contact" style="width: 8em; height: 8em;" target="_blank" rel="noopener nofollow" data-aos="zoom-in">
 						<i class="far fa-envelope" style="font-size: 3em; transform: translateY(25px);"></i>

@@ -1,20 +1,70 @@
 ---
 layout: 'default'
+author_name : " THE TRIPPY FROG "
+tags : "BlogPostHimachalPradesh"
 ---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "url": "{{ site.url }}{{ page.url }}",
+  "name": {{ page.title | jsonify }},
+  "headline": {{ page.title | jsonify }},
+  "keywords": {{ page.tags | join: ',' | jsonify }},
+  "description": {{ page.excerpt | strip_newlines | strip | jsonify }},
+  "articleBody": {{ page.content | strip_html | jsonify }},
+  "datePublished": {{ page.date | jsonify }},
+  "dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
+  "author": {
+    "@type": "Person",
+    "name": {{ page.author_name | jsonify }},
+    "email": {{ site.email | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.title | jsonify }},
+    "url": "{{ site.url }}",
+    "logo": {
+      "@type": "ImageObject",
+      "width": 32,
+      "height": 32,
+      "url": "{{ site.url }}/icon/favicon.ico"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ site.url }}{{ page.custom_bg | default: site.img }}"
+},
+  "sameAs": [
+   "https://www.facebook.com/thetrippyfrog/",
+   "https://twitter.com/thetrippyfrog",
+   "https://www.instagram.com/thetrippyfrog/",
+   "https://www.linkedin.com/in/thetrippyfrog/",
+   "https://in.pinterest.com/thetrippyfrog/",
+   "https://thetrippyfrog.com/"
+]
+}
+</script>
+
+
 <!--<div class="container--white">-->
 <div class="row row--padding-wide container-wide content__pg content__pg-black" style="padding-top: 6em;">
 	<!--Main Posts-->
-	<div class="row--pading-medium col--post">		
-		{% if page.custom_bg %}     
+	<div class="row--pading-medium col--post">
+		{% if page.custom_bg %}
 			{% for img in page.custom_bg %}
 				{% assign path = 'assets/css/images/' | append: img | relative_url%}
 				<img class="post-banner" src="{{ path }}" style="background-image:url('{{ path }}');">
-			{% endfor %}    
+			{% endfor %}
 		{% else %}
-			{% assign path = 'assets/css/images/welcome.jpeg' | relative_url%} 
+			{% assign path = 'assets/css/images/welcome.jpeg' | relative_url%}
 				<img class="post-banner" src="{{ path }}" style="background-image:url('{{ path }}');">
 		{% endif %}
-		
+
 		<div class="post">
 			<div class="post-categories-list">
 				{% if post %}
@@ -28,7 +78,7 @@ layout: 'default'
 				{% unless forloop.last %}&nbsp;{% endunless %}
 				{% endfor %}
 			</div>
-			
+
 			<h1 class="content__sub-title post-title">{{ page.title }}</h1>
 			<p class="post-meta">{{ page.date | date_to_string }} - {{ page.author }}</p>
 			<br />
@@ -38,7 +88,7 @@ layout: 'default'
 			</div>
 		</div>
 	</div>
-	
+
 	<!--Recent Posts-->
 	<div class="row--pading-medium col--recent-post" style="padding: 0 1em; text-align: justify;">
 		<h1 class="content__sub-title" style="padding-top: 0; padding-bottom: 0; margin-bottom: 0; color: #333;">RECENT POSTS</h1>
