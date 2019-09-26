@@ -242,7 +242,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				id : 16,
 				name : 'Dehana Sar Lake Trek',
 				img : 'assets/css/images/treks/dehana_sar_min.jpg',
-				price : 10500.00,
+				price : 10000.00,
 				prodType : 'trekking',
 				descShort : 'Dehana Sar A high altitude alpine lake situated deep inside the snow caped mountains Of Lugvalley . Lugvalley is beautiful village just 20 km from kullu town .The village has a beautiful landscape with never-ending shades of greenery all around the village. ',
 				descPartOne : 'Dehana Sar A high altitude alpine lake situated deep inside the snow caped mountains Of Lugvalley . Lugvalley is beautiful village just 20 km from kullu town .The village has a beautiful landscape with never-ending shades of greenery all around the village. ',
