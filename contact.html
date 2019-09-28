@@ -1,8 +1,9 @@
 ---
 layout: default
-title: "Contact Us"
+title: Contact Us
 custom_css: "form.css"
-permalink: /contact/
+permalink: "/contact/"
+custom_bg: "bg/contact.jpg"
 author_name : " THE TRIPPY FROG "
 tags : "ContactPage,HimachalPradesh"
 
@@ -42,7 +43,7 @@ tags : "ContactPage,HimachalPradesh"
   },
   "image": {
     "@type": "ImageObject",
-    "url": "{{ site.url }}{{ page.custom_bg | default: site.img }}"
+    "url": "{{ site.url }}/assets/css/images/{{ page.custom_bg | default: site.img }}"
 },
   "sameAs": [
    "https://www.facebook.com/thetrippyfrog/",
@@ -59,7 +60,7 @@ tags : "ContactPage,HimachalPradesh"
 		display: none;
 	}
 </style>
-{% assign path = 'assets/css/images/contact.jpg' | relative_url%}
+{% assign path = 'assets/css/images/bg/contact.jpg' | relative_url%}
     <div class="banner" style="background-image: url('{{ path }}')">
         <span class="banner__overlay"></span>
         <div class="banner__tagline" style="opacity: 1;">

@@ -2,6 +2,7 @@
 layout: default
 title: Blog
 permalink: "/blog/"
+custom_bg: "bg/blogbg.jpg"
 author_name : " THE TRIPPY FROG "
 tags : "Blogposts,HimachalPradesh"
 ---
@@ -40,7 +41,7 @@ tags : "Blogposts,HimachalPradesh"
   },
   "image": {
     "@type": "ImageObject",
-    "url": "{{ site.url }}{{ page.custom_bg | default: site.img }}"
+    "url": "{{ site.url }}/assets/css/images/{{ page.custom_bg | default: site.img }}"
 },
   "sameAs": [
    "https://www.facebook.com/thetrippyfrog/",
