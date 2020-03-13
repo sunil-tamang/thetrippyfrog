@@ -429,7 +429,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				act3Icon: 'fas fa-water',
 				days : 6,
 				nights: 5,
-				urlName : 'Leh-Ladakh-escape'
+				urlName : 'leh-ladakh-escape'
 			},
 
 
