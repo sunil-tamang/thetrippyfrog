@@ -3295,7 +3295,7 @@ p.content__pg:not(:last-child){
     }
     .img_wrapper {
         width: 100%;
-        height: 400px;
+        height: 300px;
         background-image: url('one.jpg');
         background-position: center;
         background-size:cover;

@@ -417,7 +417,7 @@ function menuWideOrMobile(){
         $('body').removeClass('wide');
         $("#nav, #trigger__wrapper").addClass('mobile');
         $('#nav, #trigger__wrapper').removeClass('wide');
-		parallaxIsOff();
+		// parallaxIsOff();
 		if($('body').hasClass('mobile')){
 			$('.header').css('background','rgba(0,0,0,0.9)');
 		}
