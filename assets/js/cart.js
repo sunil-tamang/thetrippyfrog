@@ -512,6 +512,10 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			lowerLimit = 21
 			upperLimit = 27
 		}
+		else if(productName=='escape-trips-4'){
+			lowerLimit = 21
+			upperLimit = 24
+		}
 		else if(productName=='bike-tours'){
 			lowerLimit = 28
 			upperLimit = 29
