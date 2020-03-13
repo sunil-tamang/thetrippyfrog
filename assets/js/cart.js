@@ -307,14 +307,15 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'camping-near-river'
 			},
 
+
 			{
 				id : 21,
-				name : 'Himalayan Escape',
-				img : 'assets/css/images/escape-trips/himalayan-escape/himalayan-escape-min.jpg',
-				price : 6500,
+				name : 'Shimla Manali Escape',
+				img : 'assets/css/images/escape-trips/shimla-manali-escape/shimla_min.jpg"',
+				price : 9999,
 				prodType : 'escape-trips',
 				stock : 1,
-				act1: 'Long Trek',
+				act1: 'Moderate Trek',
 				act1Icon: 'fas fa-hiking',
 				act2: 'Camping',
 				act2Icon: 'fas fa-campground',
@@ -322,9 +323,8 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				act3Icon: 'fas fa-water',
 				days : 6,
 				nights: 5,
-				urlName : 'himalayan-escape'
+				urlName : 'shimla-manali-escape'
 			},
-
 			{
 				id : 22,
 				name : 'Weekend Escape',
@@ -343,11 +343,12 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'weekend-escape'
 			},
 
+
 			{
 				id : 23,
-				name : 'Magic Valley Escape',
-				img : 'assets/css/images/escape-trips/magic-valley-escape/magic-valley-escape-min.jpg',
-				price : 8000,
+				name : 'Spiti Valley Escape',
+				img : 'assets/css/images/escape-trips/spiti-valley-escape/spiti_min.jpg"',
+				price : 9999,
 				prodType : 'escape-trips',
 				stock : 1,
 				act1: 'Moderate Trek',
@@ -358,7 +359,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				act3Icon: 'fas fa-water',
 				days : 6,
 				nights: 5,
-				urlName : 'magic-valley-escape'
+				urlName : 'spiti-valley-escape'
 			},
 
 			{
@@ -378,12 +379,64 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				nights: 5,
 				urlName : 'tirthan-valley-escape'
 			},
+			{
+				id : 25,
+				name : 'Himalayan Escape',
+				img : 'assets/css/images/escape-trips/himalayan-escape/himalayan-escape-min.jpg',
+				price : 6500,
+				prodType : 'escape-trips',
+				stock : 1,
+				act1: 'Long Trek',
+				act1Icon: 'fas fa-hiking',
+				act2: 'Camping',
+				act2Icon: 'fas fa-campground',
+				act3: 'Rafting',
+				act3Icon: 'fas fa-water',
+				days : 6,
+				nights: 5,
+				urlName : 'himalayan-escape'
+			},
+
+			{
+				id : 26,
+				name : 'Magic Valley Escape',
+				img : 'assets/css/images/escape-trips/magic-valley-escape/magic-valley-escape-min.jpg',
+				price : 8000,
+				prodType : 'escape-trips',
+				stock : 1,
+				act1: 'Moderate Trek',
+				act1Icon: 'fas fa-hiking',
+				act2: 'Camping',
+				act2Icon: 'fas fa-campground',
+				act3: 'Rafting',
+				act3Icon: 'fas fa-water',
+				days : 6,
+				nights: 5,
+				urlName : 'magic-valley-escape'
+			},
+			{
+				id : 27,
+				name : 'Leh Ladakh Escape',
+				img : 'assets/css/images/escape-trips/leh-ladakh-escape/leh_min.jpg"',
+				price : 9999,
+				prodType : 'escape-trips',
+				stock : 1,
+				act1: 'Moderate Trek',
+				act1Icon: 'fas fa-hiking',
+				act2: 'Camping',
+				act2Icon: 'fas fa-campground',
+				act3: 'Rafting',
+				act3Icon: 'fas fa-water',
+				days : 6,
+				nights: 5,
+				urlName : 'Leh-Ladakh-escape'
+			},
 
 
 			//Bike-Tours Products
 
 			{
-				id : 25,
+				id : 28,
 				name : 'Leh-Manali Bike Tour',
 				img : 'assets/css/images/bike-tours/leh-manali/leh-manali_min.jpg',
 				price : 36000.00,
@@ -396,7 +449,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 26,
+				id : 29,
 				name : 'Spiti Bike Tour',
 				img : 'assets/css/images/bike-tours/spiti/spiti_min.jpg',
 				price : 33000.00,
@@ -411,7 +464,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			// Mountain Biking
 
 			{
-				id : 27,
+				id : 30,
 				name : 'LEH MTB TOUR',
 				img : 'assets/css/images/mountain-bike-tours/mountain_bike_min.jpg',
 				price : 33000.00,
@@ -423,7 +476,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'leh-mtb-tour'
 			},
 			{
-				id : 28,
+				id : 31,
 				name : 'SPITI MTB TOUR',
 				img : 'assets/css/images/mountain-bike-tours/mountain_bike_min.jpg',
 				price : 33000.00,
@@ -457,15 +510,15 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 		}
 		else if(productName=='escape-trips'){
 			lowerLimit = 21
-			upperLimit = 24
+			upperLimit = 27
 		}
 		else if(productName=='bike-tours'){
-			lowerLimit = 25
-			upperLimit = 26
+			lowerLimit = 28
+			upperLimit = 29
 		}
 		else if(productName=='mountain-bike-tour'){
-			lowerLimit = 27
-			upperLimit = 28
+			lowerLimit = 30
+			upperLimit = 31
 		}
 		else{
 			lowerLimit = 18
@@ -550,7 +603,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			}
 
 			// Escape Trips
-			else if((upperLimit >= 20)&&(upperLimit<=24)){
+			else if((upperLimit >= 21)&&(upperLimit<=27)){
 				if(products[i].stock > 0){
 
 					content+='<div class="row--padding-medium col-medium">'
@@ -602,7 +655,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			}
 
 			// Bike-Tours
-			else if((upperLimit >= 24)&&(upperLimit<=26)){
+			else if((upperLimit >= 28)&&(upperLimit<=29)){
 				if(products[i].stock > 0){
 
 					content+='<div class="row--padding-medium col-medium">'
@@ -640,7 +693,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 
 
 			// Mountain Bike-Tours
-			else if((upperLimit >= 27)&&(upperLimit<=28)){
+			else if((upperLimit >= 30)&&(upperLimit<=31)){
 				if(products[i].stock > 0){
 
 					content+='<div class="row--padding-medium col-medium">'

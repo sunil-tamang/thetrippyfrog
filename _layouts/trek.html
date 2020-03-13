@@ -45,6 +45,61 @@ tags : "Trekkings,HimachalPradesh"
 		height: 100% !important;
 	}
 </style>
+
+
+
+    <div class="popup_form_wrapper">
+        <div class="popup_form">
+
+    <!-- Close Btn-->
+            <div class="popup_close_btn_wrapper">
+                <svg class="popup_close_btn">
+                    <path d="M35.707,16.293c-0.391-0.391-1.023-0.391-1.414,0L26,24.586l-8.293-8.293c-0.391-0.391-1.023-0.391-1.414,0   s-0.391,1.023,0,1.414L24.586,26l-8.293,8.293c-0.391,0.391-0.391,1.023,0,1.414C16.488,35.902,16.744,36,17,36   s0.512-0.098,0.707-0.293L26,27.414l8.293,8.293C34.488,35.902,34.744,36,35,36s0.512-0.098,0.707-0.293   c0.391-0.391,0.391-1.023,0-1.414L27.414,26l8.293-8.293C36.098,17.316,36.098,16.684,35.707,16.293z" fill="#ffd600"/>
+               </svg>
+            </div>
+
+    <!-- background Image -->
+            <div class="popup_background">
+
+             </div>
+
+
+            <div class="form_wrapper">
+
+                <div class="text">
+                    <h2>Enter Your Email Below To Get 40% Off</h2>
+                    <p>Fill the form and get flat ₹4000 Off on your {{ page.title }} .</p>
+                </div>
+
+                <form  action="https://formspree.io/thetrippyfrog@gmail.com" method="POST" name="contact_form">
+
+                <div class="textfield_wrapper">
+                    <input  class="input_box" type="text" placeholder="Your Name" name="name" autocomplete="off" required >
+                </div>
+                <div class="textfield_wrapper">
+                    <input  class="input_box" type="email" placeholder="Email" name="email" autocomplete="off" required>
+                </div>
+                <div class="textfield_wrapper">
+                    <input class="input_box"  type="tel" placeholder="Phone Number" autocomplete="off" name="phone" required>
+                </div>
+
+                <div class="textfield_wrapper">
+                    <button class="trippy_btn" type="submit" name=""> SEND </button>
+                </div>
+
+                </form>
+
+                <div class="text">
+                    <p>Don't Worry, We won't spam you..</p>
+                </div>
+
+            </div>
+
+    </div>
+
+    </div>
+
+
 {% if page.custom_bg %}
     {% for img in page.custom_bg %}
         {% assign path = 'assets/css/images/' | append: img | relative_url%}
