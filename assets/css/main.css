@@ -513,6 +513,9 @@ body{
 .slide4 {
 	background-image: url('images/bg/rafting_banner.jpg');
 }
+.slide5 {
+	background-image: url('images/bg/paragliding_banner.jpg');
+}
 
 
 .slideBlog {
@@ -1849,6 +1852,29 @@ p.content__pg:not(:last-child){
 .wopper--trip-rafting{background: url(thumbs/trip_activities/rafting.jpg) center no-repeat; background-size: 100%;}
 .wopper--trip-bonfire{background: url(thumbs/trip_activities/bonfire.jpg) center no-repeat; background-size: 100%;}
 
+/* HIMALAYAN Escape Images */
+.wopper--trip-manali{background: url(images/escape-trips/himalayan-escape/manali.jpg) center no-repeat; background-size: 100%;}
+.wopper--trip-naggar{background: url(images/escape-trips/himalayan-escape/naggar.jpg) center no-repeat; background-size: 100%;}
+.wopper--trip-solang{background: url(images/escape-trips/himalayan-escape/Solang.jpg) center no-repeat; background-size: 100%;}
+.wopper--trip-kasol{background: url(images/escape-trips/himalayan-escape/kasol.jpg) center no-repeat; background-size: 100%;}
+
+/* BIJLI MAHADEV Escape Images */
+.wopper--trip-matikochar{background: url(images/escape-trips/weekend-escape/matikochar.jpg) center no-repeat; background-size: 100%;}
+.wopper--trip-camping-bijli-mahadev{background: url(images/escape-trips/weekend-escape/camping_bijli.jpg) center no-repeat; background-size: 100%;}
+.wopper--trip-rafting{background: url(images/escape-trips/weekend-escape/rafting.jpg) center no-repeat; background-size: 100%;}
+.wopper--trip-bijli-mahadev{background: url(images/escape-trips/weekend-escape/bijli-mahadev.jpg) center no-repeat; background-size: 100%;}
+
+/* SHIMLA MANALI Escape Images */
+.wopper--trip-manali{background: url(images/escape-trips/shimla-manali-escape/manali.jpg) center no-repeat; background-size: 100%;}
+.wopper--trip-shimla{background: url(images/escape-trips/shimla-manali-escape/shimla_min.jpg) center no-repeat; background-size: 100%;}
+.wopper--trip-rafting{background: url(images/escape-trips/shimla-manali-escape/rafting.jpg) center no-repeat; background-size: 100%;}
+.wopper--trip-kasol{background: url(images/escape-trips/shimla-manali-escape/kasol.jpg) center no-repeat; background-size: 100%;}
+
+/* TIRTHAN VALLEY Escape Images */
+.wopper--trip-manali{background: url(images/escape-trips/tirthan-valley/manali.jpg) center no-repeat; background-size: 100%;}
+.wopper--trip-jalori{background: url(images/escape-trips/tirthan-valley/jalori.jpg) center no-repeat; background-size: 100%;}
+.wopper--trip-rafting{background: url(images/escape-trips/tirthan-valley/rafting.jpg) center no-repeat; background-size: 100%;}
+.wopper--trip-kasol{background: url(images/escape-trips/tirthan-valley/kasol.jpg) center no-repeat; background-size: 100%;}
 
 
 .trek--offer-badge,
@@ -2198,7 +2224,7 @@ p.content__pg:not(:last-child){
     cursor: pointer;
     transform: translate3d(0px, 40px ,0px);
     transition: all 0.4s ease;
-    z-index: 99999999999;
+    z-index: 10000;
 }
 .backToTop:after{
     content: '';
@@ -3044,9 +3070,9 @@ p.content__pg:not(:last-child){
         right: 0;
         bottom: 0;
         left: 0;
-        background: rgba(0, 0, 0, 0.9);
+        background: rgba(0, 0, 0, 1);
         display: none;
-        z-index: 99999999999999999992;
+        z-index: 999999999991;
          padding: 4em 0em 4em 0em;
     }
 

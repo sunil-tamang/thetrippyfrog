@@ -312,22 +312,22 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				id : 21,
 				name : 'Shimla Manali Escape',
 				img : 'assets/css/images/escape-trips/shimla-manali-escape/shimla_min.jpg"',
-				price : 9999,
+				price : 10000,
 				prodType : 'escape-trips',
 				stock : 1,
-				act1: 'Moderate Trek',
-				act1Icon: 'fas fa-hiking',
+				act1: 'Sightseeing',
+				act1Icon: 'fas fa-binoculars',
 				act2: 'Camping',
 				act2Icon: 'fas fa-campground',
 				act3: 'Rafting',
 				act3Icon: 'fas fa-water',
-				days : 6,
-				nights: 5,
+				days : 5,
+				nights: 4,
 				urlName : 'shimla-manali-escape'
 			},
 			{
 				id : 22,
-				name : 'Weekend Escape',
+				name : 'Bijli Mahadev Escape',
 				img : 'assets/css/images/escape-trips/weekend-escape/weekend-escape-min.jpg',
 				price : 7000,
 				prodType : 'escape-trips',
@@ -340,7 +340,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				act3Icon: 'fas fa-water',
 				days : 3,
 				nights: 2,
-				urlName : 'weekend-escape'
+				urlName : 'bijli-mahadev-escape'
 			},
 
 
@@ -386,8 +386,8 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				price : 6500,
 				prodType : 'escape-trips',
 				stock : 1,
-				act1: 'Long Trek',
-				act1Icon: 'fas fa-hiking',
+				act1: 'Sightseeing',
+				act1Icon: 'fas fa-binoculars',
 				act2: 'Camping',
 				act2Icon: 'fas fa-campground',
 				act3: 'Rafting',
