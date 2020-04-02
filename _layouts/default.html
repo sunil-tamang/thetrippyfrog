@@ -1,3 +1,7 @@
+---
+layout: compress
+---
+
 <!-- DEVELOPED & DE$IGNED BY ARJUN THAKUR-->
 
 <!Doctype html>
@@ -23,32 +27,17 @@
 
     <link rel="icon" href="{{ 'favicon.png' | relative_url }}" sizes="32x32">
 
-    <!-- External Stylesheets-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Lato|Montserrat|Anton|Pacifico|Oswald:400" rel="stylesheet" type="text/css">
-	<!-- Shopping Cart -->
-	<link defer href="https://cdnjs.cloudflare.com/ajax/libs/Ladda/1.0.6/ladda.min.css" rel="stylesheet"/>
-	<!-- End Shopping Cart -->
+    <!-- FONTS -->
+    <style>
+	@font-face{font-family:Anton;font-style:normal;font-weight:400;src:local('Anton Regular'),local('Anton-Regular'),url(https://fonts.gstatic.com/s/anton/v11/1Ptgg87LROyAm3K8-C8QSw.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:Anton;font-style:normal;font-weight:400;src:local('Anton Regular'),local('Anton-Regular'),url(https://fonts.gstatic.com/s/anton/v11/1Ptgg87LROyAm3K9-C8QSw.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Anton;font-style:normal;font-weight:400;src:local('Anton Regular'),local('Anton-Regular'),url(https://fonts.gstatic.com/s/anton/v11/1Ptgg87LROyAm3Kz-C8.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Lato;font-style:normal;font-weight:400;src:local('Lato Regular'),local('Lato-Regular'),url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Lato;font-style:normal;font-weight:400;src:local('Lato Regular'),local('Lato-Regular'),url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Montserrat;font-style:normal;font-weight:400;src:local('Montserrat Regular'),local('Montserrat-Regular'),url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:Montserrat;font-style:normal;font-weight:400;src:local('Montserrat Regular'),local('Montserrat-Regular'),url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:Montserrat;font-style:normal;font-weight:400;src:local('Montserrat Regular'),local('Montserrat-Regular'),url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:Montserrat;font-style:normal;font-weight:400;src:local('Montserrat Regular'),local('Montserrat-Regular'),url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Montserrat;font-style:normal;font-weight:400;src:local('Montserrat Regular'),local('Montserrat-Regular'),url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Oswald;font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/oswald/v31/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUtiZTaR.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:Oswald;font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/oswald/v31/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUJiZTaR.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:Oswald;font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/oswald/v31/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUliZTaR.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:Oswald;font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/oswald/v31/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUhiZTaR.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Oswald;font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/oswald/v31/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiZQ.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Pacifico;font-style:normal;font-weight:400;src:local('Pacifico Regular'),local('Pacifico-Regular'),url(https://fonts.gstatic.com/s/pacifico/v16/FwZY7-Qmy14u9lezJ-6K6MmTpA.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:Pacifico;font-style:normal;font-weight:400;src:local('Pacifico Regular'),local('Pacifico-Regular'),url(https://fonts.gstatic.com/s/pacifico/v16/FwZY7-Qmy14u9lezJ-6D6MmTpA.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:Pacifico;font-style:normal;font-weight:400;src:local('Pacifico Regular'),local('Pacifico-Regular'),url(https://fonts.gstatic.com/s/pacifico/v16/FwZY7-Qmy14u9lezJ-6I6MmTpA.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:Pacifico;font-style:normal;font-weight:400;src:local('Pacifico Regular'),local('Pacifico-Regular'),url(https://fonts.gstatic.com/s/pacifico/v16/FwZY7-Qmy14u9lezJ-6J6MmTpA.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Pacifico;font-style:normal;font-weight:400;src:local('Pacifico Regular'),local('Pacifico-Regular'),url(https://fonts.gstatic.com/s/pacifico/v16/FwZY7-Qmy14u9lezJ-6H6Mk.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');unicode-range:U+0370-03FF}@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+	</style>
 
-<!--    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css" rel="stylesheet">-->
-
-<!--	SLICK	 -->
+	<!-- SLICK -->
 	{% if page.slick_css or layout.slick_css %}
- 	<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" rel="stylesheet"/>
+<!-- 	<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet"/>-->
+<!--    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" rel="stylesheet"/>-->
 	{% endif %}
-
-
-<!--	DEVELOPMENT - Copy Every Time, each of the css's content to main.css   -->
-<!--
-    <link rel="stylesheet" href="{{ 'assets/css/reset.min.css' | absolute_url }}">
-    <link rel="stylesheet" href="{{ 'assets/css/base.css' | absolute_url }}">
-    <link rel="stylesheet" href="{{ 'assets/css/layout.css' | absolute_url }}">
-    <link rel="stylesheet" href="{{ 'assets/css/cart.css' | absolute_url }}">
-    <link rel="stylesheet" href="{{ 'assets/css/recreation.css' | absolute_url }}">
--->
-
-
-<!--	PRODUCTION - Update Every Time   -->
+	<!-- END SLICK -->
 	<link rel="stylesheet" href="{{ 'assets/css/main.css' | absolute_url }}">
 
     {% if page.custom_css %}
@@ -60,6 +49,7 @@
 
     <meta name="keywords" content="The trippy frog, himalayan, wanderer, adventure, Trekking in Himalayas, trekkers of himachal, himachal pradesh trekking, hiking in himachal, trekking in manali, Kullu, Manali, Rafting, Rafting in kullu manali, adventurous sports in kullu manali, kullu-manali adventures, rafting in himachal pradesh, trekking in north india, rafting in the himalayas, white water rafting, tour guide, Kullu, Manali, White water rafting , Paragliding in North India , Adventurous sports in North India, paragliding ,trekking, rafting paragliding, activities rafting, tours 4x4 trails , activities rafting paragliding, rafting paragliding trekking, paragliding, trekking, camping,trekking camping, Adventures in Kullu Manali, Himachal Pradesh, hampta pass trek, beas kund trek, bhrigu lake trek , pin parvati trek , fungni top trek ,
     kufri trek, sar pass trek, kheerganga trek, kasol trip, mantalai lake trek, spiti valley trek , dehana sar lake trek , trekking In kullu manali ,beas river side camping, camping in kullu manali ," />
+	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script defer async src="https://www.googletagmanager.com/gtag/js?id=UA-118645201-1"></script>
 	<script>
@@ -76,11 +66,13 @@
     {% endif %}
 
 	<!-- Start Alexa Certify Javascript -->
+<!--
 	<script type="text/javascript">
 	_atrk_opts = { atrk_acct:"hvK6r1egId20o7", domain:"thetrippyfrog.com",dynamic: true};
 	(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
 	</script>
 	<noscript><img src="https://certify.alexametrics.com/atrk.gif?account=hvK6r1egId20o7" style="display:none" height="1" width="1" alt="" /></noscript>
+-->
 	<!-- End Alexa Certify Javascript -->
 </head>
 
@@ -89,14 +81,7 @@
     <div class="header" id="header">
 
         <div class="row container container-wide" style="padding-left: 1em; padding-right: 1em;">
-<!--
-			<div class="header-above">
-				<a href="" style="display:inline-block; padding: 9px 13px; color: #ffd600; background-color: transparent; border-radius: 5px; border: 1px solid #ffd600;"><i class="fab fa-instagram"></i></a>
-				<a href="" style="display:inline-block; padding: 9px 13px; color: #ffd600; background-color: transparent; border-radius: 5px; border: 1px solid #ffd600;"><i class="fab fa-facebook-f"></i></a>
-			</div>
--->
 			<h1 class="header__logo"><a href="/">
-<!--				<img src="{{ 'favicon.png' | absolute_url }}" style="width: 30px; height: 30px;"/> -->
 				<span style="display: none;">THE TRIPPY FROG</span>THE TRIPPY FR<i class="far fa-compass title-o"></i>G</a></h1>
             <div id="trigger__wrapper" class="nav">
                 <a id="trigger" class="bars">
@@ -109,7 +94,6 @@
                     <li class="nav__li"><a href="{% link index.html %}">HOME</a></li>
                     <li class="nav__li"><a href="{% link _activities/trekking.html %}">TREKS</a></li>
                     <li class="nav__li"><a href="{% link escape-trips.html %}">ESCAPE TRIPS</a></li>
-<!--                    <li class="nav__li"><a href="">PACKAGES</a></li>-->
 
                     <li class="nav__li dropdown"><a class="dropdown__trigger">ADVENTURE&nbsp;<span></span></a>
                         <ul class="nav__dropdown">
@@ -133,8 +117,6 @@
     </div>
 
     <span class="nav-wrapper" style="display: none;"></span>
-
-
 
 
 
@@ -174,11 +156,6 @@
                             <li class="footer__content-item">
                                 <a href="mailto:thetrippyfrog@gmail.com">thetrippyfrog@gmail.com</a>
                             </li>
-<!--
-                            <li class="footer__content-item">
-                                <a href="mailto:enquiry@recreationalclub.com">enquiry@recreationalclub.com</a>
-                            </li>
--->
                             <li class="footer__content-item" style="overflow: visible;">
                                 <a href="tel:+919805281452">+91-9805281452</a>
                             </li>
@@ -230,22 +207,18 @@
     </div>
     <a class="backToTop"></a>
     <a class="cart_mob" href="{% link cart.html %}"><i class="fa fa-shopping-cart"></i>&nbsp;<span class="totalItems_wrapper"><span class="totalItems">0</span></span></a>
-<!--    <a class="call_now" href="tel:+919805281452"><i class="fa fa-phone" style="transform: rotate(90deg);"></i></a>-->
 
 	<!----------CART MESSAGES ALERT---------->
 	<div class="cart-alert--wrapper">
 	</div>
 
 
-<script defer async src="https://use.fontawesome.com/releases/v5.6.3/js/all.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!--<script defer src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>-->
 {% if page.slick_js or layout.slick_js %}
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 {% endif %}
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>-->
 <script src="{{ 'assets/js/main.js' | absolute_url }}"></script>
 
 {% if page.custom_js %}
@@ -288,8 +261,8 @@ if(navigator.userAgent.match(/MSIE 10/i) || navigator.userAgent.match(/Trident\/
 {% endif %}
 <!--Shopping Cart-->
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js"></script>
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/Ladda/1.0.6/spin.min.js"></script>
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/Ladda/1.0.6/ladda.min.js"></script>
+<!--<script defer src="https://cdnjs.cloudflare.com/ajax/libs/Ladda/1.0.6/spin.min.js"></script>-->
+<!--<script defer src="https://cdnjs.cloudflare.com/ajax/libs/Ladda/1.0.6/ladda.min.js"></script>-->
 <script defer src="{{ 'assets/js/cart.js' | absolute_url }}"></script>
 {% if page.productScript %}
 <script>
@@ -301,6 +274,7 @@ if(navigator.userAgent.match(/MSIE 10/i) || navigator.userAgent.match(/Trident\/
 <!--End Shopping Cart-->
 
 <!--Start of Tawk.to Script-->
+<!--
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
@@ -312,6 +286,7 @@ s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
+-->
 <!--End of Tawk.to Script-->
 
 </body>

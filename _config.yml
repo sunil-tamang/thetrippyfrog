@@ -61,3 +61,16 @@ exclude:
 plugins:
   - jekyll-sitemap
 strict_front_matter: true
+sass:
+  style: compressed # possible values: nested expanded compact compressed
+  
+# Compressing HTML  
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
