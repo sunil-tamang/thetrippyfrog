@@ -35,9 +35,9 @@ $(document).ready(function(){
 				autoplay:true,
 				autoplaySpeed:2000,
 				centerMode: true,
-				centerPadding: '10px',
+				centerPadding: '40px',
 				responsive:true,
-				slidesToShow: 4,
+				slidesToShow: 3,
 				prevArrow: $(".slide-center-prev"),
 				nextArrow: $(".slide-center-next"),
 				responsive: [

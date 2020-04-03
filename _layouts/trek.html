@@ -153,7 +153,6 @@ tags : "Trekkings,HimachalPradesh"
     {{ content }}
 </div>
 
-
 {% if page.disableRelTrek != 'yes' %}
 <div class="row content" style="padding: 0 0 4em 0;">
 	<h1 class="content__sub-title content__title-white no-underline" style="margin-bottom: 0; color: #333;">Related Treks</h1>
@@ -171,24 +170,21 @@ tags : "Trekkings,HimachalPradesh"
 					  <span class="trek-slide--price"><span style="font-size: 60%;">From</span> <i class="fa fa-rupee-sign"></i> {{ trek.price }}/-</span>
 
 					<div class="trek-slide--text">
-                        <h2 class="trek-slide--title"><i class="fas fa-hiking"></i>&nbsp;{{trek.title}}</h2>
 						<div class="trek-slide--meta">
 							<div class="">
-								<!-- <span>{{trek.days}}</span> -->
-								<span class="meta-type"><i class="far fa-clock"></i>&nbsp;{{trek.days}}Days</span>
+								<span>{{trek.days}}</span>
+								<span class="meta-type"><i class="far fa-clock"></i> Days</span>
 							</div>
 							<div class="">
-								<!-- <span>{{ trek.altitude }}</span> -->
-								<span class="meta-type"><i class="fas fa-mountain"></i>&nbsp;{{trek.altitude}}</span>
+								<span>{{ trek.altitude }}</span>
+								<span class="meta-type"><i class="fas fa-mountain"></i> Altitude</span>
 							</div>
 							<div class="">
-								<!-- <span>Easy</span> -->
-								<span class="meta-type"><i class="fa fa-tachometer-alt"></i>&nbsp;{{trek.grade}}</span>
+								<span>Easy</span>
+								<span class="meta-type"><i class="fa fa-tachometer-alt"></i> {{ trek.grade }}</span>
 							</div>
-
 						</div>
-                        <br/>
-                        <span class="trek-slide--price1"><span style="font-size:15px;">Book Now</span></span>
+						<h2 class="trek-slide--title"><i class="fa fa-map-marker-alt"></i> {{ trek.title }}</h2>
 					</div>
 					</a>
 				</div>
@@ -201,7 +197,6 @@ tags : "Trekkings,HimachalPradesh"
 	</div>
 </div>
 {% endif %}
-
 
 
 <script>
