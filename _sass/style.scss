@@ -447,16 +447,34 @@ body{
     color: #c7c7c7;
     color: #414141;
 }
+.trek-slide--price1{
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+	/* position: absolute;
+    top: 62%;
+    right:3%; */
+    background: rgba(255, 214, 0, 0.8);
+    padding: 7px 10px;
+    border-radius: 3px;
+    color: #c7c7c7;
+    color: #414141;
+}
+
 
 .trek-slide--text{
-	padding: 2em 1em;
+	padding: 2em 0.7em;
 	color:#333;
 	color:#cdcdcd;
+    text-align: left;
+    font-weight: bold;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    line-height: 1em;
+
 }
 .trek-slide--meta,
 .trek-slide--title{
-	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-	border-bottom: 1px solid rgba(228, 228, 228, 0.2);
+	/* border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	border-bottom: 1px solid rgba(228, 228, 228, 0.2); */
 	padding: 15px 0;
 }
 
@@ -467,9 +485,12 @@ body{
 .trek-slide--meta div{
 	padding: 0;
 	display: inline-block;
-	width: 33.33333333%;
+	width: 32.33333333%;
 	width: 32%;
+    /* background-color: red; */
+    /* margin: 0.3em; */
 }
+
 .trek-slide--meta div>span{
 	display: block;
 	padding-top: 10px;
@@ -490,7 +511,6 @@ body{
     font-family: sans-serif;
     letter-spacing: 2px;
 }
-
 .trek-slide--info{
 	padding: 15px 0 0;
 	display: none;
