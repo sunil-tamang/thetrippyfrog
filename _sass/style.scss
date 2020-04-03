@@ -860,9 +860,12 @@ i {
 /*Trekking Layout*/
 
 .trek-overview{
-	text-align: left;
-	font-size: 1.1em;
-	padding-bottom: 1em;
+    /* font-family: 'Poppins', sans-serif; */
+  text-align: left;
+  font-size: 1em;
+  padding-bottom: 1em;
+  font-weight: bold;
+  line-height: 1.3;
 }
 
 .banner__trek{
@@ -914,7 +917,7 @@ i {
     border: 2px solid #cacaca;
 	background-color: rgba(0, 0, 0, 0.64);
 	border-radius: 3px;
-	height: 2em;
+	height: 5em;
 	border:0;
 }
 
