@@ -188,8 +188,20 @@ $(document).ready(function(){
     //Back To Top
     $(window).scroll(function(){
         checkScrollTop();
+		stickElement();
     });
-
+	
+/************************STICKY ELEMENT START***************************/
+	
+	toggleFixed();
+	$(window).resize(
+		function() {
+			adjustWidth();
+	});
+	
+	
+/************************STICKY ELEMENT END***************************/
+	
     $('.backToTop').click(function(){
         $("html, body").animate({ scrollTop: 0 }, 1000, "easeInOutQuint");
         return false;
@@ -375,6 +387,7 @@ function hideModal(){
 
 //--------------------scrollTop------------------
 function checkScrollTop(){
+	stickElement();
     if ($(window).scrollTop() > 400) {
 		hideCallNowAdd();
 		$('.header').css('background','rgba(0,0,0,0.9)');
@@ -504,3 +517,33 @@ function hideCallNowAdd(){
 	$('.backToTop, .call_now').removeClass("hide");
 	$('.backToTop, .call_now').addClass("show");
 }
+
+
+/************************STICKY ELEMENT START***************************/
+function stickElement(){
+	var twoCol = $("#twoCol");
+	var hT = $('#scroll-to').offset().top,
+		hH = $('#scroll-to').outerHeight(),
+		wS = $(window).scrollTop();
+		if (wS > hT-66 && wS < (hT+hH-200)){
+//			console.log("View");
+			twoCol.addClass("fix");  
+		}
+		else{
+//			console.log("Not view");
+			twoCol.removeClass("fix");
+		}
+}
+
+// Inherit the parent's width, when child's position is set to fixed
+// Only work on Desktop
+function toggleFixed() {
+	adjustWidth();
+	$(".floater").toggleClass("fixed");
+}
+function adjustWidth() {
+	var parentwidth = $(".content__right").width();
+	$(".floater").width(parentwidth);
+}
+
+/************************STICKY ELEMENT END***************************/
