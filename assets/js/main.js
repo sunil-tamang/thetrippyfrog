@@ -188,7 +188,10 @@ $(document).ready(function(){
     //Back To Top
     $(window).scroll(function(){
         checkScrollTop();
-		stickElement();
+		if($("#twoCol").length)
+		{
+			stickElement();
+		}
     });
 	
 /************************STICKY ELEMENT START***************************/
@@ -387,7 +390,10 @@ function hideModal(){
 
 //--------------------scrollTop------------------
 function checkScrollTop(){
-	stickElement();
+	if($("#twoCol").length)
+	{
+		stickElement();
+	}
     if ($(window).scrollTop() > 400) {
 		hideCallNowAdd();
 		$('.header').css('background','rgba(0,0,0,0.9)');
