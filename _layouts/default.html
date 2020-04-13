@@ -42,7 +42,7 @@ layout: compress
 	<!-- END SLICK -->
 	<link rel="stylesheet" href="{{ 'assets/css/main.css' | absolute_url }}">
 
-    {% if page.custom_css %}
+    {% if page.custom_css%}
     {% for stylesheet in page.custom_css %}
         {% assign path = 'assets/css/' | append: stylesheet | absolute_url%}
         <link rel="stylesheet" href="{{ path }}" media="screen" type="text/css">
@@ -50,7 +50,7 @@ layout: compress
     {% endif %}
 
     <meta name="keywords" content="The trippy frog, himalayan, wanderer, adventure, Trekking in Himalayas, trekkers of himachal, himachal pradesh trekking, hiking in himachal, trekking in manali, Kullu, Manali, Rafting, Rafting in kullu manali, adventurous sports in kullu manali, kullu-manali adventures, rafting in himachal pradesh, trekking in north india, rafting in the himalayas, white water rafting, tour guide, Kullu, Manali, White water rafting , Paragliding in North India , Adventurous sports in North India, paragliding ,trekking, rafting paragliding, activities rafting, tours 4x4 trails , activities rafting paragliding, rafting paragliding trekking, paragliding, trekking, camping,trekking camping, Adventures in Kullu Manali, Himachal Pradesh, hampta pass trek, beas kund trek, bhrigu lake trek , pin parvati trek , fungni top trek ,
-    kufri trek, sar pass trek, kheerganga trek, kasol trip, mantalai lake trek, spiti valley trek , dehana sar lake trek , trekking In kullu manali ,beas river side camping, camping in kullu manali ," />
+    kufri trek, sar pass trek, kheerganga trek, kasol trip, mantalai lake trek, spiti valley trek , Dehnasar Lake Trek , trekking In kullu manali ,beas river side camping, camping in kullu manali ," />
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script defer async src="https://www.googletagmanager.com/gtag/js?id=UA-118645201-1"></script>
@@ -255,16 +255,14 @@ if(navigator.userAgent.match(/MSIE 10/i) || navigator.userAgent.match(/Trident\/
 <script>
 	$(document).ready(function($) {
 		$('.counter').counterUp({
-			delay: 10,
-			time: 700
+			delay: 5,
+			time: 120
 		});
 	});
 </script>
 {% endif %}
 <!--Shopping Cart-->
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js"></script>
-<!--<script defer src="https://cdnjs.cloudflare.com/ajax/libs/Ladda/1.0.6/spin.min.js"></script>-->
-<!--<script defer src="https://cdnjs.cloudflare.com/ajax/libs/Ladda/1.0.6/ladda.min.js"></script>-->
 <script defer src="{{ 'assets/js/cart.js' | absolute_url }}"></script>
 {% if page.productScript %}
 <script>

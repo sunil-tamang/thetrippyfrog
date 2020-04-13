@@ -2,9 +2,8 @@
 layout: 'default'
 slick_css: 'Yes'
 slick_js: 'Yes'
-author_name : " THE TRIPPY FROG "
-tags : "Trekkings,HimachalPradesh"
-
+author_name: "THE TRIPPY FROG "
+tags: "Trekkings, Himachal-Pradesh"
 ---
 <script type="application/ld+json">
 {
@@ -47,6 +46,8 @@ tags : "Trekkings,HimachalPradesh"
 </style>
 
 
+<!-- VARIABLES -->
+{% assign trek = site.data.trek-data[page.title-slug] %}
 
     <div class="popup_form_wrapper">
         <div class="popup_form">
@@ -113,18 +114,15 @@ tags : "Trekkings,HimachalPradesh"
 			<div class="banner__trek-overview">
 				<p class="trek-name">{{ page.title }}</p>
 				<p class="trek-time">
-					{% if page.days %}
+					{% if trek.days %}
 					<span class="trek-time--part1">
-						<span class="trek-span"><span class="counter">{{ page.days }}</span><span>&nbsp;Days</span></span>
+						<span class="trek-span"><span class="counter">{{ trek.days }}</span><span>&nbsp;Days</span></span>
 					</span>
 					<span class="trek-time--part2">
-						<span class="trek-span"><span class="counter">{{ page.nights }}</span><span>&nbsp;Nights</span></span>
-<!--						<span><span class="counter">{{ page.days }}</span><span>&nbsp;Days</span></span>-->
-<!--						<span class="counter">{{ page.nights }}</span><span>&nbsp;Nights</span>-->
+						<span class="trek-span"><span class="counter">{{ trek.nights }}</span><span>&nbsp;Nights</span></span>
 					</span><br />
 					{% endif %}
-<!--					<span class="trek-price"><span style="font-size: 90%;">From</span> INR 7,000</span>-->
-					<span class="trek-slide--price trek-price"><span style="font-size: 60%;">From</span> <i class="fa fa-rupee-sign"></i> {{ page.price }}/-</span>
+					<span class="trek-slide--price trek-price"><span style="font-size: 60%;">From</span> <i class="fa fa-rupee-sign"></i> {{ trek.price }}/-</span>
 				</p>
 
 			</div>
@@ -132,13 +130,9 @@ tags : "Trekkings,HimachalPradesh"
 			<div class="banner__trek-book">
 				<p class="trek-book">
 					<span class="trek-book--btn">
-<!--						<a href="javascript:void(0);" style="display: block; margin-top: 3em;">-->
-<!--							<a href="{{ page.bookLink }}" rel="im-checkout" data-layout="vertical" style="display: block; margin-top: 3em;">-->
-
 							<button class="trippy_btn more-trippy_btn" type="submit" name="sendMsg" onclick="imPop();">
 								<span class="trippy_btn-left"></span>Book Now<span class="trippy_btn-right"></span>
 							</button>
-<!--							</a>-->
 					</span>
 				</p>
 			</div>
@@ -148,24 +142,209 @@ tags : "Trekkings,HimachalPradesh"
 			</span>
 		</div>
 
+
+<!-- Trek related content here -->						
 <div class="two-col-layout" id="twoCol">
 	<div class="row row--padding-medium content container--white content__left" id="content">
 	<span style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url('{{ 'assets/css/images/static.gif' | absolute_url }}') repeat center; opacity: .05; z-index: -1;"></span>
-		{{ content }}
+		
+		<div style="max-width: 50em; margin: auto;">
+			<!-- TREK OVERVIEW -->
+			<div class="row container-wide" style="padding-bottom: 3em;">
+				<div class="col-medium">
+					<p class="trek-overview">
+						<i class="fa fa-clock"></i>&nbsp; {{ trek.days }} Days, {{ trek.nights }} Nights
+					</p>
+				</div>
+				<div class="col-medium">
+					<p class="trek-overview">
+						<i class="fa fa-mountain"></i>&nbsp; Altitude :  {{ trek.altitude }} Ft.
+					</p>
+				</div>
+				<div class="col-medium">
+					<p class="trek-overview">
+						<i class="fa fa-tachometer-alt"></i>&nbsp; Grade : {{ trek.grade }}
+					</p>
+				</div>
+				<div class="col-medium">
+					<p class="trek-overview">
+						<i class="fa fa-user"></i>&nbsp; Min-Age : {{ trek.minAge}}
+					</p>
+				</div>
+				<div class="col-medium">
+					<p class="trek-overview">
+						<i class="fa fa-users"></i>&nbsp; Group Size : {{ trek.groupSize }}
+					</p>
+				</div>
+				<div class="col-medium">
+					<p class="trek-overview">
+						<i class="fas fa-utensils"></i>&nbsp; Meal : Veg
+					</p>
+				</div>
+				<div class="col-medium">
+					<p class="trek-overview">
+						<i class="fas fa-campground"></i>&nbsp; Accomodation : {{ trek.accomodation }}
+					</p>
+				</div>
+			</div>
+			
+			<div class="material">
+				
+				
+
+				<h1 class="content__title content__title-white no-underline" style="padding: 0; margin: 0;"><i class="fas fa-hiking"></i> </h1><br />
+				<h1 class="content__sub-title content__title-white no-underline" style="padding-top: 0; margin-bottom: 0; padding-bottom: 1em;">About The Trek
+				</h1>
+
+
+				<div class="trek--section" style="text-align: left;">
+					<h2 class="content__sub-title" style="padding-bottom: 0;"><i class="far fa-file-alt"></i>&nbsp;Overview</h2>
+
+					{% for overview in trek.overview %}
+						<p class="content--detail">
+							{{ overview.content }}
+						</p>
+					{% endfor %}
+						<p class="content--detail">
+							If you wish to explore this awesome trek and face the great Himalayas, you can either join us or just sit in office chair and keep doing boring job. Required info of this trek is down below you can scroll down.
+						</p>
+
+				</div>
+
+				<!-- ITINERARY -->
+				<div class="trek--section" style="text-align: left;">
+					<h2 class="content__sub-title" style="padding-bottom: 0;"><i class="fas fa-map-marked-alt"></i>&nbsp;Itinerary</h2>
+
+					<ul class="trek-itinerary">
+
+						{% for i in trek.itinerary %}
+							<li>
+								<h3 class="itinerary-subtitle">
+									{{ i.title }}
+								</h3>
+								<p class="content--detail itinerary-detail">
+									{{ i.content }}
+								</p>
+							</li>
+						{% endfor %}
+
+						<li>
+							<h3 class="itinerary-subtitle">TRIP ENDS HERE!</h3>
+						</li>
+					</ul>
+
+				</div>
+
+				{{ content }}
+				
+				<!--GALLERY-->
+				<div class="row row--padding-medium">
+					<p class="content__sub-title">TREK GALLERY&nbsp;<i class="fas fa-camera"></i></p>
+					<section class="img-gallery-magnific">
+
+					{% for i in (1..5) %}
+						{% assign subPath = page.title | remove: "Trek" | slugify | append: "/" %}
+						{% assign path = 'assets/css/images/treks/' | append: subPath | relative_url %}
+						<div class="magnific-img">
+							<a class="image-popup-vertical-fit" href="{{ path }}{{i}}.jpg" title="{{ page.title }}">
+								<img src="{{ path }}{{i}}.jpg" alt="{{ page.title }}" />
+							</a>
+						</div>
+					{% endfor %}
+
+					</section>
+					<div class="clear"></div>
+				</div>
+				<br /><br />
+				
+				
+				<!-- What We Provide -->
+				<div class="trek--section" style="text-align: left;">
+					<h2 class="content__sub-title" style="padding-bottom: 0;"><i class="fas fa-tasks"></i>&nbsp;What's Included</h2>
+					<p class="content__list-item"><i class="fas fa-check-circle"></i>&nbsp;&nbsp;Sleeping Bag	<br /></p>
+					<p class="content__list-item"><i class="fas fa-check-circle"></i>&nbsp;&nbsp;Trekking poles <br /></p>
+					<p class="content__list-item"><i class="fas fa-check-circle"></i>&nbsp;&nbsp;Camping &amp; Trekking Permits <br /></p>
+					<p class="content__list-item"><i class="fas fa-check-circle"></i>&nbsp;&nbsp;Veg Meal	<br /></p>
+					<p class="content__list-item"><i class="fas fa-check-circle"></i>&nbsp;&nbsp;A professional, knowledgeable, certified Trippy Frog guide<br /></p>
+					<p class="content__list-item"><i class="fas fa-check-circle"></i>&nbsp;&nbsp;Emergency equipment including a company-issued first-aid kit	<br /></p>
+					<p class="content__list-item"><i class="fas fa-check-circle"></i>&nbsp;&nbsp;Forest Permits and camping charges <br /></p>
+
+				</div>
+
+				
+				
+				<!-- What We Don't Provide -->
+				<div class="trek--section" style="text-align: left;">
+					<h2 class="content__sub-title" style="padding-bottom: 0;"><i class="fas fa-times"></i>&nbsp;What's Not Included</h2>
+					<p class="content__list-item"><i class="fas fa-times-circle"></i>&nbsp;&nbsp;All The Thing That Are Not Mentioned In Including Section<br /></p>
+					<p class="content__list-item"><i class="fas fa-times-circle"></i>&nbsp;&nbsp;Personal Porters for carrying trekker’s backpacks<br /></p>
+					<p class="content__list-item" style="text-indent: 2em; padding-top: 1em;">
+
+					</p>
+				</div>
+				
+
+				<!-- Things To Pack -->
+				<div class="trek--section list-light" style="text-align: left;">
+					<h2 class="content__sub-title" style="padding-bottom: 0;"><i class="fas fa-suitcase"></i>&nbsp;Things To Pack</h2>
+
+					<p class="content__list-item"><i class="fas fa-angle-right"></i>&nbsp;&nbsp;<span style="font-weight: bold;">Trekking Shoes: </span>You need good trekking shoes with good grip &amp; ankle support. Do not carry sport shoes.<br /></p>
+					<p class="content__list-item"><i class="fas fa-angle-right"></i>&nbsp;&nbsp;<span style="font-weight: bold;">Clothing: </span>You need to have warm clothes with three-layer jackets, fleece or down feather jacket. Carry 1 or 2 full sleeves t-shirt. For lowers carry cotton pants suitable for trek. Do no carry jeans or shorts for trekking.<br /></p>
+					<p class="content__list-item"><i class="fas fa-angle-right"></i>&nbsp;&nbsp;<span style="font-weight: bold;">Thermals: </span>Carry top and bottom thermals.<br /></p>
+					<p class="content__list-item"><i class="fas fa-angle-right"></i>&nbsp;&nbsp;<span style="font-weight: bold;">Socks: </span>Carry 2 - 3 pair of sports socks along with woolen socks to be worn at night.<br /></p>
+					<p class="content__list-item"><i class="fas fa-angle-right"></i>&nbsp;&nbsp;Headlamp/Led Torch are mandatory.<br /></p>
+					<p class="content__list-item"><i class="fas fa-angle-right"></i>&nbsp;&nbsp;<span style="font-weight: bold;">Sunglasses: </span>To protect from sunlight in snow you require UV rays protected sunglasses.<br /></p>
+					<p class="content__list-item"><i class="fas fa-angle-right"></i>&nbsp;&nbsp;Woolen Cap and Gloves are also necessary as the climate will be cold. Carry waterproof gloves as they get wet in snow.<br /></p>
+					<p class="content__list-item"><i class="fas fa-angle-right"></i>&nbsp;&nbsp;<span style="font-weight: bold;">Lunchbox &amp; Water bottle: </span>Every participant should carry lunch box and water bottle of their own.<br /></p>
+					<p class="content__list-item"><i class="fas fa-angle-right"></i>&nbsp;&nbsp;Sunscreen, Toiletries and personal items.<br /></p>
+					<p class="content__list-item"><i class="fas fa-angle-right"></i>&nbsp;&nbsp;<span style="font-weight: bold;">Raincoat/Ponchos: </span>At high altitudes, snowfall and rain are quite common and it’s mandatory to carry a poncho so that one doesn’t get wet.<br /></p>
+					<p class="content__list-item" style="text-indent: 2em; padding-top: 1em;">
+
+					</p>
+				</div>
+
+				
+				<!-- Mandatory Documents -->
+				<div class="trek--section" style="text-align: left;">
+					<h2 class="content__sub-title" style="padding-bottom: 0;"><i class="far fa-file-alt"></i>&nbsp;Mandatory Documents</h2>
+					<p class="content__list-item"><i class="far fa-list-alt"></i>&nbsp;&nbsp;Identification document<br /></p>
+					<p class="content__list-item"><i class="far fa-list-alt"></i>&nbsp;&nbsp;Trek Registration Form<br /></p>
+					<p class="content__list-item"><i class="far fa-list-alt"></i>&nbsp;&nbsp;Medical Certificate<br /></p>
+					<p class="content__list-item" style="text-indent: 2em; padding-top: 1em;"></p>
+				</div>
+
+			</div>
+				
+			<!-- Note -->	
+			<div class="row row--padding-medium" style="margin: 1em 0; border: 1px solid #cacaca; border-left: 0; border-right: 0;">
+				<p class="content__pg" style="clear: both; padding-bottom: 0em; background: red;"><strong style="font-weight: bold; color: #fff;padding-left: 1.5em;">NOTE <i class="fas fa-bullhorn"></i> </strong></p><br />
+				<ul class="content__list">
+					<li class="content__list-item">
+						Please be sure of the risks included in the adventure
+					</li>
+					<li class="content__list-item">
+						Before undertaking the trek, consult a physician.
+					</li>
+				</ul>
+			</div>
+    	</div>
+
 	</div>
 	
+	<!--SideBar-->
 	<div class="content__right" id="scroll-to">
 		<div class="floater">
-				<span class="priceTag">FROM Rs.<!--<i class="fa fa-rupee-sign"></i>-->{{ page.price }}</span>
+				<span class="priceTag">FROM Rs.<!--<i class="fa fa-rupee-sign"></i>-->{{ trek.price }}</span>
 				<button class="book_btn" onclick="imPop();" type="submit" style="width: 100%;  font-size: 1.5em; box-shadow: 0 0 13px #2f2f2f; border-radius: 360px;">BOOK NOW</button>
 				<br /><br />
 				<button class="book_btn enquiry" onclick="javascript:alert('Contact Form NOT Found!');" type="submit" style="width: 100%;  font-size: 1.5em; border-radius: 360px;">ENQUIRY</button>
 				<br /><br />
-<!--				<span class="trek-slide--price trek-price" style="position: static; width:100%; padding: 1em; background: ffd600; font-size: 1.2em; font-family: 'ANTON', sans-serif;"><span>ENQUIRY</span></span>-->
 		</div>
 	</div>
 </div>
-
+			
+			
+<!-- Related Treks - Slider -->
 {% if page.disableRelTrek != 'yes' %}
 <div class="row content" style="padding: 0 0 4em 0;">
 	<h1 class="content__sub-title content__title-white no-underline" style="margin-bottom: 0; color: #333;">Related Treks</h1>
@@ -212,29 +391,10 @@ tags : "Trekkings,HimachalPradesh"
 {% endif %}
 
 
-<script>
-
-	//Accordion - all open at a Time
-	var acc = document.getElementsByClassName("accordion");
-	var i;
-
-	for (i = 0; i < acc.length; i++) {
-	  acc[i].addEventListener("click", function() {
-		this.classList.toggle("active");
-		var panel = this.nextElementSibling;
-		if (panel.style.maxHeight){
-		  panel.style.maxHeight = null;
-		} else {
-		  panel.style.maxHeight = panel.scrollHeight + "px";
-		}
-	  });
-	}
-</script>
-
 <!--<script src="https://js.instamojo.com/v1/button.js"></script>-->
 <script src="https://js.instamojo.com/v1/checkout.js"></script>
 <script>
 	function imPop(){
-		Instamojo.open('{{ page.bookLink}}');
+		Instamojo.open('{{ trek.bookLink}}');
 	}
 </script>

@@ -262,17 +262,17 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 			{
 				id : 16,
-				name : 'Dehana Sar Lake Trek',
-				img : 'assets/css/images/treks/dehana_sar_min.jpg',
+				name : 'Dehnasar Lake Trek',
+				img : 'assets/css/images/treks/dehnasar_lake_min.jpg',
 				price : 10000.00,
 				prodType : 'trekking',
-				descShort : 'Dehana Sar A high altitude alpine lake situated deep inside the snow caped mountains Of Lugvalley . Lugvalley is beautiful village just 20 km from kullu town .The village has a beautiful landscape with never-ending shades of greenery all around the village. ',
-				descPartOne : 'Dehana Sar A high altitude alpine lake situated deep inside the snow caped mountains Of Lugvalley . Lugvalley is beautiful village just 20 km from kullu town .The village has a beautiful landscape with never-ending shades of greenery all around the village. ',
-				descPartTwo : 'Dehana Sar A high altitude alpine lake situated deep inside the snow caped mountains Of Lugvalley . Lugvalley is beautiful village just 20 km from kullu town .The village has a beautiful landscape with never-ending shades of greenery all around the village. ',
+				descShort : 'Dehnasar A high altitude alpine lake situated deep inside the snow caped mountains Of Lugvalley . Lugvalley is beautiful village just 20 km from kullu town .The village has a beautiful landscape with never-ending shades of greenery all around the village. ',
+				descPartOne : 'Dehnasar A high altitude alpine lake situated deep inside the snow caped mountains Of Lugvalley . Lugvalley is beautiful village just 20 km from kullu town .The village has a beautiful landscape with never-ending shades of greenery all around the village. ',
+				descPartTwo : 'Dehnasar A high altitude alpine lake situated deep inside the snow caped mountains Of Lugvalley . Lugvalley is beautiful village just 20 km from kullu town .The village has a beautiful landscape with never-ending shades of greenery all around the village. ',
 				stock : 1,
 				days : 3,
 				nights: 2,
-				urlName : 'dehana-sar-lake-trek'
+				urlName : 'dehnasar-lake-trek'
 			},
 			{
 				id : 17,
@@ -577,7 +577,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				if(products[i].stock > 0){
 					content+= '<div class="row row--padding-medium">'
 					content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
-					content+= '<a href="/activities/trekking/'+ products[i].urlName +'" class="wopper wopper--trek" style="display: flex; justify-content: center; background-image: url(\'/'+products[i].img+'\')>'
+					content+= '<a href="/activities/trekking/'+ products[i].urlName +'" class="wopper wopper--trek" style="display: flex; justify-content: center; background-image: url(\'/'+products[i].img+'\')">'
 					content+= '<span class="banner__overlay">'
 					content+= '</span>'
 					content+= '<span class="trek__title">'
