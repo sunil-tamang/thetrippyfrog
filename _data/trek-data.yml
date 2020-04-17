@@ -9,7 +9,6 @@ beas-kund:
     grade: "Moderate"
     accomodation: "Tent"
     groupSize: "10"
-    minAge: "12+"
     popular: "Y"
     price: "8500"
     bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-9f378/"
@@ -35,41 +34,6 @@ beas-kund:
     - title: "DAY 3 - BAKARTATCH - SOLANGNALA - MANALI"
       content: "On last day we head back to Dundhi camp site from the same route through which we came to top & drive to Manali."
 
-
-# Bhabha Pass Trek
-bhabha-pass:
-    name: "Bhabha Pass Trek"
-    days: "3"
-    nights: "2"
-    altitude: "12,467"
-    grade: "Moderate"
-    accomodation: "Tent"
-    groupSize: "10"
-    minAge: "12+"
-    popular: "Y"
-    price: "8500"
-    bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-9f378/"
-
-    description: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
-
-    excerpt: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
-
-    overview: 
-
-    - content: "Beas Kund is the origin of mighty Beas river. It's a beautiful glacial lake forming the beas river which gives life to millions of people in the Himalayas. Some mythology says that the great sage Vyasa used to take bath in Beas Kund and that's why this lake is named after him. This lake is 3700m above sea level. Trek to Beas Kund is moderate in difficulty with rocky trails and meadows land. Most of the trekkers find it as one of the easiest trek. Beas Kund offers you the panoramic view of the greatest summit like Hanuman Tibba , Shitidhar, Seven Sisters, and the Friendship Peak. The best time to visit this holy lake is during the summer season from mid-April to June."
-
-    - content: "It's a three day trek packed with adventures like you have never faced before. Mountains covered with green sheet and white Beas river carving the mountain and sheep grazing in meadows land forms the perfect landscape which you can never forget. For next 3 days you will live under the roof of tents, in the lap of mountains, in safe hands of professional guides of The Trippy Frog community."
-    
-    itinerary:
-
-    - title: "DAY 1 - MANALI - DUNDHI - BAKARTATCH"
-      content: "Early morning, we meet up at Manali bus stand/mall road and drive to Dundhi camp-site via Solang valley and start trek of 4 Kms. to Bakartatch camp-site and stay overnight."
-
-    - title: "DAY 2 - BAKARTATCH - BEAS KUND - BAKARTATCH"
-      content: "Next morning after breakfast we start walking towards the source of Beas river . It will take 3 to 4 hours to reach at beas kund . Beas kund plays the roll of base camp for high altitude summit's like Friendship Peak and Shetidhar. We can also see the peaks peer panjaal range and seven sister from top. After lunch and some selfies with your mate or friend we trek back to bakartatch camp site & camp overnight"
-
-    - title: "DAY 3 - BAKARTATCH - SOLANGNALA - MANALI"
-      content: "On last day we head back to Dundhi camp site from the same route through which we came to top & drive to Manali."
 
 
 # Bhrigu Lake Trek
@@ -77,73 +41,70 @@ bhrigu-lake:
     name: "Bhrigu Lake Trek"
     days: "3"
     nights: "2"
-    altitude: "12,467"
+    altitude: "14,107"
     grade: "Moderate"
     accomodation: "Tent"
     groupSize: "10"
-    minAge: "12+"
     popular: "Y"
-    price: "8500"
-    bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-9f378/"
+    price: "7500"
+    bookLink: "https://www.instamojo.com/thetrippyfrog/bhrigu-lake-trek-a3d89/"
 
-    description: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    description: "Brighu lake is an high altitude alpine lake near manali town at altitude of 14,009 ft .it is one of the most beautiful lake named after saint maharishi bhrigu one of the seven great sages of hindu puranas"
 
-    excerpt: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    excerpt: "Brighu lake is an high altitude alpine lake near manali town at altitude of 14,009 ft .it is one of the most beautiful lake named after saint maharishi bhrigu one of the seven great sages of hindu puranas"
 
     overview: 
 
-    - content: "Beas Kund is the origin of mighty Beas river. It's a beautiful glacial lake forming the beas river which gives life to millions of people in the Himalayas. Some mythology says that the great sage Vyasa used to take bath in Beas Kund and that's why this lake is named after him. This lake is 3700m above sea level. Trek to Beas Kund is moderate in difficulty with rocky trails and meadows land. Most of the trekkers find it as one of the easiest trek. Beas Kund offers you the panoramic view of the greatest summit like Hanuman Tibba , Shitidhar, Seven Sisters, and the Friendship Peak. The best time to visit this holy lake is during the summer season from mid-April to June."
+    - content: "Brighu lake is an high altitude alpine lake near manali town at altitude of 14,009 ft .it is one of the most beautiful lake named after saint maharishi bhrigu one of the seven great sages of hindu puranas."
 
-    - content: "It's a three day trek packed with adventures like you have never faced before. Mountains covered with green sheet and white Beas river carving the mountain and sheep grazing in meadows land forms the perfect landscape which you can never forget. For next 3 days you will live under the roof of tents, in the lap of mountains, in safe hands of professional guides of The Trippy Frog community."
-    
+    - content: "The trail goes through the pine cone & deodar tree froest to the lush green meadows of rola kholi camp. Brighu lake provides the panaromic view of summits like friendship peak, Hanuman Tibaa and Dhauladhar range. It's a 3 day easy trek to the beautiul lake lying on top of himalayas."
+
     itinerary:
 
-    - title: "DAY 1 - MANALI - DUNDHI - BAKARTATCH"
-      content: "Early morning, we meet up at Manali bus stand/mall road and drive to Dundhi camp-site via Solang valley and start trek of 4 Kms. to Bakartatch camp-site and stay overnight."
+    - title: "Day 1 - Report at Himalayan Frontiers Campsite in old Manali & Drive till Kulung & Trek to Moridugh (2850m/ 4-5 hrs)"
+      content: ""
 
-    - title: "DAY 2 - BAKARTATCH - BEAS KUND - BAKARTATCH"
-      content: "Next morning after breakfast we start walking towards the source of Beas river . It will take 3 to 4 hours to reach at beas kund . Beas kund plays the roll of base camp for high altitude summit's like Friendship Peak and Shetidhar. We can also see the peaks peer panjaal range and seven sister from top. After lunch and some selfies with your mate or friend we trek back to bakartatch camp site & camp overnight"
+    - title: "DAY 2 - Moridugh- Bhrigu Lake & Back to Moridugh (8-10 hrs)"
+      content: ""
 
-    - title: "DAY 3 - BAKARTATCH - SOLANGNALA - MANALI"
-      content: "On last day we head back to Dundhi camp site from the same route through which we came to top & drive to Manali."
+    - title: "DAY 2 - LamaDugh to Manali"
+      content: ""
 
 
 
 
 # Chandrakhani Trek
-chandrakhani:
-    name: "Chandrakhani Trek"
+chandrakhani-pass:
+    name: "Chandrakhani Pass Trek"
     days: "3"
     nights: "2"
-    altitude: "12,467"
+    altitude: "12,007"
     grade: "Moderate"
     accomodation: "Tent"
     groupSize: "10"
-    minAge: "12+"
     popular: "Y"
-    price: "8500"
-    bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-9f378/"
+    price: "8000"
+    bookLink: "https://www.instamojo.com/thetrippyfrog/chandrakhani-trek/"
 
-    description: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    description: "Chandrakhani pass is a beautiful &amp; calm pass at an altitude of 12,007 Ft. located in Kullu valley of Himachal Pradesh. The top of Chandrakhani pass offers the fabulous  view of Deo Tibba, Pir Panjal and Parvati valley."
 
-    excerpt: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    excerpt: "Chandrakhani pass is a beautiful &amp; calm pass at an altitude of 12,007 Ft. located in Kullu valley of Himachal Pradesh. The top of Chandrakhani pass offers the fabulous  view of Deo Tibba, Pir Panjal and Parvati valley."
 
     overview: 
 
-    - content: "Beas Kund is the origin of mighty Beas river. It's a beautiful glacial lake forming the beas river which gives life to millions of people in the Himalayas. Some mythology says that the great sage Vyasa used to take bath in Beas Kund and that's why this lake is named after him. This lake is 3700m above sea level. Trek to Beas Kund is moderate in difficulty with rocky trails and meadows land. Most of the trekkers find it as one of the easiest trek. Beas Kund offers you the panoramic view of the greatest summit like Hanuman Tibba , Shitidhar, Seven Sisters, and the Friendship Peak. The best time to visit this holy lake is during the summer season from mid-April to June."
+    - content: "Chandrakhani pass is a beautiful & calm pass at altitude of 12,007 Ft located in kullu valley of Himachal Pradesh . the top of ChandraKhani pass offers the fabulous view of Deo Tibba , Pir Panjal and Parvati valley. The trek starts from the heritage village Naggar, 21 KM from Manali town. Naggar is an ancient place which was once the capital of Kullu Kingdom."
 
-    - content: "It's a three day trek packed with adventures like you have never faced before. Mountains covered with green sheet and white Beas river carving the mountain and sheep grazing in meadows land forms the perfect landscape which you can never forget. For next 3 days you will live under the roof of tents, in the lap of mountains, in safe hands of professional guides of The Trippy Frog community."
-    
+
     itinerary:
 
-    - title: "DAY 1 - MANALI - DUNDHI - BAKARTATCH"
-      content: "Early morning, we meet up at Manali bus stand/mall road and drive to Dundhi camp-site via Solang valley and start trek of 4 Kms. to Bakartatch camp-site and stay overnight."
+    - title: "DAY 1 -Patlikuhl -Rumsu- Naya Thapru"
+      content: ""
 
-    - title: "DAY 2 - BAKARTATCH - BEAS KUND - BAKARTATCH"
-      content: "Next morning after breakfast we start walking towards the source of Beas river . It will take 3 to 4 hours to reach at beas kund . Beas kund plays the roll of base camp for high altitude summit's like Friendship Peak and Shetidhar. We can also see the peaks peer panjaal range and seven sister from top. After lunch and some selfies with your mate or friend we trek back to bakartatch camp site & camp overnight"
+    - title: "DAY 2 - Naya Thapru - Chandrakhani Pass - Base of Chandrakhani Pass"
+      content: ""
 
-    - title: "DAY 3 - BAKARTATCH - SOLANGNALA - MANALI"
-      content: "On last day we head back to Dundhi camp site from the same route through which we came to top & drive to Manali."
+    - title: "DAY 3 -  Base of Chandrakhani Pass - Rumsu"
+      content: ""
 
 
 
@@ -152,35 +113,33 @@ dehnasar-lake:
     name: "Dehnasar Lake Trek"
     days: "3"
     nights: "2"
-    altitude: "12,467"
-    grade: "Moderate"
+    altitude: "14,040"
+    grade: "Difficult"
     accomodation: "Tent"
     groupSize: "10"
-    minAge: "12+"
     popular: "Y"
-    price: "8500"
-    bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-9f378/"
+    price: "10000"
+    bookLink: "https://www.instamojo.com/thetrippyfrog/dehana-sar-trek/"
 
-    description: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    description: "Dehna-sar a high altitude alpine lake situated deep inside the snow caped mountains of Lug valley, a beautiful village just 20 km from Kullu town."
 
-    excerpt: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    excerpt: "Dehna-sar a high altitude alpine lake situated deep inside the snow caped mountains of Lug valley, a beautiful village just 20 km from Kullu town."
 
     overview: 
 
-    - content: "Beas Kund is the origin of mighty Beas river. It's a beautiful glacial lake forming the beas river which gives life to millions of people in the Himalayas. Some mythology says that the great sage Vyasa used to take bath in Beas Kund and that's why this lake is named after him. This lake is 3700m above sea level. Trek to Beas Kund is moderate in difficulty with rocky trails and meadows land. Most of the trekkers find it as one of the easiest trek. Beas Kund offers you the panoramic view of the greatest summit like Hanuman Tibba , Shitidhar, Seven Sisters, and the Friendship Peak. The best time to visit this holy lake is during the summer season from mid-April to June."
+    - content: "Dehana sar a high altitude alpine lake situated deep inside the snow caped mountains of Lug valley, a beautiful village just 20 km from Kullu town. The village has a beautiful landscape with never-ending shades of greenery all around the village. The villagers are also too kind and peaceful and always ready to help hand to the people in need. The trail is moderate to climb and requires good level of fitness & health. The journey to this amazing lake is full of thril & adventure as we will walk through the alpine meadows & high altitude mountain peaks and spot some wildlife animals if we were lucky enough."
 
-    - content: "It's a three day trek packed with adventures like you have never faced before. Mountains covered with green sheet and white Beas river carving the mountain and sheep grazing in meadows land forms the perfect landscape which you can never forget. For next 3 days you will live under the roof of tents, in the lap of mountains, in safe hands of professional guides of The Trippy Frog community."
-    
+
     itinerary:
 
-    - title: "DAY 1 - MANALI - DUNDHI - BAKARTATCH"
-      content: "Early morning, we meet up at Manali bus stand/mall road and drive to Dundhi camp-site via Solang valley and start trek of 4 Kms. to Bakartatch camp-site and stay overnight."
+    - title: "DAY 1 - "
+      content: ""
 
-    - title: "DAY 2 - BAKARTATCH - BEAS KUND - BAKARTATCH"
-      content: "Next morning after breakfast we start walking towards the source of Beas river . It will take 3 to 4 hours to reach at beas kund . Beas kund plays the roll of base camp for high altitude summit's like Friendship Peak and Shetidhar. We can also see the peaks peer panjaal range and seven sister from top. After lunch and some selfies with your mate or friend we trek back to bakartatch camp site & camp overnight"
+    - title: "DAY 2 - "
+      content: ""
 
-    - title: "DAY 3 - BAKARTATCH - SOLANGNALA - MANALI"
-      content: "On last day we head back to Dundhi camp site from the same route through which we came to top & drive to Manali."
+    - title: "DAY 3 - "
+      content: ""
 
 
 
@@ -188,75 +147,38 @@ dehnasar-lake:
 # Deo-Tibba Base Camp Trek
 deo-tibba-base-camp:
     name: "Deo-Tibba Base Camp Trek"
-    days: "3"
-    nights: "2"
-    altitude: "12,467"
-    grade: "Moderate"
+    days: "6"
+    nights: "5"
+    altitude: "20,013"
+    grade: "Difficult"
     accomodation: "Tent"
     groupSize: "10"
-    minAge: "12+"
     popular: "Y"
-    price: "8500"
-    bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-9f378/"
+    price: "15500"
+    bookLink: "https://www.instamojo.com/thetrippyfrog/deo-tibba-base-camp-trek-30b0c/"
 
-    description: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    description: "Deo Tibba peak is one of the highest mountain peaks in Kullu valley also known as the Throne of Gods at altitude of 20,013 Ft"
 
-    excerpt: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    excerpt: "Deo Tibba peak is one of the highest mountain peaks in Kullu valley also known as the Throne of Gods at altitude of 20,013 Ft"
 
     overview: 
 
-    - content: "Beas Kund is the origin of mighty Beas river. It's a beautiful glacial lake forming the beas river which gives life to millions of people in the Himalayas. Some mythology says that the great sage Vyasa used to take bath in Beas Kund and that's why this lake is named after him. This lake is 3700m above sea level. Trek to Beas Kund is moderate in difficulty with rocky trails and meadows land. Most of the trekkers find it as one of the easiest trek. Beas Kund offers you the panoramic view of the greatest summit like Hanuman Tibba , Shitidhar, Seven Sisters, and the Friendship Peak. The best time to visit this holy lake is during the summer season from mid-April to June."
+    - content: "Deo Tibba peak is one of the highest mountain peaks in kullu valley also known as the 'Throne of Gods' at altitude of 20,013 Ft. Trek to the base camp of Deo Tibba peak is the most popular trek among trekkers around the world for its mesmerizing and breathtaking beauty of landscapes ranging from alpine Lakes, Meadows and dense forest. This trek provides the panaromic view of Deo Tibba Peak and Indrasane Peak."
 
-    - content: "It's a three day trek packed with adventures like you have never faced before. Mountains covered with green sheet and white Beas river carving the mountain and sheep grazing in meadows land forms the perfect landscape which you can never forget. For next 3 days you will live under the roof of tents, in the lap of mountains, in safe hands of professional guides of The Trippy Frog community."
-    
+
     itinerary:
 
-    - title: "DAY 1 - MANALI - DUNDHI - BAKARTATCH"
-      content: "Early morning, we meet up at Manali bus stand/mall road and drive to Dundhi camp-site via Solang valley and start trek of 4 Kms. to Bakartatch camp-site and stay overnight."
+    - title: "DAY 1 - Manali - Khanol  - Chikka"
+      content: ""
 
-    - title: "DAY 2 - BAKARTATCH - BEAS KUND - BAKARTATCH"
-      content: "Next morning after breakfast we start walking towards the source of Beas river . It will take 3 to 4 hours to reach at beas kund . Beas kund plays the roll of base camp for high altitude summit's like Friendship Peak and Shetidhar. We can also see the peaks peer panjaal range and seven sister from top. After lunch and some selfies with your mate or friend we trek back to bakartatch camp site & camp overnight"
+    - title: "DAY 2 - Chikka  - Seri"
+      content: ""
 
-    - title: "DAY 3 - BAKARTATCH - SOLANGNALA - MANALI"
-      content: "On last day we head back to Dundhi camp site from the same route through which we came to top & drive to Manali."
+    - title: "DAY 3 - Seri - Tainta"
+      content: ""
 
-
-
-
-# Friendship Peak Trek
-friendship-peak:
-    name: "Friendship Peak Trek"
-    days: "3"
-    nights: "2"
-    altitude: "12,467"
-    grade: "Moderate"
-    accomodation: "Tent"
-    groupSize: "10"
-    minAge: "12+"
-    popular: "Y"
-    price: "8500"
-    bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-9f378/"
-
-    description: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
-
-    excerpt: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
-
-    overview: 
-
-    - content: "Beas Kund is the origin of mighty Beas river. It's a beautiful glacial lake forming the beas river which gives life to millions of people in the Himalayas. Some mythology says that the great sage Vyasa used to take bath in Beas Kund and that's why this lake is named after him. This lake is 3700m above sea level. Trek to Beas Kund is moderate in difficulty with rocky trails and meadows land. Most of the trekkers find it as one of the easiest trek. Beas Kund offers you the panoramic view of the greatest summit like Hanuman Tibba , Shitidhar, Seven Sisters, and the Friendship Peak. The best time to visit this holy lake is during the summer season from mid-April to June."
-
-    - content: "It's a three day trek packed with adventures like you have never faced before. Mountains covered with green sheet and white Beas river carving the mountain and sheep grazing in meadows land forms the perfect landscape which you can never forget. For next 3 days you will live under the roof of tents, in the lap of mountains, in safe hands of professional guides of The Trippy Frog community."
-    
-    itinerary:
-
-    - title: "DAY 1 - MANALI - DUNDHI - BAKARTATCH"
-      content: "Early morning, we meet up at Manali bus stand/mall road and drive to Dundhi camp-site via Solang valley and start trek of 4 Kms. to Bakartatch camp-site and stay overnight."
-
-    - title: "DAY 2 - BAKARTATCH - BEAS KUND - BAKARTATCH"
-      content: "Next morning after breakfast we start walking towards the source of Beas river . It will take 3 to 4 hours to reach at beas kund . Beas kund plays the roll of base camp for high altitude summit's like Friendship Peak and Shetidhar. We can also see the peaks peer panjaal range and seven sister from top. After lunch and some selfies with your mate or friend we trek back to bakartatch camp site & camp overnight"
-
-    - title: "DAY 3 - BAKARTATCH - SOLANGNALA - MANALI"
-      content: "On last day we head back to Dundhi camp site from the same route through which we came to top & drive to Manali."
+    - title: "DAY 4 - Tainta - Mini Chandratal - Tainta"
+      content: ""
 
 
 
@@ -266,35 +188,33 @@ fungni-top:
     name: "Fungni Top Trek"
     days: "3"
     nights: "2"
-    altitude: "12,467"
+    altitude: "8,500"
     grade: "Moderate"
     accomodation: "Tent"
     groupSize: "10"
-    minAge: "12+"
     popular: "Y"
-    price: "8500"
-    bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-9f378/"
+    price: "6000"
+    bookLink: "https://www.instamojo.com/thetrippyfrog/fungni-top-trek/"
 
-    description: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    description: "Fungni top is one of the most sacred and beautiful virgin trek which only a few trekkers have explored. Locals have named this mountain after Goddess Fungani, who they believe resides at the top of this mountain."
 
-    excerpt: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    excerpt: "Fungni top is one of the most sacred and beautiful virgin trek which only a few trekkers have explored. Locals have named this mountain after Goddess Fungani, who they believe resides at the top of this mountain."
 
     overview: 
 
-    - content: "Beas Kund is the origin of mighty Beas river. It's a beautiful glacial lake forming the beas river which gives life to millions of people in the Himalayas. Some mythology says that the great sage Vyasa used to take bath in Beas Kund and that's why this lake is named after him. This lake is 3700m above sea level. Trek to Beas Kund is moderate in difficulty with rocky trails and meadows land. Most of the trekkers find it as one of the easiest trek. Beas Kund offers you the panoramic view of the greatest summit like Hanuman Tibba , Shitidhar, Seven Sisters, and the Friendship Peak. The best time to visit this holy lake is during the summer season from mid-April to June."
+    - content: "Fungni top is one of the most sacred and beautiful virgin trek which only a few trekkers have explored. Locals have named this mountain after Goddess Fungani, who they believe resides at the top of this mountain. The trek starts from Jalora village, near Raison, which is around 25km from Manali tow. The trails passes through the dense forest and green meadows. Once you reach the top you can see the mountains of Parvati valley and Dhauladhar range "
 
-    - content: "It's a three day trek packed with adventures like you have never faced before. Mountains covered with green sheet and white Beas river carving the mountain and sheep grazing in meadows land forms the perfect landscape which you can never forget. For next 3 days you will live under the roof of tents, in the lap of mountains, in safe hands of professional guides of The Trippy Frog community."
-    
+
     itinerary:
 
-    - title: "DAY 1 - MANALI - DUNDHI - BAKARTATCH"
-      content: "Early morning, we meet up at Manali bus stand/mall road and drive to Dundhi camp-site via Solang valley and start trek of 4 Kms. to Bakartatch camp-site and stay overnight."
+    - title: "DAY 1 - Raison To Jallohra To Kufri"
+      content: ""
 
-    - title: "DAY 2 - BAKARTATCH - BEAS KUND - BAKARTATCH"
-      content: "Next morning after breakfast we start walking towards the source of Beas river . It will take 3 to 4 hours to reach at beas kund . Beas kund plays the roll of base camp for high altitude summit's like Friendship Peak and Shetidhar. We can also see the peaks peer panjaal range and seven sister from top. After lunch and some selfies with your mate or friend we trek back to bakartatch camp site & camp overnight"
+    - title: "DAY 2 - Kufri To Maleeng Top To Fungani Top. Back To Kufri"
+      content: ""
 
-    - title: "DAY 3 - BAKARTATCH - SOLANGNALA - MANALI"
-      content: "On last day we head back to Dundhi camp site from the same route through which we came to top & drive to Manali."
+    - title: "DAY 3 - Kufri To Jallohra To Raison"
+      content: ""
 
 
 
@@ -307,7 +227,6 @@ hampta-pass:
     grade: "Moderate"
     accomodation: "Tent"
     groupSize: "10"
-    minAge: "12+"
     popular: "Y"
     price: "8500"
     bookLink: "https://www.instamojo.com/thetrippyfrog/hampta-pass-trek-a2d3c/"
@@ -342,73 +261,34 @@ kais-dhar:
     name: "Kais Dhar Trek"
     days: "3"
     nights: "2"
-    altitude: "12,467"
+    altitude: "8,500"
     grade: "Moderate"
     accomodation: "Tent"
     groupSize: "10"
-    minAge: "12+"
     popular: "Y"
-    price: "8500"
-    bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-9f378/"
+    price: "7500"
+    bookLink: "https://www.instamojo.com/thetrippyfrog/kais-dhar-trek/"
 
-    description: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    description: "Kais Dhar is an extremly beautiful place, with grassy meadows and densely forested mountains just 10 km from Kullu town. It is one of the most beautiful and virgin place in Kullu-Manali, most of the times visited by locals for grazing thier cattles."
 
-    excerpt: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    excerpt: "Kais Dhar is an extremly beautiful place, with grassy meadows and densely forested mountains just 10 km from Kullu town. It is one of the most beautiful and virgin place in Kullu-Manali, most of the times visited by locals for grazing thier cattles."
 
     overview: 
 
-    - content: "Beas Kund is the origin of mighty Beas river. It's a beautiful glacial lake forming the beas river which gives life to millions of people in the Himalayas. Some mythology says that the great sage Vyasa used to take bath in Beas Kund and that's why this lake is named after him. This lake is 3700m above sea level. Trek to Beas Kund is moderate in difficulty with rocky trails and meadows land. Most of the trekkers find it as one of the easiest trek. Beas Kund offers you the panoramic view of the greatest summit like Hanuman Tibba , Shitidhar, Seven Sisters, and the Friendship Peak. The best time to visit this holy lake is during the summer season from mid-April to June."
+    - content: "Kais Dhar is an extremly beautiful place, with grassy meadows and densely forested mountains just 10 km from Kullu town. It is one of the most beautiful and virgin place in Kullu-Manali, most of the times visited by locals for grazing thier cattles."
 
-    - content: "It's a three day trek packed with adventures like you have never faced before. Mountains covered with green sheet and white Beas river carving the mountain and sheep grazing in meadows land forms the perfect landscape which you can never forget. For next 3 days you will live under the roof of tents, in the lap of mountains, in safe hands of professional guides of The Trippy Frog community."
+    - content: "The place provides a splendid panoramic view of the Kullu valley. At Kais Dhar, a beautiul rest house build by britishers, who used to live their for relaxation. The trekking route passes through the beautiful vilage of Lug valley to the forested mountains."
     
     itinerary:
 
-    - title: "DAY 1 - MANALI - DUNDHI - BAKARTATCH"
-      content: "Early morning, we meet up at Manali bus stand/mall road and drive to Dundhi camp-site via Solang valley and start trek of 4 Kms. to Bakartatch camp-site and stay overnight."
+    - title: "DAY 1 - Kullu - Lugvalley - Kais Dhar"
+      content: ""
 
-    - title: "DAY 2 - BAKARTATCH - BEAS KUND - BAKARTATCH"
-      content: "Next morning after breakfast we start walking towards the source of Beas river . It will take 3 to 4 hours to reach at beas kund . Beas kund plays the roll of base camp for high altitude summit's like Friendship Peak and Shetidhar. We can also see the peaks peer panjaal range and seven sister from top. After lunch and some selfies with your mate or friend we trek back to bakartatch camp site & camp overnight"
+    - title: "DAY 2 - Chill Out - Camp"
+      content: ""
 
-    - title: "DAY 3 - BAKARTATCH - SOLANGNALA - MANALI"
-      content: "On last day we head back to Dundhi camp site from the same route through which we came to top & drive to Manali."
-
-
-
-
-# Kanamo Peak Trek
-kanamo-peak:
-    name: "Kanamo Peak Trek"
-    days: "3"
-    nights: "2"
-    altitude: "12,467"
-    grade: "Moderate"
-    accomodation: "Tent"
-    groupSize: "10"
-    minAge: "12+"
-    popular: "Y"
-    price: "8500"
-    bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-9f378/"
-
-    description: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
-
-    excerpt: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
-
-    overview: 
-
-    - content: "Beas Kund is the origin of mighty Beas river. It's a beautiful glacial lake forming the beas river which gives life to millions of people in the Himalayas. Some mythology says that the great sage Vyasa used to take bath in Beas Kund and that's why this lake is named after him. This lake is 3700m above sea level. Trek to Beas Kund is moderate in difficulty with rocky trails and meadows land. Most of the trekkers find it as one of the easiest trek. Beas Kund offers you the panoramic view of the greatest summit like Hanuman Tibba , Shitidhar, Seven Sisters, and the Friendship Peak. The best time to visit this holy lake is during the summer season from mid-April to June."
-
-    - content: "It's a three day trek packed with adventures like you have never faced before. Mountains covered with green sheet and white Beas river carving the mountain and sheep grazing in meadows land forms the perfect landscape which you can never forget. For next 3 days you will live under the roof of tents, in the lap of mountains, in safe hands of professional guides of The Trippy Frog community."
-    
-    itinerary:
-
-    - title: "DAY 1 - MANALI - DUNDHI - BAKARTATCH"
-      content: "Early morning, we meet up at Manali bus stand/mall road and drive to Dundhi camp-site via Solang valley and start trek of 4 Kms. to Bakartatch camp-site and stay overnight."
-
-    - title: "DAY 2 - BAKARTATCH - BEAS KUND - BAKARTATCH"
-      content: "Next morning after breakfast we start walking towards the source of Beas river . It will take 3 to 4 hours to reach at beas kund . Beas kund plays the roll of base camp for high altitude summit's like Friendship Peak and Shetidhar. We can also see the peaks peer panjaal range and seven sister from top. After lunch and some selfies with your mate or friend we trek back to bakartatch camp site & camp overnight"
-
-    - title: "DAY 3 - BAKARTATCH - SOLANGNALA - MANALI"
-      content: "On last day we head back to Dundhi camp site from the same route through which we came to top & drive to Manali."
+    - title: "DAY 3 - Kais Dhar - Lugvalley - Kullu"
+      content: ""
 
 
 
@@ -418,36 +298,37 @@ kufri:
     name: "Kufri Trek"
     days: "3"
     nights: "2"
-    altitude: "12,467"
-    grade: "Moderate"
+    altitude: "3,500"
+    grade: "Easy"
     accomodation: "Tent"
     groupSize: "10"
-    minAge: "12+"
     popular: "Y"
-    price: "8500"
-    bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-9f378/"
+    price: "5000"
+    bookLink: "https://www.instamojo.com/thetrippyfrog/kufri-trek/"
 
-    description: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    description: "Kufri is one of the most beautiful and virgin place in the lap of Himalayas. Kufri trek was also our first ever trek, 5 friends on a quest to discover the nature's beauty which lies at top of the mountain."
 
-    excerpt: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    excerpt: "Kufri is one of the most beautiful and virgin place in the lap of Himalayas. Kufri trek was also our first ever trek, 5 friends on a quest to discover the nature's beauty which lies at top of the mountain."
 
     overview: 
 
-    - content: "Beas Kund is the origin of mighty Beas river. It's a beautiful glacial lake forming the beas river which gives life to millions of people in the Himalayas. Some mythology says that the great sage Vyasa used to take bath in Beas Kund and that's why this lake is named after him. This lake is 3700m above sea level. Trek to Beas Kund is moderate in difficulty with rocky trails and meadows land. Most of the trekkers find it as one of the easiest trek. Beas Kund offers you the panoramic view of the greatest summit like Hanuman Tibba , Shitidhar, Seven Sisters, and the Friendship Peak. The best time to visit this holy lake is during the summer season from mid-April to June."
+    - content: "Kufri is one of the most beautiful and virgin place in the lap of Himalayas. Kufri trek was also our first ever trek, 5 friends on a quest to discover the nature's beauty which lies at top of the mountain. Crossing the steep slopes, deodar jungle and lush meadows was the best experience that we have never imagined before. Sleeping inside sleeping bags in the middle of jungle was the best experience we ever had."
 
-    - content: "It's a three day trek packed with adventures like you have never faced before. Mountains covered with green sheet and white Beas river carving the mountain and sheep grazing in meadows land forms the perfect landscape which you can never forget. For next 3 days you will live under the roof of tents, in the lap of mountains, in safe hands of professional guides of The Trippy Frog community."
+    - content: "Kufri (not Shimla's Kufri) trek is one of the best short trek around Kullu-Manali valley with breathtaking view. It is the best destination for camping around Kullu-Manali. Summer season is the best season to do this trek, when the whole place is transformed into the lush green meadows "
     
     itinerary:
 
-    - title: "DAY 1 - MANALI - DUNDHI - BAKARTATCH"
-      content: "Early morning, we meet up at Manali bus stand/mall road and drive to Dundhi camp-site via Solang valley and start trek of 4 Kms. to Bakartatch camp-site and stay overnight."
+    - title: "Day 0 - Meet At Manali"
+      content: "Arrive at Manali & stay at hotel/guest house and take rest."
 
-    - title: "DAY 2 - BAKARTATCH - BEAS KUND - BAKARTATCH"
-      content: "Next morning after breakfast we start walking towards the source of Beas river . It will take 3 to 4 hours to reach at beas kund . Beas kund plays the roll of base camp for high altitude summit's like Friendship Peak and Shetidhar. We can also see the peaks peer panjaal range and seven sister from top. After lunch and some selfies with your mate or friend we trek back to bakartatch camp site & camp overnight"
+    - title: "DAY 1 - Raison - Jalora - Kufri"
+      content: "Early morning drive 25 km from manali to raison and take a link road to jalora vilage. From Jalora, we start our trek to Kufri following the trails made by locals through the deodar & pine cone forest. It takes around two and a half hour to reach Kufri. After reaching Kufri at around 2 pm, we'll take some rest and then pitch our camp & collect some water & woods to cook food for dinner."
 
-    - title: "DAY 3 - BAKARTATCH - SOLANGNALA - MANALI"
-      content: "On last day we head back to Dundhi camp site from the same route through which we came to top & drive to Manali."
+    - title: "DAY 2 - Chill & Camp"
+      content: "Second day starts with morning breakfast and warm coffee or tea. Today we have a whole day to explore the nearby spots around our camp. As you walk around camp you will see that every location offers different and magnificent view of mother nature. In winter season, the whole area is covered with 5 ft of snow  and in summer season this place is transformed into green land. Both season offers different experience and view."
 
+    - title: "DAY 3 - Kufri - Jalora - Raison"
+      content: "On day 3, we pack our camp essentials and decend back to Jalora vilage from the same route through which we arrived here. We will reach at 1:00 pm at raison and can take bus to Manali."
 
 
 
@@ -456,35 +337,33 @@ lamadugh:
     name: "Lamadugh Trek"
     days: "3"
     nights: "2"
-    altitude: "12,467"
-    grade: "Moderate"
+    altitude: "9,900"
+    grade: "Easy"
     accomodation: "Tent"
     groupSize: "10"
-    minAge: "12+"
     popular: "Y"
-    price: "8500"
-    bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-9f378/"
+    price: "5000"
+    bookLink: "https://www.instamojo.com/thetrippyfrog/lamadugh-trek/"
 
-    description: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    description: "Lamadugh is the perfect location for chill out and be out of the hustle-bustle of crowded Manali town. This place is 7 KM away from Manali. The trek starts from the ancient Hidimba Devi Temple to the thick forest of deo-dar and pine-cone trees."
 
-    excerpt: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    excerpt: "Lamadugh is the perfect location for chill out and be out of the hustle-bustle of crowded Manali town. This place is 7 KM away from Manali. The trek starts from the ancient Hidimba Devi Temple to the thick forest of deo-dar and pine-cone trees."
 
     overview: 
 
-    - content: "Beas Kund is the origin of mighty Beas river. It's a beautiful glacial lake forming the beas river which gives life to millions of people in the Himalayas. Some mythology says that the great sage Vyasa used to take bath in Beas Kund and that's why this lake is named after him. This lake is 3700m above sea level. Trek to Beas Kund is moderate in difficulty with rocky trails and meadows land. Most of the trekkers find it as one of the easiest trek. Beas Kund offers you the panoramic view of the greatest summit like Hanuman Tibba , Shitidhar, Seven Sisters, and the Friendship Peak. The best time to visit this holy lake is during the summer season from mid-April to June."
+    - content: "Lamadugh is the perfect location for chill out and be out of the hustle-bustle of crowded Manali town. This place is 7 KM away from Manali. The trek starts from the ancient Hidimba Devi Temple to the thick forest of deo-dar and pine-cone trees."
 
-    - content: "It's a three day trek packed with adventures like you have never faced before. Mountains covered with green sheet and white Beas river carving the mountain and sheep grazing in meadows land forms the perfect landscape which you can never forget. For next 3 days you will live under the roof of tents, in the lap of mountains, in safe hands of professional guides of The Trippy Frog community."
-    
+
     itinerary:
 
-    - title: "DAY 1 - MANALI - DUNDHI - BAKARTATCH"
-      content: "Early morning, we meet up at Manali bus stand/mall road and drive to Dundhi camp-site via Solang valley and start trek of 4 Kms. to Bakartatch camp-site and stay overnight."
+    - title: "Day 0 - Meet At Manali"
+      content: ""
 
-    - title: "DAY 2 - BAKARTATCH - BEAS KUND - BAKARTATCH"
-      content: "Next morning after breakfast we start walking towards the source of Beas river . It will take 3 to 4 hours to reach at beas kund . Beas kund plays the roll of base camp for high altitude summit's like Friendship Peak and Shetidhar. We can also see the peaks peer panjaal range and seven sister from top. After lunch and some selfies with your mate or friend we trek back to bakartatch camp site & camp overnight"
+    - title: "DAY 1 Manali to Lamadugh (Night Stay At camp)"
+      content: ""
 
-    - title: "DAY 3 - BAKARTATCH - SOLANGNALA - MANALI"
-      content: "On last day we head back to Dundhi camp site from the same route through which we came to top & drive to Manali."
+    - title: "DAY 2 - Lamadugh to Manali"
+      content: ""
 
 
 
@@ -492,37 +371,38 @@ lamadugh:
 # Malana Village Trek
 malana-village:
     name: "Malana Village Trek"
-    days: "3"
-    nights: "2"
-    altitude: "12,467"
+    days: "4"
+    nights: "3"
+    altitude: "8,701"
     grade: "Moderate"
     accomodation: "Tent"
     groupSize: "10"
-    minAge: "12+"
     popular: "Y"
-    price: "8500"
-    bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-9f378/"
+    price: "6500"
+    bookLink: "https://www.instamojo.com/thetrippyfrog/malana-village-trek/"
 
-    description: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    description: "Malana - The mysterious and beautiful village located in the mountains of Parvati Valley famous for its unique culture and the Marijuana (A.K.A. Malana Cream)."
 
-    excerpt: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    excerpt: "Malana - The mysterious and beautiful village located in the mountains of Parvati Valley famous for its unique culture and the Marijuana (A.K.A. Malana Cream)."
 
     overview: 
 
-    - content: "Beas Kund is the origin of mighty Beas river. It's a beautiful glacial lake forming the beas river which gives life to millions of people in the Himalayas. Some mythology says that the great sage Vyasa used to take bath in Beas Kund and that's why this lake is named after him. This lake is 3700m above sea level. Trek to Beas Kund is moderate in difficulty with rocky trails and meadows land. Most of the trekkers find it as one of the easiest trek. Beas Kund offers you the panoramic view of the greatest summit like Hanuman Tibba , Shitidhar, Seven Sisters, and the Friendship Peak. The best time to visit this holy lake is during the summer season from mid-April to June."
+    - content: "Malana - The mysterious and beautiful ancient village located in the mountains of Parvati Valley, is famous for its unique culture and the Marijuana it produces, popularly known as the  Malana Cream. Marijuana (or weed) can be used for medical purposes and can treat a number of different conditions such as posttraumatic stress disorder PTSD, Nausea, Anorexia and pain. The purity of Marijuana it produces, has made it famous in all around the world. The villagers of Malana are said to be the descendants of <a style='color:#40c279;font-weight: bold;' href='https://en.wikipedia.org/wiki/Alexander_the_Great' target='_blank' rel='noopener'>Alexander the Great</a>. The valley of Malana is over-shadowed by the <a style='color:#40c279;font-weight: bold;' href='/activities/trekking/chandrakhani-pass-trek'>Chandrakhani Pass</a> and <a style='color:#40c279;font-weight: bold;' href='/activities/trekking/deo-tibba-base-camp-trek/'>Deo Tibba</a> peaks."
 
-    - content: "It's a three day trek packed with adventures like you have never faced before. Mountains covered with green sheet and white Beas river carving the mountain and sheep grazing in meadows land forms the perfect landscape which you can never forget. For next 3 days you will live under the roof of tents, in the lap of mountains, in safe hands of professional guides of The Trippy Frog community."
     
     itinerary:
 
-    - title: "DAY 1 - MANALI - DUNDHI - BAKARTATCH"
-      content: "Early morning, we meet up at Manali bus stand/mall road and drive to Dundhi camp-site via Solang valley and start trek of 4 Kms. to Bakartatch camp-site and stay overnight."
+    - title: "DAY 1 - Manali - Rumsu Thach (2600m) 03-4 hours trek"
+      content: ""
 
-    - title: "DAY 2 - BAKARTATCH - BEAS KUND - BAKARTATCH"
-      content: "Next morning after breakfast we start walking towards the source of Beas river . It will take 3 to 4 hours to reach at beas kund . Beas kund plays the roll of base camp for high altitude summit's like Friendship Peak and Shetidhar. We can also see the peaks peer panjaal range and seven sister from top. After lunch and some selfies with your mate or friend we trek back to bakartatch camp site & camp overnight"
+    - title: "DAY 2 Rumsu - Nauwan Tapru (below Chanderkhani Pass 3600mtr.)"
+      content: ""
 
-    - title: "DAY 3 - BAKARTATCH - SOLANGNALA - MANALI"
-      content: "On last day we head back to Dundhi camp site from the same route through which we came to top & drive to Manali."
+    - title: "DAY 3 - Nauwan Tapru - Malana (2651m) 06 hours trek"
+      content: ""
+
+    - title: "DAY 4 - Malana - Jari (Road head) (1524m) - Manali"
+      content: ""
 
 
 
@@ -530,76 +410,47 @@ malana-village:
 # Mantalai Lake Trek
 mantalai-lake:
     name: "Mantalai Lake Trek"
-    days: "3"
-    nights: "2"
-    altitude: "12,467"
-    grade: "Moderate"
+    days: "7"
+    nights: "6"
+    altitude: "13,500"
+    grade: "Difficult"
     accomodation: "Tent"
     groupSize: "10"
-    minAge: "12+"
     popular: "Y"
-    price: "8500"
-    bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-9f378/"
+    price: "12000"
+    bookLink: ""
 
-    description: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    description: "Enjoy this wonderful trek to Mantalai Lake as this is one of the most famous treks in Himachal. You will gather beautiful memories as you trek to this beautiful lake."
 
-    excerpt: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    excerpt: "Enjoy this wonderful trek to Mantalai Lake as this is one of the most famous treks in Himachal. You will gather beautiful memories as you trek to this beautiful lake."
 
     overview: 
 
-    - content: "Beas Kund is the origin of mighty Beas river. It's a beautiful glacial lake forming the beas river which gives life to millions of people in the Himalayas. Some mythology says that the great sage Vyasa used to take bath in Beas Kund and that's why this lake is named after him. This lake is 3700m above sea level. Trek to Beas Kund is moderate in difficulty with rocky trails and meadows land. Most of the trekkers find it as one of the easiest trek. Beas Kund offers you the panoramic view of the greatest summit like Hanuman Tibba , Shitidhar, Seven Sisters, and the Friendship Peak. The best time to visit this holy lake is during the summer season from mid-April to June."
+    - content: "Mantalai lake the source of Parvati river is the holy lake situated at altitude of 13,500 Ft. The lake is situated deep inside Parvati Valley in the middle of white snowy mountains. The trek begins from the Kheerganga hot water spring. Following the Parvati river, passing through the dense forest, risky river crossing, living in tents for almost 7 days - a full dose of adventure that every wanderer needs. You will require good level of fitness & strength to finish this challenging trek."
 
-    - content: "It's a three day trek packed with adventures like you have never faced before. Mountains covered with green sheet and white Beas river carving the mountain and sheep grazing in meadows land forms the perfect landscape which you can never forget. For next 3 days you will live under the roof of tents, in the lap of mountains, in safe hands of professional guides of The Trippy Frog community."
-    
+
     itinerary:
 
-    - title: "DAY 1 - MANALI - DUNDHI - BAKARTATCH"
-      content: "Early morning, we meet up at Manali bus stand/mall road and drive to Dundhi camp-site via Solang valley and start trek of 4 Kms. to Bakartatch camp-site and stay overnight."
+    - title: "DAY 1 - Bhunter to Kheerganga"
+      content: ""
 
     - title: "DAY 2 - BAKARTATCH - BEAS KUND - BAKARTATCH"
-      content: "Next morning after breakfast we start walking towards the source of Beas river . It will take 3 to 4 hours to reach at beas kund . Beas kund plays the roll of base camp for high altitude summit's like Friendship Peak and Shetidhar. We can also see the peaks peer panjaal range and seven sister from top. After lunch and some selfies with your mate or friend we trek back to bakartatch camp site & camp overnight"
+      content: ""
 
     - title: "DAY 3 - BAKARTATCH - SOLANGNALA - MANALI"
-      content: "On last day we head back to Dundhi camp site from the same route through which we came to top & drive to Manali."
+      content: ""
 
+    - title: "DAY 4 - Pandu Bridge To Mantalai Lake"
+      content: ""
 
+    - title: "DAY 5 - Manatalai To Tunda Bhuj"
+      content: ""
 
+    - title: "DAY 6 - Tunda Bhuj To Kheerganga"
+      content: ""
 
-
-# Parang La Trek
-parang-la:
-    name: "Parang La Trek"
-    days: "3"
-    nights: "2"
-    altitude: "12,467"
-    grade: "Moderate"
-    accomodation: "Tent"
-    groupSize: "10"
-    minAge: "12+"
-    popular: "Y"
-    price: "8500"
-    bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-9f378/"
-
-    description: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
-
-    excerpt: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
-
-    overview: 
-
-    - content: "Beas Kund is the origin of mighty Beas river. It's a beautiful glacial lake forming the beas river which gives life to millions of people in the Himalayas. Some mythology says that the great sage Vyasa used to take bath in Beas Kund and that's why this lake is named after him. This lake is 3700m above sea level. Trek to Beas Kund is moderate in difficulty with rocky trails and meadows land. Most of the trekkers find it as one of the easiest trek. Beas Kund offers you the panoramic view of the greatest summit like Hanuman Tibba , Shitidhar, Seven Sisters, and the Friendship Peak. The best time to visit this holy lake is during the summer season from mid-April to June."
-
-    - content: "It's a three day trek packed with adventures like you have never faced before. Mountains covered with green sheet and white Beas river carving the mountain and sheep grazing in meadows land forms the perfect landscape which you can never forget. For next 3 days you will live under the roof of tents, in the lap of mountains, in safe hands of professional guides of The Trippy Frog community."
-    
-    itinerary:
-
-    - title: "DAY 1 - MANALI - DUNDHI - BAKARTATCH"
-      content: "Early morning, we meet up at Manali bus stand/mall road and drive to Dundhi camp-site via Solang valley and start trek of 4 Kms. to Bakartatch camp-site and stay overnight."
-
-    - title: "DAY 2 - BAKARTATCH - BEAS KUND - BAKARTATCH"
-      content: "Next morning after breakfast we start walking towards the source of Beas river . It will take 3 to 4 hours to reach at beas kund . Beas kund plays the roll of base camp for high altitude summit's like Friendship Peak and Shetidhar. We can also see the peaks peer panjaal range and seven sister from top. After lunch and some selfies with your mate or friend we trek back to bakartatch camp site & camp overnight"
-
-    - title: "DAY 3 - BAKARTATCH - SOLANGNALA - MANALI"
-      content: "On last day we head back to Dundhi camp site from the same route through which we came to top & drive to Manali."
+    - title: "DAY 7 - Kheerganga To Bhunter"
+      content: ""
 
 
 
@@ -607,37 +458,57 @@ parang-la:
 # Pin Parvati Trek
 pin-parvati:
     name: "Pin Parvati Trek"
-    days: "3"
-    nights: "2"
-    altitude: "12,467"
-    grade: "Moderate"
+    days: "10"
+    nights: "9"
+    altitude: "17,380"
+    grade: "Difficult"
     accomodation: "Tent"
     groupSize: "10"
-    minAge: "12+"
     popular: "Y"
-    price: "8500"
-    bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-9f378/"
+    price: "35000"
+    bookLink: ""
 
-    description: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    description: "Pin paravati pass is the mountain pass connect the parvati valley with Pin valley of Spiti. It is located at an altitude of 17,500 ft."
 
-    excerpt: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    excerpt: "Pin paravati pass is the mountain pass connect the parvati valley with Pin valley of Spiti. It is located at an altitude of 17,500 ft."
 
     overview: 
 
-    - content: "Beas Kund is the origin of mighty Beas river. It's a beautiful glacial lake forming the beas river which gives life to millions of people in the Himalayas. Some mythology says that the great sage Vyasa used to take bath in Beas Kund and that's why this lake is named after him. This lake is 3700m above sea level. Trek to Beas Kund is moderate in difficulty with rocky trails and meadows land. Most of the trekkers find it as one of the easiest trek. Beas Kund offers you the panoramic view of the greatest summit like Hanuman Tibba , Shitidhar, Seven Sisters, and the Friendship Peak. The best time to visit this holy lake is during the summer season from mid-April to June."
+    - content: "Pin paravati pass is the mountain pass connect the parvati valley with Pin valley of Spiti. It is located at an altitude of 17,500 ft."
 
-    - content: "It's a three day trek packed with adventures like you have never faced before. Mountains covered with green sheet and white Beas river carving the mountain and sheep grazing in meadows land forms the perfect landscape which you can never forget. For next 3 days you will live under the roof of tents, in the lap of mountains, in safe hands of professional guides of The Trippy Frog community."
+    - content: "However the trek is difficult and is meant for experienced trekkers, one with good fitness and spirit can make an attempt. The trek starts from a small village called Barsheni. While trekking to Rudranath and camp followed by Kheerganga to Tunda Bhuj and Thakur Kuan trekkers discover the barren & beautiful valleys of Parvati side, attractive small villages, dense forest, alpine meadows and high chilling waterfalls."
     
     itinerary:
 
-    - title: "DAY 1 - MANALI - DUNDHI - BAKARTATCH"
-      content: "Early morning, we meet up at Manali bus stand/mall road and drive to Dundhi camp-site via Solang valley and start trek of 4 Kms. to Bakartatch camp-site and stay overnight."
+    - title: "DAY 1 - Show Up At Manali(2,050M) and Preparation For The Trek"
+      content: ""
 
-    - title: "DAY 2 - BAKARTATCH - BEAS KUND - BAKARTATCH"
-      content: "Next morning after breakfast we start walking towards the source of Beas river . It will take 3 to 4 hours to reach at beas kund . Beas kund plays the roll of base camp for high altitude summit's like Friendship Peak and Shetidhar. We can also see the peaks peer panjaal range and seven sister from top. After lunch and some selfies with your mate or friend we trek back to bakartatch camp site & camp overnight"
+    - title: "DAY 2 - Drive to Barsheni – 110 Km – 4 hours – Trek to Kheer Ganga 9 Km – 5 hours"
+      content: ""
 
-    - title: "DAY 3 - BAKARTATCH - SOLANGNALA - MANALI"
-      content: "On last day we head back to Dundhi camp site from the same route through which we came to top & drive to Manali."
+    - title: "DAY 3 - Kheer Ganga to Tundabhuj– 12 Km – 6/7 hours"
+      content: ""
+
+    - title: "DAY 4 - Tundabhuj to Thakur Kuan– 6 Km – 3 hours"
+      content: ""
+
+    - title: "DAY 5 - Thakur Kuan to Odi Thatch – 10 Km – 5/6 hours"
+      content: ""
+
+    - title: "DAY 6 - Odi Thatch to Mantalai – 9 Km – 5/6 hours"
+      content: ""
+
+    - title: "DAY 7 - Mantalai to base camp on Parvati side –  10 Km – 7/8hours"
+      content: ""
+
+    - title: "DAY 8 - Parvati side base camp to Pin side base over Pin Parvati Pass – 9 Km – 7/8 hours"
+      content: ""
+
+    - title: "DAY 9 - Pin side base  to Mud via Chinpatta Maidan– 25 Km – 9/10 hours – Camp or Drive to Kaza – 45 Km – 2 hours"
+      content: ""
+
+    - title: "DAY 10 - Drive from Mud/Kaza to Manali – 245/200 Km – 12/10 hours"
+      content: ""
 
 
 
@@ -645,34 +516,41 @@ pin-parvati:
 # Sar Pass Trek
 sar-pass:
     name: "Sar Pass Trek"
-    days: "3"
-    nights: "2"
-    altitude: "12,467"
+    days: "6"
+    nights: "5"
+    altitude: "13,845"
     grade: "Moderate"
     accomodation: "Tent"
     groupSize: "10"
-    minAge: "12+"
     popular: "Y"
-    price: "8500"
-    bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-9f378/"
+    price: "9000"
+    bookLink: "https://www.instamojo.com/thetrippyfrog/sar-pass-trek/"
 
-    description: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    description: "Sar pass is one of the most popular trek in parvati valley at altitude of 13,845 Ft. The trek start from the magic valley kasol which is favourite spot for backpackers around the world."
 
-    excerpt: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
+    excerpt: "Sar pass is one of the most popular trek in parvati valley at altitude of 13,845 Ft. The trek start from the magic valley kasol which is favourite spot for backpackers around the world."
 
     overview: 
 
-    - content: "Beas Kund is the origin of mighty Beas river. It's a beautiful glacial lake forming the beas river which gives life to millions of people in the Himalayas. Some mythology says that the great sage Vyasa used to take bath in Beas Kund and that's why this lake is named after him. This lake is 3700m above sea level. Trek to Beas Kund is moderate in difficulty with rocky trails and meadows land. Most of the trekkers find it as one of the easiest trek. Beas Kund offers you the panoramic view of the greatest summit like Hanuman Tibba , Shitidhar, Seven Sisters, and the Friendship Peak. The best time to visit this holy lake is during the summer season from mid-April to June."
+    - content: "Sar pass is one of the most popular trek in parvati valley at altitude of 13,845 Ft. The trek start from the magic valley kasol which is favourite spot for backpackers around the world. The tails goes through the alpine forest , meadows and beautiful vilages to snow covered ridges."
 
-    - content: "It's a three day trek packed with adventures like you have never faced before. Mountains covered with green sheet and white Beas river carving the mountain and sheep grazing in meadows land forms the perfect landscape which you can never forget. For next 3 days you will live under the roof of tents, in the lap of mountains, in safe hands of professional guides of The Trippy Frog community."
-    
+
     itinerary:
 
-    - title: "DAY 1 - MANALI - DUNDHI - BAKARTATCH"
-      content: "Early morning, we meet up at Manali bus stand/mall road and drive to Dundhi camp-site via Solang valley and start trek of 4 Kms. to Bakartatch camp-site and stay overnight."
+    - title: "DAY 1 - Kasol"
+      content: ""
 
-    - title: "DAY 2 - BAKARTATCH - BEAS KUND - BAKARTATCH"
-      content: "Next morning after breakfast we start walking towards the source of Beas river . It will take 3 to 4 hours to reach at beas kund . Beas kund plays the roll of base camp for high altitude summit's like Friendship Peak and Shetidhar. We can also see the peaks peer panjaal range and seven sister from top. After lunch and some selfies with your mate or friend we trek back to bakartatch camp site & camp overnight"
+    - title: "DAY 2 - Kasol - Grahan"
+      content: ""
 
-    - title: "DAY 3 - BAKARTATCH - SOLANGNALA - MANALI"
-      content: "On last day we head back to Dundhi camp site from the same route through which we came to top & drive to Manali."
+    - title: "DAY 3 -  Grahan - Min Thatch"
+      content: ""
+
+    - title: "DAY 4 - Min Thatch - Nagaru"
+      content: ""
+
+    - title: "DAY 5 -  Nagaru to Biskeri Thatch via Sar Pass"
+      content: ""
+
+    - title: "DAY 6 -  Biskeri Thatch - Barshaini - Kasol"
+      content: ""

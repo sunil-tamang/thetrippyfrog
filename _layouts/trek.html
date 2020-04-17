@@ -122,7 +122,7 @@ tags: "Trekkings, Himachal-Pradesh"
 						<span class="trek-span"><span class="counter">{{ trek.nights }}</span><span>&nbsp;Nights</span></span>
 					</span><br />
 					{% endif %}
-					<span class="trek-slide--price trek-price"><span style="font-size: 60%;">From</span> <i class="fa fa-rupee-sign"></i> {{ trek.price }}/-</span>
+<!--					<span class="trek-slide--price trek-price"><span style="font-size: 60%;">From</span> <i class="fa fa-rupee-sign"></i> {{ trek.price }}/-</span>-->
 				</p>
 
 			</div>
@@ -166,11 +166,13 @@ tags: "Trekkings, Himachal-Pradesh"
 						<i class="fa fa-tachometer-alt"></i>&nbsp; Grade : {{ trek.grade }}
 					</p>
 				</div>
+<!--
 				<div class="col-medium">
 					<p class="trek-overview">
-						<i class="fa fa-user"></i>&nbsp; Min-Age : {{ trek.minAge}}
+						<i class="fa fa-user"></i>&nbsp; Min-Age : trek.minAge
 					</p>
 				</div>
+-->
 				<div class="col-medium">
 					<p class="trek-overview">
 						<i class="fa fa-users"></i>&nbsp; Group Size : {{ trek.groupSize }}
@@ -238,6 +240,7 @@ tags: "Trekkings, Himachal-Pradesh"
 				{{ content }}
 				
 				<!--GALLERY-->
+<!--
 				<div class="row row--padding-medium">
 					<p class="content__sub-title">TREK GALLERY&nbsp;<i class="fas fa-camera"></i></p>
 					<section class="img-gallery-magnific">
@@ -256,6 +259,7 @@ tags: "Trekkings, Himachal-Pradesh"
 					<div class="clear"></div>
 				</div>
 				<br /><br />
+-->
 				
 				
 				<!-- What We Provide -->
@@ -356,24 +360,25 @@ tags: "Trekkings, Himachal-Pradesh"
 		{% for trek in site.treks offset:0 limit:10 %}
 			{% if trek.url != page.url %}
 				{% if trek %}
+		  		{% assign relTrek = site.data.trek-data[trek.title-slug] %}
 				 <div class="slide trek-slide">
 				  	<a href="{{ trek.url }}">
 				  	<img class="trek-slide--img trek-slide0" style="background: url('/assets/css/images/{{ trek.custom_thumb}}') no-repeat center; background-size: cover;">
-					  <span class="trek-slide--price"><span style="font-size: 60%;">From</span> <i class="fa fa-rupee-sign"></i> {{ trek.price }}/-</span>
+					  <span class="trek-slide--price"><span style="font-size: 60%;">From</span> <i class="fa fa-rupee-sign"></i> {{ relTrek.price }}/-</span>
 
 					<div class="trek-slide--text">
 						<div class="trek-slide--meta">
 							<div class="">
-								<span>{{trek.days}}</span>
+								<span>{{relTrek.days}}</span>
 								<span class="meta-type"><i class="far fa-clock"></i> Days</span>
 							</div>
 							<div class="">
-								<span>{{ trek.altitude }}</span>
+								<span>{{ relTrek.altitude }} Ft.</span>
 								<span class="meta-type"><i class="fas fa-mountain"></i> Altitude</span>
 							</div>
 							<div class="">
-								<span>Easy</span>
-								<span class="meta-type"><i class="fa fa-tachometer-alt"></i> {{ trek.grade }}</span>
+								<span>{{ relTrek.grade }}</span>
+								<span class="meta-type"><i class="fa fa-tachometer-alt"></i> Grade</span>
 							</div>
 						</div>
 						<h2 class="trek-slide--title"><i class="fa fa-map-marker-alt"></i> {{ trek.title }}</h2>

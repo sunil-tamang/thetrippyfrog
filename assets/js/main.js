@@ -37,7 +37,7 @@ $(document).ready(function(){
 				centerMode: true,
 				centerPadding: '40px',
 				responsive:true,
-				slidesToShow: 3,
+				slidesToShow: 4,
 				prevArrow: $(".slide-center-prev"),
 				nextArrow: $(".slide-center-next"),
 				responsive: [

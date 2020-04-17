@@ -226,7 +226,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					prodType : 'trekking',
 					descShort : 'Malana - The mysterious and beautiful ancient village located in the mountains of Parvati Valley, is famous for its unique culture and...',
 					descPartOne : 'Malana - The mysterious and beautiful ancient village located in the mountains of Parvati Valley, is famous for its unique culture and the Marijuana it produces, popularly known as the  Malana Cream. Marijuana (or weed) can be used for medical purposes and can treat a number of different conditions such as posttraumatic stress disorder (PTSD, Nausea, Anorexia, Pain. It can also cure one of the deadly disease - Cancer. The purity of Marijuana it produces, has made it famous in all around the world.',
-					descPartTwo : 'The villager&#39;s Of Malana are said to be the descendants of <a style="color:#40c279;font-weight: bold;" href="https://en.wikipedia.org/wiki/Alexander_the_Great" target="_blank">Alexander the Great</a>. The valley of Malana is over-shadowed by the <a style="color:#40c279;font-weight: bold;" href="{% link _treks/chandrakhani.html %}">Chandrakhani</a> And <a style="color:#40c279;font-weight: bold;" href="{% link _treks/deo-tibba-base-camp.html %}">Deo Tibba</a> Peaks.',
+					descPartTwo : 'The villager&#39;s Of Malana are said to be the descendants of <a style="color:#40c279;font-weight: bold;" href="https://en.wikipedia.org/wiki/Alexander_the_Great" target="_blank">Alexander the Great</a>. The valley of Malana is over-shadowed by the <a style="color:#40c279;font-weight: bold;" href="{% link _treks/chandrakhani-pass.html %}">Chandrakhani Pass</a> And <a style="color:#40c279;font-weight: bold;" href="{% link _treks/deo-tibba-base-camp.html %}">Deo Tibba</a> Peaks.',
 					stock : 1,
 					days : 4,
 					nights: 3,
@@ -246,20 +246,20 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				nights: 5,
 				urlName : 'sar-pass-trek'
 			},
-			{
-				id : 15,
-				name : 'FriendShip Peak Trek',
-				img : 'assets/css/images/treks/friendship-peak_min.jpg',
-				price : 25000.00,
-				prodType : 'trekking',
-				descShort : 'The FriendShip Peak Is The Most Famous Summit For Trekking In Country At Altitude Of 17,200 Ft . It Is Located In The Pir Panjal Range Of Himachal Pradesh ',
-				descPartOne : 'The FriendShip Peak Is The Most Famous Summit For Trekking In Country At Altitude Of 17,200 Ft . It Is Located In The Pir Panjal Range Of Himachal Pradesh ',
-				descPartTwo : 'The FriendShip Peak Is The Most Famous Summit For Trekking In Country At Altitude Of 17,200 Ft . It Is Located In The Pir Panjal Range Of Himachal Pradesh ',
-				stock : 1,
-				days : 7,
-				nights: 8,
-				urlName : 'friendship-peak-trek'
-			},
+//			{
+//				id : 15,
+//				name : 'FriendShip Peak Trek',
+//				img : 'assets/css/images/treks/friendship-peak_min.jpg',
+//				price : 25000.00,
+//				prodType : 'trekking',
+//				descShort : 'The FriendShip Peak Is The Most Famous Summit For Trekking In Country At Altitude Of 17,200 Ft . It Is Located In The Pir Panjal Range Of Himachal Pradesh ',
+//				descPartOne : 'The FriendShip Peak Is The Most Famous Summit For Trekking In Country At Altitude Of 17,200 Ft . It Is Located In The Pir Panjal Range Of Himachal Pradesh ',
+//				descPartTwo : 'The FriendShip Peak Is The Most Famous Summit For Trekking In Country At Altitude Of 17,200 Ft . It Is Located In The Pir Panjal Range Of Himachal Pradesh ',
+//				stock : 1,
+//				days : 7,
+//				nights: 8,
+//				urlName : 'friendship-peak-trek'
+//			},
 			{
 				id : 16,
 				name : 'Dehnasar Lake Trek',
@@ -276,8 +276,8 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 			{
 				id : 17,
-				name : 'ChandraKhani Trek',
-				img : 'assets/css/images/treks/chandrakhani_min.jpg',
+				name : 'ChandraKhani Pass Trek',
+				img : 'assets/css/images/treks/chandrakhani-pass_min.jpg',
 				price : 8500.00,
 				prodType : 'trekking',
 				descShort : 'Chandrakhani pass is a beautiful & calm pass at altitude of 12,007 Ft located in kullu valley of himachal pradesh . the top of ChandraKhani pass offers the fabulous  view of Deo Tibba , Pir Panjal and parvati valley ..',
@@ -286,7 +286,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				stock : 1,
 				days : 3,
 				nights: 2,
-				urlName : 'chandrakhani-trek'
+				urlName : 'chandrakhani-pass-trek'
 			},
 
 			{
