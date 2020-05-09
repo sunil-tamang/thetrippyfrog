@@ -17,12 +17,12 @@ beas-kund:
 
     excerpt: "Beas Kund is origin of the mighty Beas river. It's a beautiful glacial lake forming the Beas river which gives life to millions of people in the Himalayas"
 
-    overview: 
+    overview:
 
     - content: "Beas Kund is the origin of mighty Beas river. It's a beautiful glacial lake forming the beas river which gives life to millions of people in the Himalayas. Some mythology says that the great sage Vyasa used to take bath in Beas Kund and that's why this lake is named after him. This lake is 3700m above sea level. Trek to Beas Kund is moderate in difficulty with rocky trails and meadows land. Most of the trekkers find it as one of the easiest trek. Beas Kund offers you the panoramic view of the greatest summit like Hanuman Tibba , Shitidhar, Seven Sisters, and the Friendship Peak. The best time to visit this holy lake is during the summer season from mid-April to June."
 
     - content: "It's a three day trek packed with adventures like you have never faced before. Mountains covered with green sheet and white Beas river carving the mountain and sheep grazing in meadows land forms the perfect landscape which you can never forget. For next 3 days you will live under the roof of tents, in the lap of mountains, in safe hands of professional guides of The Trippy Frog community."
-    
+
     itinerary:
 
     - title: "DAY 1 - MANALI - DUNDHI - BAKARTATCH"
@@ -53,7 +53,7 @@ bhrigu-lake:
 
     excerpt: "Brighu lake is an high altitude alpine lake near manali town at altitude of 14,009 ft .it is one of the most beautiful lake named after saint maharishi bhrigu one of the seven great sages of hindu puranas"
 
-    overview: 
+    overview:
 
     - content: "Brighu lake is an high altitude alpine lake near manali town at altitude of 14,009 ft .it is one of the most beautiful lake named after saint maharishi bhrigu one of the seven great sages of hindu puranas."
 
@@ -61,7 +61,7 @@ bhrigu-lake:
 
     itinerary:
 
-    - title: "Day 1 - Report at Himalayan Frontiers Campsite in old Manali & Drive till Kulung & Trek to Moridugh (2850m/ 4-5 hrs)"
+    - title: "Day 1 -  Old Manali & Drive to Kulung & Trek to Moridugh (2850m/ 4-5 hrs)"
       content: ""
 
     - title: "DAY 2 - Moridugh- Bhrigu Lake & Back to Moridugh (8-10 hrs)"
@@ -90,7 +90,7 @@ chandrakhani-pass:
 
     excerpt: "Chandrakhani pass is a beautiful &amp; calm pass at an altitude of 12,007 Ft. located in Kullu valley of Himachal Pradesh. The top of Chandrakhani pass offers the fabulous  view of Deo Tibba, Pir Panjal and Parvati valley."
 
-    overview: 
+    overview:
 
     - content: "Chandrakhani pass is a beautiful & calm pass at altitude of 12,007 Ft located in kullu valley of Himachal Pradesh . the top of ChandraKhani pass offers the fabulous view of Deo Tibba , Pir Panjal and Parvati valley. The trek starts from the heritage village Naggar, 21 KM from Manali town. Naggar is an ancient place which was once the capital of Kullu Kingdom."
 
@@ -125,7 +125,7 @@ dehnasar-lake:
 
     excerpt: "Dehna-sar a high altitude alpine lake situated deep inside the snow caped mountains of Lug valley, a beautiful village just 20 km from Kullu town."
 
-    overview: 
+    overview:
 
     - content: "Dehana sar a high altitude alpine lake situated deep inside the snow caped mountains of Lug valley, a beautiful village just 20 km from Kullu town. The village has a beautiful landscape with never-ending shades of greenery all around the village. The villagers are also too kind and peaceful and always ready to help hand to the people in need. The trail is moderate to climb and requires good level of fitness & health. The journey to this amazing lake is full of thril & adventure as we will walk through the alpine meadows & high altitude mountain peaks and spot some wildlife animals if we were lucky enough."
 
@@ -161,7 +161,7 @@ deo-tibba-base-camp:
 
     excerpt: "Deo Tibba peak is one of the highest mountain peaks in Kullu valley also known as the Throne of Gods at altitude of 20,013 Ft"
 
-    overview: 
+    overview:
 
     - content: "Deo Tibba peak is one of the highest mountain peaks in kullu valley also known as the 'Throne of Gods' at altitude of 20,013 Ft. Trek to the base camp of Deo Tibba peak is the most popular trek among trekkers around the world for its mesmerizing and breathtaking beauty of landscapes ranging from alpine Lakes, Meadows and dense forest. This trek provides the panaromic view of Deo Tibba Peak and Indrasane Peak."
 
@@ -200,21 +200,24 @@ fungni-top:
 
     excerpt: "Fungni top is one of the most sacred and beautiful virgin trek which only a few trekkers have explored. Locals have named this mountain after Goddess Fungani, who they believe resides at the top of this mountain."
 
-    overview: 
+    overview:
 
     - content: "Fungni top is one of the most sacred and beautiful virgin trek which only a few trekkers have explored. Locals have named this mountain after Goddess Fungani, who they believe resides at the top of this mountain. The trek starts from Jalora village, near Raison, which is around 25km from Manali tow. The trails passes through the dense forest and green meadows. Once you reach the top you can see the mountains of Parvati valley and Dhauladhar range "
 
 
     itinerary:
 
+    - title: "DAY 0 - MEET AT MANALI"
+      content: "Arrive at Manali & stay at hotel/guest house and take rest."
+
     - title: "DAY 1 - Raison To Jallohra To Kufri"
-      content: ""
+      content: "Early morning drive 25 km from manali to raison and take a link road to jalora vilage. From Jalora, we start our trek to Kufri following the trails made by locals through the deodar & pine cone forest. It takes around two and a half hour to reach Kufri. After reaching Kufri at around 2 pm, we'll take some rest and then pitch our camp & collect some water & woods to cook food for dinner."
 
     - title: "DAY 2 - Kufri To Maleeng Top To Fungani Top. Back To Kufri"
-      content: ""
+      content: "wake up early morning at around 6:00 am do some breakfast and trek to Fungni Top"
 
     - title: "DAY 3 - Kufri To Jallohra To Raison"
-      content: ""
+      content: "On day 3, we pack our camp essentials and decend back to Jalora vilage from the same route through which we arrived here. We will reach at 1:00 pm at raison and can take bus to Manali."
 
 
 
@@ -235,12 +238,12 @@ hampta-pass:
 
     excerpt: "Hampta Pass the way to Heaven which is Spiti Valley's one of the most visited trekking place by the trekker's around the world."
 
-    overview: 
+    overview:
 
     - content: "Hampta Pass trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and special one climbing out across the lush green valleys of Kullu to reach the overhanging mountains. From the top, you will witness the magnificent view of a different world below, the beautiful yet deserted Lahaul. The panoramic sweep of the valley from the summit will be a sight that will not leave you forever."
 
     - content: "An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments."
-    
+
     itinerary:
 
     - title: "DAY 1 - Drive from Manali to Jobra and Trek to Chika"
@@ -273,12 +276,12 @@ kais-dhar:
 
     excerpt: "Kais Dhar is an extremly beautiful place, with grassy meadows and densely forested mountains just 10 km from Kullu town. It is one of the most beautiful and virgin place in Kullu-Manali, most of the times visited by locals for grazing thier cattles."
 
-    overview: 
+    overview:
 
     - content: "Kais Dhar is an extremly beautiful place, with grassy meadows and densely forested mountains just 10 km from Kullu town. It is one of the most beautiful and virgin place in Kullu-Manali, most of the times visited by locals for grazing thier cattles."
 
     - content: "The place provides a splendid panoramic view of the Kullu valley. At Kais Dhar, a beautiul rest house build by britishers, who used to live their for relaxation. The trekking route passes through the beautiful vilage of Lug valley to the forested mountains."
-    
+
     itinerary:
 
     - title: "DAY 1 - Kullu - Lugvalley - Kais Dhar"
@@ -310,12 +313,12 @@ kufri:
 
     excerpt: "Kufri is one of the most beautiful and virgin place in the lap of Himalayas. Kufri trek was also our first ever trek, 5 friends on a quest to discover the nature's beauty which lies at top of the mountain."
 
-    overview: 
+    overview:
 
     - content: "Kufri is one of the most beautiful and virgin place in the lap of Himalayas. Kufri trek was also our first ever trek, 5 friends on a quest to discover the nature's beauty which lies at top of the mountain. Crossing the steep slopes, deodar jungle and lush meadows was the best experience that we have never imagined before. Sleeping inside sleeping bags in the middle of jungle was the best experience we ever had."
 
     - content: "Kufri (not Shimla's Kufri) trek is one of the best short trek around Kullu-Manali valley with breathtaking view. It is the best destination for camping around Kullu-Manali. Summer season is the best season to do this trek, when the whole place is transformed into the lush green meadows "
-    
+
     itinerary:
 
     - title: "Day 0 - Meet At Manali"
@@ -349,7 +352,7 @@ lamadugh:
 
     excerpt: "Lamadugh is the perfect location for chill out and be out of the hustle-bustle of crowded Manali town. This place is 7 KM away from Manali. The trek starts from the ancient Hidimba Devi Temple to the thick forest of deo-dar and pine-cone trees."
 
-    overview: 
+    overview:
 
     - content: "Lamadugh is the perfect location for chill out and be out of the hustle-bustle of crowded Manali town. This place is 7 KM away from Manali. The trek starts from the ancient Hidimba Devi Temple to the thick forest of deo-dar and pine-cone trees."
 
@@ -385,11 +388,11 @@ malana-village:
 
     excerpt: "Malana - The mysterious and beautiful village located in the mountains of Parvati Valley famous for its unique culture and the Marijuana (A.K.A. Malana Cream)."
 
-    overview: 
+    overview:
 
     - content: "Malana - The mysterious and beautiful ancient village located in the mountains of Parvati Valley, is famous for its unique culture and the Marijuana it produces, popularly known as the  Malana Cream. Marijuana (or weed) can be used for medical purposes and can treat a number of different conditions such as posttraumatic stress disorder PTSD, Nausea, Anorexia and pain. The purity of Marijuana it produces, has made it famous in all around the world. The villagers of Malana are said to be the descendants of <a style='color:#40c279;font-weight: bold;' href='https://en.wikipedia.org/wiki/Alexander_the_Great' target='_blank' rel='noopener'>Alexander the Great</a>. The valley of Malana is over-shadowed by the <a style='color:#40c279;font-weight: bold;' href='/activities/trekking/chandrakhani-pass-trek'>Chandrakhani Pass</a> and <a style='color:#40c279;font-weight: bold;' href='/activities/trekking/deo-tibba-base-camp-trek/'>Deo Tibba</a> peaks."
 
-    
+
     itinerary:
 
     - title: "DAY 1 - Manali - Rumsu Thach (2600m) 03-4 hours trek"
@@ -424,7 +427,7 @@ mantalai-lake:
 
     excerpt: "Enjoy this wonderful trek to Mantalai Lake as this is one of the most famous treks in Himachal. You will gather beautiful memories as you trek to this beautiful lake."
 
-    overview: 
+    overview:
 
     - content: "Mantalai lake the source of Parvati river is the holy lake situated at altitude of 13,500 Ft. The lake is situated deep inside Parvati Valley in the middle of white snowy mountains. The trek begins from the Kheerganga hot water spring. Following the Parvati river, passing through the dense forest, risky river crossing, living in tents for almost 7 days - a full dose of adventure that every wanderer needs. You will require good level of fitness & strength to finish this challenging trek."
 
@@ -472,12 +475,12 @@ pin-parvati:
 
     excerpt: "Pin paravati pass is the mountain pass connect the parvati valley with Pin valley of Spiti. It is located at an altitude of 17,500 ft."
 
-    overview: 
+    overview:
 
     - content: "Pin paravati pass is the mountain pass connect the parvati valley with Pin valley of Spiti. It is located at an altitude of 17,500 ft."
 
     - content: "However the trek is difficult and is meant for experienced trekkers, one with good fitness and spirit can make an attempt. The trek starts from a small village called Barsheni. While trekking to Rudranath and camp followed by Kheerganga to Tunda Bhuj and Thakur Kuan trekkers discover the barren & beautiful valleys of Parvati side, attractive small villages, dense forest, alpine meadows and high chilling waterfalls."
-    
+
     itinerary:
 
     - title: "DAY 1 - Show Up At Manali(2,050M) and Preparation For The Trek"
@@ -530,7 +533,7 @@ sar-pass:
 
     excerpt: "Sar pass is one of the most popular trek in parvati valley at altitude of 13,845 Ft. The trek start from the magic valley kasol which is favourite spot for backpackers around the world."
 
-    overview: 
+    overview:
 
     - content: "Sar pass is one of the most popular trek in parvati valley at altitude of 13,845 Ft. The trek start from the magic valley kasol which is favourite spot for backpackers around the world. The tails goes through the alpine forest , meadows and beautiful vilages to snow covered ridges."
 

@@ -104,20 +104,20 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				nights: 3,
 				urlName : 'hampta-pass-trek'
 			},
-			{
-				id : 6,
-				name : 'Lamadugh Trek',
-				img : 'assets/css/images/treks/lamadugh_min.jpg',
-				price : 5000.00,
-				prodType : 'trekking',
-				descShort : '  LamaDugh is The Perfect Location For Chill Out And Be Out Of The Hustle Bustle Of Crowded Manali Town . This Place Is 7Km Above Manali And Can be Easily Reached ....',
-				descPartOne : '   LamaDugh is The Perfect Location For Chill Out And Be Out Of The Hustle Bustle Of Crowded Manali Town . This Place Is 7Km Above Manali And Can be Easily Reached ...',
-				descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
-				stock : 1,
-				days : 3,
-				nights: 2,
-				urlName : 'lamadugh-trek'
-			},
+			// {
+			// 	id : 6,
+			// 	name : 'Lamadugh Trek',
+			// 	img : 'assets/css/images/treks/lamadugh_min.jpg',
+			// 	price : 5000.00,
+			// 	prodType : 'trekking',
+			// 	descShort : '  LamaDugh is The Perfect Location For Chill Out And Be Out Of The Hustle Bustle Of Crowded Manali Town . This Place Is 7Km Above Manali And Can be Easily Reached ....',
+			// 	descPartOne : '   LamaDugh is The Perfect Location For Chill Out And Be Out Of The Hustle Bustle Of Crowded Manali Town . This Place Is 7Km Above Manali And Can be Easily Reached ...',
+			// 	descPartTwo : 'An integral part of Manali’s topography, which is India’s favourite adventure zone, this trek is voted amongst the easiest of trails and most attractive to beginners. An exciting activity, being around Hampta Pass opens a whole new beautiful world. Coupled with a stopover at the eerie and placid Chandra Tal, this journey is replete with adventure and scenic moments.',
+			// 	stock : 1,
+			// 	days : 3,
+			// 	nights: 2,
+			// 	urlName : 'lamadugh-trek'
+			// },
 			{
 				id : 7,
 				name : 'Bhrigu Lake Trek',
