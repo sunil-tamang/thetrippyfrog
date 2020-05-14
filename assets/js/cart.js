@@ -119,7 +119,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			// 	urlName : 'lamadugh-trek'
 			// },
 			{
-				id : 7,
+				id : 6,
 				name : 'Bhrigu Lake Trek',
 				img : 'assets/css/images/treks/bhrigu_min.jpg',
 				price : 7500.00,
@@ -133,7 +133,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'bhrigu-lake-trek'
 			},
 			{
-				id : 8,
+				id : 7,
 				name : 'Mantalai Lake Trek',
 				img : 'assets/css/images/treks/wild_min.jpg',
 				price : 12000.00,
@@ -261,7 +261,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 //				urlName : 'friendship-peak-trek'
 //			},
 			{
-				id : 16,
+				id : 15,
 				name : 'Dehnasar Lake Trek',
 				img : 'assets/css/images/treks/dehnasar_lake_min.jpg',
 				price : 10000.00,
@@ -275,7 +275,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'dehnasar-lake-trek'
 			},
 			{
-				id : 17,
+				id : 16,
 				name : 'ChandraKhani Pass Trek',
 				img : 'assets/css/images/treks/chandrakhani-pass_min.jpg',
 				price : 8500.00,
@@ -290,7 +290,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 18,
+				id : 17,
 				name : 'Deo Tibba Base Camp Trek',
 				img : 'assets/css/images/treks/deo_tibba_min.jpg',
 				price : 15500.00,
@@ -306,7 +306,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 
 			// Camping Products
 			{
-				id : 19,
+				id : 18,
 				name : 'Camping In The Wild',
 				img : 'assets/css/images/camping/camp-in-wild-min.jpg',
 				price : 1200.00,
@@ -318,7 +318,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 20,
+				id : 19,
 				name : 'Camping Near River',
 				img : 'assets/css/images/camping/camp-near-river-min.jpg',
 				price : 1000.00,
@@ -331,7 +331,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 
 
 			{
-				id : 21,
+				id : 20,
 				name : 'Shimla Manali Escape',
 				img : 'assets/css/images/escape-trips/shimla-manali-escape/shimla_min.jpg',
 				price : 10000,
@@ -348,7 +348,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'shimla-manali-escape'
 			},
 			{
-				id : 22,
+				id : 21,
 				name : 'Bijli Mahadev Escape',
 				img : 'assets/css/images/escape-trips/weekend-escape/weekend-escape-min.jpg',
 				price : 7000,
@@ -367,7 +367,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 
 
 			{
-				id : 23,
+				id : 22,
 				name : 'Spiti Valley Escape',
 				img : 'assets/css/images/escape-trips/spiti-valley-escape/spiti_min.jpg',
 				price : 9999,
@@ -385,7 +385,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 24,
+				id : 23,
 				name : 'Tirthan Valley Escape',
 				img : 'assets/css/images/escape-trips/tirthan-valley/tirthan-valley.jpg',
 				price : 9999,
@@ -402,7 +402,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'tirthan-valley-escape'
 			},
 			{
-				id : 25,
+				id : 24,
 				name : 'Himalayan Escape',
 				img : 'assets/css/images/escape-trips/himalayan-escape/himalayan-escape-min.jpg',
 				price : 6500,
@@ -420,7 +420,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 26,
+				id : 25,
 				name : 'Magic Valley Escape',
 				img : 'assets/css/images/escape-trips/magic-valley-escape/magic-valley-escape-min.jpg',
 				price : 8000,
@@ -437,7 +437,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'magic-valley-escape'
 			},
 			{
-				id : 27,
+				id : 26,
 				name : 'Leh Ladakh Escape',
 				img : 'assets/css/images/escape-trips/leh-ladakh-escape/leh_min.jpg',
 				price : 9999,
@@ -458,7 +458,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			//Bike-Tours Products
 
 			{
-				id : 28,
+				id : 27,
 				name : 'Leh-Manali Bike Tour',
 				img : 'assets/css/images/bike-tours/leh-manali/leh-manali_min.jpg',
 				price : 36000.00,
@@ -471,7 +471,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 29,
+				id : 28,
 				name : 'Spiti Bike Tour',
 				img : 'assets/css/images/bike-tours/spiti/spiti_min.jpg',
 				price : 33000.00,
@@ -486,7 +486,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			// Mountain Biking
 
 			{
-				id : 30,
+				id : 29,
 				name : 'LEH MTB TOUR',
 				img : 'assets/css/images/mountain-bike-tours/mountain_bike_min.jpg',
 				price : 33000.00,
@@ -498,7 +498,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'leh-mtb-tour'
 			},
 			{
-				id : 31,
+				id : 30,
 				name : 'SPITI MTB TOUR',
 				img : 'assets/css/images/mountain-bike-tours/mountain_bike_min.jpg',
 				price : 33000.00,
@@ -524,27 +524,27 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 		}
 		else if(productName=='trekking'){
 			lowerLimit = 4
-			upperLimit = 18
+			upperLimit = 16
 		}
 		else if(productName=='camping'){
-			lowerLimit = 19
-			upperLimit = 20
+			lowerLimit = 17
+			upperLimit = 18
 		}
 		else if(productName=='escape-trips'){
-			lowerLimit = 21
-			upperLimit = 27
+			lowerLimit = 19
+			upperLimit = 25
 		}
 		else if(productName=='escape-trips-4'){
-			lowerLimit = 21
-			upperLimit = 24
+			lowerLimit = 19
+			upperLimit = 22
 		}
 		else if(productName=='bike-tours'){
-			lowerLimit = 28
-			upperLimit = 29
+			lowerLimit = 26
+			upperLimit = 27
 		}
 		else if(productName=='mountain-bike-tour'){
-			lowerLimit = 30
-			upperLimit = 31
+			lowerLimit = 28
+			upperLimit = 29
 		}
 		else{
 			lowerLimit = 18
@@ -573,7 +573,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			}
 
 			// Treks
-			else if((upperLimit >= 4)&&(upperLimit<=19)){
+			else if((upperLimit >= 4)&&(upperLimit<=16)){
 				if(products[i].stock > 0){
 					content+= '<div class="row row--padding-medium">'
 					content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
