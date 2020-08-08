@@ -608,7 +608,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			}
 
 			// Camping
-			else if((upperLimit >= 18)&&(upperLimit<=20)){
+			else if((upperLimit >= 17)&&(upperLimit<=18)){
 				if(products[i].stock > 0){
 					content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
 					content+= '<a href="/activities/camping/'+ products[i].urlName +'" class="wopper wopper--'+ products[i].prodType +' '+ products[i].prodType +'-'+(i+1)+'" style="background-image: url(/'+products[i].img+')">'
@@ -629,7 +629,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			}
 
 			// Escape Trips
-			else if((upperLimit >= 21)&&(upperLimit<=27)){
+			else if((upperLimit >= 19)&&(upperLimit<=25)){
 				if(products[i].stock > 0){
 
 					content+='<div class="row--padding-medium col-medium">'
@@ -681,7 +681,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			}
 
 			// Bike-Tours
-			else if((upperLimit >= 28)&&(upperLimit<=29)){
+			else if((upperLimit >= 26)&&(upperLimit<=27)){
 				if(products[i].stock > 0){
 
 					content+='<div class="row--padding-medium col-medium">'
@@ -719,7 +719,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 
 
 			// Mountain Bike-Tours
-			else if((upperLimit >= 30)&&(upperLimit<=31)){
+			else if((upperLimit >= 28)&&(upperLimit<=29)){
 				if(products[i].stock > 0){
 
 					content+='<div class="row--padding-medium col-medium">'
