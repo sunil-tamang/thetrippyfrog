@@ -839,26 +839,26 @@ i {
 }
 
 .accordion{
-	border: 1px solid #ffce00 ;
-     letter-spacing: 0.2em;
-    text-transform: uppercase;
-    display: inline-block;
-    padding-bottom: 0.8em;
-    padding: 0.8em;
-    position: relative;
-    font-weight:400;
-    margin: 0.8em auto 0;
-    /* line-height: 1.5em; */
-    width: 100%;
-    background: #ffce00;
-    color: #000;
-    text-align: left;
-    font-size: 0.1em;
-    line-height: 1.5em;
-    font-family: 'ANTON',sans-serif;
-    outline: none;
-    cursor: pointer;
+    	border: 1px solid #ffce00;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        display: inline-block;
+        padding-bottom: 0.8em;
+        padding: 1em;
+        position: relative;
+        font-weight: bold;
+        margin: 1em auto 0;
+        /* line-height: 1.5em; */
+        width: 100%;
+        background: #ffce00;
+        color: #000;
+        text-align: left;
+        font-size:0.8em;
+        font-family: 'ANTON',sans-serif;
+        outline: none;
+        cursor: pointer;
 }
+
 .accordion-sign{float: right; display: inline;}
 .accordion-sign .VLine,
 .accordion-sign .HLine{
