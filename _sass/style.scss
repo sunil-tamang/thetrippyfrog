@@ -332,6 +332,22 @@ body{
     border-radius: 3px; /*Maintaining Aspect Ratio*/
 }
 
+    /*Hampta Pass Trek Images*/
+
+.hampta_image1{
+    background-image: url('images/treks/hampta-pass/1.jpg');
+}
+.hampta_image2{
+    background-image: url('images/treks/hampta-pass/2.jpg');
+}
+.hampta_image3{
+    background-image: url('images/treks/hampta-pass/3.jpg');
+}
+.hampta_image4{
+    background-image: url('images/treks/hampta-pass/4.jpg');
+}
+
+
 
 /* KUFRI BLOG (Short Name - 'kufri-blog') */
 .kufri-blog-image1 {
@@ -823,21 +839,23 @@ i {
 }
 
 .accordion{
-	border: 1px solid #cacaca;
-    letter-spacing: 0.2em;
+	border: 1px solid #ffce00 ;
+     letter-spacing: 0.2em;
     text-transform: uppercase;
     display: inline-block;
     padding-bottom: 0.8em;
-    padding: 1em;
+    padding: 0.8em;
     position: relative;
-    font-weight: bold;
-    margin: 1em auto 0;
+    font-weight:400;
+    margin: 0.8em auto 0;
     /* line-height: 1.5em; */
     width: 100%;
-    background: #cacaca;
+    background: #ffce00;
     color: #000;
     text-align: left;
-    font-size: 1em;
+    font-size: 0.1em;
+    line-height: 1.5em;
+    font-family: 'ANTON',sans-serif;
     outline: none;
     cursor: pointer;
 }
@@ -2404,7 +2422,7 @@ p.content__pg:not(:last-child){
 
 	.accordion{
 		font-size: 1.3em;
-    	letter-spacing: .5em;
+    	letter-spacing: 0.2em;
 	}
 	.panel{
 		padding: 0 2em;

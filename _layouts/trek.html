@@ -163,7 +163,7 @@ tags: "Trekkings, Himachal-Pradesh"
 				</div>
 				<div class="col-medium">
 					<p class="trek-overview">
-						<i class="fa fa-tachometer-alt"></i>&nbsp; Grade : {{ trek.grade }}
+						<i class="fa fa-tachometer-alt"></i>&nbsp; Difficulty : {{ trek.grade }}
 					</p>
 				</div>
 <!--
@@ -175,12 +175,12 @@ tags: "Trekkings, Himachal-Pradesh"
 -->
 				<div class="col-medium">
 					<p class="trek-overview">
-						<i class="fa fa-users"></i>&nbsp; Group Size : {{ trek.groupSize }}
+						<i class="fa fa-users"></i>&nbsp; Group Size : Upto {{ trek.groupSize }} People
 					</p>
 				</div>
 				<div class="col-medium">
 					<p class="trek-overview">
-						<i class="fas fa-utensils"></i>&nbsp; Meal : Veg
+						<i class="fas fa-utensils"></i>&nbsp; Food : Breakfast | Lunch | Dinner
 					</p>
 				</div>
 				<div class="col-medium">
@@ -188,6 +188,24 @@ tags: "Trekkings, Himachal-Pradesh"
 						<i class="fas fa-campground"></i>&nbsp; Accomodation : {{ trek.accomodation }}
 					</p>
 				</div>
+
+                <div class="col-medium">
+					<p class="trek-overview">
+						<i class="fas fa-calendar"></i>&nbsp; Season : {{ trek.season }}
+					</p>
+				</div>
+
+                <div class="col-medium">
+					<p class="trek-overview">
+						<i class="fas fa-globe"></i>&nbsp; Location : {{ trek.location }}
+					</p>
+				</div>
+
+                <div class="col-medium">
+                    <p class="trek-overview">
+                        <i class="fas fa-map-marker"></i>&nbsp; Meeting Point : {{ trek.meeting }}
+                    </p>
+                </div>
 			</div>
 
 			<div class="material">
@@ -198,10 +216,14 @@ tags: "Trekkings, Himachal-Pradesh"
 				<h1 class="content__sub-title content__title-white no-underline" style="padding-top: 0; margin-bottom: 0; padding-bottom: 1em;">About The Trek
 				</h1> -->
 
+    <!-- <iframe width="100%" height="315" src="https://www.youtube.com/embed/IReipQYzC3w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
 
 				<div class="trek--section" style="text-align: left;">
-					<h2 class="content__sub-title" style="padding-bottom: 0;"><i class="far fa-file-alt"></i>&nbsp;Overview</h2>
 
+                    {{ trek.video }}
+
+					<h2 class="content__sub-title" style="padding-bottom: 0;"><i class="far fa-file-alt"></i>&nbsp;The Complete Guide to {{ trek.name }}</h2>
 					{% for overview in trek.overview %}
 						<p class="content--detail">
 							{{ overview.content }}
@@ -294,10 +316,10 @@ tags: "Trekkings, Himachal-Pradesh"
 				<div class="trek--section" style="text-align: left;">
 					<h2 class="content__sub-title" style="padding-bottom: 0;"><i class="fas fa-tasks"></i>&nbsp;What's Included</h2>
                     <p class="content__list-item"><i class="fas fa-check-circle"></i>&nbsp;&nbsp; Accomodation     	<br /></p>
-                    <p class="content__list-item"><i class="fas fa-check-circle"></i>&nbsp;&nbsp;Transport<br /></p>
+                    <p class="content__list-item"><i class="fas fa-check-circle"></i>&nbsp;&nbsp;Permits<br /></p>
 					<p class="content__list-item"><i class="fas fa-check-circle"></i>&nbsp;&nbsp;Camping &amp; Trekking Permits <br /></p>
 					<p class="content__list-item"><i class="fas fa-check-circle"></i>&nbsp;&nbsp;Meals  nutritious  and vegetarian.<br /></p>
-                    <p class="content__list-item"><i class="fas fa-check-circle"></i>&nbsp;&nbsp; Trekking Equipment  Sleeping bags , tents, ice axes, roped, micro spikes, gaiters etc. 	<br /></p>
+                    <p class="content__list-item"><i class="fas fa-check-circle"></i>&nbsp;&nbsp;Trekking Equipment  Sleeping bags , tents, ice axes, roped, micro spikes, gaiters etc. 	<br /></p>
 					<p class="content__list-item"><i class="fas fa-check-circle"></i>&nbsp;&nbsp;A professional, knowledgeable, certified Trekking guide<br /></p>
 					<p class="content__list-item"><i class="fas fa-check-circle"></i>&nbsp;&nbsp;Emergency equipment including a  first-aid kit	, medical kit , stretchers<br /></p>
 
@@ -310,6 +332,9 @@ tags: "Trekkings, Himachal-Pradesh"
 					<h2 class="content__sub-title" style="padding-bottom: 0;"><i class="fas fa-times"></i>&nbsp;What's Not Included</h2>
 					<p class="content__list-item"><i class="fas fa-times-circle"></i>&nbsp;&nbsp;All The Thing That Are Not Mentioned In Including Section<br /></p>
                     <p class="content__list-item"><i class="fas fa-times-circle"></i>&nbsp;&nbsp;Stay at Manali on the last day <br /></p>
+                    <p class="content__list-item"><i class="fas fa-times-circle"></i>&nbsp;&nbsp;Flights / Transportation to and from the meeting point <br /></p>
+                    <p class="content__list-item"><i class="fas fa-times-circle"></i>&nbsp;&nbsp;Personal Expenses <br /></p>
+                    <p class="content__list-item"><i class="fas fa-times-circle"></i>&nbsp;&nbsp;Travel Insurance <br /></p>
 					<p class="content__list-item"><i class="fas fa-times-circle"></i>&nbsp;&nbsp;Personal Porters for carrying trekker’s backpacks<br /></p>
 					<p class="content__list-item" style="text-indent: 2em; padding-top: 1em;">
 
@@ -338,12 +363,71 @@ tags: "Trekkings, Himachal-Pradesh"
 				</div>
 
 
+                <div class="trek--section list-light" style="text-align: left;">
+                        <h2 class="content__sub-title" style="padding-bottom: 0;"><i class="fa fa-question-circle"></i>&nbsp;Frequently Asked question</h2>
+
+                    <!-- <div id='content' class="row row--padding-medium"> -->
+
+            			<!--Itinerary-->
+            			<button class="accordion">Can i Book in My Own ?
+            				<span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
+            			</button>
+            			<div class="panel">
+            				<div style="padding: 1em 0;">
+            					<p> Sure can! Over 50% of our travellers travel solo, it’s a great way to meet like-minded people.<br /></p>
+
+            				</div>
+            			</div>
+            			<button class="accordion">What Is Food Like At Trek ?
+            				<span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
+            			</button>
+            			<div class="panel">
+                            <div style="padding: 1em 0;">
+            					<p> Breakfast and dinner cooked over the campfire with sandwiches for lunch<br /></p>
+
+            				</div>
+            			</div>
+            			<button class="accordion">Can I Store my Luggage Somewhere ?
+            				<span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
+            			</button>
+            			<div class="panel">
+                            <div style="padding: 1em 0;">
+                                <p>  Yes - when you arrive at the base you’ll be asked to transfer anything you need for the trip into drybags to take with you.
+                                     You can leave anything you don’t need behind to be safely secured in a locker which you’ll collect again at the end of the trip<br /></p>
+                            </div>
+            			</div>
+            			<button class="accordion">What travel insuarance do you recommend ?
+            				<span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
+            			</button>
+            			<div class="panel">
+                            <div style="padding: 1em 0;">
+                                <p>  We’ve teamed up with the guys at World Nomads to offer insurance designed for adventurous travellers across 140 countries that includes overseas medical,
+                                     evacuation, baggage and a range of adventure sports and activities. To get yours sorted, click here. We suggest that you book travel insurance as soon as
+                                     you book the trip, just to cover you for any last minute life changes. We know you’re an active lot and injuries do happen!<br /></p>
+                            </div>
+            			</div>
+
+                    <!-- </div> -->
+
+                </div>
+
 				<!-- Mandatory Documents -->
 				<div class="trek--section" style="text-align: left;">
 					<h2 class="content__sub-title" style="padding-bottom: 0;"><i class="far fa-file-alt"></i>&nbsp;Mandatory Documents</h2>
 					<p class="content__list-item"><i class="far fa-list-alt"></i>&nbsp;&nbsp;Identification document<br /></p>
 					<p class="content__list-item"><i class="far fa-list-alt"></i>&nbsp;&nbsp;Trek Registration Form<br /></p>
-					<p class="content__list-item"><i class="far fa-list-alt"></i>&nbsp;&nbsp;Medical Certificate<br /></p>
+                    <!-- <p class="content__list-item"><i class="far fa-list-alt"></i>&nbsp;&nbsp;Download Pdf Itinerary
+                        <a target='_blank' href='{{ trek.download }}' class='button'><i class='fa fa-download'></i> </a> <br />
+                    </p> -->
+					<p class="content__list-item"><i class="far fa-list-alt"></i>&nbsp;&nbsp;Medical Certificate
+                        <a target="_blank" href="{{ site.url }}//assets/docs/certificate.pdf" class="button"><i class="fa fa-download"></i></a> <br />
+                    </p>
+                    <p class="content__list-item"><i class="far fa-list-alt"></i>&nbsp;&nbsp;Indemnity Bond
+                        <a target="_blank" href="{{ site.url }}//assets/docs/Indemnity_bond.pdf" class="button"><i class="fa fa-download"></i></a> <br />
+                    </p>
+                    <!-- <p>
+                       <a href="{{ site.url }}//assets/docs/certificate.pdf" class="button"><i class="fa fa-download"></i></a>
+                    </p> -->
 					<p class="content__list-item" style="text-indent: 2em; padding-top: 1em;"></p>
 				</div>
 
@@ -353,12 +437,25 @@ tags: "Trekkings, Himachal-Pradesh"
 			<div class="row row--padding-medium" style="margin: 1em 0; border: 1px solid #cacaca; border-left: 0; border-right: 0;">
 				<p class="content__pg" style="clear: both; padding-bottom: 0em; background: red;"><strong style="font-weight: bold; color: #fff;padding-left: 1.5em;">NOTE <i class="fas fa-bullhorn"></i> </strong></p><br />
 				<ul class="content__list">
+                    <li class="content__list-item">
+                        All our adventures take place in wild places. Things can go wrong in wild places.
+                        Your perfectly planned itinerary may change a bit (or a lot) if the weather turns,
+                        someone gets hurt, or a landslide takes place. Usually though, changes make it all the better.
+					</li>
 					<li class="content__list-item">
 						Please be sure of the risks included in the adventure
 					</li>
 					<li class="content__list-item">
-						Before undertaking the trek, consult a physician.
+						You should be medically fit to do the trek. Please consult your doctor to check if you are fit for the trek.
 					</li>
+                    <li class="content__list-item">
+						Please don’t litter on the trek Consumption of alcohol or any other intoxicant is not allowed
+					</li>
+
+                    <div class="columns download">
+
+           </div>
+
 				</ul>
 			</div>
     	</div>
@@ -419,17 +516,36 @@ tags: "Trekkings, Himachal-Pradesh"
 			{% endif %}
 		{% endfor %}
 
-	  </div>
-	  <button class="slide-center-next"><span><i class="fas fa-chevron-right"></i></span></button>
-	</div>
-</div>
+	      </div>
+	      <button class="slide-center-next"><span><i class="fas fa-chevron-right"></i></span></button>
+	    </div>
+    </div>
 {% endif %}
 
 
-<!--<script src="https://js.instamojo.com/v1/button.js"></script>-->
-<script src="https://js.instamojo.com/v1/checkout.js"></script>
-<script>
+        <!--<script src="https://js.instamojo.com/v1/button.js"></script>-->
+
+    <script src="https://js.instamojo.com/v1/checkout.js"></script>
+
+    <script>
 	function imPop(){
 		Instamojo.open('{{ trek.bookLink}}');
 	}
-</script>
+
+
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+
+    </script>

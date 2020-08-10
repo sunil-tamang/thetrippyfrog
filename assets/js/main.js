@@ -193,18 +193,18 @@ $(document).ready(function(){
 			stickElement();
 		}
     });
-	
+
 /************************STICKY ELEMENT START***************************/
-	
+
 	toggleFixed();
 	$(window).resize(
 		function() {
 			adjustWidth();
 	});
-	
-	
+
+
 /************************STICKY ELEMENT END***************************/
-	
+
     $('.backToTop').click(function(){
         $("html, body").animate({ scrollTop: 0 }, 1000, "easeInOutQuint");
         return false;
@@ -533,7 +533,7 @@ function stickElement(){
 		wS = $(window).scrollTop();
 		if (wS > hT-66 && wS < (hT+hH-200)){
 //			console.log("View");
-			twoCol.addClass("fix");  
+			twoCol.addClass("fix");
 		}
 		else{
 //			console.log("Not view");
