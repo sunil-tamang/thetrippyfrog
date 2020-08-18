@@ -98,14 +98,14 @@ chandrakhani-pass:
     itinerary:
 
     - title: "DAY 1 -Manali - Rumsu- Naya Tapru"
-      content: "Early morning at 6:00 Am, we meet up at Manali bus stand/mall road and drive to Rumsu village  via Naggar and start trek to Naya Tapru camp-site and stay overnight."
+      content: "  <img class='blog-img chandrakhani_image1'>Early morning at 6:00 Am, we meet up at Manali bus stand/mall road and drive to Rumsu village  via Naggar and start trek to Naya Tapru camp-site and stay overnight."
 
     - title: "DAY 2 - Naya Tapru - Chaklani  - Chandrakhani Pass "
-      content: "Next morning after breakfast we start out trek to Chaklani base camp. It will take 3 to 4 hours to reach at Chaklani. From Chaklani it will take
+      content: "<img class='blog-img chandrakhani_image2'> Next morning after breakfast we start out trek to Chaklani base camp. It will take 3 to 4 hours to reach at Chaklani. From Chaklani it will take
       half an hour to reach at the Chanderkhani Pass  . We can see Malana vilage from the top . After lunch and some selfies with your mate or friend we trek back to Chaklani camp site & camp overnight "
 
     - title: "DAY 3 -   Chaklani - Rumsu - Manali"
-      content: "On last day we head back to Rumsu village from the same route through which we came to top & drive to Manali."
+      content: "<img class='blog-img chandrakhani_image3'>On last day we head back to Rumsu village from the same route through which we came to top & drive to Manali."
 
 
 
@@ -411,17 +411,18 @@ malana-village:
 
     itinerary:
 
-    - title: "DAY 1 - Manali - Rumsu Thach (2600m) 03-4 hours trek"
-      content: ""
+    - title: "DAY 1 -MANALI - RUMSU- NAYA TAPRU"
+      content: "<img class='blog-img malana_image1'>Early morning at 6:00 Am, we meet up at Manali bus stand/mall road and drive to Rumsu village via Naggar and start trek to Naya Tapru camp-site and stay overnight."
 
-    - title: "DAY 2 Rumsu - Nauwan Tapru (below Chanderkhani Pass 3600mtr.)"
-      content: ""
+    - title: "DAY 2 NAYA TAPRU - CHAKLANI "
+      content: "<img class='blog-img malana_image2'>Next morning after breakfast we start out trek to Chaklani base camp. It will take 3 to 4 hours to reach at Chaklani from naya tapru . "
 
-    - title: "DAY 3 - Nauwan Tapru - Malana (2651m) 06 hours trek"
-      content: ""
+    - title: "DAY 3 - CHAKLANI - Chanderkhani Pass - Malana (2651m) 06 hours trek"
+      content: "<img class='blog-img malana_image3'>Next day after beautiful morning at chaklani base camp we pack our tents and trek up to the ChandraKhani pass . After spending half an hour at
+       Chanderkhani pass and clicking selfies we now descend down to Malana Village"
 
-    - title: "DAY 4 - Malana - Jari (Road head) (1524m) - Manali"
-      content: ""
+    - title: "DAY 4 - Malana - Jari (Road head) (1524m) - Kasol/Manali"
+      content: "<img class='blog-img malana_image4'>On last day we head  to Jari  & drive to Kasol/Manali."
 
 
 
