@@ -54,11 +54,12 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				id : 1,
 				name : '5 K.M. in 20 Minutes',
 				img : 'assets/css/thumbs/rafting_num/rafting1.jpg',
-				oldprice: 800.00,
-				price : 499.00,
+				oldprice: 1200.00,
+				price : 1000.00,
 				prodType : 'rafting',
 				stock : 4,
-				location: 'Raison'
+				location: 'Kullu',
+				urlName : 'rafting-in-kullu-manali'
 			},
 			{
 				id : 2,
@@ -68,7 +69,8 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				price : 699.00,
 				prodType : 'rafting',
 				stock : 2,
-				location: 'Babeli'
+				location: 'Babeli',
+				urlName : '#',
 			},
 			{
 				id : 3,
@@ -78,7 +80,8 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				price : 1899.00,
 				prodType : 'paragliding',
 				stock : 1,
-				location: 'Dobhi'
+				location: 'Dobhi',
+				urlName : '#',
 			},
 			{
 				id : 4,
@@ -88,7 +91,8 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				price : 2099.00,
 				prodType : 'paragliding',
 				stock : 1,
-				location: 'Bir-Billing'
+				location: 'Bir-Billing',
+				urlName : '#',
 			},
 			{
 				id : 5,
@@ -477,8 +481,8 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				price : 33000.00,
 				prodType : 'bike-tour',
 				stock : 1,
-				days : 8,
-				nights: 7,
+				days : 9,
+				nights: 8,
 				fixedDate: '8 August',
 				urlName : 'spiti-bike-tour'
 			},
@@ -555,7 +559,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			if((upperLimit < 4)){
 				if(products[i].stock > 0){
 					content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
-					content+= '<a href="javascript:void(0);" class="wopper wopper--'+ products[i].prodType +' '+ products[i].prodType +'-'+(i+1)+'" style="background-image: url(/'+products[i].img+')">'
+					content+= '<a href="/activities/'+ products[i].prodType + '/' + products[i].urlName +'" class="wopper wopper--'+ products[i].prodType +' '+ products[i].prodType +'-'+(i+1)+'" style="background-image: url(/'+products[i].img+')">'
 					content+= '<div class="para__title"><i class="fa fa-map-marker-alt"></i>&nbsp;'+products[i].location
 					content+= '</div>'
 					content+= '</a>'

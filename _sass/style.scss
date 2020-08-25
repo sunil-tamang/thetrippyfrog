@@ -892,6 +892,10 @@ i {
     font-size: 15px;
 }
 
+.bold-text{
+    font-weight: bold;
+}
+
 .accordion{
     	border: 1px solid #ffce00;
         letter-spacing: 0.2em;
@@ -900,7 +904,7 @@ i {
         padding-bottom: 0.8em;
         padding: 1em;
         position: relative;
-        font-weight: bold;
+        // font-weight: bold;
         margin: 1em auto 0;
         /* line-height: 1.5em; */
         width: 100%;
