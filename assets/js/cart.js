@@ -52,14 +52,14 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 		var products = [
 			{
 				id : 1,
-				name : '5 K.M. in 20 Minutes',
+				name : 'Beas River Rafting 12 KM ',
 				img : 'assets/css/thumbs/rafting_num/rafting1.jpg',
 				oldprice: 1200.00,
 				price : 1000.00,
 				prodType : 'rafting',
 				stock : 4,
 				location: 'Kullu',
-				urlName : 'rafting-in-kullu-manali'
+				urlName : 'beas-river-rafting'
 			},
 			{
 				id : 2,
@@ -520,7 +520,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 		var upperLimit, lowerLimit;
 		if(productName=='rafting'){
 			lowerLimit = 0
-			upperLimit = 1
+			upperLimit = 0
 		}
 		else if(productName=='paragliding'){
 			lowerLimit = 2
