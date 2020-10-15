@@ -241,7 +241,7 @@ hampta-pass:
     excerpt: "Hampta Pass the way to Heaven which is Spiti Valley's one of the most visited trekking place by the trekker's around the world."
     video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/IReipQYzC3w' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
     download: "{{ site.url }}//assets/docs/Itinerary.pdf"
-
+    
     overview:
 
     - content: "Hampta Pass trek is giving each adventure lover an option to discover the unique landscape on the Manali side in Himachal Pradesh. It is a dream like an experience through the unusual and special one climbing out across the lush green valleys of Kullu to reach the overhanging mountains. From the top, you will witness the magnificent view of a different world below, the beautiful yet deserted Lahaul. The panoramic sweep of the valley from the summit will be a sight that will not leave you forever."
@@ -324,7 +324,7 @@ kufri:
     popular: "Y"
     price: "5000"
     bookLink: "https://www.instamojo.com/thetrippyfrog/kufri-trek-fa22a/"
-
+    
     video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/IReipQYzC3w' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 
     description: "Kufri is one of the most beautiful and virgin place in the lap of Himalayas. Kufri trek was also our first ever trek, 5 friends on a quest to discover the nature's beauty which lies at top of the mountain."
