@@ -478,8 +478,8 @@ mantalai-lake:
 # Pin Parvati Trek
 pin-parvati:
     name: "Pin Parvati Trek"
-    days: "10"
-    nights: "9"
+    days: "9"
+    nights: "8"
     altitude: "17,380"
     grade: "Difficult"
     accomodation: "Tent"
@@ -500,34 +500,34 @@ pin-parvati:
 
     itinerary:
 
-    - title: "DAY 1 - Show Up At Manali(2,050M) and Preparation For The Trek"
+    # - title: "DAY 1 - Show Up At Manali(2,050M) and Preparation For The Trek"
+    #   content: ""
+
+    - title: "DAY 1 - Drive to Barsheni – 110 Km – 4 hours – Trek to Kheer Ganga 9 Km – 5 hours"
       content: ""
 
-    - title: "DAY 2 - Drive to Barsheni – 110 Km – 4 hours – Trek to Kheer Ganga 9 Km – 5 hours"
+    - title: "DAY 2 - Kheer Ganga to Tundabhuj– 12 Km – 6/7 hours"
       content: ""
 
-    - title: "DAY 3 - Kheer Ganga to Tundabhuj– 12 Km – 6/7 hours"
+    - title: "DAY 3 - Tundabhuj to Thakur Kuan– 6 Km – 3 hours"
       content: ""
 
-    - title: "DAY 4 - Tundabhuj to Thakur Kuan– 6 Km – 3 hours"
+    - title: "DAY 4 - Thakur Kuan to Odi Thatch – 10 Km – 5/6 hours"
       content: ""
 
-    - title: "DAY 5 - Thakur Kuan to Odi Thatch – 10 Km – 5/6 hours"
+    - title: "DAY 5 - Odi Thatch to Mantalai – 9 Km – 5/6 hours"
       content: ""
 
-    - title: "DAY 6 - Odi Thatch to Mantalai – 9 Km – 5/6 hours"
+    - title: "DAY 6 - Mantalai to base camp on Parvati side –  10 Km – 7/8hours"
       content: ""
 
-    - title: "DAY 7 - Mantalai to base camp on Parvati side –  10 Km – 7/8hours"
+    - title: "DAY 7 - Parvati side base camp to Pin side base over Pin Parvati Pass – 9 Km – 7/8 hours"
       content: ""
 
-    - title: "DAY 8 - Parvati side base camp to Pin side base over Pin Parvati Pass – 9 Km – 7/8 hours"
+    - title: "DAY 8 - Pin side base  to Mud via Chinpatta Maidan– 25 Km – 9/10 hours – Camp or Drive to Kaza – 45 Km – 2 hours"
       content: ""
 
-    - title: "DAY 9 - Pin side base  to Mud via Chinpatta Maidan– 25 Km – 9/10 hours – Camp or Drive to Kaza – 45 Km – 2 hours"
-      content: ""
-
-    - title: "DAY 10 - Drive from Mud/Kaza to Manali – 245/200 Km – 12/10 hours"
+    - title: "DAY 9 - Drive from Mud/Kaza to Manali – 245/200 Km – 12/10 hours"
       content: ""
 
 

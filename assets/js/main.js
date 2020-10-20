@@ -492,7 +492,7 @@ $(document).ready(function() {
 });
 
 // $(document).ready(function(){
-// 	window.onload = $('.popup_form, .popup_form_wrapper').delay(6000).fadeIn(100);
+// 	window.onload = $('.popup_form, .popup_form_wrapper').delay(100).fadeIn(100);
 // 	$('.popup_close_btn_wrapper, .trippy_btn').click(function(){
 // 		 $('.popup_form, .popup_form_wrapper').fadeOut();
 // 	});
